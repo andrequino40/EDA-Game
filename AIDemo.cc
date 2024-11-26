@@ -53,29 +53,41 @@ struct PLAYER_NAME : public Player {
     if (round()% 2 == 0) {
       // Move all wizards randomly (avoiding out of bounds and walls)
       for (int id : ws) {
-	Dir d = dirs[random(0,dirs.size()-1)];
-	Pos new_pos = unit(id).pos + d;
-	if (pos_ok(new_pos) and cell(new_pos.i,new_pos.j).type != Wall) move(id,d);
+        Dir d = dirs[random(0,dirs.size()-1)];
+        Pos new_pos = unit(id).pos + d;
+        if (pos_ok(new_pos) and cell(new_pos.i,new_pos.j).type != Wall) move(id,d);
       }
     }
+
     else {
+
       if (random(0,3) <= 1) {// Do this with 25% probability [move all units to the left]
-	for (int id : ws) {
-	  Dir d = Left;
-	  Pos new_pos = unit(id).pos + d;
-	  if (pos_ok(new_pos) and cell(new_pos.i,new_pos.j).type != Wall) move(id,d);
-	}
+        for (int id : ws) {
+        Dir d = Left;
+        Pos new_pos = unit(id).pos + d;
+        if (pos_ok(new_pos) and cell(new_pos.i,new_pos.j).type != Wall)
+            move(id,d);
+        }
       }
+
       else { // With probability 75%: attack adjacent wizard enemies
-	for (int id : ws) {
-	  for (auto d : dirs) {
-	    Pos new_pos = unit(id).pos + d;
-	    if (pos_ok(new_pos)) {
-	      int id_in_cell = cell(new_pos.i,new_pos.j).id;
-	      if (id_in_cell != -1 and unit(id_in_cell).type == Wizard and unit(id_in_cell).player != me()) {move(id,d); break;}
-	    }
-	  }
-	}
+        for (int id : ws) {
+        for (auto d : dirs) {
+          Pos new_pos = unit(id).pos + d;
+          if (pos_ok(new_pos)) {
+
+            int id_in_cell = cell(new_pos.i,new_pos.j).id;
+            
+            // if there is a unit in the cell
+            // the unit is a wizard
+            // the player that owns it isn't me
+            if (id_in_cell != -1 and unit(id_in_cell).type == Wizard and unit(id_in_cell).player != me()) {
+              move(id,d); 
+              break;
+            }
+          }
+        }
+        }
       }
     }
 
