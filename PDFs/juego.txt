@@ -1,10 +1,80 @@
 4 clanes
 
 Clan 
+- mueve celula libro -> + 50 force
+- todas las unidades tienen un num fijo
 - magos
+    - No pueden atravesar paredes
+    - 1 mov ronda
+    - 4 celulas, hor, ver
+    - mueve celula fantasma enemigo
+        -> ataca
+    - mueve celula mago enemigo 
+        - si no se esta convirtiendo
+        -> batalla
+    - mueve celula mago amigo
+        - si se esta convirtiendo
+        -> lo salva
+    - en conversión
+        - no puede atacar, salvar ningun mago
+    - atacado voldemort
+        - reapareze casilla random
+        - casa aleatoria
+
+- batalla:
+    if N = 2M 
+    - Mago M pasa a ser N automaticamente
+    - casa N + puntos
+    else
+    - 30% mago iniciador gana
+    - Xi / (X1+X2) probabilidad para cada casa
+    - empieza conversion 5 rondas
+
 - fantasma (1)
+    - 1 mov ronda
+    - 8 celulas adyacentes
+    - encantamiento
+- si son atacados mago, + cooldown
+    - no pueden ser atacados durante 15 rondas
+- si son atacados voldemort, + cooldown
+    - aparec elugar random
+- No pueden atravesar paredes
+- No pueden moverse celulas ocupadas
+- magic force: force/units
+
 
 Voldemort
+- objetivo: atacar max. units
+    - dirección unidad más cercana
+    - misma distancia: rand
+- 8 casillas adyacentes, ataca
+- atraviesa paredes
+- eliimina todos los libros adyacentes
 
 Juego 
-- 200 ronda
+- 200 rondas
+- ganador: mas puntos
+- 60x60
+- [f] eje ver [c] eje hor
+
+Hechizo fantasma, solo 1 de 4 x ronda
+- vector ints
+- agrupar en grupos de 3
+    - cada grupo suma lo mismo
+- n = 15,  cada  0 <= vi <= 30
+- fantasma cansado durante 60 ondas
+- no hay hechizos 50 primerass / Ultimas rondas
+
+Reaparición
+- lugar sin unidades ni libro matriz 5 * 5
+- si no hay, cualquier lugar sin unidades ni libro
+
+Puntuación
+-  100* magos atacados y luego convertidos
+-  1 * celulas ocupadas
+
+Orden ejec,
+- orden de casas aleatorio
+- orden dentro de casas fijo, en orden (mas urg -> men urg)
+
+jugadors -> voldemort -> regeneración unids -> cambios de clan -> incremento d efuerza -> regeneración libros -> puntuación
