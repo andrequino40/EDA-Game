@@ -74,7 +74,7 @@ Puntuación
 -  1 * celulas ocupadas
 
 Orden ejec,
-- orden de casas aleatorio
-- orden dentro de casas fijo, en orden (mas urg -> men urg)
+- orden entre jugadores aleatorio cada ronda
+- orden fijo entre las acciones d eun mismo jugador - (mas urg -> men urg)
 
 jugadors -> voldemort -> regeneración unids -> cambios de clan -> incremento d efuerza -> regeneración libros -> puntuación
