@@ -1,4 +1,5 @@
 #include "Player.hh"
+#include <map>
 
 
 /**
@@ -30,15 +31,22 @@ struct PLAYER_NAME : public Player {
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
   vector<int> myWizards = wizards(me());
 
+  
   bool pos_free(Pos pos) {
     return pos_ok(pos) and cell(pos).type != Wall;
   }
 
   // bfs, returns cords with closest book
   // updates for each visited cell
+  struct TargetInfo {
+    int dist;
+    int unitId;
+  };
+  map<Pos, TargetInfo> TargetMap;
+
   const int bfsMaxDist = 10;
 
-  Pos bfs(GridCoords& parents, Pos start){
+  Pos bfsBook(GridCoords& parents, Pos start){
     
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
     // if still -1, no treasures
@@ -61,10 +69,6 @@ struct PLAYER_NAME : public Player {
         if (cell(currentPos).book) {
            return currentPos;
         }
-        //distance[i][j] = true;
-        // 0 0,  1 0 (00)
-        //vector<coords> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};  // down, up, left, right
-        // add every neighboring cell to the queue
         for (const Dir dir : dirsWizard) {
           Pos newPos = currentPos + dir;
           if (pos_free(newPos)){
@@ -82,8 +86,6 @@ struct PLAYER_NAME : public Player {
     // no book found
     return Pos(-1,-1);
 }
-
-enum 
 
 Dir pos_to_dir(Pos d) {
   if (d.i == 1 && d.j == 0)
@@ -157,7 +159,7 @@ Pos subtractPos(Pos b, Pos a) {
     for (int id : ws) {
       GridCoords parents(board_rows(), (vector<Pos>(board_cols())));
       Pos posWizard = unit(id).pos; 
-      Pos closest_book = bfs(parents, posWizard);
+      Pos closest_book = bfsBook(parents, posWizard);
 
       cerr << "Pos wizard: "  << posWizard.i << " , " << posWizard.j << endl;
       cerr << "> ID: "  << id << endl;
