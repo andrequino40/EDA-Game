@@ -23,6 +23,8 @@ struct PLAYER_NAME : public Player {
    */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
+  typedef vector<vector<int>> GridInt;
+
 
   const vector<Dir> dirsWizard = {Up,Right,Down,Left};
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
@@ -34,43 +36,49 @@ struct PLAYER_NAME : public Player {
 
   // bfs, returns cords with closest book
   // updates for each visited cell
+  const int bfsMaxDist = 10;
+
   Pos bfs(GridCoords& parents, Pos start){
     
-    GridBool visited(board_rows(), vector<bool>(board_cols()));
+    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
     // if still -1, no treasures
     //Pos closest_book = {-1,-1};
     queue<Pos> qcoord;
 
-
     qcoord.push(start);
-    visited[start.i][start.j] = true;
-    parents[start.i][start.j] = {-1,-1};
+    distances[start.i][start.j] = 0;
+    parents[start.i][start.j] = Pos(-1,-1);
 
 
     while (not qcoord.empty()) {
-        Pos current = qcoord.front();
-        int i = current.i;
-        int j = current.j;
+        Pos currentPos = qcoord.front();
+        int currentDist = distances[currentPos.i][currentPos.j];
+        //int i = current.i;
+        //int j = current.j;
         qcoord.pop();
         
         // if a book, return.
-        if (cell(current).book) {
-           return current;
+        if (cell(currentPos).book) {
+           return currentPos;
         }
-
-        visited[i][j] = true;
-        
+        //distance[i][j] = true;
+        // 0 0,  1 0 (00)
         //vector<coords> directions = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};  // down, up, left, right
         // add every neighboring cell to the queue
         for (const Dir dir : dirsWizard) {
-          Pos newPos = current + dir;
-          if (pos_free(newPos)) {
-            parents[newPos.i][newPos.j] = current;
-            qcoord.push(newPos);
+          Pos newPos = currentPos + dir;
+          if (pos_free(newPos)){
+
+            int newDist = currentDist + 1;
+            bool visited = distances[newPos.i][newPos.j] != -1;
+            if (!visited && (newDist <= bfsMaxDist)) {
+              parents[newPos.i][newPos.j] = currentPos;
+              distances[newPos.i][newPos.j] =  newDist;
+              qcoord.push(newPos);
+            } 
           }
         }
     }
-
     // no book found
     return Pos(-1,-1);
 }
@@ -78,21 +86,21 @@ struct PLAYER_NAME : public Player {
 enum 
 
 Dir pos_to_dir(Pos d) {
-  if (d.i == 0 && d.j == -1)
-    return Down;   
-  if (d.i == 1 && d.j == -1)
-      return DR; 
   if (d.i == 1 && d.j == 0)
-      return Right;  
+    return Down;   
   if (d.i == 1 && d.j == 1)
-      return RU; 
+      return DR; 
   if (d.i == 0 && d.j == 1)
-      return Up;     
+      return Right;  
   if (d.i == -1 && d.j == 1)
-      return UL; 
+      return RU; 
   if (d.i == -1 && d.j == 0)
-      return Left;   
+      return Up;     
   if (d.i == -1 && d.j == -1)
+      return UL; 
+  if (d.i == 0 && d.j == -1)
+      return Left;   
+  if (d.i == 1 && d.j == -1)
       return LD; 
   throw invalid_argument("Invalid Pos for pos_to_dir().");
 }
@@ -104,6 +112,24 @@ Pos subtractPos(Pos b, Pos a) {
   return Pos(hor, ver);
 }
   // trace path, traces back to first movement
+  Dir trace_path(const GridCoords& parents, Pos end){
+    cerr << "Tracing path from " << end.i << " , " << end.j << endl;
+    Pos current = end;  // [W] []p [B]c
+    Pos parent = parents[current.i][current.j];
+    cerr << "> parent" << parent.i << " , " << parent.j << endl;
+    while (parents[parent.i][parent.j] != Pos(-1,-1)) {
+      current = parent;
+      parent = parents[current.i][current.j];
+      cerr << "> parent" << parent.i << " , " << parent.j << endl;
+    }
+    // parent is -1, -1, i need to do it after
+    Pos difference = subtractPos(current, parent);
+    cerr << "> 1st move" << difference.i << " , " << difference.j << endl;
+    Dir firstMove = pos_to_dir(difference);
+    cerr << "> 1st move" << firstMove << endl;
+    return firstMove;
+
+  }
 
   int whatDir = 0;
   /**
@@ -127,17 +153,23 @@ Pos subtractPos(Pos b, Pos a) {
 
     // Getting the wizards
     vector<int> ws = wizards(me());
-      
-      GridCoords parents(n, (vector<coords>(m)));
-    int shortest_dist = -1;
+    //int shortest_dist = -1;
+    for (int id : ws) {
+      GridCoords parents(board_rows(), (vector<Pos>(board_cols())));
+      Pos posWizard = unit(id).pos; 
+      Pos closest_book = bfs(parents, posWizard);
 
-    Pos shortest_coords = bfs(parents);
-    if (shortest_coords == coords(-1,-1))
-        cout << "no es pot arribar a cap tresor" << endl;
-    else {
-        trace_path(graph, parents, shortest_coords);
-        print_path(graph);
-        cout << "distancia mínima: " << shortest_dist << endl;
+      cerr << "Pos wizard: "  << posWizard.i << " , " << posWizard.j << endl;
+      cerr << "> ID: "  << id << endl;
+
+      Dir direction;
+      if (closest_book == Pos(-1,-1)) {
+        direction = dirsWizard[random(0, dirsWizard.size() -1)];
+      } else {
+        direction = trace_path(parents, closest_book);
+        move(id, direction);
+      } 
+      
     }
       //rotation code
       /* for (int id : ws) {

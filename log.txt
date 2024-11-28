@@ -1,0 +1,9777 @@
+info: seed 30
+info: loading game
+info: loaded game
+info: loading player Gogetter
+info: loading player Demo
+info: loading player Demo
+info: loading player Demo
+info: players loaded
+info: start round 0
+info:     start player 0
+Pos wizard: 45 , 24
+> ID: 4
+Tracing path from 44 , 20
+> parent44 , 21
+> parent44 , 22
+> parent44 , 23
+> parent44 , 24
+> parent45 , 24
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 39 , 31
+> ID: 8
+Tracing path from 42 , 32
+> parent41 , 32
+> parent40 , 32
+> parent39 , 32
+> parent39 , 31
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 21 , 54
+> ID: 9
+Tracing path from 26 , 54
+> parent25 , 54
+> parent24 , 54
+> parent23 , 54
+> parent22 , 54
+> parent21 , 54
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 52 , 18
+> ID: 16
+Tracing path from 53 , 21
+> parent52 , 21
+> parent52 , 20
+> parent52 , 19
+> parent52 , 18
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 11 , 37
+> ID: 18
+Tracing path from 10 , 41
+> parent10 , 40
+> parent10 , 39
+> parent10 , 38
+> parent10 , 37
+> parent11 , 37
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 30 , 12
+> ID: 19
+Tracing path from 28 , 15
+> parent28 , 14
+> parent28 , 13
+> parent28 , 12
+> parent29 , 12
+> parent30 , 12
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 34 , 22
+> ID: 22
+Tracing path from 31 , 22
+> parent32 , 22
+> parent33 , 22
+> parent34 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 0
+info: start round 1
+info:     start player 0
+Pos wizard: 44 , 24
+> ID: 4
+Tracing path from 44 , 20
+> parent44 , 21
+> parent44 , 22
+> parent44 , 23
+> parent44 , 24
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 39 , 32
+> ID: 8
+Tracing path from 42 , 32
+> parent41 , 32
+> parent40 , 32
+> parent39 , 32
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 22 , 54
+> ID: 9
+Tracing path from 26 , 54
+> parent25 , 54
+> parent24 , 54
+> parent23 , 54
+> parent22 , 54
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 52 , 19
+> ID: 16
+Tracing path from 53 , 21
+> parent52 , 21
+> parent52 , 20
+> parent52 , 19
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 10 , 37
+> ID: 18
+Tracing path from 10 , 41
+> parent10 , 40
+> parent10 , 39
+> parent10 , 38
+> parent10 , 37
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 29 , 12
+> ID: 19
+Tracing path from 28 , 15
+> parent28 , 14
+> parent28 , 13
+> parent28 , 12
+> parent29 , 12
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 33 , 22
+> ID: 22
+Tracing path from 31 , 22
+> parent32 , 22
+> parent33 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 1
+info: start round 2
+info:     start player 0
+Pos wizard: 44 , 23
+> ID: 4
+Tracing path from 44 , 20
+> parent44 , 21
+> parent44 , 22
+> parent44 , 23
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 40 , 32
+> ID: 8
+Tracing path from 42 , 32
+> parent41 , 32
+> parent40 , 32
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 23 , 54
+> ID: 9
+Tracing path from 26 , 54
+> parent25 , 54
+> parent24 , 54
+> parent23 , 54
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 52 , 20
+> ID: 16
+Tracing path from 53 , 21
+> parent52 , 21
+> parent52 , 20
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 10 , 38
+> ID: 18
+Tracing path from 10 , 41
+> parent10 , 40
+> parent10 , 39
+> parent10 , 38
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 12
+> ID: 19
+Tracing path from 28 , 15
+> parent28 , 14
+> parent28 , 13
+> parent28 , 12
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 32 , 22
+> ID: 22
+Tracing path from 31 , 22
+> parent32 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 2
+info: start round 3
+info:     start player 0
+Pos wizard: 44 , 22
+> ID: 4
+Tracing path from 44 , 20
+> parent44 , 21
+> parent44 , 22
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 41 , 32
+> ID: 8
+Tracing path from 42 , 32
+> parent41 , 32
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 24 , 54
+> ID: 9
+Tracing path from 26 , 54
+> parent25 , 54
+> parent24 , 54
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 52 , 21
+> ID: 16
+Tracing path from 53 , 21
+> parent52 , 21
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 10 , 39
+> ID: 18
+Tracing path from 10 , 41
+> parent10 , 40
+> parent10 , 39
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 13
+> ID: 19
+Tracing path from 28 , 15
+> parent28 , 14
+> parent28 , 13
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 22
+> ID: 22
+Tracing path from 28 , 24
+> parent28 , 23
+> parent28 , 22
+> parent29 , 22
+> parent30 , 22
+> parent31 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 3
+info: start round 4
+info:     start player 0
+Pos wizard: 44 , 21
+> ID: 4
+Tracing path from 44 , 20
+> parent44 , 21
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 25 , 54
+> ID: 9
+Tracing path from 26 , 54
+> parent25 , 54
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 10 , 40
+> ID: 18
+Tracing path from 10 , 41
+> parent10 , 40
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 14
+> ID: 19
+Tracing path from 28 , 15
+> parent28 , 14
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 30 , 22
+> ID: 22
+Tracing path from 28 , 24
+> parent28 , 23
+> parent28 , 22
+> parent29 , 22
+> parent30 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 4
+info: start round 5
+info:     start player 0
+Pos wizard: 44 , 20
+> ID: 4
+Tracing path from 48 , 20
+> parent47 , 20
+> parent46 , 20
+> parent45 , 20
+> parent44 , 20
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 10 , 41
+> ID: 18
+Tracing path from 9 , 44
+> parent9 , 43
+> parent9 , 42
+> parent9 , 41
+> parent10 , 41
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 22
+> ID: 22
+Tracing path from 28 , 24
+> parent28 , 23
+> parent28 , 22
+> parent29 , 22
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 5
+info: start round 6
+info:     start player 0
+Pos wizard: 45 , 20
+> ID: 4
+Tracing path from 48 , 20
+> parent47 , 20
+> parent46 , 20
+> parent45 , 20
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 9 , 41
+> ID: 18
+Tracing path from 9 , 44
+> parent9 , 43
+> parent9 , 42
+> parent9 , 41
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 22
+> ID: 22
+Tracing path from 28 , 24
+> parent28 , 23
+> parent28 , 22
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 6
+info: start round 7
+info:     start player 0
+Pos wizard: 46 , 20
+> ID: 4
+Tracing path from 48 , 20
+> parent47 , 20
+> parent46 , 20
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 9 , 42
+> ID: 18
+Tracing path from 9 , 44
+> parent9 , 43
+> parent9 , 42
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 23
+> ID: 22
+Tracing path from 28 , 24
+> parent28 , 23
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 7
+info: start round 8
+info:     start player 0
+Pos wizard: 47 , 20
+> ID: 4
+Tracing path from 48 , 20
+> parent47 , 20
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 9 , 43
+> ID: 18
+Tracing path from 9 , 44
+> parent9 , 43
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 8
+info: start round 9
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 9 , 44
+> ID: 18
+Tracing path from 5 , 44
+> parent6 , 44
+> parent7 , 44
+> parent8 , 44
+> parent9 , 44
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 9
+info: start round 10
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 8 , 44
+> ID: 18
+Tracing path from 5 , 44
+> parent6 , 44
+> parent7 , 44
+> parent8 , 44
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 10
+info: start round 11
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 20 , 0
+> ID: 10
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 7 , 44
+> ID: 18
+Tracing path from 5 , 44
+> parent6 , 44
+> parent7 , 44
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 11
+info: start round 12
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 6 , 44
+> ID: 18
+Tracing path from 5 , 44
+> parent6 , 44
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 12
+info: start round 13
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 13
+info: start round 14
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 14
+info: start round 15
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 15
+info: start round 16
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 24
+> ID: 22
+Tracing path from 31 , 26
+> parent30 , 26
+> parent29 , 26
+> parent28 , 26
+> parent28 , 25
+> parent28 , 24
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 16
+info: start round 17
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 25
+> ID: 22
+Tracing path from 31 , 26
+> parent30 , 26
+> parent29 , 26
+> parent28 , 26
+> parent28 , 25
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 17
+info: start round 18
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 28 , 26
+> ID: 22
+Tracing path from 31 , 26
+> parent30 , 26
+> parent29 , 26
+> parent28 , 26
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 18
+info: start round 19
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 26
+> ID: 22
+Tracing path from 31 , 26
+> parent30 , 26
+> parent29 , 26
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 19
+info: start round 20
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 30 , 26
+> ID: 22
+Tracing path from 31 , 26
+> parent30 , 26
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 20
+info: start round 21
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 27 , 9
+> ID: 7
+Tracing path from 28 , 6
+> parent28 , 7
+> parent28 , 8
+> parent28 , 9
+> parent27 , 9
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 46 , 36
+> ID: 20
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Tracing path from 29 , 29
+> parent29 , 28
+> parent29 , 27
+> parent29 , 26
+> parent30 , 26
+> parent31 , 26
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 10 , 54
+> ID: 55
+Tracing path from 10 , 51
+> parent10 , 52
+> parent10 , 53
+> parent10 , 54
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 21
+info: start round 22
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 28 , 9
+> ID: 7
+Tracing path from 28 , 6
+> parent28 , 7
+> parent28 , 8
+> parent28 , 9
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 30 , 26
+> ID: 22
+Tracing path from 29 , 29
+> parent29 , 28
+> parent29 , 27
+> parent29 , 26
+> parent30 , 26
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 10 , 53
+> ID: 55
+Tracing path from 10 , 51
+> parent10 , 52
+> parent10 , 53
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 22
+info: start round 23
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 28 , 8
+> ID: 7
+Tracing path from 28 , 6
+> parent28 , 7
+> parent28 , 8
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 26
+> ID: 22
+Tracing path from 29 , 29
+> parent29 , 28
+> parent29 , 27
+> parent29 , 26
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 10 , 52
+> ID: 55
+Tracing path from 10 , 51
+> parent10 , 52
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 23
+info: start round 24
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 28 , 7
+> ID: 7
+Tracing path from 28 , 6
+> parent28 , 7
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 27
+> ID: 22
+Tracing path from 29 , 29
+> parent29 , 28
+> parent29 , 27
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 10 , 51
+> ID: 55
+Tracing path from 7 , 50
+> parent7 , 51
+> parent8 , 51
+> parent9 , 51
+> parent10 , 51
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 24
+info: start round 25
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 28 , 6
+> ID: 7
+Tracing path from 33 , 6
+> parent32 , 6
+> parent31 , 6
+> parent30 , 6
+> parent29 , 6
+> parent28 , 6
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 28
+> ID: 22
+Tracing path from 29 , 29
+> parent29 , 28
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 9 , 51
+> ID: 55
+Tracing path from 7 , 50
+> parent7 , 51
+> parent8 , 51
+> parent9 , 51
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 25
+info: start round 26
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 29 , 6
+> ID: 7
+Tracing path from 33 , 6
+> parent32 , 6
+> parent31 , 6
+> parent30 , 6
+> parent29 , 6
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 23 , 42
+> ID: 11
+Tracing path from 27 , 41
+> parent27 , 42
+> parent26 , 42
+> parent25 , 42
+> parent24 , 42
+> parent23 , 42
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 8 , 51
+> ID: 55
+Tracing path from 7 , 50
+> parent7 , 51
+> parent8 , 51
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 26
+info: start round 27
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 30 , 6
+> ID: 7
+Tracing path from 33 , 6
+> parent32 , 6
+> parent31 , 6
+> parent30 , 6
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 24 , 42
+> ID: 11
+Tracing path from 27 , 41
+> parent27 , 42
+> parent26 , 42
+> parent25 , 42
+> parent24 , 42
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 51
+> ID: 55
+Tracing path from 7 , 50
+> parent7 , 51
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 27
+info: start round 28
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 31 , 6
+> ID: 7
+Tracing path from 33 , 6
+> parent32 , 6
+> parent31 , 6
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 25 , 42
+> ID: 11
+Tracing path from 27 , 41
+> parent27 , 42
+> parent26 , 42
+> parent25 , 42
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 28
+info: start round 29
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 32 , 6
+> ID: 7
+Tracing path from 33 , 6
+> parent32 , 6
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 26 , 42
+> ID: 11
+Tracing path from 27 , 41
+> parent27 , 42
+> parent26 , 42
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 29
+info: start round 30
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 42
+> ID: 11
+Tracing path from 27 , 41
+> parent27 , 42
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 30
+info: start round 31
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 53 , 21
+> ID: 16
+Tracing path from 50 , 21
+> parent51 , 21
+> parent52 , 21
+> parent53 , 21
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 31
+info: start round 32
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 52 , 21
+> ID: 16
+Tracing path from 50 , 21
+> parent51 , 21
+> parent52 , 21
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 42 , 43
+> ID: 23
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 32
+info: start round 33
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 21
+> ID: 16
+Tracing path from 50 , 21
+> parent51 , 21
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 5 , 44
+> ID: 18
+Tracing path from 4 , 41
+> parent4 , 42
+> parent4 , 43
+> parent4 , 44
+> parent5 , 44
+> 1st move-1 , 0
+> 1st moveUp
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 33
+info: start round 34
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 44
+> ID: 18
+Tracing path from 4 , 41
+> parent4 , 42
+> parent4 , 43
+> parent4 , 44
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 34
+info: start round 35
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 43
+> ID: 18
+Tracing path from 4 , 41
+> parent4 , 42
+> parent4 , 43
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 35
+info: start round 36
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 42
+> ID: 18
+Tracing path from 4 , 41
+> parent4 , 42
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 36
+info: start round 37
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 37
+info: start round 38
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 28 , 15
+> ID: 19
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 38
+info: start round 39
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 39
+info: start round 40
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 40
+info: start round 41
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 27 , 15
+> ID: 49
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 41
+info: start round 42
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 42
+info: start round 43
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 43
+info: start round 44
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 44
+info: start round 45
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 29 , 29
+> ID: 22
+Tracing path from 31 , 26
+> parent31 , 27
+> parent31 , 28
+> parent31 , 29
+> parent30 , 29
+> parent29 , 29
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 45
+info: start round 46
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 30 , 29
+> ID: 22
+Tracing path from 31 , 26
+> parent31 , 27
+> parent31 , 28
+> parent31 , 29
+> parent30 , 29
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 46
+info: start round 47
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 29
+> ID: 22
+Tracing path from 31 , 26
+> parent31 , 27
+> parent31 , 28
+> parent31 , 29
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 47
+info: start round 48
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 28
+> ID: 22
+Tracing path from 31 , 26
+> parent31 , 27
+> parent31 , 28
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 48
+info: start round 49
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 32 , 49
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 27
+> ID: 22
+Tracing path from 31 , 26
+> parent31 , 27
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 49
+info: start round 50
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 50
+info: start round 51
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 32 , 51
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 51
+info: start round 52
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 29 , 50
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 52
+info: start round 53
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 29 , 50
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 53
+info: start round 54
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 54
+info: start round 55
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 55
+info: start round 56
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 56
+info: start round 57
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 57
+info: start round 58
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 45
+> ID: 12
+Tracing path from 21 , 48
+> parent20 , 48
+> parent20 , 47
+> parent20 , 46
+> parent20 , 45
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 43
+> ID: 61
+Tracing path from 21 , 48
+> parent21 , 47
+> parent21 , 46
+> parent21 , 45
+> parent21 , 44
+> parent21 , 43
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 58
+info: start round 59
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 26 , 54
+> ID: 9
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 46
+> ID: 12
+Tracing path from 21 , 48
+> parent20 , 48
+> parent20 , 47
+> parent20 , 46
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 44
+> ID: 61
+Tracing path from 21 , 48
+> parent21 , 47
+> parent21 , 46
+> parent21 , 45
+> parent21 , 44
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 59
+info: start round 60
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 47
+> ID: 12
+Tracing path from 21 , 48
+> parent20 , 48
+> parent20 , 47
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 45
+> ID: 61
+Tracing path from 21 , 48
+> parent21 , 47
+> parent21 , 46
+> parent21 , 45
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 60
+info: start round 61
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 20 , 48
+> ID: 12
+Tracing path from 21 , 48
+> parent20 , 48
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 46
+> ID: 61
+Tracing path from 21 , 48
+> parent21 , 47
+> parent21 , 46
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 61
+info: start round 62
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 62
+info: start round 63
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 63
+info: start round 64
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 64
+info: start round 65
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 65
+info: start round 66
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 66
+info: start round 67
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 67
+info: start round 68
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 68
+info: start round 69
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 69
+info: start round 70
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 31 , 2
+> ID: 17
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 70
+info: start round 71
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 71
+info: start round 72
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 72
+info: start round 73
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 73
+info: start round 74
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 74
+info: start round 75
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 75
+info: start round 76
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 76
+info: start round 77
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 77
+info: start round 78
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 78
+info: start round 79
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 79
+info: start round 80
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 80
+info: start round 81
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 81
+info: start round 82
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 82
+info: start round 83
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 83
+info: start round 84
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 84
+info: start round 85
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 85
+info: start round 86
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 21
+> ID: 16
+Tracing path from 51 , 24
+> parent50 , 24
+> parent50 , 23
+> parent50 , 22
+> parent50 , 21
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 86
+info: start round 87
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 22
+> ID: 16
+Tracing path from 51 , 24
+> parent50 , 24
+> parent50 , 23
+> parent50 , 22
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 87
+info: start round 88
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 23
+> ID: 16
+Tracing path from 51 , 24
+> parent50 , 24
+> parent50 , 23
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 88
+info: start round 89
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 50 , 24
+> ID: 16
+Tracing path from 51 , 24
+> parent50 , 24
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 89
+info: start round 90
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 90
+info: start round 91
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 91
+info: start round 92
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 92
+info: start round 93
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 93
+info: start round 94
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 94
+info: start round 95
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 54 , 53
+> ID: 79
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 95
+info: start round 96
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 96
+info: start round 97
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 97
+info: start round 98
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 98
+info: start round 99
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 99
+info: start round 100
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 100
+info: start round 101
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 101
+info: start round 102
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 102
+info: start round 103
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 103
+info: start round 104
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 104
+info: start round 105
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 37
+> ID: 13
+Tracing path from 18 , 33
+> parent17 , 33
+> parent17 , 34
+> parent17 , 35
+> parent17 , 36
+> parent17 , 37
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 8 , 18
+> ID: 60
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 105
+info: start round 106
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 36
+> ID: 13
+Tracing path from 18 , 33
+> parent17 , 33
+> parent17 , 34
+> parent17 , 35
+> parent17 , 36
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 106
+info: start round 107
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 35
+> ID: 13
+Tracing path from 18 , 33
+> parent17 , 33
+> parent17 , 34
+> parent17 , 35
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 107
+info: start round 108
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 34
+> ID: 13
+Tracing path from 18 , 33
+> parent17 , 33
+> parent17 , 34
+> 1st move0 , -1
+> 1st moveLeft
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 108
+info: start round 109
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 17 , 33
+> ID: 13
+Tracing path from 18 , 33
+> parent17 , 33
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 109
+info: start round 110
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 7 , 18
+> ID: 6
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 110
+info: start round 111
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 111
+info: start round 112
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 112
+info: start round 113
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 113
+info: start round 114
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 114
+info: start round 115
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 115
+info: start round 116
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 116
+info: start round 117
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 117
+info: start round 118
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 118
+info: start round 119
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 49 , 32
+> ID: 15
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 119
+info: start round 120
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 120
+info: start round 121
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 121
+info: start round 122
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 122
+info: start round 123
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 123
+info: start round 124
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 124
+info: start round 125
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 42 , 32
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 125
+info: start round 126
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 126
+info: start round 127
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 127
+info: start round 128
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 128
+info: start round 129
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 129
+info: start round 130
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 130
+info: start round 131
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 43 , 26
+> ID: 52
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 131
+info: start round 132
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 132
+info: start round 133
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 133
+info: start round 134
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 134
+info: start round 135
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 135
+info: start round 136
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 136
+info: start round 137
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 137
+info: start round 138
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 138
+info: start round 139
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 139
+info: start round 140
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 33 , 6
+> ID: 7
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 51 , 24
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 140
+info: start round 141
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 141
+info: start round 142
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 142
+info: start round 143
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 143
+info: start round 144
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 144
+info: start round 145
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 145
+info: start round 146
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 146
+info: start round 147
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 147
+info: start round 148
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 148
+info: start round 149
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 149
+info: start round 150
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 150
+info: start round 151
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 151
+info: start round 152
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 12 , 23
+> ID: 68
+Tracing path from 13 , 26
+> parent12 , 26
+> parent12 , 25
+> parent12 , 24
+> parent12 , 23
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 152
+info: start round 153
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 12 , 24
+> ID: 68
+Tracing path from 13 , 26
+> parent12 , 26
+> parent12 , 25
+> parent12 , 24
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 153
+info: start round 154
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 12 , 25
+> ID: 68
+Tracing path from 13 , 26
+> parent12 , 26
+> parent12 , 25
+> 1st move0 , 1
+> 1st moveRight
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 154
+info: start round 155
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 12 , 26
+> ID: 68
+Tracing path from 13 , 26
+> parent12 , 26
+> 1st move1 , 0
+> 1st moveDown
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 155
+info: start round 156
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 156
+info: start round 157
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 157
+info: start round 158
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 158
+info: start round 159
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 159
+info: start round 160
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 160
+info: start round 161
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 161
+info: start round 162
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 162
+info: start round 163
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 163
+info: start round 164
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 164
+info: start round 165
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 165
+info: start round 166
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 166
+info: start round 167
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 167
+info: start round 168
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 168
+info: start round 169
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 169
+info: start round 170
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 170
+info: start round 171
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 171
+info: start round 172
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 172
+info: start round 173
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 173
+info: start round 174
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 174
+info: start round 175
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 175
+info: start round 176
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 176
+info: start round 177
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 29 , 10
+> ID: 62
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 177
+info: start round 178
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 178
+info: start round 179
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 179
+info: start round 180
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 180
+info: start round 181
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 181
+info: start round 182
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 182
+info: start round 183
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 183
+info: start round 184
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 184
+info: start round 185
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 185
+info: start round 186
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 186
+info: start round 187
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 187
+info: start round 188
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 188
+info: start round 189
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 189
+info: start round 190
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 190
+info: start round 191
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 191
+info: start round 192
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 192
+info: start round 193
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 193
+info: start round 194
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 194
+info: start round 195
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 195
+info: start round 196
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 196
+info: start round 197
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 27 , 41
+> ID: 11
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 197
+info: start round 198
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 198
+info: start round 199
+info:     start player 0
+Pos wizard: 15 , 53
+> ID: 5
+Pos wizard: 5 , 40
+> ID: 8
+Pos wizard: 21 , 48
+> ID: 12
+Pos wizard: 18 , 33
+> ID: 13
+Pos wizard: 35 , 12
+> ID: 14
+Pos wizard: 3 , 7
+> ID: 16
+Pos wizard: 4 , 41
+> ID: 18
+Pos wizard: 9 , 23
+> ID: 21
+Pos wizard: 31 , 26
+> ID: 22
+Pos wizard: 9 , 22
+> ID: 51
+Pos wizard: 7 , 50
+> ID: 55
+Pos wizard: 32 , 12
+> ID: 56
+Pos wizard: 21 , 47
+> ID: 61
+Pos wizard: 4 , 6
+> ID: 64
+Pos wizard: 13 , 26
+> ID: 68
+Pos wizard: 8 , 42
+> ID: 81
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 199
+info: player Gogetter got score 785
+info: player Demo got score 3606
+info: player Demo got score 4801
+info: player Demo got score 2013
+info: player(s) got top score
+info: game played
