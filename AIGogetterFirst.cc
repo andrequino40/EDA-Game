@@ -39,6 +39,7 @@ struct PLAYER_NAME : public Player {
   // bfs, returns cords with closest book
   // updates for each visited cell
   int procesadas = 0;
+  
   struct TargetInfo {
     int dist;
     int unitId;
