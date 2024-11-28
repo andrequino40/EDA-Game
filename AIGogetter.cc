@@ -74,6 +74,35 @@ struct PLAYER_NAME : public Player {
     // no book found
     return Pos(-1,-1);
 }
+
+enum 
+
+Dir pos_to_dir(Pos d) {
+  if (d.i == 0 && d.j == -1)
+    return Down;   
+  if (d.i == 1 && d.j == -1)
+      return DR; 
+  if (d.i == 1 && d.j == 0)
+      return Right;  
+  if (d.i == 1 && d.j == 1)
+      return RU; 
+  if (d.i == 0 && d.j == 1)
+      return Up;     
+  if (d.i == -1 && d.j == 1)
+      return UL; 
+  if (d.i == -1 && d.j == 0)
+      return Left;   
+  if (d.i == -1 && d.j == -1)
+      return LD; 
+  throw invalid_argument("Invalid Pos for pos_to_dir().");
+}
+
+Pos subtractPos(Pos b, Pos a) {
+  int hor = b.i - a.i; 
+  int ver = b.j - a.j; 
+  
+  return Pos(hor, ver);
+}
   // trace path, traces back to first movement
 
   int whatDir = 0;
