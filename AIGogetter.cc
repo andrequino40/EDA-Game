@@ -42,12 +42,11 @@ struct PLAYER_NAME : public Player {
     int dist;
     int unitId;
   };
+  map<Pos, TargetInfo> TargetMap;
 
-  map<Pos, TargetInfo> targetMap;
+  const int bfsMaxDist = 30;
 
-  const int bfsMaxDist = 10;
-
-  Pos bfsBook(GridCoords& parents, Pos start, int id){
+  Pos bfsBook(GridCoords& parents, Pos start){
     
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
     // if still -1, no treasures
@@ -62,25 +61,18 @@ struct PLAYER_NAME : public Player {
     while (not qcoord.empty()) {
         Pos currentPos = qcoord.front();
         int currentDist = distances[currentPos.i][currentPos.j];
+        //int i = current.i;
+        //int j = current.j;
         qcoord.pop();
         
         // if a book, return.
         if (cell(currentPos).book) {
-          // if target doesn't exit, create, return
-          // if target exist and lower distance, modify, return
-          // else, leave
-          bool hasTarget = targetMap.find(currentPos) != targetMap.end();
-          if (!hasTarget || currentDist < targetMap.at(currentPos).dist) {
-            TargetInfo newTarg = {id, currentDist};
-            targetMap[currentPos] = newTarg;
-            return currentPos;
-          } 
+           return currentPos;
         }
-
         for (const Dir dir : dirsWizard) {
           Pos newPos = currentPos + dir;
           if (pos_free(newPos)){
-            
+
             int newDist = currentDist + 1;
             bool visited = distances[newPos.i][newPos.j] != -1;
             if (!visited && (newDist <= bfsMaxDist)) {
@@ -123,16 +115,20 @@ Pos subtractPos(Pos b, Pos a) {
 }
   // trace path, traces back to first movement
   Dir trace_path(const GridCoords& parents, Pos end){
-    
-    Pos current = end;  
+    cerr << "Tracing path from " << end.i << " , " << end.j << endl;
+    Pos current = end;  // [W] []p [B]c
     Pos parent = parents[current.i][current.j];
+    cerr << "> parent" << parent.i << " , " << parent.j << endl;
     while (parents[parent.i][parent.j] != Pos(-1,-1)) {
       current = parent;
       parent = parents[current.i][current.j];
+      cerr << "> parent" << parent.i << " , " << parent.j << endl;
     }
-
+    // parent is -1, -1, i need to do it after
     Pos difference = subtractPos(current, parent);
+    cerr << "> 1st move" << difference.i << " , " << difference.j << endl;
     Dir firstMove = pos_to_dir(difference);
+    cerr << "> 1st move" << firstMove << endl;
     return firstMove;
 
   }
@@ -163,7 +159,7 @@ Pos subtractPos(Pos b, Pos a) {
     for (int id : ws) {
       GridCoords parents(board_rows(), (vector<Pos>(board_cols())));
       Pos posWizard = unit(id).pos; 
-      Pos closest_book = bfsBook(parents, posWizard, id);
+      Pos closest_book = bfsBook(parents, posWizard);
 
       cerr << "Pos wizard: "  << posWizard.i << " , " << posWizard.j << endl;
       cerr << "> ID: "  << id << endl;
