@@ -1,11 +1,7 @@
-info: seed 10
+info: seed 2
 info: loading game
 info: loaded game
-Game: Game.cc:16: static void Game::run(std::vector<std::__cxx11::basic_string<char> >, std::istream&, std::ostream&, int): Assertion `np == (int)names.size()' failed.
-info: seed 30
-info: loading game
-info: loaded game
-info: loading player Rotator
+info: loading player GogetterV1
 info: loading player Dummy
 info: loading player Dummy
 info: loading player Dummy
@@ -2010,11 +2006,9 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: end round 199
-info: player Rotator got score 1834
-info: player Dummy got score 6994
-info: player Dummy got score 6402
-info: player Dummy got score 7881
+info: player GogetterV1 got score 11897
+info: player Dummy got score 6164
+info: player Dummy got score 5868
+info: player Dummy got score 4489
 info: player(s) got top score
 info: game played
-Game: Main.cc:71: int main(int, char**): Assertion `names.back().size() <= 12' failed.
-Game: Main.cc:71: int main(int, char**): Assertion `names.back().size() <= 12' failed.

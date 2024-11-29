@@ -159,34 +159,7 @@ Pos subtractPos(Pos b, Pos a) {
   
   return Pos(hor, ver);
 }
-  // trace path, traces back to first movement
-  Dir trace_path(const GridCoords& parents, Pos end){
-    Pos current = end;  
-    Pos parent = parents[current.i][current.j];
-    while (parents[parent.i][parent.j] != Pos(-1,-1)) {
-      current = parent;
-      parent = parents[current.i][current.j];
-    }
-    Pos difference = subtractPos(current, parent);
-    Dir firstMove = pos_to_dir(difference);
-    return firstMove;
-
-  }
-
-  int whatDir = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
   virtual void play () {
 
     double st = status(me());
