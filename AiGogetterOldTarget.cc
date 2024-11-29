@@ -67,8 +67,11 @@ struct PLAYER_NAME : public Player {
         
         // if a book, return.
         if (cell(currentPos).book) {
-          // if target doesn't exit, create, return
+          // if target doesn't exit, create,
+            // create action for unit, 
           // if target exist and lower distance, modify, return
+            // create action for unit
+            // erase old action for unit
           // else, leave
           bool hasTarget = targetMap.find(currentPos) != targetMap.end();
           if (!hasTarget || currentDist < targetMap.at(currentPos).dist) {

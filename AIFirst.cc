@@ -1,14 +1,12 @@
 #include "Player.hh"
 #include <map>
-#include <unordered_map>
-#include <set>
 
 
 /**
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV0
+#define PLAYER_NAME First
 
 
 struct PLAYER_NAME : public Player {
@@ -41,24 +39,65 @@ struct PLAYER_NAME : public Player {
   // bfs, returns cords with closest book
   // updates for each visited cell
   int procesadas = 0;
-
-  struct BookInfo {
+  struct TargetInfo {
     int dist;
     int unitId;
   };
+  map<Pos, TargetInfo> TargetMap;
 
-  const int bfsMaxDist = 15;
+  const int bfsMaxDist = 30;
+
+  Pos bfsBook(GridCoords& parents, Pos start){
+    
+    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
+    // if still -1, no treasures
+    //Pos closest_book = {-1,-1};
+    queue<Pos> qcoord;
+
+    qcoord.push(start);
+    distances[start.i][start.j] = 0;
+    parents[start.i][start.j] = Pos(-1,-1);
+
+    while (not qcoord.empty()) {
+        procesadas++;
+        Pos currentPos = qcoord.front();
+        int currentDist = distances[currentPos.i][currentPos.j];
+        //int i = current.i;
+        //int j = current.j;
+        qcoord.pop();
+        
+        // if a book, return.
+        if (cell(currentPos).book) {
+           return currentPos;
+        }
+        for (const Dir dir : dirsWizard) {
+          Pos newPos = currentPos + dir;
+          if (pos_free(newPos)){
+
+            int newDist = currentDist + 1;
+            bool visited = distances[newPos.i][newPos.j] != -1;
+            if (!visited && (newDist <= bfsMaxDist)) {
+              parents[newPos.i][newPos.j] = currentPos;
+              distances[newPos.i][newPos.j] =  newDist;
+              qcoord.push(newPos);
+            } 
+          }
+        }
+    }
+    // no book found
+    return Pos(-1,-1);
+}
 
 struct PosStep{
   Pos pos;
   int firstStep;
 };
 
-int bfsDirBook(Pos start, map<Pos, BookInfo>& TargetBooks){
-    TargetBooks.clear();
-    //temp
+int bfsDirBook(Pos start){
+    
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
-
+    // if still -1, no treasures
+    //Pos closest_book = {-1,-1};
     queue<PosStep> qcoord;
 
     qcoord.push({start, -1});
@@ -124,58 +163,80 @@ Pos subtractPos(Pos b, Pos a) {
 }
   // trace path, traces back to first movement
   Dir trace_path(const GridCoords& parents, Pos end){
-    Pos current = end;  
+    //cerr << "Tracing path from " << end.i << " , " << end.j << endl;
+    Pos current = end;  // [W] []p [B]c
     Pos parent = parents[current.i][current.j];
+    //cerr << "> parent" << parent.i << " , " << parent.j << endl;
     while (parents[parent.i][parent.j] != Pos(-1,-1)) {
       current = parent;
       parent = parents[current.i][current.j];
+      //cerr << "> parent" << parent.i << " , " << parent.j << endl;
     }
+    // parent is -1, -1, i need to do it after
     Pos difference = subtractPos(current, parent);
+    //cerr << "> 1st move" << difference.i << " , " << difference.j << endl;
     Dir firstMove = pos_to_dir(difference);
+    //cerr << "> 1st move" << firstMove << endl;
     return firstMove;
 
   }
 
   int whatDir = 0;
-  int numActions = 6;
-  enum actionType {
-    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
-  };
-
-  struct actionInfo {
-    actionType what;
-    Dir dir;
-  };
-
-  unordered_map<actionType, Dir> typedef mapAction;
+  /**
+   * Play method, invoked once per each round.
+   */
 
   virtual void play () {
+    
+    /* for (int idWizard : myWizards) {
+      Dir moveDir = dirsWizard[whatDir];
+      Pos newPos = unit(idWizard).pos + moveDir;
+      if (pos_free(newPos))
+        move(idWizard, moveDir);
+    } */
 
     double st = status(me());
     if (st >= 0.9) return;
-  
-    vector<int> ws = wizards(me());
 
-    map<Pos, BookInfo> TargetBooks;
-    
-    unordered_map<int, mapAction> idToActions;
+    // If more than halfway through, do nothing.
+    //if (round() > num_rounds()/2) return;
+
+    // Getting the wizards
+    vector<int> ws = wizards(me());
+    //int shortest_dist = -1;
+    /* for (int id : ws) {
+      GridCoords parents(board_rows(), (vector<Pos>(board_cols())));
+      Pos posWizard = unit(id).pos; 
+      Pos closest_book = bfsBook(parents, posWizard);
+
+      //cerr << "Pos wizard: "  << posWizard.i << " , " << posWizard.j << endl;
+      //cerr << "> ID: "  << id << endl;
+
+      Dir direction;
+      if (closest_book == Pos(-1,-1)) {
+        direction = dirsWizard[random(0, dirsWizard.size() -1)];
+      } else {
+        direction = trace_path(parents, closest_book);
+      } 
+      move(id, direction);
+      
+    } */
 
    for (int id : ws) {
       GridCoords parents(board_rows(), (vector<Pos>(board_cols())));
       Pos posWizard = unit(id).pos; 
+      //Pos closest_book = bfsBook(parents, posWizard);
 
-      int direction = bfsDirBook(posWizard, TargetBooks);
+      //cerr << "Pos wizard: "  << posWizard.i << " , " << posWizard.j << endl;
+      //cerr << "> ID: "  << id << endl;
+
+      int direction = bfsDirBook(posWizard);
       if (direction != -1){
-        idToActions[id][book] = (Dir)direction;
+        move(id, (Dir)direction);
       }
     }
 
-    for (const auto& it : idToActions) {
-      int id = it.first;
-      const mapAction& actions = it.second;
-        move(id, actions.at(book));
-    }
-
+    cerr << "BFS ha procesado " << procesadas << " celdas"<< endl;
   }
 };
 
