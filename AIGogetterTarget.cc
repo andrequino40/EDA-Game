@@ -31,6 +31,7 @@ struct PLAYER_NAME : public Player {
 
   const vector<Dir> dirsWizard = {Up,Right,Down,Left};
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
+  
   vector<int> myWizards = wizards(me());
 
   
@@ -40,7 +41,7 @@ struct PLAYER_NAME : public Player {
 
   // bfs, returns cords with closest book
   // updates for each visited cell
-  int procesadas = 0;
+  // int procesadas = 0;
 
   struct BookInfo {
     int dist;
@@ -48,6 +49,7 @@ struct PLAYER_NAME : public Player {
   };
 
   const int bfsMaxDist = 15;
+  const int bfsMaxCells = 481;
 
 struct PosStep{
   Pos pos;
@@ -65,6 +67,7 @@ struct PosStep{
 int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_map<int, vector<int>>& idToActions){
     //targetBooks.clear();
     //temp
+    int processedCells = 0;
     int displacedId = -1;
 
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
@@ -75,7 +78,7 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
     distances[start.i][start.j] = 0;
 
     while (not qcoord.empty()) {
-      procesadas++;
+      processedCells++;
       Pos currentPos = qcoord.front().pos;
       int firstStep = qcoord.front().firstStep;
       int currentDist = distances[currentPos.i][currentPos.j];
@@ -116,7 +119,8 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
 
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
-          if (!visited && (newDist <= bfsMaxDist)) {
+          // if (!visited && (newDist <= bfsMaxDist)) {
+          if (!visited && (processedCells <= bfsMaxCells)) {
 
             distances[newPos.i][newPos.j] =  newDist;
 
