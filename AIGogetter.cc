@@ -21,9 +21,43 @@ struct PLAYER_NAME : public Player {
     return new PLAYER_NAME;
   }
 
-  /**
-   * Types and attributes for your player can be defined here.
-   */
+  
+
+  /* AUXILIARY FUNCTIONS */
+
+  
+  Dir pos_to_dir(Pos d) {
+    if (d.i == 1 && d.j == 0)
+      return Down;   
+    if (d.i == 1 && d.j == 1)
+        return DR; 
+    if (d.i == 0 && d.j == 1)
+        return Right;  
+    if (d.i == -1 && d.j == 1)
+        return RU; 
+    if (d.i == -1 && d.j == 0)
+        return Up;     
+    if (d.i == -1 && d.j == -1)
+        return UL; 
+    if (d.i == 0 && d.j == -1)
+        return Left;   
+    if (d.i == 1 && d.j == -1)
+        return LD; 
+    throw invalid_argument("Invalid Pos for pos_to_dir().");
+  }
+
+  Pos subtractPos(Pos b, Pos a) {
+    int hor = b.i - a.i; 
+    int ver = b.j - a.j; 
+    
+    return Pos(hor, ver);
+  }
+    
+    bool pos_free(Pos pos) {
+    return pos_ok(pos) and cell(pos).type != Wall;
+  }
+
+  /* TYPES AND ATTRIBUTES */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
   typedef vector<vector<int>> GridInt;
@@ -31,18 +65,8 @@ struct PLAYER_NAME : public Player {
 
   const vector<Dir> dirsWizard = {Up,Right,Down,Left};
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
-  
-  vector<int> myWizards = wizards(me());
 
-  
-  bool pos_free(Pos pos) {
-    return pos_ok(pos) and cell(pos).type != Wall;
-  }
-
-  // bfs, returns cords with closest book
-  // updates for each visited cell
-  // int procesadas = 0;
-
+  /* EVERYTHING RELATED TO BOOK FINDING*/
   struct BookInfo {
     int dist;
     int unitId;
@@ -51,18 +75,12 @@ struct PLAYER_NAME : public Player {
   const int bfsMaxDist = 15;
   const int bfsMaxCells = 481;
 
-struct PosStep{
-  Pos pos;
-  int firstStep;
-};
-
-  enum ActionType {
-    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
+  struct BookNode{
+    Pos pos;
+    int firstStep;
   };
 
-  vector<ActionType> vecActions = {
-    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
-  };
+  
 
 int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_map<int, vector<int>>& idToActions){
     //targetBooks.clear();
@@ -72,7 +90,7 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
 
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
 
-    queue<PosStep> qcoord;
+    queue<BookNode> qcoord;
 
     qcoord.push({start, -1});
     distances[start.i][start.j] = 0;
@@ -119,8 +137,8 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
 
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
-          // if (!visited && (newDist <= bfsMaxDist)) {
-          if (!visited && (processedCells <= bfsMaxCells)) {
+          if (!visited) {
+          // if (!visited && (processedCells <= bfsMaxCells)) {
 
             distances[newPos.i][newPos.j] =  newDist;
 
@@ -133,33 +151,16 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
     return displacedId;
 }
 
-Dir pos_to_dir(Pos d) {
-  if (d.i == 1 && d.j == 0)
-    return Down;   
-  if (d.i == 1 && d.j == 1)
-      return DR; 
-  if (d.i == 0 && d.j == 1)
-      return Right;  
-  if (d.i == -1 && d.j == 1)
-      return RU; 
-  if (d.i == -1 && d.j == 0)
-      return Up;     
-  if (d.i == -1 && d.j == -1)
-      return UL; 
-  if (d.i == 0 && d.j == -1)
-      return Left;   
-  if (d.i == 1 && d.j == -1)
-      return LD; 
-  throw invalid_argument("Invalid Pos for pos_to_dir().");
-}
+/* EVERYTHING RELATED TO ACTIONS */
+  enum ActionType {
+    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
+  };
 
-Pos subtractPos(Pos b, Pos a) {
-  int hor = b.i - a.i; 
-  int ver = b.j - a.j; 
-  
-  return Pos(hor, ver);
-}
-  
+  vector<ActionType> vecActions = {
+    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
+  };
+
+
   virtual void play () {
 
     double st = status(me());
