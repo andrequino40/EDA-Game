@@ -99,7 +99,6 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     result.found = false;
 
     int processedCells = 0;
-    int displacedId = -1;
 
     GridInt distances(board_rows(), vector<int>(board_cols(), -1));
 
@@ -166,7 +165,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   typedef unordered_map<int, vector<int>> idToActions_t;
 
 
-   void setMageBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
+  void setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
   if (!book_result.found) {
     cerr << "Book not found for " << id << endl;
     return;
@@ -220,7 +219,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
       bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
 
       if (book_result.found) {
-        setMageBookAction(id, book_result, targetBooks, idToActions);
+        setBookAction(id, book_result, targetBooks, idToActions);
       }
     }
 
