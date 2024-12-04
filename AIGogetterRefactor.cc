@@ -8,7 +8,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV2
+#define PLAYER_NAME GogetterV3
 
 
 struct PLAYER_NAME : public Player {
@@ -80,87 +80,21 @@ struct PLAYER_NAME : public Player {
     int firstStep;
   };
 
-int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_map<int, vector<int>>& idToActions){
-    //targetBooks.clear();
-    //temp
-    int processedCells = 0;
-    int displacedId = -1;
-
-    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
-
-    queue<BookNode> qcoord;
-
-    qcoord.push({start, -1});
-    distances[start.i][start.j] = 0;
-
-    while (not qcoord.empty()) {
-      processedCells++;
-      Pos currentPos = qcoord.front().pos;
-      int firstStep = qcoord.front().firstStep;
-      int currentDist = distances[currentPos.i][currentPos.j];
-
-      qcoord.pop();
-      
-      // if a book, return.
-      if (cell(currentPos).book) {
-          bool hasTarget = targetBooks.find(currentPos) != targetBooks.end();
-           if (!hasTarget) {
-            // this can be done outside the call
-            // update target
-            BookInfo newTarg;
-            newTarg.dist = currentDist; 
-            newTarg.unitId = id;
-            targetBooks[currentPos] = newTarg;
-            // create action
-            idToActions[id][book] = (Dir)firstStep;
-            return -1;
-
-            /// if the current distance is greater, continue, else return
-          } else if (currentDist < targetBooks.at(currentPos).dist) {
-           
-            // remove action from old unit 
-            int oldid = targetBooks[currentPos].unitId;
-            idToActions[oldid][book] = -1;
-             // update target
-            BookInfo newTarg;
-            newTarg.dist = currentDist; 
-            newTarg.unitId = id;
-            targetBooks[currentPos] = newTarg;
-            // create action
-            idToActions[id][book] = (Dir)firstStep;
-            // return 
-            return oldid;
-          }
-      }
-      for (const Dir dir : dirsWizard) {
-        Pos newPos = currentPos + dir;
-        if (pos_free(newPos)){
-
-          int newDist = currentDist + 1;
-          bool visited = distances[newPos.i][newPos.j] != -1;
-          if (!visited) {
-          // if (!visited && (processedCells <= bfsMaxCells)) {
-
-            distances[newPos.i][newPos.j] =  newDist;
-
-            if (firstStep == -1) qcoord.push({newPos, dir});
-            else qcoord.push({newPos, firstStep});
-          }
-        }
-      }
-    }
-    return displacedId;
-}
-
 struct bookBfsRes_t {
   bool found = false;
   Pos pos;
   int firstStep;
   int dist;
 };
-bookBfsRes_t bfsBookRefactor(Pos start, const int id, const map<Pos, BookInfo>& targetBooks){
-    //targetBooks.clear();
-    //temp
+
+  typedef map<Pos, BookInfo> posToBookinfo_t;
+
+bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks){
+    Pos start  = unit(id).pos; 
+    vector<Dir> directions;
+    if (unit(id).type == Wizard) directions = dirsWizard;
+    else directions = dirsGhost;
+
     bookBfsRes_t result;
     result.found = false;
 
@@ -184,25 +118,26 @@ bookBfsRes_t bfsBookRefactor(Pos start, const int id, const map<Pos, BookInfo>& 
       
       // if a book and no target, or closer to it, return.
       if (cell(currentPos).book) {
-          bool hasTarget = targetBooks.find(currentPos) != targetBooks.end();
-          if (!hasTarget || currentDist < targetBooks.at(currentPos).dist) {
+        bool hasTarget = targetBooks.find(currentPos) != targetBooks.end();
+        if (!hasTarget || currentDist < targetBooks.at(currentPos).dist) {
 
-            result.found = true;
-            result.pos = currentPos;
-            result.firstStep = firstStep;
-            result.dist = currentDist;
-            
-            return result;
-          }
+          result.found = true;
+          result.pos = currentPos;
+          result.firstStep = firstStep;
+          result.dist = currentDist;
+          
+          return result;
+        }
       }
-      for (const Dir dir : dirsWizard) {
+      
+      for (const Dir dir : directions) {
         Pos newPos = currentPos + dir;
         if (pos_free(newPos)){
 
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
+
           if (!visited) {
-          // if (!visited && (processedCells <= bfsMaxCells)) {
 
             distances[newPos.i][newPos.j] =  newDist;
 
@@ -224,7 +159,29 @@ bookBfsRes_t bfsBookRefactor(Pos start, const int id, const map<Pos, BookInfo>& 
     book, attackMage, attackGhost, helpMage, runMage, runVoldemort
   };
 
+  typedef unordered_map<int, vector<int>> idToActions_t;
 
+
+   void setMageBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
+  if (!book_result.found) {
+    cerr << "Book not found for " << id << endl;
+    return;
+  }
+  bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
+
+  if (hasTarget && book_result.dist < targetBooks.at(book_result.pos).dist) {
+    // remove action from old unit 
+    int oldid = targetBooks[book_result.pos].unitId;
+    idToActions[oldid][book] = -1;
+  }
+
+  BookInfo newTarg;
+  newTarg.dist = book_result.dist; 
+  newTarg.unitId = id;
+  targetBooks[book_result.pos] = newTarg;
+  // create action
+  idToActions[id][book] = (Dir)book_result.firstStep;
+ }
 
   virtual void play () {
 
@@ -233,9 +190,9 @@ bookBfsRes_t bfsBookRefactor(Pos start, const int id, const map<Pos, BookInfo>& 
   
     vector<int> ws = wizards(me());
 
-    map<Pos, BookInfo> targetBooks;
+    posToBookinfo_t targetBooks;
 
-    unordered_map<int, vector<int>> idToActions;
+    idToActions_t idToActions;
 
     queue<int> queueids;
 
@@ -247,48 +204,18 @@ bookBfsRes_t bfsBookRefactor(Pos start, const int id, const map<Pos, BookInfo>& 
     }
 
     // for every wizard in the queue, edit its actions if there's a book to find
-   while (!queueids.empty()) {
+    while (!queueids.empty()) {
       int id = queueids.front();
       queueids.pop();
 
-      Pos posWizard = unit(id).pos; 
+      
 
-      // find the closest book, replace target and modify idtoactions if necessary
-      /* int displacedid = bfsBook(posWizard, id, TargetBooks, idToActions);
-      if (displacedid != -1) {
-        queueids.push(displacedid);
-      } */
-     bookBfsRes_t book_result = bfsBookRefactor(posWizard, id, targetBooks);
+      bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
 
-     if (book_result.found) {
-      bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
-          if (!hasTarget) {
-          // this can be done outside the call
-          // update target
-          BookInfo newTarg;
-          newTarg.dist = book_result.dist; 
-          newTarg.unitId = id;
-          targetBooks[book_result.pos] = newTarg;
-          // create action
-          idToActions[id][book] = (Dir)book_result.firstStep;
-
-          /// if the current distance is greater, continue, else return
-        } else if (book_result.dist < targetBooks.at(book_result.pos).dist) {
-          
-          // remove action from old unit 
-          int oldid = targetBooks[book_result.pos].unitId;
-          idToActions[oldid][book] = -1;
-            // update target
-          BookInfo newTarg;
-          newTarg.dist = book_result.dist; 
-          newTarg.unitId = id;
-          targetBooks[book_result.pos] = newTarg;
-          // create action
-          idToActions[id][book] = (Dir)book_result.firstStep;
-          // return 
-        }
+      if (book_result.found) {
+        setMageBookAction(id, book_result, targetBooks, idToActions);
       }
-     }
+    }
 
     for (const auto& it : idToActions) {
       int id = it.first;
