@@ -1,5 +1,7 @@
 /.vscode
 *.o
+!AIs/*
+!AIRIPBOZO_v3.o
 Makefile.deps
 Game
 log.txt
