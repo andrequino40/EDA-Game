@@ -155,8 +155,12 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     book, attackMage, attackGhost, helpMage, runMage, runVoldemort
   };
 
-  vector<ActionType> vecActions = {
+  vector<ActionType> vecMageActions = {
     book, attackMage, attackGhost, helpMage, runMage, runVoldemort
+  };
+
+  vector<ActionType> vecGhostActions = {
+    book, runMage, runVoldemort
   };
 
   typedef unordered_map<int, vector<int>> idToActions_t;
@@ -188,6 +192,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     double st = status(me());
     if (st >= 0.9) return;
   
+    int ghost_id = ghost(me());
     vector<int> ws = wizards(me());
 
     posToBookinfo_t targetBooks;
@@ -196,19 +201,21 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
 
     queue<int> queueids;
 
-    // for every wizard, initializes its vector of possible actions, vecactions
-    for (int id : ws) {
-      idToActions[id] = vector<int>(vecActions.size(), -1);
+    // for every wizard, initializes its vector of the size of their possible actions
+    for (int wizard_ud : ws) {
+      idToActions[wizard_ud] = vector<int>(vecMageActions.size(), -1);
       // creates a queue of every wizard id
-      queueids.push(id);
+      queueids.push(wizard_ud);
     }
+    
+    // for the ghost, initializes its vector with the size of his possible actions
+    idToActions[ghost_id] = vector<int>(vecGhostActions.size(), -1);
+    queueids.push(ghost_id);
 
     // for every wizard in the queue, edit its actions if there's a book to find
     while (!queueids.empty()) {
       int id = queueids.front();
       queueids.pop();
-
-      
 
       bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
 
