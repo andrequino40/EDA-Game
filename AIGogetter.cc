@@ -80,8 +80,6 @@ struct PLAYER_NAME : public Player {
     int firstStep;
   };
 
-  
-
 int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_map<int, vector<int>>& idToActions){
     //targetBooks.clear();
     //temp
@@ -161,6 +159,7 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
   };
 
 
+
   virtual void play () {
 
     double st = status(me());
@@ -173,17 +172,22 @@ int bfsBook(Pos start, const int id, map<Pos, BookInfo>& targetBooks, unordered_
     unordered_map<int, vector<int>> idToActions;
 
     queue<int> queueids;
+
+    // for every wizard, initializes its vector of possible actions, vecactions
     for (int id : ws) {
       idToActions[id] = vector<int>(vecActions.size(), -1);
+      // creates a queue of every wizard id
       queueids.push(id);
     }
 
+    // for every wizard in the queue, edit its actions if there's a book to find
    while (!queueids.empty()) {
       int id = queueids.front();
       queueids.pop();
 
       Pos posWizard = unit(id).pos; 
 
+      // calcul
       int displacedid = bfsBook(posWizard, id, TargetBooks, idToActions);
       if (displacedid != -1) {
         queueids.push(displacedid);
