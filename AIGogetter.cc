@@ -8,7 +8,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV3
+#define PLAYER_NAME GogetterV4
 
 
 struct PLAYER_NAME : public Player {
@@ -67,6 +67,8 @@ struct PLAYER_NAME : public Player {
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
 
   /* EVERYTHING RELATED TO BOOK FINDING*/
+
+  bool seach_again_replaced = false;
   struct BookInfo {
     int dist;
     int unitId;
@@ -165,26 +167,30 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   typedef unordered_map<int, vector<int>> idToActions_t;
 
 
-  void setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
-  if (!book_result.found) {
-    cerr << "Book not found for " << id << endl;
-    return;
-  }
-  bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
+  int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
+    if (!book_result.found) {
+      cerr << "Book not found for " << id << endl;
+      return -1;
+    }
 
-  if (hasTarget && book_result.dist < targetBooks.at(book_result.pos).dist) {
-    // remove action from old unit 
-    int oldid = targetBooks[book_result.pos].unitId;
-    idToActions[oldid][book] = -1;
-  }
+    int oldid = -1;
+    bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
 
-  BookInfo newTarg;
-  newTarg.dist = book_result.dist; 
-  newTarg.unitId = id;
-  targetBooks[book_result.pos] = newTarg;
-  // create action
-  idToActions[id][book] = (Dir)book_result.firstStep;
- }
+    if (hasTarget && book_result.dist < targetBooks.at(book_result.pos).dist) {
+      // remove action from old unit 
+      oldid = targetBooks[book_result.pos].unitId;
+      idToActions[oldid][book] = -1;
+    }
+
+    BookInfo newTarg;
+    newTarg.dist = book_result.dist; 
+    newTarg.unitId = id;
+    targetBooks[book_result.pos] = newTarg;
+    // create action
+    idToActions[id][book] = (Dir)book_result.firstStep;
+
+    return oldid;
+  }  
 
   virtual void play () {
 
@@ -211,6 +217,8 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     idToActions[ghost_id] = vector<int>(vecGhostActions.size(), -1);
     queueids.push(ghost_id);
 
+    const queue<int> ref_queueids = queueids;
+
     // for every wizard in the queue, edit its actions if there's a book to find
     while (!queueids.empty()) {
       int id = queueids.front();
@@ -218,8 +226,12 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
 
       bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
 
+
       if (book_result.found) {
-        setBookAction(id, book_result, targetBooks, idToActions);
+        int displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
+        if (seach_again_replaced && displaced_id != -1) {
+          queueids.push(displaced_id);
+        }
       }
     }
 
