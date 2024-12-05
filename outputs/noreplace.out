@@ -1,0 +1,7824 @@
+info: seed 20
+info: loading game
+info: loaded game
+info: loading player GogetterV4
+info: loading player Dummy
+info: loading player Dummy
+info: loading player Dummy
+info: players loaded
+info: start round 0
+info:     start player 0
+ingredients: 2 2 2 2 2 2 1 2 2 1 2 1 1 2 1 
+> Processed: 53
+> Processed: 162
+> Processed: 217
+> Processed: 242
+> Processed: 256
+> Processed: 344
+> Processed: 434
+> Processed: 478
+> Processed: 485
+> Processed: 507
+> Processed: 571
+> Processed: 651
+> Processed: 816
+> Processed: 850
+> Processed: 900
+> Processed: 926
+> Processed: 941
+> Processed: 1018
+> Processed: 1308
+> Processed: 1502
+> Processed: 1600
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 0
+info: start round 1
+info:     start player 0
+ingredients: 11 10 11 8 7 8 7 8 9 8 9 8 6 7 8 
+> Processed: 1639
+> Processed: 1748
+> Processed: 1796
+> Processed: 1817
+> Processed: 1830
+> Processed: 1918
+> Processed: 2006
+> Processed: 2039
+> Processed: 2044
+> Processed: 2064
+> Processed: 2109
+> Processed: 2182
+> Processed: 2347
+> Processed: 2373
+> Processed: 2417
+> Processed: 2441
+> Processed: 2454
+> Processed: 2516
+> Processed: 2806
+> Processed: 3000
+> Processed: 3084
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 1
+info: start round 2
+info:     start player 0
+ingredients: 4 6 3 4 5 4 6 4 4 3 4 5 4 3 6 
+> Processed: 3109
+> Processed: 3218
+> Processed: 3258
+> Processed: 3275
+> Processed: 3286
+> Processed: 3374
+> Processed: 3458
+> Processed: 3486
+> Processed: 3489
+> Processed: 3508
+> Processed: 3537
+> Processed: 3599
+> Processed: 3764
+> Processed: 3779
+> Processed: 3818
+> Processed: 3839
+> Processed: 3850
+> Processed: 3899
+> Processed: 4189
+> Processed: 4383
+> Processed: 4444
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 2
+info: start round 3
+info:     start player 0
+ingredients: 3 5 4 5 4 3 2 2 4 5 2 2 4 3 2 
+> Processed: 4457
+> Processed: 4564
+> Processed: 4604
+> Processed: 4617
+> Processed: 4622
+> Processed: 4710
+> Processed: 4786
+> Processed: 4809
+> Processed: 4829
+> Processed: 4846
+> Processed: 4863
+> Processed: 4911
+> Processed: 5076
+> Processed: 5084
+> Processed: 5109
+> Processed: 5126
+> Processed: 5135
+> Processed: 5173
+> Processed: 5386
+> Processed: 5580
+> Processed: 5629
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 3
+info: start round 4
+info:     start player 0
+ingredients: 7 5 5 4 4 6 3 5 6 3 5 3 3 6 5 
+> Processed: 5634
+> Processed: 5686
+> Processed: 5809
+> Processed: 5819
+> Processed: 5913
+> Processed: 5980
+> Processed: 6041
+> Processed: 6054
+> Processed: 6074
+> Processed: 6089
+> Processed: 6208
+> Processed: 6242
+> Processed: 6362
+> Processed: 6365
+> Processed: 6378
+> Processed: 6391
+> Processed: 6398
+> Processed: 6425
+> Processed: 6589
+> Processed: 6889
+> Processed: 6926
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 4
+info: start round 5
+info:     start player 0
+ingredients: 3 5 3 6 4 5 7 5 7 5 3 4 5 4 4 
+> Processed: 6974
+> Processed: 7022
+> Processed: 7134
+> Processed: 7142
+> Processed: 7212
+> Processed: 7279
+> Processed: 7364
+> Processed: 7369
+> Processed: 7389
+> Processed: 7402
+> Processed: 7501
+> Processed: 7522
+> Processed: 7642
+> Processed: 7695
+> Processed: 7700
+> Processed: 7709
+> Processed: 7714
+> Processed: 7730
+> Processed: 7892
+> Processed: 8192
+> Processed: 8209
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 5
+info: start round 6
+info:     start player 0
+ingredients: 7 9 8 6 8 6 9 10 10 7 6 8 11 8 7 
+> Processed: 8244
+> Processed: 8284
+> Processed: 8396
+> Processed: 8402
+> Processed: 8468
+> Processed: 8535
+> Processed: 8600
+> Processed: 8666
+> Processed: 8674
+> Processed: 8684
+> Processed: 8763
+> Processed: 8775
+> Processed: 8895
+> Processed: 8938
+> Processed: 8994
+> Processed: 8999
+> Processed: 9002
+> Processed: 9010
+> Processed: 9170
+> Processed: 9470
+> Processed: 9475
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 6
+info: start round 7
+info:     start player 0
+ingredients: 2 1 3 2 2 2 2 1 2 1 3 3 3 1 2 
+> Processed: 9499
+> Processed: 9527
+> Processed: 9639
+> Processed: 9643
+> Processed: 9700
+> Processed: 9767
+> Processed: 9824
+> Processed: 9888
+> Processed: 9896
+> Processed: 9900
+> Processed: 9959
+> Processed: 9964
+> Processed: 9980
+> Processed: 10013
+> Processed: 10059
+> Processed: 10061
+> Processed: 10094
+> Processed: 10097
+> Processed: 10255
+> Processed: 10555
+> Processed: 10710
+> Processed: 10736
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 7
+info: start round 8
+info:     start player 0
+ingredients: 7 8 7 6 7 8 7 10 8 8 7 10 8 10 9 
+> Processed: 10751
+> Processed: 10772
+> Processed: 10884
+> Processed: 10886
+> Processed: 10928
+> Processed: 11030
+> Processed: 11092
+> Processed: 11100
+> Processed: 11102
+> Processed: 11142
+> Processed: 11214
+> Processed: 11223
+> Processed: 11245
+> Processed: 11284
+> Processed: 11402
+> Processed: 11433
+> Processed: 11638
+> Processed: 11875
+> Processed: 12073
+> Processed: 12202
+> Processed: 12400
+> Processed: 12422
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 8
+info: start round 9
+info:     start player 0
+ingredients: 2 3 2 5 4 3 2 3 2 5 3 2 5 4 5 
+> Processed: 12430
+> Processed: 12442
+> Processed: 12554
+> Processed: 12675
+> Processed: 12701
+> Processed: 12795
+> Processed: 12855
+> Processed: 12863
+> Processed: 12896
+> Processed: 12920
+> Processed: 12982
+> Processed: 12993
+> Processed: 13024
+> Processed: 13138
+> Processed: 13167
+> Processed: 13372
+> Processed: 13607
+> Processed: 13805
+> Processed: 13921
+> Processed: 14119
+> Processed: 14130
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 9
+info: start round 10
+info:     start player 0
+ingredients: 3 7 4 5 7 5 7 6 3 4 4 6 7 4 3 
+> Processed: 14135
+> Processed: 14140
+> Processed: 14252
+> Processed: 14367
+> Processed: 14381
+> Processed: 14450
+> Processed: 14507
+> Processed: 14519
+> Processed: 14534
+> Processed: 14585
+> Processed: 14589
+> Processed: 14608
+> Processed: 14718
+> Processed: 14745
+> Processed: 14950
+> Processed: 15183
+> Processed: 15381
+> Processed: 15481
+> Processed: 15679
+> Processed: 15682
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 10
+info: start round 11
+info:     start player 0
+ingredients: 6 6 12 9 7 8 6 7 12 10 8 6 10 7 11 
+> Processed: 15714
+> Processed: 15810
+> Processed: 15962
+> Processed: 16071
+> Processed: 16080
+> Processed: 16128
+> Processed: 16155
+> Processed: 16164
+> Processed: 16172
+> Processed: 16213
+> Processed: 16285
+> Processed: 16294
+> Processed: 16312
+> Processed: 16337
+> Processed: 16542
+> Processed: 16629
+> Processed: 16944
+> Processed: 17044
+> Processed: 17359
+> Processed: 17394
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 11
+info: start round 12
+info:     start player 0
+ingredients: 2 1 2 2 1 2 2 3 3 3 2 3 3 3 3 
+> Processed: 17413
+> Processed: 17506
+> Processed: 17658
+> Processed: 17761
+> Processed: 17763
+> Processed: 17795
+> Processed: 17814
+> Processed: 17821
+> Processed: 17824
+> Processed: 17855
+> Processed: 17923
+> Processed: 17926
+> Processed: 17940
+> Processed: 17963
+> Processed: 18168
+> Processed: 18255
+> Processed: 18570
+> Processed: 18670
+> Processed: 18985
+> Processed: 19014
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 12
+info: start round 13
+info:     start player 0
+ingredients: 2 1 1 1 2 2 1 2 1 2 2 2 2 2 2 
+> Processed: 19023
+> Processed: 19110
+> Processed: 19262
+> Processed: 19419
+> Processed: 19473
+> Processed: 19501
+> Processed: 19513
+> Processed: 19537
+> Processed: 19578
+> Processed: 19599
+> Processed: 19659
+> Processed: 19826
+> Processed: 19836
+> Processed: 19857
+> Processed: 19900
+> Processed: 19987
+> Processed: 20287
+> Processed: 20387
+> Processed: 20702
+> Processed: 20723
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 13
+info: start round 14
+info:     start player 0
+ingredients: 5 4 7 4 4 6 4 6 5 4 4 7 7 5 8 
+> Processed: 20726
+> Processed: 20788
+> Processed: 20940
+> Processed: 21097
+> Processed: 21150
+> Processed: 21171
+> Processed: 21180
+> Processed: 21200
+> Processed: 21238
+> Processed: 21249
+> Processed: 21309
+> Processed: 21476
+> Processed: 21482
+> Processed: 21501
+> Processed: 21537
+> Processed: 21624
+> Processed: 21894
+> Processed: 21994
+> Processed: 22070
+> Processed: 22151
+> Processed: 22425
+> Processed: 22432
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 14
+info: start round 15
+info:     start player 0
+ingredients: 9 6 7 7 6 13 10 9 8 8 7 10 10 13 12 
+> Processed: 22493
+> Processed: 22549
+> Processed: 22701
+> Processed: 22858
+> Processed: 22906
+> Processed: 22953
+> Processed: 22957
+> Processed: 22974
+> Processed: 23007
+> Processed: 23011
+> Processed: 23071
+> Processed: 23308
+> Processed: 23311
+> Processed: 23328
+> Processed: 23353
+> Processed: 23623
+> Processed: 23723
+> Processed: 23984
+> Processed: 24043
+> Processed: 24316
+> Processed: 24492
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 15
+info: start round 16
+info:     start player 0
+ingredients: 4 3 4 5 3 5 2 3 5 2 5 4 3 3 4 
+> Processed: 24543
+> Processed: 24596
+> Processed: 24748
+> Processed: 24927
+> Processed: 24975
+> Processed: 25007
+> Processed: 25086
+> Processed: 25109
+> Processed: 25140
+> Processed: 25297
+> Processed: 25357
+> Processed: 25447
+> Processed: 25532
+> Processed: 25547
+> Processed: 25560
+> Processed: 25830
+> Processed: 25930
+> Processed: 26189
+> Processed: 26231
+> Processed: 26500
+> Processed: 26854
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 16
+info: start round 17
+info:     start player 0
+ingredients: 6 9 6 7 5 11 5 11 7 5 5 10 11 6 6 
+> Processed: 26888
+> Processed: 26931
+> Processed: 27083
+> Processed: 27256
+> Processed: 27304
+> Processed: 27323
+> Processed: 27398
+> Processed: 27419
+> Processed: 27443
+> Processed: 27598
+> Processed: 27670
+> Processed: 27753
+> Processed: 27766
+> Processed: 27771
+> Processed: 28041
+> Processed: 28141
+> Processed: 28399
+> Processed: 28422
+> Processed: 28680
+> Processed: 29034
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 17
+info: start round 18
+info:     start player 0
+ingredients: 8 7 6 6 7 6 8 5 8 7 7 6 7 8 9 
+> Processed: 29054
+> Processed: 29085
+> Processed: 29224
+> Processed: 29391
+> Processed: 29430
+> Processed: 29439
+> Processed: 29507
+> Processed: 29526
+> Processed: 29539
+> Processed: 29680
+> Processed: 29734
+> Processed: 29813
+> Processed: 29824
+> Processed: 29978
+> Processed: 30248
+> Processed: 30348
+> Processed: 30591
+> Processed: 30604
+> Processed: 30850
+> Processed: 31204
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 18
+info: start round 19
+info:     start player 0
+ingredients: 11 12 9 9 7 13 7 10 7 10 11 8 11 12 8 
+> Processed: 31215
+> Processed: 31234
+> Processed: 31362
+> Processed: 31523
+> Processed: 31562
+> Processed: 31565
+> Processed: 31617
+> Processed: 31634
+> Processed: 31639
+> Processed: 31766
+> Processed: 31804
+> Processed: 31879
+> Processed: 31888
+> Processed: 32029
+> Processed: 32299
+> Processed: 32399
+> Processed: 32625
+> Processed: 32634
+> Processed: 32867
+> Processed: 33221
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 19
+info: start round 20
+info:     start player 0
+ingredients: 6 8 12 6 9 8 6 7 6 10 8 10 6 9 9 
+> Processed: 33227
+> Processed: 33236
+> Processed: 33350
+> Processed: 33505
+> Processed: 33777
+> Processed: 33871
+> Processed: 33886
+> Processed: 34007
+> Processed: 34120
+> Processed: 34145
+> Processed: 34216
+> Processed: 34223
+> Processed: 34352
+> Processed: 34622
+> Processed: 34659
+> Processed: 34759
+> Processed: 34963
+> Processed: 34966
+> Processed: 35183
+> Processed: 35537
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 20
+info: start round 21
+info:     start player 0
+ingredients: 8 11 8 8 12 11 9 7 8 8 6 6 9 7 7 
+> Processed: 35541
+> Processed: 35544
+> Processed: 35638
+> Processed: 35694
+> Processed: 35966
+> Processed: 36127
+> Processed: 36140
+> Processed: 36261
+> Processed: 36360
+> Processed: 36375
+> Processed: 36444
+> Processed: 36449
+> Processed: 36564
+> Processed: 36834
+> Processed: 36871
+> Processed: 37004
+> Processed: 37178
+> Processed: 37256
+> Processed: 37457
+> Processed: 37808
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 21
+info: start round 22
+info:     start player 0
+ingredients: 4 6 5 4 6 6 5 4 9 6 8 8 6 5 8 
+> Processed: 37884
+> Processed: 38068
+> Processed: 38141
+> Processed: 38197
+> Processed: 38469
+> Processed: 38626
+> Processed: 38637
+> Processed: 38829
+> Processed: 38914
+> Processed: 38924
+> Processed: 38991
+> Processed: 38994
+> Processed: 39109
+> Processed: 39379
+> Processed: 39416
+> Processed: 39549
+> Processed: 39638
+> Processed: 39781
+> Processed: 39840
+> Processed: 40026
+> Processed: 40377
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 22
+info: start round 23
+info:     start player 0
+ingredients: 5 5 4 4 4 3 2 3 5 3 2 3 3 2 2 
+> Processed: 40451
+> Processed: 40635
+> Processed: 40708
+> Processed: 40764
+> Processed: 41036
+> Processed: 41193
+> Processed: 41203
+> Processed: 41441
+> Processed: 41512
+> Processed: 41516
+> Processed: 41581
+> Processed: 41608
+> Processed: 41723
+> Processed: 41765
+> Processed: 41802
+> Processed: 41935
+> Processed: 42005
+> Processed: 42121
+> Processed: 42163
+> Processed: 42419
+> Processed: 42770
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 23
+info: start round 24
+info:     start player 0
+ingredients: 3 3 3 4 7 7 5 4 6 5 3 6 6 5 3 
+> Processed: 42828
+> Processed: 42983
+> Processed: 43056
+> Processed: 43112
+> Processed: 43385
+> Processed: 43542
+> Processed: 43550
+> Processed: 43788
+> Processed: 43845
+> Processed: 43890
+> Processed: 43953
+> Processed: 43976
+> Processed: 44040
+> Processed: 44077
+> Processed: 44114
+> Processed: 44247
+> Processed: 44300
+> Processed: 44393
+> Processed: 44420
+> Processed: 44657
+> Processed: 45005
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 24
+info: start round 25
+info:     start player 0
+ingredients: 6 4 6 5 6 7 4 6 3 5 7 3 4 3 6 
+> Processed: 45049
+> Processed: 45072
+> Processed: 45145
+> Processed: 45201
+> Processed: 45474
+> Processed: 45631
+> Processed: 45636
+> Processed: 45872
+> Processed: 45918
+> Processed: 46068
+> Processed: 46102
+> Processed: 46163
+> Processed: 46180
+> Processed: 46228
+> Processed: 46260
+> Processed: 46297
+> Processed: 46425
+> Processed: 46558
+> Processed: 46594
+> Processed: 46668
+> Processed: 46683
+> Processed: 46895
+> Processed: 47249
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 25
+info: start round 26
+info:     start player 0
+ingredients: 4 5 6 6 7 4 4 5 4 4 4 7 7 4 4 
+> Processed: 47281
+> Processed: 47302
+> Processed: 47358
+> Processed: 47515
+> Processed: 47517
+> Processed: 47748
+> Processed: 47783
+> Processed: 47889
+> Processed: 47911
+> Processed: 47969
+> Processed: 47977
+> Processed: 48010
+> Processed: 48034
+> Processed: 48071
+> Processed: 48199
+> Processed: 48332
+> Processed: 48354
+> Processed: 48412
+> Processed: 48419
+> Processed: 48493
+> Processed: 48847
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 26
+info: start round 27
+info:     start player 0
+ingredients: 4 2 5 2 4 3 4 5 2 5 3 4 4 3 5 
+> Processed: 48971
+> Processed: 48983
+> Processed: 49039
+> Processed: 49196
+> Processed: 49246
+> Processed: 49513
+> Processed: 49537
+> Processed: 49643
+> Processed: 49659
+> Processed: 49662
+> Processed: 49682
+> Processed: 49698
+> Processed: 49735
+> Processed: 49863
+> Processed: 50094
+> Processed: 50247
+> Processed: 50362
+> Processed: 50405
+> Processed: 50408
+> Processed: 50470
+> Processed: 50824
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 27
+info: start round 28
+info:     start player 0
+ingredients: 5 4 6 8 4 5 5 5 8 8 9 5 4 6 8 
+> Processed: 50921
+> Processed: 50926
+> Processed: 50982
+> Processed: 51139
+> Processed: 51189
+> Processed: 51456
+> Processed: 51471
+> Processed: 51577
+> Processed: 51589
+> Processed: 51607
+> Processed: 51617
+> Processed: 51626
+> Processed: 51663
+> Processed: 51791
+> Processed: 51937
+> Processed: 52083
+> Processed: 52178
+> Processed: 52208
+> Processed: 52267
+> Processed: 52426
+> Processed: 52517
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 28
+info: start round 29
+info:     start player 0
+ingredients: 6 7 7 6 4 5 6 9 4 6 4 5 9 9 8 
+> Processed: 52598
+> Processed: 52662
+> Processed: 52718
+> Processed: 52875
+> Processed: 52925
+> Processed: 53192
+> Processed: 53200
+> Processed: 53306
+> Processed: 53312
+> Processed: 53326
+> Processed: 53330
+> Processed: 53334
+> Processed: 53371
+> Processed: 53499
+> Processed: 53645
+> Processed: 53777
+> Processed: 53849
+> Processed: 53867
+> Processed: 53908
+> Processed: 54051
+> Processed: 54130
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 29
+info: start round 30
+info:     start player 0
+ingredients: 9 6 5 9 6 5 5 9 9 9 4 4 6 4 5 
+> Processed: 54177
+> Processed: 54237
+> Processed: 54293
+> Processed: 54450
+> Processed: 54577
+> Processed: 54736
+> Processed: 54739
+> Processed: 54845
+> Processed: 54847
+> Processed: 54854
+> Processed: 55029
+> Processed: 55365
+> Processed: 55492
+> Processed: 55620
+> Processed: 55766
+> Processed: 55876
+> Processed: 55914
+> Processed: 55999
+> Processed: 56024
+> Processed: 56149
+> Processed: 56217
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 30
+info: start round 31
+info:     start player 0
+ingredients: 8 9 9 9 7 5 8 9 8 5 9 6 8 5 5 
+> Processed: 56246
+> Processed: 56294
+> Processed: 56350
+> Processed: 56530
+> Processed: 56657
+> Processed: 56803
+> Processed: 56848
+> Processed: 56954
+> Processed: 56957
+> Processed: 57132
+> Processed: 57468
+> Processed: 57595
+> Processed: 57664
+> Processed: 57810
+> Processed: 58058
+> Processed: 58081
+> Processed: 58158
+> Processed: 58171
+> Processed: 58272
+> Processed: 58330
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 31
+info: start round 32
+info:     start player 0
+ingredients: 5 6 7 6 6 7 6 9 6 5 9 9 5 5 9 
+> Processed: 58347
+> Processed: 58383
+> Processed: 58439
+> Processed: 58609
+> Processed: 58736
+> Processed: 58865
+> Processed: 58909
+> Processed: 58966
+> Processed: 59141
+> Processed: 59420
+> Processed: 59547
+> Processed: 59612
+> Processed: 59689
+> Processed: 59933
+> Processed: 59945
+> Processed: 60017
+> Processed: 60069
+> Processed: 60117
+> Processed: 60122
+> Processed: 60247
+> Processed: 60288
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 32
+info: start round 33
+info:     start player 0
+ingredients: 7 12 7 9 8 10 13 10 7 10 9 9 9 13 12 
+> Processed: 60297
+> Processed: 60321
+> Processed: 60377
+> Processed: 60480
+> Processed: 60627
+> Processed: 60736
+> Processed: 60776
+> Processed: 60826
+> Processed: 61039
+> Processed: 61318
+> Processed: 61465
+> Processed: 61525
+> Processed: 61585
+> Processed: 61825
+> Processed: 61830
+> Processed: 61915
+> Processed: 61967
+> Processed: 62011
+> Processed: 62455
+> Processed: 62560
+> Processed: 62581
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 33
+info: start round 34
+info:     start player 0
+ingredients: 4 4 6 6 3 7 5 3 6 6 6 5 3 6 5 
+> Processed: 62585
+> Processed: 62598
+> Processed: 62654
+> Processed: 62747
+> Processed: 62894
+> Processed: 62985
+> Processed: 63021
+> Processed: 63061
+> Processed: 63263
+> Processed: 63542
+> Processed: 63689
+> Processed: 63745
+> Processed: 63785
+> Processed: 64018
+> Processed: 64137
+> Processed: 64214
+> Processed: 64266
+> Processed: 64306
+> Processed: 64734
+> Processed: 64848
+> Processed: 64933
+> Processed: 64940
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 34
+info: start round 35
+info:     start player 0
+ingredients: 3 3 2 3 3 3 2 2 1 3 2 3 2 1 2 
+> Processed: 65014
+> Processed: 65019
+> Processed: 65075
+> Processed: 65163
+> Processed: 65310
+> Processed: 65385
+> Processed: 65417
+> Processed: 65447
+> Processed: 65649
+> Processed: 65928
+> Processed: 66075
+> Processed: 66127
+> Processed: 66153
+> Processed: 66372
+> Processed: 66480
+> Processed: 66547
+> Processed: 66599
+> Processed: 66635
+> Processed: 67045
+> Processed: 67224
+> Processed: 67294
+> Processed: 67296
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 35
+info: start round 36
+info:     start player 0
+ingredients: 3 3 6 5 4 3 3 6 4 4 6 5 5 4 4 
+> Processed: 67362
+> Processed: 67712
+> Processed: 67768
+> Processed: 67842
+> Processed: 67989
+> Processed: 68053
+> Processed: 68080
+> Processed: 68127
+> Processed: 68329
+> Processed: 68608
+> Processed: 68755
+> Processed: 68807
+> Processed: 68820
+> Processed: 69017
+> Processed: 69109
+> Processed: 69238
+> Processed: 69294
+> Processed: 69346
+> Processed: 69378
+> Processed: 69770
+> Processed: 69933
+> Processed: 70144
+> Processed: 70492
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 36
+info: start round 37
+info:     start player 0
+ingredients: 3 5 6 5 6 5 3 4 5 4 4 4 3 3 5 
+> Processed: 70548
+> Processed: 70898
+> Processed: 70954
+> Processed: 71059
+> Processed: 71112
+> Processed: 71130
+> Processed: 71170
+> Processed: 71372
+> Processed: 71651
+> Processed: 71756
+> Processed: 71808
+> Processed: 71815
+> Processed: 71998
+> Processed: 72070
+> Processed: 72173
+> Processed: 72305
+> Processed: 72357
+> Processed: 72385
+> Processed: 72758
+> Processed: 72902
+> Processed: 73089
+> Processed: 73437
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 37
+info: start round 38
+info:     start player 0
+ingredients: 10 10 12 6 12 8 9 7 8 6 8 8 10 10 6 
+> Processed: 73480
+> Processed: 73830
+> Processed: 73886
+> Processed: 73991
+> Processed: 74031
+> Processed: 74040
+> Processed: 74069
+> Processed: 74271
+> Processed: 74436
+> Processed: 74541
+> Processed: 74593
+> Processed: 74596
+> Processed: 74772
+> Processed: 74823
+> Processed: 74921
+> Processed: 75037
+> Processed: 75089
+> Processed: 75113
+> Processed: 75486
+> Processed: 75607
+> Processed: 75660
+> Processed: 76008
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 38
+info: start round 39
+info:     start player 0
+ingredients: 4 5 2 3 2 4 4 4 3 4 5 4 4 5 2 
+> Processed: 76039
+> Processed: 76361
+> Processed: 76417
+> Processed: 76522
+> Processed: 76547
+> Processed: 76550
+> Processed: 76570
+> Processed: 76772
+> Processed: 76937
+> Processed: 77039
+> Processed: 77091
+> Processed: 77246
+> Processed: 77416
+> Processed: 77595
+> Processed: 77628
+> Processed: 77724
+> Processed: 77840
+> Processed: 77892
+> Processed: 77914
+> Processed: 78264
+> Processed: 78359
+> Processed: 78402
+> Processed: 78750
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 39
+info: start round 40
+info:     start player 0
+ingredients: 7 6 5 6 7 5 5 10 7 8 8 7 6 9 9 
+> Processed: 78771
+> Processed: 79065
+> Processed: 79121
+> Processed: 79226
+> Processed: 79251
+> Processed: 79508
+> Processed: 79518
+> Processed: 79720
+> Processed: 79800
+> Processed: 79898
+> Processed: 79946
+> Processed: 80101
+> Processed: 80263
+> Processed: 80442
+> Processed: 80461
+> Processed: 80557
+> Processed: 80673
+> Processed: 80725
+> Processed: 80745
+> Processed: 81027
+> Processed: 81098
+> Processed: 81130
+> Processed: 81434
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 40
+info: start round 41
+info:     start player 0
+ingredients: 9 4 5 9 9 7 5 4 6 4 5 5 5 4 9 
+> Processed: 81447
+> Processed: 81716
+> Processed: 81772
+> Processed: 82017
+> Processed: 82042
+> Processed: 82299
+> Processed: 82304
+> Processed: 82506
+> Processed: 82552
+> Processed: 82797
+> Processed: 82845
+> Processed: 83000
+> Processed: 83152
+> Processed: 83331
+> Processed: 83340
+> Processed: 83436
+> Processed: 83552
+> Processed: 83604
+> Processed: 83622
+> Processed: 83885
+> Processed: 83938
+> Processed: 83958
+> Processed: 84262
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 41
+info: start round 42
+info:     start player 0
+ingredients: 3 4 3 3 3 3 3 2 3 3 3 4 2 2 4 
+> Processed: 84267
+> Processed: 84515
+> Processed: 84571
+> Processed: 84750
+> Processed: 84775
+> Processed: 85032
+> Processed: 85122
+> Processed: 85254
+> Processed: 85297
+> Processed: 85475
+> Processed: 85519
+> Processed: 85557
+> Processed: 85865
+> Processed: 86007
+> Processed: 86186
+> Processed: 86189
+> Processed: 86285
+> Processed: 86345
+> Processed: 86397
+> Processed: 86413
+> Processed: 86649
+> Processed: 86688
+> Processed: 86703
+> Processed: 87007
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 42
+info: start round 43
+info:     start player 0
+ingredients: 5 8 8 5 5 9 7 8 6 7 6 8 6 7 5 
+> Processed: 87061
+> Processed: 87309
+> Processed: 87365
+> Processed: 87544
+> Processed: 87569
+> Processed: 87628
+> Processed: 87718
+> Processed: 87850
+> Processed: 87886
+> Processed: 88064
+> Processed: 88108
+> Processed: 88133
+> Processed: 88441
+> Processed: 88485
+> Processed: 88617
+> Processed: 88796
+> Processed: 89130
+> Processed: 89226
+> Processed: 89342
+> Processed: 89394
+> Processed: 89408
+> Processed: 89436
+> Processed: 89444
+> Processed: 89748
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 43
+info: start round 44
+info:     start player 0
+ingredients: 10 9 6 9 6 8 11 6 7 7 7 7 8 12 12 
+> Processed: 89786
+> Processed: 90034
+> Processed: 90090
+> Processed: 90269
+> Processed: 90294
+> Processed: 90349
+> Processed: 90439
+> Processed: 90571
+> Processed: 90599
+> Processed: 90777
+> Processed: 90821
+> Processed: 90835
+> Processed: 90911
+> Processed: 91219
+> Processed: 91247
+> Processed: 91369
+> Processed: 91444
+> Processed: 91778
+> Processed: 91874
+> Processed: 91990
+> Processed: 92042
+> Processed: 92054
+> Processed: 92073
+> Processed: 92076
+> Processed: 92380
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 44
+info: start round 45
+info:     start player 0
+ingredients: 7 4 3 4 4 4 6 3 5 6 4 4 3 7 6 
+> Processed: 92403
+> Processed: 92651
+> Processed: 92707
+> Processed: 92886
+> Processed: 92911
+> Processed: 92956
+> Processed: 93003
+> Processed: 93135
+> Processed: 93155
+> Processed: 93333
+> Processed: 93428
+> Processed: 93434
+> Processed: 93510
+> Processed: 93844
+> Processed: 93861
+> Processed: 93973
+> Processed: 94041
+> Processed: 94402
+> Processed: 94498
+> Processed: 94597
+> Processed: 94649
+> Processed: 94659
+> Processed: 94671
+> Processed: 94768
+> Processed: 95116
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 45
+info: start round 46
+info:     start player 0
+ingredients: 2 4 2 4 2 3 2 2 2 4 2 2 3 2 4 
+> Processed: 95128
+> Processed: 95184
+> Processed: 95350
+> Processed: 95375
+> Processed: 95410
+> Processed: 95457
+> Processed: 95589
+> Processed: 95602
+> Processed: 95765
+> Processed: 95860
+> Processed: 95862
+> Processed: 95926
+> Processed: 96260
+> Processed: 96272
+> Processed: 96374
+> Processed: 96414
+> Processed: 96775
+> Processed: 96871
+> Processed: 96925
+> Processed: 96977
+> Processed: 96985
+> Processed: 96994
+> Processed: 97077
+> Processed: 97425
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 46
+info: start round 47
+info:     start player 0
+ingredients: 10 7 7 6 7 9 8 8 5 5 6 9 9 5 9 
+> Processed: 97430
+> Processed: 97486
+> Processed: 97652
+> Processed: 97677
+> Processed: 97701
+> Processed: 97740
+> Processed: 98066
+> Processed: 98076
+> Processed: 98239
+> Processed: 98334
+> Processed: 98365
+> Processed: 98784
+> Processed: 98848
+> Processed: 99145
+> Processed: 99150
+> Processed: 99242
+> Processed: 99278
+> Processed: 99665
+> Processed: 99758
+> Processed: 99798
+> Processed: 99850
+> Processed: 99856
+> Processed: 99861
+> Processed: 99938
+> Processed: 100249
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 47
+info: start round 48
+info:     start player 0
+ingredients: 3 4 4 2 4 3 4 5 2 4 3 5 4 3 5 
+> Processed: 100289
+> Processed: 100345
+> Processed: 100377
+> Processed: 100390
+> Processed: 100429
+> Processed: 100636
+> Processed: 100640
+> Processed: 100803
+> Processed: 100898
+> Processed: 100919
+> Processed: 100969
+> Processed: 101033
+> Processed: 101330
+> Processed: 101370
+> Processed: 101584
+> Processed: 101614
+> Processed: 101965
+> Processed: 102058
+> Processed: 102083
+> Processed: 102135
+> Processed: 102138
+> Processed: 102192
+> Processed: 102260
+> Processed: 102571
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 48
+info: start round 49
+info:     start player 0
+ingredients: 3 2 3 2 3 2 2 1 2 2 3 1 2 1 1 
+> Processed: 102596
+> Processed: 102677
+> Processed: 102707
+> Processed: 102712
+> Processed: 102751
+> Processed: 102844
+> Processed: 102972
+> Processed: 103135
+> Processed: 103226
+> Processed: 103238
+> Processed: 103273
+> Processed: 103337
+> Processed: 103671
+> Processed: 103698
+> Processed: 103788
+> Processed: 103809
+> Processed: 104169
+> Processed: 104546
+> Processed: 104639
+> Processed: 104652
+> Processed: 104726
+> Processed: 104749
+> Processed: 104788
+> Processed: 105213
+> Processed: 105578
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 49
+info: start round 50
+info:     start player 0
+ingredients: 8 9 8 5 9 8 8 6 6 5 6 6 7 6 8 
+> Processed: 105591
+> Processed: 105672
+> Processed: 105700
+> Processed: 106008
+> Processed: 106047
+> Processed: 106122
+> Processed: 106250
+> Processed: 106413
+> Processed: 106504
+> Processed: 106509
+> Processed: 106531
+> Processed: 106595
+> Processed: 106929
+> Processed: 106945
+> Processed: 107016
+> Processed: 107027
+> Processed: 107387
+> Processed: 107571
+> Processed: 107664
+> Processed: 107669
+> Processed: 107737
+> Processed: 107756
+> Processed: 107782
+> Processed: 108188
+> Processed: 108304
+> Processed: 108669
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 50
+info: start round 51
+info:     start player 0
+ingredients: 7 8 7 7 6 5 7 7 10 7 5 8 5 5 6 
+> Processed: 108674
+> Processed: 108755
+> Processed: 108782
+> Processed: 109090
+> Processed: 109155
+> Processed: 109213
+> Processed: 109341
+> Processed: 109586
+> Processed: 109677
+> Processed: 109708
+> Processed: 109719
+> Processed: 109824
+> Processed: 110158
+> Processed: 110170
+> Processed: 110219
+> Processed: 110223
+> Processed: 110583
+> Processed: 110741
+> Processed: 111069
+> Processed: 111132
+> Processed: 111147
+> Processed: 111162
+> Processed: 111482
+> Processed: 111847
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 51
+info: start round 52
+info:     start player 0
+ingredients: 7 6 8 6 4 4 4 4 6 5 8 4 4 5 5 
+> Processed: 111905
+> Processed: 111986
+> Processed: 112011
+> Processed: 112319
+> Processed: 112341
+> Processed: 112391
+> Processed: 112519
+> Processed: 112671
+> Processed: 112762
+> Processed: 112783
+> Processed: 112787
+> Processed: 112892
+> Processed: 113226
+> Processed: 113231
+> Processed: 113266
+> Processed: 113334
+> Processed: 113694
+> Processed: 113828
+> Processed: 114122
+> Processed: 114181
+> Processed: 114192
+> Processed: 114199
+> Processed: 114288
+> Processed: 114653
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 52
+info: start round 53
+info:     start player 0
+ingredients: 6 3 3 3 5 5 5 4 4 4 6 3 5 6 3 
+> Processed: 114711
+> Processed: 114792
+> Processed: 114815
+> Processed: 114891
+> Processed: 114906
+> Processed: 114950
+> Processed: 115078
+> Processed: 115230
+> Processed: 115321
+> Processed: 115333
+> Processed: 115508
+> Processed: 115613
+> Processed: 115947
+> Processed: 116185
+> Processed: 116215
+> Processed: 116267
+> Processed: 116627
+> Processed: 116737
+> Processed: 117029
+> Processed: 117084
+> Processed: 117093
+> Processed: 117097
+> Processed: 117169
+> Processed: 117247
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 53
+info: start round 54
+info:     start player 0
+ingredients: 5 5 5 6 3 4 7 4 4 5 5 3 5 4 5 
+> Processed: 117305
+> Processed: 117386
+> Processed: 117406
+> Processed: 117482
+> Processed: 117489
+> Processed: 117525
+> Processed: 117653
+> Processed: 117805
+> Processed: 117896
+> Processed: 117901
+> Processed: 118041
+> Processed: 118146
+> Processed: 118480
+> Processed: 118694
+> Processed: 118718
+> Processed: 118758
+> Processed: 119118
+> Processed: 119206
+> Processed: 119496
+> Processed: 119547
+> Processed: 119554
+> Processed: 119629
+> Processed: 119676
+> Processed: 119752
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 54
+info: start round 55
+info:     start player 0
+ingredients: 2 3 2 2 3 2 3 3 2 3 2 3 1 1 3 
+> Processed: 119810
+> Processed: 119891
+> Processed: 119907
+> Processed: 119983
+> Processed: 119987
+> Processed: 120011
+> Processed: 120139
+> Processed: 120291
+> Processed: 120382
+> Processed: 120404
+> Processed: 120516
+> Processed: 120621
+> Processed: 120955
+> Processed: 121149
+> Processed: 121162
+> Processed: 121187
+> Processed: 121547
+> Processed: 121615
+> Processed: 121903
+> Processed: 121950
+> Processed: 121955
+> Processed: 122016
+> Processed: 122045
+> Processed: 122114
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 55
+info: start round 56
+info:     start player 0
+ingredients: 7 7 5 4 4 4 8 4 4 9 9 6 5 7 7 
+> Processed: 122172
+> Processed: 122253
+> Processed: 122266
+> Processed: 122342
+> Processed: 122440
+> Processed: 122453
+> Processed: 122581
+> Processed: 122733
+> Processed: 122824
+> Processed: 122837
+> Processed: 122879
+> Processed: 122984
+> Processed: 123318
+> Processed: 123492
+> Processed: 123497
+> Processed: 123510
+> Processed: 123870
+> Processed: 123920
+> Processed: 124206
+> Processed: 124249
+> Processed: 124252
+> Processed: 124297
+> Processed: 124314
+> Processed: 124377
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 56
+info: start round 57
+info:     start player 0
+ingredients: 10 6 9 6 6 8 9 10 8 9 6 9 6 10 8 
+> Processed: 124435
+> Processed: 124516
+> Processed: 124527
+> Processed: 124603
+> Processed: 124691
+> Processed: 124696
+> Processed: 124824
+> Processed: 124976
+> Processed: 125067
+> Processed: 125073
+> Processed: 125102
+> Processed: 125462
+> Processed: 125607
+> Processed: 125778
+> Processed: 125783
+> Processed: 126152
+> Processed: 126186
+> Processed: 126302
+> Processed: 126341
+> Processed: 126350
+> Processed: 126394
+> Processed: 126404
+> Processed: 126463
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 57
+info: start round 58
+info:     start player 0
+ingredients: 7 9 11 11 11 7 7 13 8 12 8 10 9 8 9 
+> Processed: 126753
+> Processed: 126768
+> Processed: 126777
+> Processed: 126853
+> Processed: 126931
+> Processed: 127022
+> Processed: 127149
+> Processed: 127298
+> Processed: 127389
+> Processed: 127392
+> Processed: 127410
+> Processed: 127707
+> Processed: 127728
+> Processed: 127865
+> Processed: 127998
+> Processed: 128358
+> Processed: 128388
+> Processed: 128504
+> Processed: 128513
+> Processed: 128520
+> Processed: 128561
+> Processed: 128566
+> Processed: 128613
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 58
+info: start round 59
+info:     start player 0
+ingredients: 5 2 3 4 2 3 3 4 5 2 4 4 3 3 3 
+> Processed: 128903
+> Processed: 128918
+> Processed: 128925
+> Processed: 129001
+> Processed: 129069
+> Processed: 129146
+> Processed: 129268
+> Processed: 129415
+> Processed: 129506
+> Processed: 129513
+> Processed: 129526
+> Processed: 129631
+> Processed: 129928
+> Processed: 129945
+> Processed: 130056
+> Processed: 130161
+> Processed: 130521
+> Processed: 130545
+> Processed: 130820
+> Processed: 130827
+> Processed: 130832
+> Processed: 130868
+> Processed: 130870
+> Processed: 130900
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 59
+info: start round 60
+info:     start player 0
+ingredients: 4 2 2 2 2 3 3 3 3 3 3 2 3 2 3 
+> Processed: 131303
+> Processed: 131318
+> Processed: 131323
+> Processed: 131399
+> Processed: 131460
+> Processed: 131510
+> Processed: 131575
+> Processed: 131722
+> Processed: 131813
+> Processed: 131818
+> Processed: 131823
+> Processed: 131965
+> Processed: 132262
+> Processed: 132271
+> Processed: 132372
+> Processed: 132638
+> Processed: 132654
+> Processed: 132917
+> Processed: 132922
+> Processed: 132925
+> Processed: 132953
+> Processed: 133179
+> Processed: 133196
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 60
+info: start round 61
+info:     start player 0
+ingredients: 12 11 11 7 6 6 7 9 7 6 6 7 6 10 9 
+> Processed: 133564
+> Processed: 133579
+> Processed: 133582
+> Processed: 133879
+> Processed: 133929
+> Processed: 133968
+> Processed: 134115
+> Processed: 134206
+> Processed: 134209
+> Processed: 134264
+> Processed: 134406
+> Processed: 134766
+> Processed: 134769
+> Processed: 134851
+> Processed: 135117
+> Processed: 135126
+> Processed: 135377
+> Processed: 135380
+> Processed: 135397
+> Processed: 135415
+> Processed: 135595
+> Processed: 135895
+> Processed: 136260
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 61
+info: start round 62
+info:     start player 0
+ingredients: 2 2 3 4 3 2 3 4 3 3 2 2 3 2 2 
+> Processed: 136589
+> Processed: 136670
+> Processed: 136827
+> Processed: 137135
+> Processed: 137163
+> Processed: 137188
+> Processed: 137335
+> Processed: 137426
+> Processed: 137462
+> Processed: 137504
+> Processed: 137806
+> Processed: 138166
+> Processed: 138404
+> Processed: 138473
+> Processed: 138739
+> Processed: 139108
+> Processed: 139112
+> Processed: 139348
+> Processed: 139399
+> Processed: 139414
+> Processed: 139424
+> Processed: 139581
+> Processed: 139881
+> Processed: 140246
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 62
+info: start round 63
+info:     start player 0
+ingredients: 14 9 10 10 7 8 12 7 14 7 7 12 7 13 8 
+> Processed: 140539
+> Processed: 140620
+> Processed: 140777
+> Processed: 141085
+> Processed: 141107
+> Processed: 141120
+> Processed: 141267
+> Processed: 141358
+> Processed: 141387
+> Processed: 141418
+> Processed: 141778
+> Processed: 141831
+> Processed: 141886
+> Processed: 142152
+> Processed: 142521
+> Processed: 142578
+> Processed: 142796
+> Processed: 142843
+> Processed: 142856
+> Processed: 142860
+> Processed: 142996
+> Processed: 143286
+> Processed: 143651
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 63
+info: start round 64
+info:     start player 0
+ingredients: 7 3 4 3 4 5 4 3 5 4 7 3 5 7 6 
+> Processed: 143908
+> Processed: 143989
+> Processed: 144146
+> Processed: 144426
+> Processed: 144439
+> Processed: 144444
+> Processed: 144591
+> Processed: 144654
+> Processed: 144679
+> Processed: 144701
+> Processed: 145009
+> Processed: 145060
+> Processed: 145101
+> Processed: 145465
+> Processed: 145825
+> Processed: 145878
+> Processed: 146247
+> Processed: 146445
+> Processed: 146488
+> Processed: 146499
+> Processed: 146547
+> Processed: 146662
+> Processed: 146946
+> Processed: 147250
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 64
+info: start round 65
+info:     start player 0
+ingredients: 4 2 3 5 5 3 4 4 3 2 5 2 3 2 3 
+> Processed: 147470
+> Processed: 147551
+> Processed: 147708
+> Processed: 147988
+> Processed: 147993
+> Processed: 148071
+> Processed: 148218
+> Processed: 148281
+> Processed: 148304
+> Processed: 148321
+> Processed: 148629
+> Processed: 148675
+> Processed: 148703
+> Processed: 149067
+> Processed: 149427
+> Processed: 149472
+> Processed: 149841
+> Processed: 150017
+> Processed: 150056
+> Processed: 150065
+> Processed: 150100
+> Processed: 150196
+> Processed: 150561
+> Processed: 150865
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 65
+info: start round 66
+info:     start player 0
+ingredients: 5 3 3 4 4 6 3 3 3 6 4 3 5 3 5 
+> Processed: 151067
+> Processed: 151148
+> Processed: 151305
+> Processed: 151585
+> Processed: 151587
+> Processed: 151665
+> Processed: 151812
+> Processed: 151875
+> Processed: 151896
+> Processed: 151905
+> Processed: 152213
+> Processed: 152251
+> Processed: 152270
+> Processed: 152634
+> Processed: 152994
+> Processed: 153027
+> Processed: 153396
+> Processed: 153542
+> Processed: 153577
+> Processed: 153584
+> Processed: 153608
+> Processed: 153679
+> Processed: 154038
+> Processed: 154342
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 66
+info: start round 67
+info:     start player 0
+ingredients: 5 4 6 6 8 4 4 6 7 7 9 6 9 8 6 
+> Processed: 154465
+> Processed: 154496
+> Processed: 154653
+> Processed: 154991
+> Processed: 155271
+> Processed: 155356
+> Processed: 155434
+> Processed: 155581
+> Processed: 155644
+> Processed: 155663
+> Processed: 155666
+> Processed: 155963
+> Processed: 155993
+> Processed: 156007
+> Processed: 156471
+> Processed: 156831
+> Processed: 156850
+> Processed: 157219
+> Processed: 157335
+> Processed: 157367
+> Processed: 157372
+> Processed: 157387
+> Processed: 157437
+> Processed: 157790
+> Processed: 158155
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 67
+info: start round 68
+info:     start player 0
+ingredients: 3 2 4 3 4 3 4 3 3 3 3 2 4 2 2 
+> Processed: 158178
+> Processed: 158207
+> Processed: 158364
+> Processed: 158702
+> Processed: 158982
+> Processed: 159060
+> Processed: 159165
+> Processed: 159312
+> Processed: 159462
+> Processed: 159479
+> Processed: 159501
+> Processed: 159798
+> Processed: 159820
+> Processed: 159832
+> Processed: 160296
+> Processed: 160656
+> Processed: 160665
+> Processed: 161140
+> Processed: 161213
+> Processed: 161243
+> Processed: 161246
+> Processed: 161254
+> Processed: 161287
+> Processed: 161626
+> Processed: 161991
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 68
+info: start round 69
+info:     start player 0
+ingredients: 10 6 8 11 8 9 10 6 7 9 10 7 8 10 6 
+> Processed: 162007
+> Processed: 162033
+> Processed: 162190
+> Processed: 162528
+> Processed: 162808
+> Processed: 162879
+> Processed: 162965
+> Processed: 163112
+> Processed: 163258
+> Processed: 163271
+> Processed: 163282
+> Processed: 163579
+> Processed: 163592
+> Processed: 163602
+> Processed: 164066
+> Processed: 164426
+> Processed: 164429
+> Processed: 164904
+> Processed: 164955
+> Processed: 164983
+> Processed: 164992
+> Processed: 164997
+> Processed: 165023
+> Processed: 165349
+> Processed: 165714
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 69
+info: start round 70
+info:     start player 0
+ingredients: 1 3 3 3 3 1 3 3 3 1 1 3 3 3 1 
+> Processed: 165727
+> Processed: 165749
+> Processed: 165833
+> Processed: 166065
+> Processed: 166345
+> Processed: 166405
+> Processed: 166472
+> Processed: 166542
+> Processed: 166684
+> Processed: 166693
+> Processed: 166697
+> Processed: 166994
+> Processed: 166999
+> Processed: 167007
+> Processed: 167471
+> Processed: 167831
+> Processed: 167895
+> Processed: 168370
+> Processed: 168407
+> Processed: 168433
+> Processed: 168440
+> Processed: 168503
+> Processed: 168518
+> Processed: 168741
+> Processed: 169106
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 70
+info: start round 71
+info:     start player 0
+ingredients: 6 4 4 5 6 4 4 5 4 4 4 6 6 3 5 
+> Processed: 169115
+> Processed: 169135
+> Processed: 169219
+> Processed: 169322
+> Processed: 169593
+> Processed: 169643
+> Processed: 169700
+> Processed: 169997
+> Processed: 170067
+> Processed: 170205
+> Processed: 170208
+> Processed: 170298
+> Processed: 170595
+> Processed: 170668
+> Processed: 170674
+> Processed: 170945
+> Processed: 171420
+> Processed: 171466
+> Processed: 172011
+> Processed: 172039
+> Processed: 172055
+> Processed: 172060
+> Processed: 172144
+> Processed: 172198
+> Processed: 172206
+> Processed: 172524
+> Processed: 172835
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 71
+info: start round 72
+info:     start player 0
+ingredients: 1 2 2 2 2 1 1 1 3 3 3 1 2 3 3 
+> Processed: 172839
+> Processed: 172855
+> Processed: 172939
+> Processed: 173042
+> Processed: 173313
+> Processed: 173348
+> Processed: 173390
+> Processed: 173687
+> Processed: 173757
+> Processed: 173895
+> Processed: 173913
+> Processed: 173983
+> Processed: 174280
+> Processed: 174351
+> Processed: 174355
+> Processed: 174626
+> Processed: 175101
+> Processed: 175131
+> Processed: 175676
+> Processed: 175699
+> Processed: 175713
+> Processed: 175716
+> Processed: 175785
+> Processed: 175833
+> Processed: 175838
+> Processed: 176156
+> Processed: 176467
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 72
+info: start round 73
+info:     start player 0
+ingredients: 6 11 7 11 5 10 6 7 10 5 7 6 11 6 7 
+> Processed: 176554
+> Processed: 176566
+> Processed: 176650
+> Processed: 176753
+> Processed: 176991
+> Processed: 177012
+> Processed: 177043
+> Processed: 177314
+> Processed: 177384
+> Processed: 177515
+> Processed: 177524
+> Processed: 177576
+> Processed: 177847
+> Processed: 177910
+> Processed: 177912
+> Processed: 178183
+> Processed: 178480
+> Processed: 178496
+> Processed: 178865
+> Processed: 178885
+> Processed: 178897
+> Processed: 178908
+> Processed: 178964
+> Processed: 179001
+> Processed: 179004
+> Processed: 179339
+> Processed: 179650
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 73
+info: start round 74
+info:     start player 0
+ingredients: 2 3 2 2 4 2 3 3 3 4 3 2 2 3 2 
+> Processed: 179728
+> Processed: 179737
+> Processed: 179821
+> Processed: 179924
+> Processed: 180162
+> Processed: 180169
+> Processed: 180190
+> Processed: 180461
+> Processed: 180531
+> Processed: 180640
+> Processed: 180643
+> Processed: 180679
+> Processed: 180950
+> Processed: 181001
+> Processed: 181149
+> Processed: 181420
+> Processed: 181717
+> Processed: 181726
+> Processed: 182095
+> Processed: 182113
+> Processed: 182122
+> Processed: 182131
+> Processed: 182174
+> Processed: 182198
+> Processed: 182301
+> Processed: 182358
+> Processed: 182669
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 74
+info: start round 75
+info:     start player 0
+ingredients: 8 10 8 8 8 10 7 8 12 7 14 11 13 9 12 
+> Processed: 182742
+> Processed: 182749
+> Processed: 182833
+> Processed: 182936
+> Processed: 183174
+> Processed: 183178
+> Processed: 183357
+> Processed: 183628
+> Processed: 183698
+> Processed: 183787
+> Processed: 183840
+> Processed: 183862
+> Processed: 184133
+> Processed: 184164
+> Processed: 184304
+> Processed: 184575
+> Processed: 184872
+> Processed: 184923
+> Processed: 184927
+> Processed: 185402
+> Processed: 185416
+> Processed: 185421
+> Processed: 185428
+> Processed: 185458
+> Processed: 185471
+> Processed: 185574
+> Processed: 185620
+> Processed: 185931
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 75
+info: start round 76
+info:     start player 0
+ingredients: 6 11 7 8 9 9 11 6 12 7 7 6 9 10 12 
+> Processed: 186002
+> Processed: 186007
+> Processed: 186091
+> Processed: 186194
+> Processed: 186432
+> Processed: 186434
+> Processed: 186609
+> Processed: 186880
+> Processed: 186950
+> Processed: 187020
+> Processed: 187065
+> Processed: 187076
+> Processed: 187347
+> Processed: 187374
+> Processed: 187514
+> Processed: 187735
+> Processed: 188032
+> Processed: 188072
+> Processed: 188150
+> Processed: 188625
+> Processed: 188638
+> Processed: 188641
+> Processed: 188646
+> Processed: 188664
+> Processed: 188669
+> Processed: 188772
+> Processed: 189083
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 76
+info: start round 77
+info:     start player 0
+ingredients: 9 6 6 6 5 10 7 6 7 8 5 8 7 9 6 
+> Processed: 189149
+> Processed: 189152
+> Processed: 189309
+> Processed: 189412
+> Processed: 189608
+> Processed: 189704
+> Processed: 189826
+> Processed: 189863
+> Processed: 190010
+> Processed: 190068
+> Processed: 190101
+> Processed: 190105
+> Processed: 190402
+> Processed: 190449
+> Processed: 190589
+> Processed: 190789
+> Processed: 191158
+> Processed: 191188
+> Processed: 191252
+> Processed: 191727
+> Processed: 191737
+> Processed: 191763
+> Processed: 191766
+> Processed: 191779
+> Processed: 191860
+> Processed: 191955
+> Processed: 192266
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 77
+info: start round 78
+info:     start player 0
+ingredients: 5 8 5 5 7 7 5 7 5 6 8 8 7 10 7 
+> Processed: 192322
+> Processed: 192345
+> Processed: 192502
+> Processed: 192605
+> Processed: 192699
+> Processed: 192807
+> Processed: 192833
+> Processed: 192980
+> Processed: 192996
+> Processed: 193021
+> Processed: 193060
+> Processed: 193298
+> Processed: 193330
+> Processed: 193400
+> Processed: 193549
+> Processed: 193846
+> Processed: 193866
+> Processed: 193915
+> Processed: 194284
+> Processed: 194288
+> Processed: 194312
+> Processed: 194323
+> Processed: 194328
+> Processed: 194404
+> Processed: 194491
+> Processed: 194802
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 78
+info: start round 79
+info:     start player 0
+ingredients: 9 8 7 11 7 10 7 13 12 7 13 11 7 10 8 
+> Processed: 194844
+> Processed: 194867
+> Processed: 195082
+> Processed: 195301
+> Processed: 195393
+> Processed: 195488
+> Processed: 195505
+> Processed: 195715
+> Processed: 195729
+> Processed: 195745
+> Processed: 195770
+> Processed: 195870
+> Processed: 195895
+> Processed: 195933
+> Processed: 196059
+> Processed: 196297
+> Processed: 196308
+> Processed: 196344
+> Processed: 196641
+> Processed: 196789
+> Processed: 196811
+> Processed: 196820
+> Processed: 196868
+> Processed: 197196
+> Processed: 197204
+> Processed: 197515
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 79
+info: start round 80
+info:     start player 0
+ingredients: 3 3 2 3 3 3 3 2 1 3 2 3 2 1 1 
+> Processed: 197543
+> Processed: 197566
+> Processed: 197781
+> Processed: 198000
+> Processed: 198090
+> Processed: 198175
+> Processed: 198186
+> Processed: 198392
+> Processed: 198404
+> Processed: 198413
+> Processed: 198426
+> Processed: 198525
+> Processed: 198538
+> Processed: 198569
+> Processed: 198676
+> Processed: 198914
+> Processed: 198918
+> Processed: 198943
+> Processed: 199240
+> Processed: 199360
+> Processed: 199380
+> Processed: 199387
+> Processed: 199419
+> Processed: 199747
+> Processed: 199752
+> Processed: 200063
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 80
+info: start round 81
+info:     start player 0
+ingredients: 4 3 3 5 2 2 5 3 4 3 3 2 3 3 5 
+> Processed: 200079
+> Processed: 200102
+> Processed: 200317
+> Processed: 200404
+> Processed: 200479
+> Processed: 200483
+> Processed: 200687
+> Processed: 200697
+> Processed: 200701
+> Processed: 200706
+> Processed: 200802
+> Processed: 200807
+> Processed: 200835
+> Processed: 200926
+> Processed: 201164
+> Processed: 201286
+> Processed: 201302
+> Processed: 201599
+> Processed: 201697
+> Processed: 201716
+> Processed: 201721
+> Processed: 201746
+> Processed: 202074
+> Processed: 202077
+> Processed: 202388
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 81
+info: start round 82
+info:     start player 0
+ingredients: 3 6 4 5 4 5 5 3 5 3 4 4 3 6 5 
+> Processed: 202397
+> Processed: 202420
+> Processed: 202635
+> Processed: 202718
+> Processed: 202781
+> Processed: 202866
+> Processed: 203068
+> Processed: 203076
+> Processed: 203224
+> Processed: 203281
+> Processed: 203371
+> Processed: 203373
+> Processed: 203399
+> Processed: 203462
+> Processed: 203652
+> Processed: 203766
+> Processed: 203775
+> Processed: 204013
+> Processed: 204055
+> Processed: 204070
+> Processed: 204073
+> Processed: 204086
+> Processed: 204195
+> Processed: 204298
+> Processed: 204308
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 82
+info: start round 83
+info:     start player 0
+ingredients: 9 7 11 7 8 13 10 10 10 7 11 9 10 8 10 
+> Processed: 204312
+> Processed: 204335
+> Processed: 204550
+> Processed: 204627
+> Processed: 204676
+> Processed: 204761
+> Processed: 204961
+> Processed: 204967
+> Processed: 205103
+> Processed: 205142
+> Processed: 205220
+> Processed: 205333
+> Processed: 205357
+> Processed: 205389
+> Processed: 205579
+> Processed: 205680
+> Processed: 205684
+> Processed: 205906
+> Processed: 205946
+> Processed: 205957
+> Processed: 206130
+> Processed: 206135
+> Processed: 206233
+> Processed: 206328
+> Processed: 206336
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 83
+info: start round 84
+info:     start player 0
+ingredients: 13 10 6 6 8 10 11 8 9 10 7 11 8 6 7 
+> Processed: 206365
+> Processed: 206388
+> Processed: 206409
+> Processed: 206476
+> Processed: 206510
+> Processed: 206595
+> Processed: 206825
+> Processed: 206827
+> Processed: 206951
+> Processed: 206977
+> Processed: 207042
+> Processed: 207155
+> Processed: 207177
+> Processed: 207197
+> Processed: 207387
+> Processed: 207478
+> Processed: 207507
+> Processed: 207729
+> Processed: 207767
+> Processed: 207774
+> Processed: 207927
+> Processed: 207966
+> Processed: 208090
+> Processed: 208177
+> Processed: 208183
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 84
+info: start round 85
+info:     start player 0
+ingredients: 6 5 6 4 6 4 5 5 4 4 6 4 5 5 6 
+> Processed: 208204
+> Processed: 208229
+> Processed: 208250
+> Processed: 208303
+> Processed: 208324
+> Processed: 208409
+> Processed: 208427
+> Processed: 208433
+> Processed: 208541
+> Processed: 208556
+> Processed: 208607
+> Processed: 208720
+> Processed: 208740
+> Processed: 208801
+> Processed: 209039
+> Processed: 209130
+> Processed: 209155
+> Processed: 209416
+> Processed: 209449
+> Processed: 209454
+> Processed: 209650
+> Processed: 209681
+> Processed: 209790
+> Processed: 209871
+> Processed: 209874
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 85
+info: start round 86
+info:     start player 0
+ingredients: 6 7 6 5 7 8 5 8 7 4 8 4 8 7 5 
+> Processed: 209891
+> Processed: 209923
+> Processed: 209944
+> Processed: 209985
+> Processed: 209996
+> Processed: 210081
+> Processed: 210097
+> Processed: 210101
+> Processed: 210196
+> Processed: 210203
+> Processed: 210240
+> Processed: 210309
+> Processed: 210327
+> Processed: 210367
+> Processed: 210605
+> Processed: 210727
+> Processed: 210744
+> Processed: 211005
+> Processed: 211032
+> Processed: 211035
+> Processed: 211211
+> Processed: 211230
+> Processed: 211318
+> Processed: 211395
+> Processed: 211656
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 86
+info: start round 87
+info:     start player 0
+ingredients: 3 3 2 1 2 2 2 3 2 2 3 3 3 1 3 
+> Processed: 211665
+> Processed: 211697
+> Processed: 211718
+> Processed: 211744
+> Processed: 211748
+> Processed: 211833
+> Processed: 211847
+> Processed: 211849
+> Processed: 211926
+> Processed: 211929
+> Processed: 211953
+> Processed: 212022
+> Processed: 212038
+> Processed: 212071
+> Processed: 212181
+> Processed: 212297
+> Processed: 212306
+> Processed: 212567
+> Processed: 212589
+> Processed: 212676
+> Processed: 212921
+> Processed: 212930
+> Processed: 212993
+> Processed: 213068
+> Processed: 213329
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 87
+info: start round 88
+info:     start player 0
+ingredients: 6 5 7 5 9 7 4 5 5 5 6 8 6 4 8 
+> Processed: 213332
+> Processed: 213448
+> Processed: 213469
+> Processed: 213489
+> Processed: 213625
+> Processed: 213710
+> Processed: 213722
+> Processed: 213814
+> Processed: 213879
+> Processed: 214113
+> Processed: 214126
+> Processed: 214175
+> Processed: 214189
+> Processed: 214219
+> Processed: 214328
+> Processed: 214444
+> Processed: 214447
+> Processed: 214816
+> Processed: 214836
+> Processed: 214919
+> Processed: 215156
+> Processed: 215159
+> Processed: 215213
+> Processed: 215287
+> Processed: 215671
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 88
+info: start round 89
+info:     start player 0
+ingredients: 6 10 8 7 10 9 6 6 7 8 6 11 8 9 9 
+> Processed: 215727
+> Processed: 215843
+> Processed: 215864
+> Processed: 215879
+> Processed: 215997
+> Processed: 216082
+> Processed: 216092
+> Processed: 216178
+> Processed: 216293
+> Processed: 216508
+> Processed: 216513
+> Processed: 216549
+> Processed: 216561
+> Processed: 216585
+> Processed: 216671
+> Processed: 216704
+> Processed: 216814
+> Processed: 216872
+> Processed: 216951
+> Processed: 217172
+> Processed: 217205
+> Processed: 217374
+> Processed: 217446
+> Processed: 217830
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 89
+info: start round 90
+info:     start player 0
+ingredients: 6 9 8 7 5 6 5 7 5 8 7 8 10 8 11 
+> Processed: 217879
+> Processed: 217995
+> Processed: 218013
+> Processed: 218021
+> Processed: 218076
+> Processed: 218177
+> Processed: 218185
+> Processed: 218267
+> Processed: 218374
+> Processed: 218589
+> Processed: 218603
+> Processed: 218613
+> Processed: 218626
+> Processed: 218735
+> Processed: 218754
+> Processed: 219123
+> Processed: 219170
+> Processed: 219245
+> Processed: 219459
+> Processed: 219478
+> Processed: 219642
+> Processed: 219712
+> Processed: 220096
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 90
+info: start round 91
+info:     start player 0
+ingredients: 2 3 3 3 2 3 1 3 3 1 2 1 3 2 3 
+> Processed: 220135
+> Processed: 220175
+> Processed: 220291
+> Processed: 220305
+> Processed: 220308
+> Processed: 220346
+> Processed: 220447
+> Processed: 220453
+> Processed: 220531
+> Processed: 220633
+> Processed: 220848
+> Processed: 220854
+> Processed: 220862
+> Processed: 220867
+> Processed: 220973
+> Processed: 220982
+> Processed: 221351
+> Processed: 221448
+> Processed: 221519
+> Processed: 221727
+> Processed: 221736
+> Processed: 221891
+> Processed: 221956
+> Processed: 222340
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 91
+info: start round 92
+info:     start player 0
+ingredients: 4 7 4 5 4 4 7 8 4 5 6 4 5 8 5 
+> Processed: 222350
+> Processed: 222386
+> Processed: 222502
+> Processed: 222514
+> Processed: 222540
+> Processed: 222563
+> Processed: 222664
+> Processed: 222668
+> Processed: 222742
+> Processed: 222844
+> Processed: 223059
+> Processed: 223061
+> Processed: 223067
+> Processed: 223087
+> Processed: 223193
+> Processed: 223196
+> Processed: 223565
+> Processed: 223662
+> Processed: 223729
+> Processed: 223931
+> Processed: 223934
+> Processed: 224076
+> Processed: 224122
+> Processed: 224506
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 92
+info: start round 93
+info:     start player 0
+ingredients: 7 10 7 8 7 10 6 10 6 8 8 8 7 6 7 
+> Processed: 224511
+> Processed: 224543
+> Processed: 224659
+> Processed: 224669
+> Processed: 224686
+> Processed: 224702
+> Processed: 224817
+> Processed: 224819
+> Processed: 224893
+> Processed: 224995
+> Processed: 225244
+> Processed: 225304
+> Processed: 225335
+> Processed: 225339
+> Processed: 225350
+> Processed: 225719
+> Processed: 225893
+> Processed: 226368
+> Processed: 226452
+> Processed: 226585
+> Processed: 226781
+> Processed: 226868
+> Processed: 227164
+> Processed: 227192
+> Processed: 227562
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 93
+info: start round 94
+info:     start player 0
+ingredients: 5 6 5 5 4 4 5 9 8 5 4 5 9 9 7 
+> Processed: 227564
+> Processed: 227591
+> Processed: 227707
+> Processed: 227715
+> Processed: 227725
+> Processed: 227734
+> Processed: 227831
+> Processed: 227866
+> Processed: 227940
+> Processed: 228042
+> Processed: 228075
+> Processed: 228131
+> Processed: 228155
+> Processed: 228345
+> Processed: 228347
+> Processed: 228351
+> Processed: 228459
+> Processed: 228620
+> Processed: 228989
+> Processed: 229063
+> Processed: 229196
+> Processed: 229446
+> Processed: 229736
+> Processed: 230091
+> Processed: 230107
+> Processed: 230463
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 94
+info: start round 95
+info:     start player 0
+ingredients: 14 9 13 7 9 13 7 7 7 11 8 12 8 10 10 
+> Processed: 230487
+> Processed: 230513
+> Processed: 230629
+> Processed: 230635
+> Processed: 230639
+> Processed: 230643
+> Processed: 230740
+> Processed: 230771
+> Processed: 230845
+> Processed: 230944
+> Processed: 230963
+> Processed: 231015
+> Processed: 231028
+> Processed: 231214
+> Processed: 231233
+> Processed: 231354
+> Processed: 231456
+> Processed: 231598
+> Processed: 231967
+> Processed: 232032
+> Processed: 232135
+> Processed: 232385
+> Processed: 232740
+> Processed: 233285
+> Processed: 233294
+> Processed: 233470
+> Processed: 233812
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 95
+info: start round 96
+info:     start player 0
+ingredients: 3 2 4 3 4 2 4 4 3 4 2 3 3 2 2 
+> Processed: 233835
+> Processed: 233951
+> Processed: 233956
+> Processed: 234010
+> Processed: 234036
+> Processed: 234133
+> Processed: 234158
+> Processed: 234232
+> Processed: 234349
+> Processed: 234358
+> Processed: 234443
+> Processed: 234448
+> Processed: 234630
+> Processed: 234647
+> Processed: 234866
+> Processed: 234956
+> Processed: 235074
+> Processed: 235144
+> Processed: 235433
+> Processed: 235490
+> Processed: 235611
+> Processed: 235893
+> Processed: 236172
+> Processed: 236715
+> Processed: 236719
+> Processed: 236857
+> Processed: 237058
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 96
+info: start round 97
+info:     start player 0
+ingredients: 5 6 7 5 6 4 5 4 6 4 4 7 8 5 4 
+> Processed: 237076
+> Processed: 237192
+> Processed: 237195
+> Processed: 237237
+> Processed: 237254
+> Processed: 237351
+> Processed: 237369
+> Processed: 237443
+> Processed: 237542
+> Processed: 237545
+> Processed: 237626
+> Processed: 237693
+> Processed: 237731
+> Processed: 237783
+> Processed: 237994
+> Processed: 238179
+> Processed: 238200
+> Processed: 238264
+> Processed: 238553
+> Processed: 238608
+> Processed: 238723
+> Processed: 238757
+> Processed: 238953
+> Processed: 239095
+> Processed: 239284
+> Processed: 239392
+> Processed: 239522
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 97
+info: start round 98
+info:     start player 0
+ingredients: 9 9 9 9 6 8 7 7 13 10 6 10 10 11 6 
+> Processed: 239534
+> Processed: 239626
+> Processed: 239651
+> Processed: 239678
+> Processed: 239688
+> Processed: 239785
+> Processed: 239796
+> Processed: 239870
+> Processed: 239943
+> Processed: 240122
+> Processed: 240199
+> Processed: 240256
+> Processed: 240294
+> Processed: 240344
+> Processed: 240545
+> Processed: 240696
+> Processed: 240707
+> Processed: 240767
+> Processed: 240959
+> Processed: 241011
+> Processed: 241120
+> Processed: 241152
+> Processed: 241348
+> Processed: 241465
+> Processed: 241630
+> Processed: 241716
+> Processed: 241838
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 98
+info: start round 99
+info:     start player 0
+ingredients: 9 8 6 9 5 5 5 8 6 6 4 4 9 4 7 
+> Processed: 241845
+> Processed: 241937
+> Processed: 241960
+> Processed: 241975
+> Processed: 241980
+> Processed: 242077
+> Processed: 242083
+> Processed: 242157
+> Processed: 242215
+> Processed: 242376
+> Processed: 242449
+> Processed: 242495
+> Processed: 242533
+> Processed: 242581
+> Processed: 242770
+> Processed: 242921
+> Processed: 242925
+> Processed: 242981
+> Processed: 243173
+> Processed: 243221
+> Processed: 243324
+> Processed: 243354
+> Processed: 243550
+> Processed: 243640
+> Processed: 243784
+> Processed: 243862
+> Processed: 243979
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 99
+info: start round 100
+info:     start player 0
+ingredients: 11 6 9 11 8 5 5 7 9 6 9 5 6 6 7 
+> Processed: 244076
+> Processed: 244081
+> Processed: 244173
+> Processed: 244194
+> Processed: 244202
+> Processed: 244204
+> Processed: 244301
+> Processed: 244303
+> Processed: 244377
+> Processed: 244422
+> Processed: 244565
+> Processed: 244634
+> Processed: 244667
+> Processed: 244705
+> Processed: 244751
+> Processed: 244928
+> Processed: 245234
+> Processed: 245384
+> Processed: 245442
+> Processed: 245494
+> Processed: 245686
+> Processed: 245730
+> Processed: 245997
+> Processed: 246094
+> Processed: 246122
+> Processed: 246195
+> Processed: 246263
+> Processed: 246585
+> Processed: 246656
+> Processed: 246769
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 100
+info: start round 101
+info:     start player 0
+ingredients: 5 4 4 5 3 2 2 3 3 3 3 4 2 5 2 
+> Processed: 246866
+> Processed: 246869
+> Processed: 246961
+> Processed: 246979
+> Processed: 246984
+> Processed: 247000
+> Processed: 247097
+> Processed: 247182
+> Processed: 247256
+> Processed: 247290
+> Processed: 247415
+> Processed: 247480
+> Processed: 247502
+> Processed: 247540
+> Processed: 247699
+> Processed: 247908
+> Processed: 248214
+> Processed: 248364
+> Processed: 248403
+> Processed: 248451
+> Processed: 248643
+> Processed: 248683
+> Processed: 248950
+> Processed: 249042
+> Processed: 249068
+> Processed: 249141
+> Processed: 249192
+> Processed: 249514
+> Processed: 249576
+> Processed: 249689
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 101
+info: start round 102
+info:     start player 0
+ingredients: 3 2 3 1 2 2 3 2 3 2 3 2 2 2 3 
+> Processed: 249786
+> Processed: 249809
+> Processed: 249901
+> Processed: 249916
+> Processed: 249934
+> Processed: 249943
+> Processed: 250040
+> Processed: 250414
+> Processed: 250488
+> Processed: 250513
+> Processed: 250620
+> Processed: 250683
+> Processed: 250694
+> Processed: 250732
+> Processed: 250891
+> Processed: 251074
+> Processed: 251318
+> Processed: 251468
+> Processed: 251492
+> Processed: 251536
+> Processed: 251728
+> Processed: 251765
+> Processed: 251954
+> Processed: 252042
+> Processed: 252066
+> Processed: 252139
+> Processed: 252177
+> Processed: 252495
+> Processed: 252538
+> Processed: 252651
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 102
+info: start round 103
+info:     start player 0
+ingredients: 7 7 9 6 6 8 5 9 5 6 10 6 11 7 8 
+> Processed: 252748
+> Processed: 252771
+> Processed: 252863
+> Processed: 252876
+> Processed: 252887
+> Processed: 252891
+> Processed: 252988
+> Processed: 253362
+> Processed: 253436
+> Processed: 253597
+> Processed: 253683
+> Processed: 253742
+> Processed: 253746
+> Processed: 253784
+> Processed: 253943
+> Processed: 254126
+> Processed: 254370
+> Processed: 254520
+> Processed: 254533
+> Processed: 254573
+> Processed: 254765
+> Processed: 254796
+> Processed: 254985
+> Processed: 255069
+> Processed: 255091
+> Processed: 255164
+> Processed: 255189
+> Processed: 255507
+> Processed: 255536
+> Processed: 255649
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 103
+info: start round 104
+info:     start player 0
+ingredients: 2 2 4 2 3 4 2 3 3 2 3 2 2 2 4 
+> Processed: 255800
+> Processed: 255823
+> Processed: 255939
+> Processed: 255948
+> Processed: 255954
+> Processed: 255956
+> Processed: 256107
+> Processed: 256481
+> Processed: 256555
+> Processed: 256716
+> Processed: 256793
+> Processed: 256848
+> Processed: 256982
+> Processed: 257020
+> Processed: 257179
+> Processed: 257362
+> Processed: 257606
+> Processed: 257754
+> Processed: 257759
+> Processed: 257795
+> Processed: 257987
+> Processed: 258018
+> Processed: 258207
+> Processed: 258287
+> Processed: 258307
+> Processed: 258380
+> Processed: 258401
+> Processed: 258719
+> Processed: 258737
+> Processed: 258850
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 104
+info: start round 105
+info:     start player 0
+ingredients: 5 4 4 3 3 6 4 3 3 4 5 5 4 4 3 
+> Processed: 259001
+> Processed: 259024
+> Processed: 259140
+> Processed: 259147
+> Processed: 259258
+> Processed: 259262
+> Processed: 259396
+> Processed: 259547
+> Processed: 259921
+> Processed: 259995
+> Processed: 260156
+> Processed: 260222
+> Processed: 260291
+> Processed: 260516
+> Processed: 260567
+> Processed: 260701
+> Processed: 260739
+> Processed: 260898
+> Processed: 260981
+> Processed: 261287
+> Processed: 261425
+> Processed: 261537
+> Processed: 261569
+> Processed: 261761
+> Processed: 261792
+> Processed: 261869
+> Processed: 261887
+> Processed: 262068
+> Processed: 262081
+> Processed: 262403
+> Processed: 262414
+> Processed: 262527
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 105
+info: start round 106
+info:     start player 0
+ingredients: 5 3 3 2 4 3 2 4 2 5 4 2 5 3 3 
+> Processed: 262678
+> Processed: 262703
+> Processed: 262819
+> Processed: 262824
+> Processed: 262935
+> Processed: 262966
+> Processed: 263100
+> Processed: 263251
+> Processed: 263625
+> Processed: 263699
+> Processed: 263860
+> Processed: 263898
+> Processed: 263944
+> Processed: 264146
+> Processed: 264197
+> Processed: 264331
+> Processed: 264369
+> Processed: 264528
+> Processed: 264819
+> Processed: 264943
+> Processed: 265065
+> Processed: 265093
+> Processed: 265285
+> Processed: 265388
+> Processed: 265461
+> Processed: 265477
+> Processed: 265658
+> Processed: 265663
+> Processed: 265977
+> Processed: 265985
+> Processed: 266098
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 106
+info: start round 107
+info:     start player 0
+ingredients: 6 8 6 10 8 9 5 7 6 9 10 5 6 10 5 
+> Processed: 266249
+> Processed: 266271
+> Processed: 266387
+> Processed: 266390
+> Processed: 266501
+> Processed: 266529
+> Processed: 266663
+> Processed: 266814
+> Processed: 267188
+> Processed: 267262
+> Processed: 267423
+> Processed: 267445
+> Processed: 267476
+> Processed: 267678
+> Processed: 267729
+> Processed: 267863
+> Processed: 267901
+> Processed: 268192
+> Processed: 268302
+> Processed: 268408
+> Processed: 268433
+> Processed: 268625
+> Processed: 268677
+> Processed: 268746
+> Processed: 268760
+> Processed: 268956
+> Processed: 269036
+> Processed: 269340
+> Processed: 269346
+> Processed: 269459
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 107
+info: start round 108
+info:     start player 0
+ingredients: 5 3 5 3 3 5 4 3 4 4 4 4 4 4 5 
+> Processed: 269610
+> Processed: 269630
+> Processed: 269746
+> Processed: 270097
+> Processed: 270208
+> Processed: 270232
+> Processed: 270366
+> Processed: 270517
+> Processed: 270891
+> Processed: 270965
+> Processed: 271044
+> Processed: 271055
+> Processed: 271074
+> Processed: 271276
+> Processed: 271308
+> Processed: 271442
+> Processed: 271480
+> Processed: 271771
+> Processed: 271867
+> Processed: 271953
+> Processed: 271976
+> Processed: 272168
+> Processed: 272208
+> Processed: 272238
+> Processed: 272250
+> Processed: 272446
+> Processed: 272506
+> Processed: 272800
+> Processed: 272804
+> Processed: 272917
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 108
+info: start round 109
+info:     start player 0
+ingredients: 9 13 6 13 6 7 12 11 8 7 6 10 9 7 6 
+> Processed: 273068
+> Processed: 273084
+> Processed: 273200
+> Processed: 273551
+> Processed: 273662
+> Processed: 273680
+> Processed: 273814
+> Processed: 273965
+> Processed: 274339
+> Processed: 274413
+> Processed: 274479
+> Processed: 274489
+> Processed: 274498
+> Processed: 274700
+> Processed: 274732
+> Processed: 274866
+> Processed: 274904
+> Processed: 275171
+> Processed: 275253
+> Processed: 275316
+> Processed: 275337
+> Processed: 275529
+> Processed: 275562
+> Processed: 275590
+> Processed: 275600
+> Processed: 275796
+> Processed: 275837
+> Processed: 276118
+> Processed: 276120
+> Processed: 276233
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 109
+info: start round 110
+info:     start player 0
+ingredients: 6 5 9 9 4 7 6 8 6 8 6 7 5 5 4 
+> Processed: 276384
+> Processed: 276395
+> Processed: 276511
+> Processed: 276739
+> Processed: 276850
+> Processed: 276861
+> Processed: 277012
+> Processed: 277098
+> Processed: 277172
+> Processed: 277222
+> Processed: 277229
+> Processed: 277232
+> Processed: 277309
+> Processed: 277443
+> Processed: 277481
+> Processed: 277544
+> Processed: 277612
+> Processed: 277655
+> Processed: 277674
+> Processed: 277866
+> Processed: 277895
+> Processed: 277921
+> Processed: 277929
+> Processed: 278125
+> Processed: 278150
+> Processed: 278415
+> Processed: 278443
+> Processed: 278556
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 110
+info: start round 111
+info:     start player 0
+ingredients: 4 3 6 6 5 3 4 3 5 3 6 4 5 4 4 
+> Processed: 278707
+> Processed: 278713
+> Processed: 278829
+> Processed: 279057
+> Processed: 279168
+> Processed: 279174
+> Processed: 279325
+> Processed: 279411
+> Processed: 279485
+> Processed: 279518
+> Processed: 279521
+> Processed: 279589
+> Processed: 279666
+> Processed: 279800
+> Processed: 279838
+> Processed: 279880
+> Processed: 279934
+> Processed: 279961
+> Processed: 279978
+> Processed: 280170
+> Processed: 280195
+> Processed: 280219
+> Processed: 280225
+> Processed: 280379
+> Processed: 280392
+> Processed: 280639
+> Processed: 280665
+> Processed: 280778
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 111
+info: start round 112
+info:     start player 0
+ingredients: 9 6 8 8 6 6 5 4 4 4 4 8 4 7 7 
+> Processed: 280929
+> Processed: 280933
+> Processed: 281049
+> Processed: 281277
+> Processed: 281393
+> Processed: 281396
+> Processed: 281547
+> Processed: 281633
+> Processed: 281927
+> Processed: 282001
+> Processed: 282020
+> Processed: 282089
+> Processed: 282142
+> Processed: 282219
+> Processed: 282353
+> Processed: 282391
+> Processed: 282417
+> Processed: 282458
+> Processed: 282474
+> Processed: 282489
+> Processed: 282681
+> Processed: 282702
+> Processed: 282722
+> Processed: 282726
+> Processed: 282870
+> Processed: 282875
+> Processed: 283104
+> Processed: 283128
+> Processed: 283241
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 112
+info: start round 113
+info:     start player 0
+ingredients: 5 6 7 6 6 7 5 8 7 6 4 4 4 6 4 
+> Processed: 283350
+> Processed: 283477
+> Processed: 283569
+> Processed: 283601
+> Processed: 283717
+> Processed: 283776
+> Processed: 283885
+> Processed: 283971
+> Processed: 284265
+> Processed: 284339
+> Processed: 284348
+> Processed: 284407
+> Processed: 284444
+> Processed: 284521
+> Processed: 284557
+> Processed: 284595
+> Processed: 284611
+> Processed: 284642
+> Processed: 284647
+> Processed: 284660
+> Processed: 284852
+> Processed: 284870
+> Processed: 284886
+> Processed: 284888
+> Processed: 285012
+> Processed: 285160
+> Processed: 285367
+> Processed: 285389
+> Processed: 285502
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 113
+info: start round 114
+info:     start player 0
+ingredients: 9 8 8 14 9 7 11 10 9 12 8 10 10 9 11 
+> Processed: 285611
+> Processed: 285738
+> Processed: 285830
+> Processed: 285860
+> Processed: 285976
+> Processed: 286035
+> Processed: 286144
+> Processed: 286230
+> Processed: 286524
+> Processed: 286598
+> Processed: 286601
+> Processed: 286649
+> Processed: 286675
+> Processed: 286752
+> Processed: 286786
+> Processed: 286868
+> Processed: 286960
+> Processed: 286981
+> Processed: 286983
+> Processed: 286994
+> Processed: 287186
+> Processed: 287202
+> Processed: 287214
+> Processed: 287369
+> Processed: 287475
+> Processed: 287608
+> Processed: 287789
+> Processed: 287809
+> Processed: 287922
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 114
+info: start round 115
+info:     start player 0
+ingredients: 5 3 3 4 4 5 2 5 4 2 4 5 4 3 2 
+> Processed: 288031
+> Processed: 288158
+> Processed: 288250
+> Processed: 288278
+> Processed: 288394
+> Processed: 288434
+> Processed: 288543
+> Processed: 288629
+> Processed: 288923
+> Processed: 288997
+> Processed: 289092
+> Processed: 289128
+> Processed: 289145
+> Processed: 289198
+> Processed: 289278
+> Processed: 289355
+> Processed: 289367
+> Processed: 289429
+> Processed: 289436
+> Processed: 289539
+> Processed: 289553
+> Processed: 289561
+> Processed: 289714
+> Processed: 289805
+> Processed: 289919
+> Processed: 290071
+> Processed: 290089
+> Processed: 290202
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 115
+info: start round 116
+info:     start player 0
+ingredients: 8 7 11 7 14 8 9 13 7 14 8 8 13 8 10 
+> Processed: 290311
+> Processed: 290483
+> Processed: 290575
+> Processed: 290601
+> Processed: 290717
+> Processed: 290752
+> Processed: 290861
+> Processed: 290947
+> Processed: 291241
+> Processed: 291315
+> Processed: 291410
+> Processed: 291442
+> Processed: 291452
+> Processed: 291494
+> Processed: 291572
+> Processed: 291629
+> Processed: 291634
+> Processed: 291683
+> Processed: 291686
+> Processed: 291788
+> Processed: 291799
+> Processed: 291803
+> Processed: 291954
+> Processed: 292034
+> Processed: 292128
+> Processed: 292248
+> Processed: 292264
+> Processed: 292373
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 116
+info: start round 117
+info:     start player 0
+ingredients: 8 5 5 7 7 6 6 10 5 5 10 6 5 7 8 
+> Processed: 292482
+> Processed: 292654
+> Processed: 292823
+> Processed: 292847
+> Processed: 292963
+> Processed: 293026
+> Processed: 293050
+> Processed: 293159
+> Processed: 293173
+> Processed: 293279
+> Processed: 293374
+> Processed: 293398
+> Processed: 293403
+> Processed: 293429
+> Processed: 293505
+> Processed: 293542
+> Processed: 293613
+> Processed: 293648
+> Processed: 293668
+> Processed: 293857
+> Processed: 293862
+> Processed: 293889
+> Processed: 294062
+> Processed: 294131
+> Processed: 294206
+> Processed: 294297
+> Processed: 294311
+> Processed: 294420
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 117
+info: start round 118
+info:     start player 0
+ingredients: 9 10 11 8 12 12 10 7 9 7 11 7 7 11 9 
+> Processed: 294529
+> Processed: 294701
+> Processed: 294870
+> Processed: 294892
+> Processed: 295008
+> Processed: 295071
+> Processed: 295084
+> Processed: 295193
+> Processed: 295199
+> Processed: 295305
+> Processed: 295400
+> Processed: 295413
+> Processed: 295415
+> Processed: 295431
+> Processed: 295505
+> Processed: 295526
+> Processed: 295591
+> Processed: 295613
+> Processed: 295624
+> Processed: 295813
+> Processed: 295902
+> Processed: 296188
+> Processed: 296212
+> Processed: 296383
+> Processed: 296436
+> Processed: 296494
+> Processed: 296518
+> Processed: 296530
+> Processed: 296639
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 118
+info: start round 119
+info:     start player 0
+ingredients: 4 8 4 8 5 5 7 5 8 5 7 4 6 4 5 
+> Processed: 296748
+> Processed: 296920
+> Processed: 297089
+> Processed: 297098
+> Processed: 297214
+> Processed: 297277
+> Processed: 297282
+> Processed: 297391
+> Processed: 297393
+> Processed: 297499
+> Processed: 297594
+> Processed: 297599
+> Processed: 297645
+> Processed: 297654
+> Processed: 297726
+> Processed: 297740
+> Processed: 297801
+> Processed: 297812
+> Processed: 297818
+> Processed: 298007
+> Processed: 298092
+> Processed: 298378
+> Processed: 298398
+> Processed: 298567
+> Processed: 298689
+> Processed: 298745
+> Processed: 298760
+> Processed: 298767
+> Processed: 298876
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 119
+info: start round 120
+info:     start player 0
+ingredients: 5 7 6 5 8 5 9 10 6 8 11 7 7 5 11 
+> Processed: 298945
+> Processed: 299117
+> Processed: 299286
+> Processed: 299293
+> Processed: 299541
+> Processed: 299604
+> Processed: 299736
+> Processed: 299805
+> Processed: 300191
+> Processed: 300297
+> Processed: 300392
+> Processed: 300475
+> Processed: 300509
+> Processed: 300513
+> Processed: 300583
+> Processed: 300592
+> Processed: 300649
+> Processed: 300653
+> Processed: 300656
+> Processed: 300736
+> Processed: 300821
+> Processed: 301107
+> Processed: 301123
+> Processed: 301290
+> Processed: 301392
+> Processed: 301444
+> Processed: 301452
+> Processed: 301456
+> Processed: 301565
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 120
+info: start round 121
+info:     start player 0
+ingredients: 5 2 4 3 5 4 3 3 2 4 4 2 4 3 2 
+> Processed: 301634
+> Processed: 301806
+> Processed: 301980
+> Processed: 301985
+> Processed: 302233
+> Processed: 302341
+> Processed: 302481
+> Processed: 302550
+> Processed: 302936
+> Processed: 303047
+> Processed: 303142
+> Processed: 303209
+> Processed: 303233
+> Processed: 303542
+> Processed: 303610
+> Processed: 303614
+> Processed: 303665
+> Processed: 303732
+> Processed: 303767
+> Processed: 303841
+> Processed: 303926
+> Processed: 304028
+> Processed: 304040
+> Processed: 304205
+> Processed: 304286
+> Processed: 304331
+> Processed: 304334
+> Processed: 304376
+> Processed: 304485
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 121
+info: start round 122
+info:     start player 0
+ingredients: 7 6 5 7 4 3 5 6 5 6 6 3 4 5 3 
+> Processed: 304554
+> Processed: 304726
+> Processed: 304900
+> Processed: 304903
+> Processed: 305151
+> Processed: 305259
+> Processed: 305317
+> Processed: 305386
+> Processed: 305805
+> Processed: 305912
+> Processed: 306021
+> Processed: 306072
+> Processed: 306088
+> Processed: 306441
+> Processed: 306507
+> Processed: 306591
+> Processed: 306630
+> Processed: 306681
+> Processed: 306706
+> Processed: 306768
+> Processed: 306853
+> Processed: 306955
+> Processed: 306963
+> Processed: 307126
+> Processed: 307182
+> Processed: 307214
+> Processed: 307226
+> Processed: 307255
+> Processed: 307364
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 122
+info: start round 123
+info:     start player 0
+ingredients: 10 10 7 9 8 11 8 6 8 9 7 6 12 6 8 
+> Processed: 307433
+> Processed: 307605
+> Processed: 307686
+> Processed: 307714
+> Processed: 307962
+> Processed: 308070
+> Processed: 308111
+> Processed: 308180
+> Processed: 308599
+> Processed: 308700
+> Processed: 308809
+> Processed: 308845
+> Processed: 308857
+> Processed: 308931
+> Processed: 308995
+> Processed: 309078
+> Processed: 309106
+> Processed: 309139
+> Processed: 309155
+> Processed: 309199
+> Processed: 309284
+> Processed: 309288
+> Processed: 309449
+> Processed: 309492
+> Processed: 309511
+> Processed: 309518
+> Processed: 309541
+> Processed: 309612
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 123
+info: start round 124
+info:     start player 0
+ingredients: 8 6 6 6 5 4 7 6 5 5 4 5 7 7 4 
+> Processed: 309681
+> Processed: 309853
+> Processed: 309934
+> Processed: 309960
+> Processed: 310208
+> Processed: 310233
+> Processed: 310302
+> Processed: 310515
+> Processed: 310610
+> Processed: 310632
+> Processed: 310637
+> Processed: 310696
+> Processed: 310766
+> Processed: 310828
+> Processed: 310907
+> Processed: 310925
+> Processed: 310944
+> Processed: 310953
+> Processed: 310978
+> Processed: 311063
+> Processed: 311081
+> Processed: 311267
+> Processed: 311298
+> Processed: 311307
+> Processed: 311312
+> Processed: 311327
+> Processed: 311398
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 124
+info: start round 125
+info:     start player 0
+ingredients: 10 9 6 8 7 7 7 7 9 8 10 8 6 5 8 
+> Processed: 311467
+> Processed: 311639
+> Processed: 311720
+> Processed: 311744
+> Processed: 311992
+> Processed: 312005
+> Processed: 312074
+> Processed: 312287
+> Processed: 312376
+> Processed: 312387
+> Processed: 312451
+> Processed: 312510
+> Processed: 312568
+> Processed: 312628
+> Processed: 312699
+> Processed: 312745
+> Processed: 312754
+> Processed: 312763
+> Processed: 312767
+> Processed: 312783
+> Processed: 312868
+> Processed: 312884
+> Processed: 313068
+> Processed: 313089
+> Processed: 313092
+> Processed: 313095
+> Processed: 313103
+> Processed: 313174
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 125
+info: start round 126
+info:     start player 0
+ingredients: 2 1 2 3 3 1 2 3 2 1 1 2 3 2 2 
+> Processed: 313243
+> Processed: 313537
+> Processed: 313582
+> Processed: 313604
+> Processed: 313852
+> Processed: 313857
+> Processed: 313926
+> Processed: 314139
+> Processed: 314151
+> Processed: 314155
+> Processed: 314201
+> Processed: 314260
+> Processed: 314302
+> Processed: 314360
+> Processed: 314416
+> Processed: 314456
+> Processed: 314459
+> Processed: 314462
+> Processed: 314515
+> Processed: 314524
+> Processed: 314584
+> Processed: 314596
+> Processed: 314621
+> Processed: 314634
+> Processed: 314987
+> Processed: 315078
+> Processed: 315081
+> Processed: 315152
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 126
+info: start round 127
+info:     start player 0
+ingredients: 4 6 4 5 4 7 4 4 7 6 3 5 3 5 3 
+> Processed: 315221
+> Processed: 315581
+> Processed: 315626
+> Processed: 315647
+> Processed: 315926
+> Processed: 315957
+> Processed: 316026
+> Processed: 316239
+> Processed: 316248
+> Processed: 316317
+> Processed: 316348
+> Processed: 316407
+> Processed: 316433
+> Processed: 316489
+> Processed: 316527
+> Processed: 316560
+> Processed: 316646
+> Processed: 316681
+> Processed: 316724
+> Processed: 316728
+> Processed: 316779
+> Processed: 316801
+> Processed: 316809
+> Processed: 316832
+> Processed: 316839
+> Processed: 317222
+> Processed: 317294
+> Processed: 317312
+> Processed: 317421
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 127
+info: start round 128
+info:     start player 0
+ingredients: 7 9 8 7 6 8 10 6 8 8 7 5 5 6 5 
+> Processed: 317574
+> Processed: 317943
+> Processed: 317988
+> Processed: 318007
+> Processed: 318392
+> Processed: 318409
+> Processed: 318562
+> Processed: 318775
+> Processed: 318782
+> Processed: 319011
+> Processed: 319030
+> Processed: 319089
+> Processed: 319103
+> Processed: 319256
+> Processed: 319310
+> Processed: 319333
+> Processed: 319366
+> Processed: 319436
+> Processed: 319457
+> Processed: 319488
+> Processed: 319673
+> Processed: 319717
+> Processed: 319728
+> Processed: 319732
+> Processed: 319753
+> Processed: 320233
+> Processed: 320804
+> Processed: 320813
+> Processed: 320828
+> Processed: 320937
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 128
+info: start round 129
+info:     start player 0
+ingredients: 3 2 3 3 1 3 2 1 3 3 3 2 2 1 3 
+> Processed: 321022
+> Processed: 321391
+> Processed: 321436
+> Processed: 321452
+> Processed: 321837
+> Processed: 321846
+> Processed: 321931
+> Processed: 322144
+> Processed: 322149
+> Processed: 322378
+> Processed: 322387
+> Processed: 322446
+> Processed: 322452
+> Processed: 322484
+> Processed: 322536
+> Processed: 322548
+> Processed: 322581
+> Processed: 322641
+> Processed: 322652
+> Processed: 322672
+> Processed: 322857
+> Processed: 322895
+> Processed: 322899
+> Processed: 322918
+> Processed: 322937
+> Processed: 323400
+> Processed: 324073
+> Processed: 324080
+> Processed: 324092
+> Processed: 324201
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 129
+info: start round 130
+info:     start player 0
+ingredients: 3 3 4 3 5 3 4 5 3 4 3 5 3 4 3 
+> Processed: 324286
+> Processed: 324655
+> Processed: 324700
+> Processed: 324714
+> Processed: 325099
+> Processed: 325103
+> Processed: 325188
+> Processed: 325486
+> Processed: 325489
+> Processed: 325718
+> Processed: 325721
+> Processed: 326032
+> Processed: 326034
+> Processed: 326062
+> Processed: 326112
+> Processed: 326117
+> Processed: 326402
+> Processed: 326448
+> Processed: 326452
+> Processed: 326463
+> Processed: 326648
+> Processed: 326683
+> Processed: 326903
+> Processed: 326918
+> Processed: 326935
+> Processed: 327390
+> Processed: 327916
+> Processed: 327921
+> Processed: 327926
+> Processed: 328035
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 130
+info: start round 131
+info:     start player 0
+ingredients: 4 7 5 3 6 3 5 5 7 4 5 6 3 3 4 
+> Processed: 328120
+> Processed: 328169
+> Processed: 328250
+> Processed: 328262
+> Processed: 328283
+> Processed: 328312
+> Processed: 328397
+> Processed: 328695
+> Processed: 328760
+> Processed: 329100
+> Processed: 329145
+> Processed: 329456
+> Processed: 329518
+> Processed: 329542
+> Processed: 329590
+> Processed: 329743
+> Processed: 330028
+> Processed: 330063
+> Processed: 330128
+> Processed: 330132
+> Processed: 330317
+> Processed: 330350
+> Processed: 330570
+> Processed: 330581
+> Processed: 330596
+> Processed: 331047
+> Processed: 331721
+> Processed: 331723
+> Processed: 331947
+> Processed: 332056
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 131
+info: start round 132
+info:     start player 0
+ingredients: 3 4 3 4 2 3 2 2 3 3 3 4 2 4 3 
+> Processed: 332141
+> Processed: 332190
+> Processed: 332271
+> Processed: 332279
+> Processed: 332290
+> Processed: 332317
+> Processed: 332402
+> Processed: 332700
+> Processed: 332761
+> Processed: 332881
+> Processed: 332914
+> Processed: 333244
+> Processed: 333279
+> Processed: 333292
+> Processed: 333308
+> Processed: 333456
+> Processed: 333890
+> Processed: 333915
+> Processed: 333976
+> Processed: 334014
+> Processed: 334199
+> Processed: 334230
+> Processed: 334660
+> Processed: 334667
+> Processed: 334680
+> Processed: 334762
+> Processed: 335266
+> Processed: 335425
+> Processed: 335647
+> Processed: 335756
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 132
+info: start round 133
+info:     start player 0
+ingredients: 3 4 3 4 4 3 3 6 4 4 5 4 4 5 4 
+> Processed: 335841
+> Processed: 335890
+> Processed: 335971
+> Processed: 336289
+> Processed: 336293
+> Processed: 336298
+> Processed: 336320
+> Processed: 336405
+> Processed: 336703
+> Processed: 336760
+> Processed: 336880
+> Processed: 336903
+> Processed: 337328
+> Processed: 337346
+> Processed: 337847
+> Processed: 337852
+> Processed: 338125
+> Processed: 338139
+> Processed: 338280
+> Processed: 338296
+> Processed: 338351
+> Processed: 338374
+> Processed: 338559
+> Processed: 338585
+> Processed: 339015
+> Processed: 339020
+> Processed: 339031
+> Processed: 339096
+> Processed: 339622
+> Processed: 339750
+> Processed: 339970
+> Processed: 340079
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 133
+info: start round 134
+info:     start player 0
+ingredients: 11 12 6 7 9 10 8 7 11 6 12 9 9 12 6 
+> Processed: 340137
+> Processed: 340186
+> Processed: 340267
+> Processed: 340585
+> Processed: 340588
+> Processed: 340590
+> Processed: 340602
+> Processed: 340660
+> Processed: 340958
+> Processed: 341011
+> Processed: 341131
+> Processed: 341146
+> Processed: 341568
+> Processed: 341578
+> Processed: 342079
+> Processed: 342213
+> Processed: 342486
+> Processed: 342498
+> Processed: 342626
+> Processed: 342635
+> Processed: 342679
+> Processed: 342691
+> Processed: 342876
+> Processed: 342894
+> Processed: 343324
+> Processed: 343327
+> Processed: 343336
+> Processed: 343386
+> Processed: 343912
+> Processed: 344003
+> Processed: 344221
+> Processed: 344330
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 134
+info: start round 135
+info:     start player 0
+ingredients: 1 3 2 2 2 1 3 2 1 3 2 3 1 2 2 
+> Processed: 344388
+> Processed: 344536
+> Processed: 344617
+> Processed: 344935
+> Processed: 345073
+> Processed: 345199
+> Processed: 345204
+> Processed: 345256
+> Processed: 345554
+> Processed: 345604
+> Processed: 345911
+> Processed: 345920
+> Processed: 346342
+> Processed: 346349
+> Processed: 346850
+> Processed: 346984
+> Processed: 347257
+> Processed: 347267
+> Processed: 347378
+> Processed: 347382
+> Processed: 347419
+> Processed: 347424
+> Processed: 347609
+> Processed: 347618
+> Processed: 347637
+> Processed: 347644
+> Processed: 347681
+> Processed: 348355
+> Processed: 348427
+> Processed: 348643
+> Processed: 348752
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 135
+info: start round 136
+info:     start player 0
+ingredients: 7 4 4 8 7 8 4 5 8 5 6 5 4 4 6 
+> Processed: 348810
+> Processed: 348941
+> Processed: 349027
+> Processed: 349122
+> Processed: 349260
+> Processed: 349386
+> Processed: 349447
+> Processed: 349490
+> Processed: 349788
+> Processed: 349824
+> Processed: 349923
+> Processed: 349928
+> Processed: 350258
+> Processed: 350263
+> Processed: 350764
+> Processed: 350949
+> Processed: 351222
+> Processed: 351230
+> Processed: 351321
+> Processed: 351743
+> Processed: 351873
+> Processed: 351898
+> Processed: 351973
+> Processed: 352267
+> Processed: 352273
+> Processed: 352288
+> Processed: 352293
+> Processed: 352319
+> Processed: 352823
+> Processed: 352877
+> Processed: 353057
+> Processed: 353327
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 136
+info: start round 137
+info:     start player 0
+ingredients: 9 12 7 14 7 11 7 12 7 9 7 9 10 10 9 
+> Processed: 353385
+> Processed: 353496
+> Processed: 353582
+> Processed: 353677
+> Processed: 353815
+> Processed: 353941
+> Processed: 353991
+> Processed: 354020
+> Processed: 354054
+> Processed: 354141
+> Processed: 354162
+> Processed: 354491
+> Processed: 354495
+> Processed: 354996
+> Processed: 355181
+> Processed: 355252
+> Processed: 355258
+> Processed: 355329
+> Processed: 355657
+> Processed: 355783
+> Processed: 355796
+> Processed: 355854
+> Processed: 356148
+> Processed: 356152
+> Processed: 356165
+> Processed: 356169
+> Processed: 356190
+> Processed: 356694
+> Processed: 356735
+> Processed: 356885
+> Processed: 357141
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 137
+info: start round 138
+info:     start player 0
+ingredients: 8 8 8 6 8 11 6 7 9 8 6 10 8 7 10 
+> Processed: 357199
+> Processed: 357242
+> Processed: 357396
+> Processed: 357491
+> Processed: 357629
+> Processed: 357755
+> Processed: 357795
+> Processed: 357817
+> Processed: 357849
+> Processed: 357921
+> Processed: 357932
+> Processed: 358261
+> Processed: 358280
+> Processed: 358493
+> Processed: 358678
+> Processed: 358740
+> Processed: 358744
+> Processed: 358796
+> Processed: 359124
+> Processed: 359244
+> Processed: 359249
+> Processed: 359291
+> Processed: 359585
+> Processed: 359587
+> Processed: 359598
+> Processed: 359799
+> Processed: 359812
+> Processed: 360035
+> Processed: 360067
+> Processed: 360194
+> Processed: 360436
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 138
+info: start round 139
+info:     start player 0
+ingredients: 9 9 8 7 12 7 7 10 11 10 10 13 8 9 10 
+> Processed: 360483
+> Processed: 360511
+> Processed: 360665
+> Processed: 360760
+> Processed: 360898
+> Processed: 361024
+> Processed: 361050
+> Processed: 361066
+> Processed: 361096
+> Processed: 361149
+> Processed: 361153
+> Processed: 361482
+> Processed: 361499
+> Processed: 361712
+> Processed: 361897
+> Processed: 361899
+> Processed: 361936
+> Processed: 362264
+> Processed: 362376
+> Processed: 362515
+> Processed: 362544
+> Processed: 362573
+> Processed: 362586
+> Processed: 362595
+> Processed: 362796
+> Processed: 362801
+> Processed: 363023
+> Processed: 363052
+> Processed: 363157
+> Processed: 363522
+> Processed: 363750
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 139
+info: start round 140
+info:     start player 0
+ingredients: 6 8 7 5 9 8 8 5 5 8 7 7 8 7 7 
+> Processed: 363797
+> Processed: 363813
+> Processed: 363967
+> Processed: 364062
+> Processed: 364200
+> Processed: 364307
+> Processed: 364321
+> Processed: 364330
+> Processed: 364358
+> Processed: 364394
+> Processed: 364455
+> Processed: 364772
+> Processed: 364785
+> Processed: 364998
+> Processed: 365183
+> Processed: 365217
+> Processed: 365243
+> Processed: 365345
+> Processed: 365545
+> Processed: 365562
+> Processed: 365587
+> Processed: 365598
+> Processed: 365605
+> Processed: 365806
+> Processed: 365831
+> Processed: 366084
+> Processed: 366110
+> Processed: 366247
+> Processed: 366612
+> Processed: 366826
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 140
+info: start round 141
+info:     start player 0
+ingredients: 9 5 5 6 5 8 5 6 6 5 9 8 4 9 5 
+> Processed: 366873
+> Processed: 366881
+> Processed: 367035
+> Processed: 367130
+> Processed: 367268
+> Processed: 367357
+> Processed: 367366
+> Processed: 367370
+> Processed: 367396
+> Processed: 367435
+> Processed: 367735
+> Processed: 367744
+> Processed: 367957
+> Processed: 368142
+> Processed: 368174
+> Processed: 368193
+> Processed: 368281
+> Processed: 368452
+> Processed: 368461
+> Processed: 368478
+> Processed: 368487
+> Processed: 368492
+> Processed: 368693
+> Processed: 368706
+> Processed: 368959
+> Processed: 368983
+> Processed: 369110
+> Processed: 369475
+> Processed: 369689
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 141
+info: start round 142
+info:     start player 0
+ingredients: 4 4 7 8 6 6 6 7 5 4 5 7 4 7 5 
+> Processed: 369736
+> Processed: 369741
+> Processed: 369895
+> Processed: 369990
+> Processed: 370128
+> Processed: 370201
+> Processed: 370205
+> Processed: 370227
+> Processed: 370250
+> Processed: 370271
+> Processed: 370551
+> Processed: 370557
+> Processed: 370770
+> Processed: 370955
+> Processed: 370985
+> Processed: 371001
+> Processed: 371118
+> Processed: 371192
+> Processed: 371333
+> Processed: 371336
+> Processed: 371345
+> Processed: 371350
+> Processed: 371353
+> Processed: 371554
+> Processed: 371559
+> Processed: 371903
+> Processed: 371925
+> Processed: 372109
+> Processed: 372474
+> Processed: 372688
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 142
+info: start round 143
+info:     start player 0
+ingredients: 3 5 3 4 4 3 5 4 4 4 4 4 3 3 2 
+> Processed: 372735
+> Processed: 372811
+> Processed: 372868
+> Processed: 373006
+> Processed: 373204
+> Processed: 373236
+> Processed: 373258
+> Processed: 373271
+> Processed: 373284
+> Processed: 373476
+> Processed: 373480
+> Processed: 373895
+> Processed: 374080
+> Processed: 374108
+> Processed: 374121
+> Processed: 374238
+> Processed: 374301
+> Processed: 374414
+> Processed: 374438
+> Processed: 374545
+> Processed: 374548
+> Processed: 374550
+> Processed: 374572
+> Processed: 374634
+> Processed: 374650
+> Processed: 375044
+> Processed: 375064
+> Processed: 375319
+> Processed: 375613
+> Processed: 375827
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 143
+info: start round 144
+info:     start player 0
+ingredients: 7 6 10 8 11 5 5 10 11 5 7 8 8 7 7 
+> Processed: 376012
+> Processed: 376068
+> Processed: 376123
+> Processed: 376404
+> Processed: 376602
+> Processed: 376632
+> Processed: 376757
+> Processed: 376949
+> Processed: 376956
+> Processed: 376963
+> Processed: 377142
+> Processed: 377145
+> Processed: 377560
+> Processed: 377745
+> Processed: 377771
+> Processed: 377888
+> Processed: 377940
+> Processed: 378025
+> Processed: 378038
+> Processed: 378145
+> Processed: 378439
+> Processed: 378567
+> Processed: 378585
+> Processed: 378645
+> Processed: 378654
+> Processed: 379180
+> Processed: 379198
+> Processed: 379417
+> Processed: 379711
+> Processed: 379911
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 144
+info: start round 145
+info:     start player 0
+ingredients: 6 6 7 7 6 5 6 9 10 9 5 7 6 10 11 
+> Processed: 380096
+> Processed: 380134
+> Processed: 380163
+> Processed: 380444
+> Processed: 380642
+> Processed: 380663
+> Processed: 380788
+> Processed: 380980
+> Processed: 380984
+> Processed: 380987
+> Processed: 381144
+> Processed: 381157
+> Processed: 381231
+> Processed: 381416
+> Processed: 381440
+> Processed: 381557
+> Processed: 381595
+> Processed: 381654
+> Processed: 381659
+> Processed: 381766
+> Processed: 382005
+> Processed: 382108
+> Processed: 382120
+> Processed: 382176
+> Processed: 382180
+> Processed: 382706
+> Processed: 382722
+> Processed: 382911
+> Processed: 383150
+> Processed: 383206
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 145
+info: start round 146
+info:     start player 0
+ingredients: 3 3 3 1 3 1 2 3 3 1 3 3 2 2 2 
+> Processed: 383342
+> Processed: 383365
+> Processed: 383392
+> Processed: 383504
+> Processed: 383785
+> Processed: 383825
+> Processed: 383837
+> Processed: 384090
+> Processed: 384235
+> Processed: 384277
+> Processed: 384331
+> Processed: 384627
+> Processed: 384638
+> Processed: 384695
+> Processed: 384787
+> Processed: 384809
+> Processed: 385256
+> Processed: 385536
+> Processed: 385561
+> Processed: 385597
+> Processed: 385714
+> Processed: 386151
+> Processed: 386390
+> Processed: 386475
+> Processed: 386482
+> Processed: 386511
+> Processed: 386998
+> Processed: 387672
+> Processed: 387686
+> Processed: 387875
+> Processed: 388114
+> Processed: 388168
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 146
+info: start round 147
+info:     start player 0
+ingredients: 11 7 8 10 7 8 8 9 7 10 10 8 7 6 9 
+> Processed: 388304
+> Processed: 388316
+> Processed: 388341
+> Processed: 388453
+> Processed: 388734
+> Processed: 388764
+> Processed: 388859
+> Processed: 388864
+> Processed: 389117
+> Processed: 389262
+> Processed: 389293
+> Processed: 389368
+> Processed: 389409
+> Processed: 389705
+> Processed: 389714
+> Processed: 389756
+> Processed: 389844
+> Processed: 389864
+> Processed: 390311
+> Processed: 390591
+> Processed: 390607
+> Processed: 390632
+> Processed: 390893
+> Processed: 391330
+> Processed: 391569
+> Processed: 391643
+> Processed: 391646
+> Processed: 391675
+> Processed: 392142
+> Processed: 392816
+> Processed: 392828
+> Processed: 393017
+> Processed: 393256
+> Processed: 393308
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 147
+info: start round 148
+info:     start player 0
+ingredients: 4 5 7 4 4 6 5 4 7 9 9 9 6 8 8 
+> Processed: 393444
+> Processed: 393449
+> Processed: 393472
+> Processed: 393584
+> Processed: 393865
+> Processed: 393887
+> Processed: 393982
+> Processed: 394013
+> Processed: 394266
+> Processed: 394411
+> Processed: 394446
+> Processed: 394463
+> Processed: 394521
+> Processed: 394551
+> Processed: 394847
+> Processed: 394854
+> Processed: 394883
+> Processed: 394957
+> Processed: 394975
+> Processed: 395422
+> Processed: 395702
+> Processed: 395712
+> Processed: 396145
+> Processed: 396161
+> Processed: 396404
+> Processed: 396865
+> Processed: 397104
+> Processed: 397171
+> Processed: 397226
+> Processed: 397255
+> Processed: 397625
+> Processed: 397644
+> Processed: 397653
+> Processed: 397842
+> Processed: 398081
+> Processed: 398130
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 148
+info: start round 149
+info:     start player 0
+ingredients: 6 3 3 4 5 4 5 5 3 5 4 5 5 4 4 
+> Processed: 398266
+> Processed: 398315
+> Processed: 398336
+> Processed: 398448
+> Processed: 398729
+> Processed: 398742
+> Processed: 398837
+> Processed: 398878
+> Processed: 399131
+> Processed: 399276
+> Processed: 399311
+> Processed: 399321
+> Processed: 399364
+> Processed: 399389
+> Processed: 399685
+> Processed: 399690
+> Processed: 399708
+> Processed: 399768
+> Processed: 399784
+> Processed: 400259
+> Processed: 400539
+> Processed: 400547
+> Processed: 401003
+> Processed: 401012
+> Processed: 401234
+> Processed: 401688
+> Processed: 401927
+> Processed: 402011
+> Processed: 402036
+> Processed: 402065
+> Processed: 402435
+> Processed: 402445
+> Processed: 402450
+> Processed: 402639
+> Processed: 402878
+> Processed: 402925
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 149
+info: start round 150
+info:     start player 0
+ingredients: 5 5 3 5 7 5 3 7 5 5 5 3 7 7 3 
+> Processed: 403061
+> Processed: 403110
+> Processed: 403129
+> Processed: 403241
+> Processed: 403522
+> Processed: 403527
+> Processed: 403622
+> Processed: 403995
+> Processed: 404248
+> Processed: 404393
+> Processed: 404428
+> Processed: 404433
+> Processed: 404468
+> Processed: 404489
+> Processed: 404785
+> Processed: 404788
+> Processed: 404801
+> Processed: 404847
+> Processed: 404861
+> Processed: 405336
+> Processed: 405616
+> Processed: 405622
+> Processed: 406078
+> Processed: 406082
+> Processed: 406284
+> Processed: 406732
+> Processed: 406971
+> Processed: 407048
+> Processed: 407071
+> Processed: 407441
+> Processed: 407446
+> Processed: 407448
+> Processed: 407637
+> Processed: 407876
+> Processed: 407921
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 150
+info: start round 151
+info:     start player 0
+ingredients: 10 7 9 6 8 9 10 7 6 11 7 8 7 7 8 
+> Processed: 408057
+> Processed: 408183
+> Processed: 408201
+> Processed: 408313
+> Processed: 408411
+> Processed: 408461
+> Processed: 408625
+> Processed: 408716
+> Processed: 408861
+> Processed: 408894
+> Processed: 408948
+> Processed: 408970
+> Processed: 408983
+> Processed: 409084
+> Processed: 409114
+> Processed: 409123
+> Processed: 409155
+> Processed: 409167
+> Processed: 409456
+> Processed: 409736
+> Processed: 409739
+> Processed: 410195
+> Processed: 410213
+> Processed: 410395
+> Processed: 410836
+> Processed: 411075
+> Processed: 411148
+> Processed: 411167
+> Processed: 411614
+> Processed: 411616
+> Processed: 411625
+> Processed: 411674
+> Processed: 411913
+> Processed: 411958
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 151
+info: start round 152
+info:     start player 0
+ingredients: 7 9 9 12 9 11 11 7 12 9 11 13 8 7 10 
+> Processed: 412094
+> Processed: 412224
+> Processed: 412240
+> Processed: 412368
+> Processed: 412409
+> Processed: 412444
+> Processed: 412608
+> Processed: 412699
+> Processed: 412844
+> Processed: 412877
+> Processed: 412916
+> Processed: 412927
+> Processed: 412932
+> Processed: 413024
+> Processed: 413054
+> Processed: 413058
+> Processed: 413079
+> Processed: 413089
+> Processed: 413344
+> Processed: 413583
+> Processed: 414039
+> Processed: 414053
+> Processed: 414140
+> Processed: 414581
+> Processed: 414940
+> Processed: 415011
+> Processed: 415026
+> Processed: 415447
+> Processed: 416171
+> Processed: 416176
+> Processed: 416215
+> Processed: 416574
+> Processed: 416616
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 152
+info: start round 153
+info:     start player 0
+ingredients: 7 6 5 4 4 5 7 5 6 5 4 5 6 7 4 
+> Processed: 416752
+> Processed: 416882
+> Processed: 416894
+> Processed: 417022
+> Processed: 417061
+> Processed: 417082
+> Processed: 417246
+> Processed: 417337
+> Processed: 417482
+> Processed: 417515
+> Processed: 417542
+> Processed: 417546
+> Processed: 417591
+> Processed: 417675
+> Processed: 417705
+> Processed: 417927
+> Processed: 417939
+> Processed: 417947
+> Processed: 418019
+> Processed: 418258
+> Processed: 418452
+> Processed: 418459
+> Processed: 418535
+> Processed: 418701
+> Processed: 419060
+> Processed: 419129
+> Processed: 419139
+> Processed: 419249
+> Processed: 419775
+> Processed: 419777
+> Processed: 420016
+> Processed: 420055
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 153
+info: start round 154
+info:     start player 0
+ingredients: 5 6 5 6 5 6 6 4 6 6 6 3 4 4 3 
+> Processed: 420191
+> Processed: 420321
+> Processed: 420329
+> Processed: 420457
+> Processed: 420494
+> Processed: 420505
+> Processed: 420549
+> Processed: 420640
+> Processed: 420785
+> Processed: 420818
+> Processed: 420836
+> Processed: 420893
+> Processed: 420922
+> Processed: 420990
+> Processed: 421020
+> Processed: 421242
+> Processed: 421247
+> Processed: 421253
+> Processed: 421312
+> Processed: 421551
+> Processed: 421745
+> Processed: 421748
+> Processed: 422018
+> Processed: 422220
+> Processed: 422386
+> Processed: 422816
+> Processed: 422883
+> Processed: 423137
+> Processed: 423144
+> Processed: 423238
+> Processed: 423764
+> Processed: 424160
+> Processed: 424399
+> Processed: 424435
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 154
+info: start round 155
+info:     start player 0
+ingredients: 8 8 13 13 9 9 12 13 8 9 11 11 8 11 7 
+> Processed: 424658
+> Processed: 424788
+> Processed: 424793
+> Processed: 424921
+> Processed: 424956
+> Processed: 424960
+> Processed: 424990
+> Processed: 425081
+> Processed: 425320
+> Processed: 425330
+> Processed: 425371
+> Processed: 425388
+> Processed: 425440
+> Processed: 425470
+> Processed: 425692
+> Processed: 425931
+> Processed: 425935
+> Processed: 425994
+> Processed: 426285
+> Processed: 426479
+> Processed: 426537
+> Processed: 426807
+> Processed: 426849
+> Processed: 427015
+> Processed: 427362
+> Processed: 427427
+> Processed: 427657
+> Processed: 427660
+> Processed: 427770
+> Processed: 428166
+> Processed: 428513
+> Processed: 428545
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 155
+info: start round 156
+info:     start player 0
+ingredients: 4 3 2 3 3 2 3 3 2 2 2 3 3 3 2 
+> Processed: 428768
+> Processed: 428895
+> Processed: 428898
+> Processed: 428931
+> Processed: 428968
+> Processed: 428985
+> Processed: 429076
+> Processed: 429315
+> Processed: 429319
+> Processed: 429344
+> Processed: 429353
+> Processed: 429390
+> Processed: 429420
+> Processed: 429934
+> Processed: 430173
+> Processed: 430175
+> Processed: 430234
+> Processed: 430525
+> Processed: 430849
+> Processed: 430891
+> Processed: 431161
+> Processed: 431192
+> Processed: 431241
+> Processed: 431682
+> Processed: 432029
+> Processed: 432083
+> Processed: 432290
+> Processed: 432313
+> Processed: 432363
+> Processed: 432840
+> Processed: 433187
+> Processed: 433215
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 156
+info: start round 157
+info:     start player 0
+ingredients: 5 9 9 8 8 7 9 7 8 5 7 7 6 9 11 
+> Processed: 433454
+> Processed: 433581
+> Processed: 433601
+> Processed: 433632
+> Processed: 433655
+> Processed: 433665
+> Processed: 433756
+> Processed: 434047
+> Processed: 434102
+> Processed: 434115
+> Processed: 434118
+> Processed: 434142
+> Processed: 434172
+> Processed: 434686
+> Processed: 435033
+> Processed: 435142
+> Processed: 435201
+> Processed: 435560
+> Processed: 435801
+> Processed: 435827
+> Processed: 436097
+> Processed: 436118
+> Processed: 436167
+> Processed: 436595
+> Processed: 436991
+> Processed: 437037
+> Processed: 437236
+> Processed: 437255
+> Processed: 437293
+> Processed: 437770
+> Processed: 438129
+> Processed: 438277
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 157
+info: start round 158
+info:     start player 0
+ingredients: 1 1 1 1 3 3 1 3 3 3 3 3 3 3 3 
+> Processed: 438307
+> Processed: 438434
+> Processed: 438450
+> Processed: 438478
+> Processed: 438490
+> Processed: 438495
+> Processed: 438541
+> Processed: 438632
+> Processed: 438649
+> Processed: 438704
+> Processed: 438709
+> Processed: 438825
+> Processed: 439047
+> Processed: 439077
+> Processed: 439591
+> Processed: 439938
+> Processed: 440043
+> Processed: 440102
+> Processed: 440461
+> Processed: 440694
+> Processed: 440708
+> Processed: 440978
+> Processed: 440990
+> Processed: 441039
+> Processed: 441455
+> Processed: 441851
+> Processed: 441892
+> Processed: 442077
+> Processed: 442092
+> Processed: 442109
+> Processed: 442586
+> Processed: 442945
+> Processed: 443086
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 158
+info: start round 159
+info:     start player 0
+ingredients: 5 8 4 6 6 8 7 7 7 5 4 5 4 8 6 
+> Processed: 443116
+> Processed: 443243
+> Processed: 443256
+> Processed: 443280
+> Processed: 443285
+> Processed: 443287
+> Processed: 443333
+> Processed: 443424
+> Processed: 443434
+> Processed: 443489
+> Processed: 443704
+> Processed: 443792
+> Processed: 443993
+> Processed: 444043
+> Processed: 444390
+> Processed: 444737
+> Processed: 444838
+> Processed: 444897
+> Processed: 445256
+> Processed: 445454
+> Processed: 445460
+> Processed: 445465
+> Processed: 445514
+> Processed: 445655
+> Processed: 446051
+> Processed: 446088
+> Processed: 446254
+> Processed: 446265
+> Processed: 446279
+> Processed: 446756
+> Processed: 447115
+> Processed: 447251
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 159
+info: start round 160
+info:     start player 0
+ingredients: 2 3 4 3 3 4 3 2 4 2 3 4 3 3 2 
+> Processed: 447281
+> Processed: 447347
+> Processed: 447358
+> Processed: 447379
+> Processed: 447506
+> Processed: 447671
+> Processed: 447717
+> Processed: 447808
+> Processed: 447813
+> Processed: 447917
+> Processed: 448132
+> Processed: 448202
+> Processed: 448393
+> Processed: 448423
+> Processed: 448937
+> Processed: 449284
+> Processed: 449312
+> Processed: 449371
+> Processed: 449767
+> Processed: 449965
+> Processed: 449967
+> Processed: 450081
+> Processed: 450130
+> Processed: 450271
+> Processed: 450701
+> Processed: 450734
+> Processed: 450741
+> Processed: 450746
+> Processed: 450792
+> Processed: 451188
+> Processed: 451570
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 160
+info: start round 161
+info:     start player 0
+ingredients: 4 4 3 7 5 5 7 3 5 6 5 3 5 4 4 
+> Processed: 451600
+> Processed: 451651
+> Processed: 451660
+> Processed: 451691
+> Processed: 451710
+> Processed: 451837
+> Processed: 452002
+> Processed: 452048
+> Processed: 452253
+> Processed: 452255
+> Processed: 452359
+> Processed: 452704
+> Processed: 452758
+> Processed: 452928
+> Processed: 452978
+> Processed: 453028
+> Processed: 453375
+> Processed: 453401
+> Processed: 453523
+> Processed: 453919
+> Processed: 454117
+> Processed: 454148
+> Processed: 454254
+> Processed: 454342
+> Processed: 454483
+> Processed: 454913
+> Processed: 454945
+> Processed: 454948
+> Processed: 454950
+> Processed: 454996
+> Processed: 455392
+> Processed: 455747
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 161
+info: start round 162
+info:     start player 0
+ingredients: 14 7 13 7 12 7 10 11 9 7 13 10 11 10 9 
+> Processed: 455986
+> Processed: 456022
+> Processed: 456029
+> Processed: 456050
+> Processed: 456067
+> Processed: 456330
+> Processed: 456715
+> Processed: 456761
+> Processed: 456966
+> Processed: 457283
+> Processed: 457301
+> Processed: 457532
+> Processed: 457572
+> Processed: 457757
+> Processed: 457807
+> Processed: 457856
+> Processed: 458203
+> Processed: 458227
+> Processed: 458349
+> Processed: 458708
+> Processed: 458906
+> Processed: 458928
+> Processed: 459023
+> Processed: 459095
+> Processed: 459236
+> Processed: 459632
+> Processed: 459661
+> Processed: 459721
+> Processed: 459993
+> Processed: 460039
+> Processed: 460435
+> Processed: 460766
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 162
+info: start round 163
+info:     start player 0
+ingredients: 6 5 3 3 3 5 6 4 3 3 4 6 3 3 3 
+> Processed: 461005
+> Processed: 461027
+> Processed: 461032
+> Processed: 461043
+> Processed: 461057
+> Processed: 461320
+> Processed: 461705
+> Processed: 461751
+> Processed: 461956
+> Processed: 462273
+> Processed: 462286
+> Processed: 462494
+> Processed: 462522
+> Processed: 462686
+> Processed: 462733
+> Processed: 462779
+> Processed: 463126
+> Processed: 463148
+> Processed: 463270
+> Processed: 463629
+> Processed: 463827
+> Processed: 463839
+> Processed: 463924
+> Processed: 463996
+> Processed: 464137
+> Processed: 464533
+> Processed: 464557
+> Processed: 464613
+> Processed: 464883
+> Processed: 464929
+> Processed: 465325
+> Processed: 465619
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 163
+info: start round 164
+info:     start player 0
+ingredients: 3 4 7 7 4 3 5 6 3 5 4 6 6 6 6 
+> Processed: 465858
+> Processed: 465869
+> Processed: 465872
+> Processed: 465876
+> Processed: 465888
+> Processed: 466151
+> Processed: 466536
+> Processed: 466582
+> Processed: 466787
+> Processed: 467104
+> Processed: 467110
+> Processed: 467302
+> Processed: 467320
+> Processed: 467465
+> Processed: 467512
+> Processed: 467550
+> Processed: 467897
+> Processed: 467917
+> Processed: 468039
+> Processed: 468398
+> Processed: 468596
+> Processed: 468605
+> Processed: 468676
+> Processed: 468748
+> Processed: 468889
+> Processed: 469285
+> Processed: 469303
+> Processed: 469353
+> Processed: 469460
+> Processed: 469727
+> Processed: 469773
+> Processed: 470169
+> Processed: 470423
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 164
+info: start round 165
+info:     start player 0
+ingredients: 11 9 7 9 7 9 13 12 9 11 8 8 10 8 9 
+> Processed: 470740
+> Processed: 470744
+> Processed: 470816
+> Processed: 470875
+> Processed: 470885
+> Processed: 471031
+> Processed: 471196
+> Processed: 471242
+> Processed: 471495
+> Processed: 471842
+> Processed: 471844
+> Processed: 472020
+> Processed: 472030
+> Processed: 472157
+> Processed: 472204
+> Processed: 472229
+> Processed: 472576
+> Processed: 472594
+> Processed: 472783
+> Processed: 473142
+> Processed: 473340
+> Processed: 473344
+> Processed: 473398
+> Processed: 473563
+> Processed: 473704
+> Processed: 474100
+> Processed: 474112
+> Processed: 474154
+> Processed: 474237
+> Processed: 474296
+> Processed: 474342
+> Processed: 474738
+> Processed: 474992
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 165
+info: start round 166
+info:     start player 0
+ingredients: 12 6 8 6 7 8 12 6 8 7 6 13 7 12 12 
+> Processed: 475339
+> Processed: 475381
+> Processed: 475494
+> Processed: 475541
+> Processed: 475549
+> Processed: 475861
+> Processed: 475875
+> Processed: 475921
+> Processed: 476174
+> Processed: 476521
+> Processed: 476612
+> Processed: 476775
+> Processed: 476779
+> Processed: 476894
+> Processed: 476944
+> Processed: 476957
+> Processed: 477304
+> Processed: 477320
+> Processed: 477509
+> Processed: 477905
+> Processed: 478357
+> Processed: 478415
+> Processed: 478449
+> Processed: 478589
+> Processed: 478996
+> Processed: 479426
+> Processed: 479435
+> Processed: 479469
+> Processed: 479780
+> Processed: 480022
+> Processed: 480068
+> Processed: 480464
+> Processed: 480718
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 166
+info: start round 167
+info:     start player 0
+ingredients: 8 6 6 7 5 8 7 6 5 4 6 4 4 5 4 
+> Processed: 481065
+> Processed: 481096
+> Processed: 481209
+> Processed: 481240
+> Processed: 481246
+> Processed: 481558
+> Processed: 481571
+> Processed: 481617
+> Processed: 481870
+> Processed: 482217
+> Processed: 482308
+> Processed: 482454
+> Processed: 482492
+> Processed: 482592
+> Processed: 482642
+> Processed: 482647
+> Processed: 482994
+> Processed: 483008
+> Processed: 483197
+> Processed: 483593
+> Processed: 484045
+> Processed: 484083
+> Processed: 484101
+> Processed: 484222
+> Processed: 484629
+> Processed: 485059
+> Processed: 485066
+> Processed: 485088
+> Processed: 485399
+> Processed: 485622
+> Processed: 485667
+> Processed: 485925
+> Processed: 486321
+> Processed: 486575
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 167
+info: start round 168
+info:     start player 0
+ingredients: 2 2 3 4 3 4 5 4 2 5 5 2 3 3 3 
+> Processed: 486922
+> Processed: 486947
+> Processed: 487060
+> Processed: 487081
+> Processed: 487085
+> Processed: 487397
+> Processed: 487408
+> Processed: 487454
+> Processed: 487707
+> Processed: 488054
+> Processed: 488145
+> Processed: 488291
+> Processed: 488323
+> Processed: 488410
+> Processed: 488460
+> Processed: 488531
+> Processed: 488878
+> Processed: 488890
+> Processed: 489079
+> Processed: 489475
+> Processed: 489927
+> Processed: 489948
+> Processed: 489958
+> Processed: 490064
+> Processed: 490471
+> Processed: 490901
+> Processed: 490905
+> Processed: 490921
+> Processed: 491209
+> Processed: 491717
+> Processed: 491758
+> Processed: 491986
+> Processed: 492382
+> Processed: 492636
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 168
+info: start round 169
+info:     start player 0
+ingredients: 3 2 3 2 2 1 1 3 2 1 2 2 2 3 1 
+> Processed: 492983
+> Processed: 492996
+> Processed: 493109
+> Processed: 493122
+> Processed: 493124
+> Processed: 493436
+> Processed: 493441
+> Processed: 493487
+> Processed: 493740
+> Processed: 494089
+> Processed: 494436
+> Processed: 494475
+> Processed: 494621
+> Processed: 494645
+> Processed: 494714
+> Processed: 494764
+> Processed: 494820
+> Processed: 495167
+> Processed: 495177
+> Processed: 495366
+> Processed: 495762
+> Processed: 496216
+> Processed: 496231
+> Processed: 496238
+> Processed: 496333
+> Processed: 496742
+> Processed: 497172
+> Processed: 497190
+> Processed: 497202
+> Processed: 497457
+> Processed: 497965
+> Processed: 498002
+> Processed: 498207
+> Processed: 498603
+> Processed: 498857
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 169
+info: start round 170
+info:     start player 0
+ingredients: 7 11 13 9 9 9 10 8 11 9 8 7 12 13 9 
+> Processed: 499204
+> Processed: 499209
+> Processed: 499322
+> Processed: 499329
+> Processed: 499389
+> Processed: 499720
+> Processed: 500140
+> Processed: 500186
+> Processed: 500439
+> Processed: 500788
+> Processed: 501135
+> Processed: 501163
+> Processed: 501309
+> Processed: 501322
+> Processed: 501377
+> Processed: 501427
+> Processed: 501466
+> Processed: 501813
+> Processed: 501821
+> Processed: 502010
+> Processed: 502406
+> Processed: 502860
+> Processed: 502869
+> Processed: 502873
+> Processed: 502958
+> Processed: 503334
+> Processed: 503730
+> Processed: 503746
+> Processed: 503756
+> Processed: 504011
+> Processed: 504494
+> Processed: 504527
+> Processed: 504710
+> Processed: 505106
+> Processed: 505360
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 170
+info: start round 171
+info:     start player 0
+ingredients: 9 11 10 15 12 12 12 7 7 10 8 11 8 11 7 
+> Processed: 505707
+> Processed: 505846
+> Processed: 505982
+> Processed: 505985
+> Processed: 506026
+> Processed: 506357
+> Processed: 506777
+> Processed: 506823
+> Processed: 507076
+> Processed: 507425
+> Processed: 507772
+> Processed: 507792
+> Processed: 507938
+> Processed: 507943
+> Processed: 507984
+> Processed: 508034
+> Processed: 508058
+> Processed: 508405
+> Processed: 508411
+> Processed: 508600
+> Processed: 508996
+> Processed: 509390
+> Processed: 509394
+> Processed: 509852
+> Processed: 509927
+> Processed: 510265
+> Processed: 510661
+> Processed: 510675
+> Processed: 510683
+> Processed: 510907
+> Processed: 511390
+> Processed: 511421
+> Processed: 511509
+> Processed: 511905
+> Processed: 512159
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 171
+info: start round 172
+info:     start player 0
+ingredients: 9 8 8 6 8 10 8 9 6 11 11 6 9 6 10 
+> Processed: 512478
+> Processed: 512617
+> Processed: 512691
+> Processed: 512736
+> Processed: 512766
+> Processed: 513097
+> Processed: 513540
+> Processed: 513586
+> Processed: 513900
+> Processed: 514249
+> Processed: 514596
+> Processed: 514608
+> Processed: 514856
+> Processed: 514932
+> Processed: 515180
+> Processed: 515387
+> Processed: 515400
+> Processed: 515747
+> Processed: 515751
+> Processed: 515958
+> Processed: 516354
+> Processed: 516808
+> Processed: 516867
+> Processed: 516881
+> Processed: 516954
+> Processed: 517253
+> Processed: 517649
+> Processed: 517660
+> Processed: 517666
+> Processed: 517890
+> Processed: 518352
+> Processed: 518379
+> Processed: 518635
+> Processed: 519031
+> Processed: 519285
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 172
+info: start round 173
+info:     start player 0
+ingredients: 6 6 3 6 4 4 4 3 3 4 5 4 3 4 6 
+> Processed: 519604
+> Processed: 519743
+> Processed: 519817
+> Processed: 519852
+> Processed: 519875
+> Processed: 520206
+> Processed: 520649
+> Processed: 520695
+> Processed: 521009
+> Processed: 521358
+> Processed: 521705
+> Processed: 521710
+> Processed: 521958
+> Processed: 522013
+> Processed: 522259
+> Processed: 522466
+> Processed: 522471
+> Processed: 522818
+> Processed: 522820
+> Processed: 523027
+> Processed: 523423
+> Processed: 523872
+> Processed: 523931
+> Processed: 523945
+> Processed: 524008
+> Processed: 524307
+> Processed: 524703
+> Processed: 524707
+> Processed: 524711
+> Processed: 524935
+> Processed: 525380
+> Processed: 525404
+> Processed: 525638
+> Processed: 526034
+> Processed: 526288
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 173
+info: start round 174
+info:     start player 0
+ingredients: 6 5 9 7 8 5 7 7 9 5 6 5 6 8 7 
+> Processed: 526607
+> Processed: 527067
+> Processed: 527141
+> Processed: 527166
+> Processed: 527185
+> Processed: 527516
+> Processed: 527959
+> Processed: 528005
+> Processed: 528319
+> Processed: 528668
+> Processed: 529006
+> Processed: 529028
+> Processed: 529202
+> Processed: 529369
+> Processed: 529406
+> Processed: 529650
+> Processed: 529688
+> Processed: 530202
+> Processed: 530549
+> Processed: 530586
+> Processed: 530793
+> Processed: 531189
+> Processed: 531630
+> Processed: 531680
+> Processed: 532138
+> Processed: 532191
+> Processed: 532492
+> Processed: 532888
+> Processed: 532890
+> Processed: 532892
+> Processed: 533277
+> Processed: 533729
+> Processed: 533751
+> Processed: 533964
+> Processed: 534360
+> Processed: 534614
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 174
+info: start round 175
+info:     start player 0
+ingredients: 5 3 2 5 4 2 2 4 2 2 4 4 4 3 4 
+> Processed: 534894
+> Processed: 535354
+> Processed: 535391
+> Processed: 535408
+> Processed: 535425
+> Processed: 535756
+> Processed: 536199
+> Processed: 536245
+> Processed: 536559
+> Processed: 536908
+> Processed: 537227
+> Processed: 537244
+> Processed: 537400
+> Processed: 537544
+> Processed: 537566
+> Processed: 537810
+> Processed: 537848
+> Processed: 538362
+> Processed: 538709
+> Processed: 538744
+> Processed: 538951
+> Processed: 539347
+> Processed: 539788
+> Processed: 539826
+> Processed: 539876
+> Processed: 539919
+> Processed: 540187
+> Processed: 540583
+> Processed: 540680
+> Processed: 540837
+> Processed: 541222
+> Processed: 541674
+> Processed: 541694
+> Processed: 541890
+> Processed: 542286
+> Processed: 542540
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 175
+info: start round 176
+info:     start player 0
+ingredients: 5 5 9 6 6 6 9 6 5 10 8 11 5 8 11 
+> Processed: 542820
+> Processed: 543280
+> Processed: 543317
+> Processed: 543328
+> Processed: 543343
+> Processed: 543674
+> Processed: 544117
+> Processed: 544163
+> Processed: 544477
+> Processed: 544826
+> Processed: 545145
+> Processed: 545155
+> Processed: 545293
+> Processed: 545413
+> Processed: 545424
+> Processed: 545668
+> Processed: 545706
+> Processed: 546269
+> Processed: 546616
+> Processed: 546649
+> Processed: 546856
+> Processed: 547252
+> Processed: 547774
+> Processed: 547801
+> Processed: 547851
+> Processed: 547884
+> Processed: 548209
+> Processed: 548605
+> Processed: 548678
+> Processed: 548835
+> Processed: 549175
+> Processed: 549626
+> Processed: 549643
+> Processed: 549826
+> Processed: 550222
+> Processed: 550476
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 176
+info: start round 177
+info:     start player 0
+ingredients: 6 4 3 6 6 4 6 5 6 3 6 6 6 3 5 
+> Processed: 550756
+> Processed: 551216
+> Processed: 551253
+> Processed: 551257
+> Processed: 551270
+> Processed: 551713
+> Processed: 551759
+> Processed: 552073
+> Processed: 552422
+> Processed: 552741
+> Processed: 552746
+> Processed: 552866
+> Processed: 552956
+> Processed: 552960
+> Processed: 553165
+> Processed: 553203
+> Processed: 553766
+> Processed: 554113
+> Processed: 554144
+> Processed: 554351
+> Processed: 554747
+> Processed: 555269
+> Processed: 555287
+> Processed: 555337
+> Processed: 555360
+> Processed: 555652
+> Processed: 556048
+> Processed: 556105
+> Processed: 556262
+> Processed: 556561
+> Processed: 557007
+> Processed: 557022
+> Processed: 557195
+> Processed: 557591
+> Processed: 557845
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 177
+info: start round 178
+info:     start player 0
+ingredients: 10 8 9 8 11 10 8 7 10 11 8 11 9 9 11 
+> Processed: 558125
+> Processed: 558585
+> Processed: 558622
+> Processed: 558651
+> Processed: 558661
+> Processed: 559117
+> Processed: 559163
+> Processed: 559638
+> Processed: 559987
+> Processed: 560306
+> Processed: 560308
+> Processed: 560351
+> Processed: 560423
+> Processed: 560528
+> Processed: 560730
+> Processed: 560768
+> Processed: 561331
+> Processed: 561669
+> Processed: 561698
+> Processed: 562240
+> Processed: 562587
+> Processed: 563109
+> Processed: 563120
+> Processed: 563170
+> Processed: 563185
+> Processed: 563445
+> Processed: 563792
+> Processed: 563838
+> Processed: 564038
+> Processed: 564300
+> Processed: 564737
+> Processed: 564750
+> Processed: 564913
+> Processed: 565260
+> Processed: 565374
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 178
+info: start round 179
+info:     start player 0
+ingredients: 6 7 6 4 5 5 5 6 5 6 6 4 8 6 6 
+> Processed: 565654
+> Processed: 566114
+> Processed: 566151
+> Processed: 566168
+> Processed: 566176
+> Processed: 566619
+> Processed: 566665
+> Processed: 566979
+> Processed: 567328
+> Processed: 567666
+> Processed: 567867
+> Processed: 567938
+> Processed: 567966
+> Processed: 568022
+> Processed: 568118
+> Processed: 568384
+> Processed: 568422
+> Processed: 568985
+> Processed: 569323
+> Processed: 569350
+> Processed: 569557
+> Processed: 569904
+> Processed: 570426
+> Processed: 570434
+> Processed: 570479
+> Processed: 570488
+> Processed: 570713
+> Processed: 571060
+> Processed: 571096
+> Processed: 571296
+> Processed: 571524
+> Processed: 571948
+> Processed: 571959
+> Processed: 572112
+> Processed: 572459
+> Processed: 572567
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 179
+info: start round 180
+info:     start player 0
+ingredients: 3 6 5 5 5 4 5 6 3 3 3 4 3 5 5 
+> Processed: 572847
+> Processed: 573069
+> Processed: 573106
+> Processed: 573119
+> Processed: 573125
+> Processed: 573239
+> Processed: 573285
+> Processed: 573427
+> Processed: 573461
+> Processed: 573799
+> Processed: 573994
+> Processed: 574065
+> Processed: 574081
+> Processed: 574123
+> Processed: 574204
+> Processed: 574470
+> Processed: 574508
+> Processed: 575083
+> Processed: 575421
+> Processed: 575446
+> Processed: 575653
+> Processed: 576049
+> Processed: 576690
+> Processed: 576694
+> Processed: 576732
+> Processed: 576741
+> Processed: 577089
+> Processed: 577485
+> Processed: 577516
+> Processed: 577716
+> Processed: 577916
+> Processed: 578323
+> Processed: 578332
+> Processed: 578336
+> Processed: 578732
+> Processed: 578835
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 180
+info: start round 181
+info:     start player 0
+ingredients: 4 7 5 5 4 5 9 8 4 7 5 8 6 8 5 
+> Processed: 579115
+> Processed: 579337
+> Processed: 579374
+> Processed: 579383
+> Processed: 579387
+> Processed: 579468
+> Processed: 579582
+> Processed: 579628
+> Processed: 579770
+> Processed: 579793
+> Processed: 580131
+> Processed: 580320
+> Processed: 580391
+> Processed: 580399
+> Processed: 580429
+> Processed: 580490
+> Processed: 580755
+> Processed: 580926
+> Processed: 581501
+> Processed: 581839
+> Processed: 581862
+> Processed: 582404
+> Processed: 582800
+> Processed: 583441
+> Processed: 583539
+> Processed: 583562
+> Processed: 583709
+> Processed: 584057
+> Processed: 584453
+> Processed: 584480
+> Processed: 584680
+> Processed: 584858
+> Processed: 585265
+> Processed: 585272
+> Processed: 585405
+> Processed: 585801
+> Processed: 585900
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 181
+info: start round 182
+info:     start player 0
+ingredients: 8 5 6 5 5 10 7 8 7 6 5 6 6 10 6 
+> Processed: 585945
+> Processed: 586114
+> Processed: 586151
+> Processed: 586156
+> Processed: 586158
+> Processed: 586358
+> Processed: 586472
+> Processed: 586518
+> Processed: 586660
+> Processed: 586676
+> Processed: 586697
+> Processed: 586985
+> Processed: 587056
+> Processed: 587061
+> Processed: 587081
+> Processed: 587344
+> Processed: 587515
+> Processed: 587597
+> Processed: 587935
+> Processed: 587956
+> Processed: 588498
+> Processed: 588894
+> Processed: 589535
+> Processed: 589613
+> Processed: 589629
+> Processed: 589977
+> Processed: 590373
+> Processed: 590395
+> Processed: 590680
+> Processed: 590840
+> Processed: 591247
+> Processed: 591250
+> Processed: 591373
+> Processed: 591769
+> Processed: 591864
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 182
+info: start round 183
+info:     start player 0
+ingredients: 8 7 7 12 6 9 9 10 9 11 10 10 11 8 8 
+> Processed: 591909
+> Processed: 592078
+> Processed: 592115
+> Processed: 592117
+> Processed: 592153
+> Processed: 592353
+> Processed: 592467
+> Processed: 592534
+> Processed: 592598
+> Processed: 592607
+> Processed: 592627
+> Processed: 592915
+> Processed: 592986
+> Processed: 593059
+> Processed: 593071
+> Processed: 593332
+> Processed: 593503
+> Processed: 593568
+> Processed: 593823
+> Processed: 593842
+> Processed: 593881
+> Processed: 594277
+> Processed: 594918
+> Processed: 594976
+> Processed: 594984
+> Processed: 595332
+> Processed: 595728
+> Processed: 595744
+> Processed: 596045
+> Processed: 596187
+> Processed: 596594
+> Processed: 596616
+> Processed: 596729
+> Processed: 597125
+> Processed: 597369
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 183
+info: start round 184
+info:     start player 0
+ingredients: 3 4 4 5 5 5 3 4 3 5 5 4 5 4 6 
+> Processed: 597414
+> Processed: 597583
+> Processed: 597620
+> Processed: 597629
+> Processed: 597663
+> Processed: 597863
+> Processed: 597977
+> Processed: 598044
+> Processed: 598108
+> Processed: 598111
+> Processed: 598123
+> Processed: 598411
+> Processed: 598482
+> Processed: 598549
+> Processed: 598808
+> Processed: 598979
+> Processed: 599029
+> Processed: 599284
+> Processed: 599301
+> Processed: 599330
+> Processed: 599895
+> Processed: 600334
+> Processed: 600374
+> Processed: 600377
+> Processed: 600516
+> Processed: 601081
+> Processed: 601088
+> Processed: 601389
+> Processed: 601409
+> Processed: 601772
+> Processed: 601790
+> Processed: 601849
+> Processed: 602441
+> Processed: 602649
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 184
+info: start round 185
+info:     start player 0
+ingredients: 6 9 6 5 9 8 7 9 7 6 9 5 10 6 8 
+> Processed: 602694
+> Processed: 602863
+> Processed: 602956
+> Processed: 602961
+> Processed: 602993
+> Processed: 603235
+> Processed: 603435
+> Processed: 603593
+> Processed: 603660
+> Processed: 603814
+> Processed: 603878
+> Processed: 604321
+> Processed: 604326
+> Processed: 604614
+> Processed: 604696
+> Processed: 604752
+> Processed: 604999
+> Processed: 605029
+> Processed: 605066
+> Processed: 605177
+> Processed: 605192
+> Processed: 605211
+> Processed: 605466
+> Processed: 606155
+> Processed: 606180
+> Processed: 606445
+> Processed: 606584
+> Processed: 606649
+> Processed: 606653
+> Processed: 606954
+> Processed: 606966
+> Processed: 607373
+> Processed: 607382
+> Processed: 607431
+> Processed: 607686
+> Processed: 607894
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 185
+info: start round 186
+info:     start player 0
+ingredients: 4 6 5 8 9 7 8 5 7 7 8 4 5 7 5 
+> Processed: 607965
+> Processed: 608042
+> Processed: 608135
+> Processed: 608173
+> Processed: 608203
+> Processed: 608240
+> Processed: 608440
+> Processed: 608598
+> Processed: 608665
+> Processed: 609008
+> Processed: 609072
+> Processed: 609522
+> Processed: 609607
+> Processed: 609895
+> Processed: 609977
+> Processed: 610016
+> Processed: 610249
+> Processed: 610279
+> Processed: 610305
+> Processed: 610560
+> Processed: 610573
+> Processed: 610584
+> Processed: 611176
+> Processed: 611642
+> Processed: 611655
+> Processed: 611914
+> Processed: 612039
+> Processed: 612093
+> Processed: 612095
+> Processed: 612439
+> Processed: 613203
+> Processed: 613206
+> Processed: 613245
+> Processed: 614012
+> Processed: 614220
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 186
+info: start round 187
+info:     start player 0
+ingredients: 8 10 9 8 9 9 10 8 6 9 7 8 8 10 11 
+> Processed: 614291
+> Processed: 614368
+> Processed: 614461
+> Processed: 614497
+> Processed: 614525
+> Processed: 614556
+> Processed: 614756
+> Processed: 614914
+> Processed: 615265
+> Processed: 615588
+> Processed: 615652
+> Processed: 616057
+> Processed: 616142
+> Processed: 616430
+> Processed: 616473
+> Processed: 616497
+> Processed: 616715
+> Processed: 616742
+> Processed: 616759
+> Processed: 617014
+> Processed: 617025
+> Processed: 617030
+> Processed: 617622
+> Processed: 618088
+> Processed: 618093
+> Processed: 618348
+> Processed: 618450
+> Processed: 618491
+> Processed: 618521
+> Processed: 618865
+> Processed: 619657
+> Processed: 620289
+> Processed: 620317
+> Processed: 621084
+> Processed: 621292
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 187
+info: start round 188
+info:     start player 0
+ingredients: 9 6 8 5 10 5 6 6 6 8 10 6 7 7 11 
+> Processed: 621363
+> Processed: 621440
+> Processed: 621533
+> Processed: 621552
+> Processed: 621578
+> Processed: 621602
+> Processed: 621802
+> Processed: 622283
+> Processed: 622634
+> Processed: 622937
+> Processed: 623445
+> Processed: 623809
+> Processed: 623894
+> Processed: 624182
+> Processed: 624220
+> Processed: 624232
+> Processed: 624434
+> Processed: 624460
+> Processed: 624469
+> Processed: 624724
+> Processed: 624733
+> Processed: 625039
+> Processed: 625604
+> Processed: 626070
+> Processed: 626123
+> Processed: 626374
+> Processed: 626457
+> Processed: 626487
+> Processed: 626517
+> Processed: 627104
+> Processed: 627405
+> Processed: 628189
+> Processed: 628799
+> Processed: 628822
+> Processed: 629683
+> Processed: 629859
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 188
+info: start round 189
+info:     start player 0
+ingredients: 7 10 8 8 11 13 9 11 11 10 7 11 9 8 7 
+> Processed: 629930
+> Processed: 630007
+> Processed: 630100
+> Processed: 630116
+> Processed: 630141
+> Processed: 630154
+> Processed: 630354
+> Processed: 630702
+> Processed: 631183
+> Processed: 631664
+> Processed: 631967
+> Processed: 632475
+> Processed: 632759
+> Processed: 632844
+> Processed: 633132
+> Processed: 633647
+> Processed: 633674
+> Processed: 633679
+> Processed: 633863
+> Processed: 633887
+> Processed: 633890
+> Processed: 634145
+> Processed: 634152
+> Processed: 634458
+> Processed: 635023
+> Processed: 635489
+> Processed: 635525
+> Processed: 635769
+> Processed: 635837
+> Processed: 635858
+> Processed: 635887
+> Processed: 636474
+> Processed: 636775
+> Processed: 637142
+> Processed: 637752
+> Processed: 637765
+> Processed: 638432
+> Processed: 638608
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 189
+info: start round 190
+info:     start player 0
+ingredients: 10 7 10 9 7 6 7 7 6 7 7 7 7 9 9 
+> Processed: 638635
+> Processed: 638712
+> Processed: 638835
+> Processed: 638847
+> Processed: 638870
+> Processed: 638875
+> Processed: 639075
+> Processed: 639423
+> Processed: 639904
+> Processed: 640385
+> Processed: 640688
+> Processed: 641196
+> Processed: 641456
+> Processed: 641541
+> Processed: 641829
+> Processed: 642344
+> Processed: 642363
+> Processed: 642606
+> Processed: 642770
+> Processed: 642792
+> Processed: 643535
+> Processed: 643790
+> Processed: 643795
+> Processed: 644101
+> Processed: 644666
+> Processed: 645132
+> Processed: 645154
+> Processed: 645528
+> Processed: 645581
+> Processed: 645599
+> Processed: 645626
+> Processed: 646213
+> Processed: 646514
+> Processed: 646881
+> Processed: 647491
+> Processed: 647496
+> Processed: 648357
+> Processed: 648533
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 190
+info: start round 191
+info:     start player 0
+ingredients: 5 4 2 5 2 3 3 4 5 4 3 2 5 4 4 
+> Processed: 648550
+> Processed: 649079
+> Processed: 649202
+> Processed: 649210
+> Processed: 649230
+> Processed: 649761
+> Processed: 649961
+> Processed: 650309
+> Processed: 650790
+> Processed: 651289
+> Processed: 651592
+> Processed: 652100
+> Processed: 652328
+> Processed: 652413
+> Processed: 652701
+> Processed: 653216
+> Processed: 653227
+> Processed: 653463
+> Processed: 653605
+> Processed: 653625
+> Processed: 654399
+> Processed: 654643
+> Processed: 654646
+> Processed: 655034
+> Processed: 655289
+> Processed: 655755
+> Processed: 655766
+> Processed: 656136
+> Processed: 656181
+> Processed: 656192
+> Processed: 656217
+> Processed: 656804
+> Processed: 657105
+> Processed: 657472
+> Processed: 658082
+> Processed: 658137
+> Processed: 658392
+> Processed: 658592
+> Processed: 658721
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 191
+info: start round 192
+info:     start player 0
+ingredients: 3 5 4 2 5 2 4 4 5 3 5 5 2 4 2 
+> Processed: 658733
+> Processed: 659262
+> Processed: 659385
+> Processed: 659389
+> Processed: 659407
+> Processed: 659938
+> Processed: 660090
+> Processed: 660438
+> Processed: 660919
+> Processed: 661418
+> Processed: 661721
+> Processed: 662229
+> Processed: 662429
+> Processed: 662514
+> Processed: 662802
+> Processed: 663317
+> Processed: 663321
+> Processed: 663544
+> Processed: 663664
+> Processed: 663682
+> Processed: 664456
+> Processed: 664700
+> Processed: 664769
+> Processed: 665157
+> Processed: 665412
+> Processed: 665878
+> Processed: 665882
+> Processed: 666245
+> Processed: 666397
+> Processed: 666441
+> Processed: 666445
+> Processed: 666465
+> Processed: 667015
+> Processed: 667215
+> Processed: 667582
+> Processed: 668169
+> Processed: 668424
+> Processed: 668624
+> Processed: 668753
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 192
+info: start round 193
+info:     start player 0
+ingredients: 1 3 1 3 2 3 3 1 3 1 2 1 2 2 2 
+> Processed: 668758
+> Processed: 668920
+> Processed: 669166
+> Processed: 669188
+> Processed: 669204
+> Processed: 669251
+> Processed: 669293
+> Processed: 669641
+> Processed: 669888
+> Processed: 670369
+> Processed: 670672
+> Processed: 670791
+> Processed: 670969
+> Processed: 671136
+> Processed: 671424
+> Processed: 671939
+> Processed: 672061
+> Processed: 672284
+> Processed: 672374
+> Processed: 672389
+> Processed: 672918
+> Processed: 672974
+> Processed: 673041
+> Processed: 673080
+> Processed: 673335
+> Processed: 673801
+> Processed: 673848
+> Processed: 674056
+> Processed: 674101
+> Processed: 674142
+> Processed: 674809
+> Processed: 674825
+> Processed: 675353
+> Processed: 675505
+> Processed: 675872
+> Processed: 676422
+> Processed: 676677
+> Processed: 676829
+> Processed: 676958
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 193
+info: start round 194
+info:     start player 0
+ingredients: 10 8 8 8 9 7 7 8 9 8 12 12 13 9 12 
+> Processed: 677114
+> Processed: 677149
+> Processed: 677395
+> Processed: 677415
+> Processed: 677429
+> Processed: 677463
+> Processed: 677505
+> Processed: 677853
+> Processed: 678100
+> Processed: 678581
+> Processed: 678884
+> Processed: 679003
+> Processed: 679163
+> Processed: 679330
+> Processed: 679618
+> Processed: 680133
+> Processed: 680255
+> Processed: 680478
+> Processed: 680542
+> Processed: 680553
+> Processed: 681082
+> Processed: 681135
+> Processed: 681200
+> Processed: 681239
+> Processed: 681891
+> Processed: 682357
+> Processed: 682402
+> Processed: 682594
+> Processed: 682639
+> Processed: 682673
+> Processed: 683340
+> Processed: 683349
+> Processed: 683877
+> Processed: 684029
+> Processed: 684396
+> Processed: 685004
+> Processed: 685554
+> Processed: 686206
+> Processed: 686245
+> Processed: 686374
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 194
+info: start round 195
+info:     start player 0
+ingredients: 2 2 3 3 3 2 2 2 4 4 2 3 2 4 2 
+> Processed: 686530
+> Processed: 686556
+> Processed: 686802
+> Processed: 686818
+> Processed: 686828
+> Processed: 686848
+> Processed: 686890
+> Processed: 687238
+> Processed: 687485
+> Processed: 687966
+> Processed: 688269
+> Processed: 688388
+> Processed: 688530
+> Processed: 688697
+> Processed: 688985
+> Processed: 689500
+> Processed: 689622
+> Processed: 689845
+> Processed: 689880
+> Processed: 689887
+> Processed: 690416
+> Processed: 690460
+> Processed: 690523
+> Processed: 690562
+> Processed: 691214
+> Processed: 691680
+> Processed: 691712
+> Processed: 691887
+> Processed: 691932
+> Processed: 691954
+> Processed: 692621
+> Processed: 692626
+> Processed: 693154
+> Processed: 693306
+> Processed: 693778
+> Processed: 694145
+> Processed: 694753
+> Processed: 695303
+> Processed: 695955
+> Processed: 695983
+> Processed: 696112
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 195
+info: start round 196
+info:     start player 0
+ingredients: 2 3 2 3 4 3 4 4 2 4 2 3 2 4 3 
+> Processed: 696268
+> Processed: 696283
+> Processed: 696529
+> Processed: 696541
+> Processed: 696549
+> Processed: 696559
+> Processed: 696601
+> Processed: 696949
+> Processed: 697196
+> Processed: 697677
+> Processed: 697980
+> Processed: 698099
+> Processed: 698221
+> Processed: 698388
+> Processed: 698676
+> Processed: 699191
+> Processed: 699313
+> Processed: 699536
+> Processed: 699560
+> Processed: 699565
+> Processed: 700094
+> Processed: 700123
+> Processed: 700154
+> Processed: 700215
+> Processed: 700601
+> Processed: 701253
+> Processed: 701719
+> Processed: 701740
+> Processed: 701899
+> Processed: 701944
+> Processed: 702611
+> Processed: 702638
+> Processed: 703166
+> Processed: 703318
+> Processed: 703790
+> Processed: 704157
+> Processed: 704765
+> Processed: 705315
+> Processed: 705967
+> Processed: 705987
+> Processed: 706116
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 196
+info: start round 197
+info:     start player 0
+ingredients: 4 2 3 4 3 4 2 4 2 3 2 3 4 3 2 
+> Processed: 706272
+> Processed: 706279
+> Processed: 706525
+> Processed: 706533
+> Processed: 706538
+> Processed: 706542
+> Processed: 706584
+> Processed: 706932
+> Processed: 707179
+> Processed: 707660
+> Processed: 707963
+> Processed: 708082
+> Processed: 708184
+> Processed: 708351
+> Processed: 708639
+> Processed: 709154
+> Processed: 709276
+> Processed: 709546
+> Processed: 709563
+> Processed: 709566
+> Processed: 710095
+> Processed: 710114
+> Processed: 710135
+> Processed: 710194
+> Processed: 710545
+> Processed: 710891
+> Processed: 711344
+> Processed: 711356
+> Processed: 711539
+> Processed: 711584
+> Processed: 712251
+> Processed: 712273
+> Processed: 712801
+> Processed: 712953
+> Processed: 713425
+> Processed: 714033
+> Processed: 714583
+> Processed: 714929
+> Processed: 714943
+> Processed: 715072
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 197
+info: start round 198
+info:     start player 0
+ingredients: 7 9 12 9 8 8 11 7 12 14 11 9 8 11 9 
+> Processed: 715228
+> Processed: 715231
+> Processed: 715622
+> Processed: 715626
+> Processed: 715629
+> Processed: 715741
+> Processed: 715783
+> Processed: 716131
+> Processed: 716378
+> Processed: 716859
+> Processed: 717162
+> Processed: 717281
+> Processed: 717351
+> Processed: 717518
+> Processed: 717806
+> Processed: 718321
+> Processed: 718565
+> Processed: 718835
+> Processed: 718848
+> Processed: 718907
+> Processed: 719515
+> Processed: 719526
+> Processed: 719538
+> Processed: 719561
+> Processed: 719877
+> Processed: 720223
+> Processed: 720789
+> Processed: 720794
+> Processed: 720957
+> Processed: 721002
+> Processed: 721536
+> Processed: 721552
+> Processed: 722080
+> Processed: 722232
+> Processed: 722704
+> Processed: 723312
+> Processed: 723862
+> Processed: 724208
+> Processed: 724218
+> Processed: 724848
+> Processed: 725219
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 198
+info: start round 199
+info:     start player 0
+ingredients: 8 6 4 6 7 4 5 6 6 5 5 6 6 7 4 
+> Processed: 725375
+> Processed: 725450
+> Processed: 725841
+> Processed: 725861
+> Processed: 725872
+> Processed: 726340
+> Processed: 726382
+> Processed: 726730
+> Processed: 726799
+> Processed: 727320
+> Processed: 727667
+> Processed: 727786
+> Processed: 727863
+> Processed: 728030
+> Processed: 728318
+> Processed: 728796
+> Processed: 729040
+> Processed: 729310
+> Processed: 729961
+> Processed: 729972
+> Processed: 730026
+> Processed: 730671
+> Processed: 730676
+> Processed: 730681
+> Processed: 730702
+> Processed: 730984
+> Processed: 731330
+> Processed: 731892
+> Processed: 732003
+> Processed: 732144
+> Processed: 732189
+> Processed: 732723
+> Processed: 732732
+> Processed: 733244
+> Processed: 733320
+> Processed: 733953
+> Processed: 734663
+> Processed: 735273
+> Processed: 735619
+> Processed: 735627
+> Processed: 736193
+> Processed: 736564
+info:     end player 0
+info:     start player 1
+info:     end player 1
+info:     start player 2
+info:     end player 2
+info:     start player 3
+info:     end player 3
+info: end round 199
+info: player GogetterV4 got score 9109
+info: player Dummy got score 5631
+info: player Dummy got score 4437
+info: player Dummy got score 3113
+info: player(s) got top score
+info: game played
