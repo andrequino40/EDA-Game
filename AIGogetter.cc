@@ -193,13 +193,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   }  
 
   virtual void play () {
-    cerr << "ingredients: ";
-  vector<int> ingredients = spell_ingredients();
-  int n = ingredients.size();
-    for (int i = 0; i < n; ++i) {
-      cerr << ingredients[i] << " ";
-    } 
-    cerr << endl;
+   
     double st = status(me());
     if (st >= 0.9) return;
   
