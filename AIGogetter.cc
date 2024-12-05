@@ -170,6 +170,35 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   };
 
   typedef unordered_map<int, vector<int>> idToActions_t;
+  typedef unordered_map<int, vector<ActionData>> new_idToActions_t;
+
+  
+  int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, idToActions_t& idToActions){
+    if (!book_result.found) {
+      cerr << "Book not found for " << id << endl;
+      return -1;
+    }
+
+    int oldid = -1;
+    bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
+
+    if (hasTarget && book_result.dist < targetBooks.at(book_result.pos).dist) {
+      // remove action from old unit 
+      oldid = targetBooks[book_result.pos].unitId;
+      idToActions[oldid][book] = -1;
+    }
+
+    BookInfo newTarg;
+    newTarg.dist = book_result.dist; 
+    newTarg.unitId = id;
+    targetBooks[book_result.pos] = newTarg;
+    // create action
+    idToActions[id][book] = (Dir)book_result.firstStep;
+
+    return oldid;
+  }  
+
+  
 
 /* EVERYTHING RELATED TO THE SPELL */
 typedef vector<int> vint;
