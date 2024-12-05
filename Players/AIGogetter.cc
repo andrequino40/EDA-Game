@@ -68,7 +68,7 @@ struct PLAYER_NAME : public Player {
 
   /* EVERYTHING RELATED TO BOOK FINDING*/
 
-  bool search_again_replaced = false;
+  bool search_again_replaced = true;
   struct BookInfo {
     int dist;
     int unitId;

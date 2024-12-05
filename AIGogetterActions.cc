@@ -68,7 +68,7 @@ struct PLAYER_NAME : public Player {
 
   /* EVERYTHING RELATED TO BOOK FINDING*/
 
-  bool search_again_replaced = false;
+  bool search_again_replaced = true;
   struct BookInfo {
     int dist;
     int unitId;
@@ -176,7 +176,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     bool cando = false;
     int distance;           // Distance (used for book, fightMage, runMage, helpMage, attackGhost)
     int firstStep;            // First movement direction (for book)
-    int enemyId;            // Enemy ID (for fightMage)
+    int enemyId;            // Enemy ID (for fightMage, fightGhost)
     int numbersAdvantage;   // Numbers advantage (for fightMage, runMage, attackGhost)
     // Other fields can be added for more specific use cases
 };
@@ -342,34 +342,35 @@ bool shouldCast(int myghost) {
     numcasted += unit(ghostid).resting_rounds() != 0;
   }
 
-  if (rested && !last50_rounds) {
-    if (show_debug_messages) {
+  if (show_debug_messages) {
     print_ghost_cooldowns();
     } 
+
+  if (rested && !last50_rounds) {
     return true;
-    /* if (numcasted == 3) return true;
+    if (numcasted == 3) return true;
     // ultima ronda para castear dos veces
     if (round() < 90) {
-      if (round() >= 70 && numcasted > 2) {
+      if (round() >= 63 && numcasted >= 2) {
         return true;
       } 
-      else if (round() >= 80 && numcasted > 1) {
+      else if (round() >= 70 && numcasted >= 1) {
         return true;
       } 
-      else if(round() >= 85) {
+      else if(round() >= 80) {
         return true;
       }
     }
     // ultima ronda para castear es 149
-    else if (round() >= 130 && numcasted > 2) {
+    else if (round() >= 130 && numcasted >= 2) {
         return true;
       } 
-      else if (round() > 140 && numcasted > 1) {
+      else if (round() > 140 && numcasted >= 1) {
         return true;
       } 
       else if (round() > 155) {
         return true;
-      } */
+      }
   }
   return false;
 }
@@ -424,7 +425,6 @@ bool shouldCast(int myghost) {
 
       bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
 
-
       if (book_result.found) {
         int displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
         if (search_again_replaced && displaced_id != -1) {
@@ -433,14 +433,16 @@ bool shouldCast(int myghost) {
       }
     }
 
-
+    // iterate through every id and its associated action fector
     for (const auto& it : idToActions) {
       int id = it.first;
       const vector<ActionData>& vecActions = it.second;
 
       vector<ActionType> possibleActions;
+      // set possible actions for the type of troop
       if (unit(id).type == Wizard) possibleActions = vecMageActions;
       else possibleActions = vecGhostActions;
+
       int n = possibleActions.size();
 
 
@@ -456,8 +458,6 @@ bool shouldCast(int myghost) {
 
         case cast:
           if (shouldCast(ghost_id)) { 
-
-   
             spellCast(ghost_id);
           }
         default:

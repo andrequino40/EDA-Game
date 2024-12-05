@@ -1,14 +1,19 @@
-info: seed 20
+info: seed 30
 info: loading game
 info: loaded game
 info: loading player GogetterV6
-info: loading player Dummy
+info: loading player Guty_v9
 info: loading player Dummy
 info: loading player Dummy
 info: players loaded
 info: start round 0
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:60
+> Other 1 ghost has to wait:60
+> Other 2 ghost has to wait:60
+> Other 3 ghost has to wait:60
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -20,6 +25,11 @@ info: end round 0
 info: start round 1
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:59
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:59
+> Other 3 ghost has to wait:59
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -31,6 +41,11 @@ info: end round 1
 info: start round 2
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:58
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:58
+> Other 3 ghost has to wait:58
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -42,6 +57,11 @@ info: end round 2
 info: start round 3
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:57
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:57
+> Other 3 ghost has to wait:57
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -53,6 +73,11 @@ info: end round 3
 info: start round 4
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:56
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:56
+> Other 3 ghost has to wait:56
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -64,6 +89,11 @@ info: end round 4
 info: start round 5
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:55
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:55
+> Other 3 ghost has to wait:55
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -75,6 +105,11 @@ info: end round 5
 info: start round 6
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:54
+> Other 1 ghost has to wait:54
+> Other 2 ghost has to wait:54
+> Other 3 ghost has to wait:54
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -86,6 +121,11 @@ info: end round 6
 info: start round 7
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:68
+> Other 1 ghost has to wait:68
+> Other 2 ghost has to wait:53
+> Other 3 ghost has to wait:53
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -97,6 +137,11 @@ info: end round 7
 info: start round 8
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:67
+> Other 1 ghost has to wait:67
+> Other 2 ghost has to wait:59
+> Other 3 ghost has to wait:52
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -108,6 +153,11 @@ info: end round 8
 info: start round 9
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:66
+> Other 1 ghost has to wait:66
+> Other 2 ghost has to wait:58
+> Other 3 ghost has to wait:51
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -119,6 +169,11 @@ info: end round 9
 info: start round 10
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:65
+> Other 1 ghost has to wait:65
+> Other 2 ghost has to wait:57
+> Other 3 ghost has to wait:50
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -130,6 +185,11 @@ info: end round 10
 info: start round 11
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:64
+> Other 1 ghost has to wait:64
+> Other 2 ghost has to wait:56
+> Other 3 ghost has to wait:49
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -141,6 +201,11 @@ info: end round 11
 info: start round 12
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:63
+> Other 1 ghost has to wait:63
+> Other 2 ghost has to wait:55
+> Other 3 ghost has to wait:48
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -152,6 +217,11 @@ info: end round 12
 info: start round 13
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:62
+> Other 1 ghost has to wait:62
+> Other 2 ghost has to wait:54
+> Other 3 ghost has to wait:47
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -163,6 +233,11 @@ info: end round 13
 info: start round 14
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:76
+> Other 1 ghost has to wait:61
+> Other 2 ghost has to wait:53
+> Other 3 ghost has to wait:46
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -174,6 +249,11 @@ info: end round 14
 info: start round 15
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:75
+> Other 1 ghost has to wait:60
+> Other 2 ghost has to wait:52
+> Other 3 ghost has to wait:45
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -185,6 +265,11 @@ info: end round 15
 info: start round 16
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:74
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:51
+> Other 3 ghost has to wait:44
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -196,6 +281,11 @@ info: end round 16
 info: start round 17
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:73
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:50
+> Other 3 ghost has to wait:43
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -207,6 +297,11 @@ info: end round 17
 info: start round 18
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:72
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:49
+> Other 3 ghost has to wait:42
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -218,6 +313,11 @@ info: end round 18
 info: start round 19
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:71
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:48
+> Other 3 ghost has to wait:41
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -229,6 +329,11 @@ info: end round 19
 info: start round 20
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:70
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:47
+> Other 3 ghost has to wait:40
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -240,6 +345,11 @@ info: end round 20
 info: start round 21
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:69
+> Other 1 ghost has to wait:54
+> Other 2 ghost has to wait:46
+> Other 3 ghost has to wait:39
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -251,6 +361,11 @@ info: end round 21
 info: start round 22
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:68
+> Other 1 ghost has to wait:53
+> Other 2 ghost has to wait:45
+> Other 3 ghost has to wait:38
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -262,6 +377,11 @@ info: end round 22
 info: start round 23
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:67
+> Other 1 ghost has to wait:52
+> Other 2 ghost has to wait:44
+> Other 3 ghost has to wait:37
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -273,6 +393,11 @@ info: end round 23
 info: start round 24
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:66
+> Other 1 ghost has to wait:51
+> Other 2 ghost has to wait:43
+> Other 3 ghost has to wait:36
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -284,6 +409,11 @@ info: end round 24
 info: start round 25
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:65
+> Other 1 ghost has to wait:50
+> Other 2 ghost has to wait:57
+> Other 3 ghost has to wait:35
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -295,6 +425,11 @@ info: end round 25
 info: start round 26
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:64
+> Other 1 ghost has to wait:49
+> Other 2 ghost has to wait:56
+> Other 3 ghost has to wait:34
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -306,6 +441,11 @@ info: end round 26
 info: start round 27
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:63
+> Other 1 ghost has to wait:48
+> Other 2 ghost has to wait:55
+> Other 3 ghost has to wait:33
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -317,6 +457,11 @@ info: end round 27
 info: start round 28
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:62
+> Other 1 ghost has to wait:62
+> Other 2 ghost has to wait:54
+> Other 3 ghost has to wait:32
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -328,6 +473,11 @@ info: end round 28
 info: start round 29
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:61
+> Other 1 ghost has to wait:61
+> Other 2 ghost has to wait:53
+> Other 3 ghost has to wait:31
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -339,6 +489,11 @@ info: end round 29
 info: start round 30
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:60
+> Other 1 ghost has to wait:60
+> Other 2 ghost has to wait:52
+> Other 3 ghost has to wait:30
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -350,6 +505,11 @@ info: end round 30
 info: start round 31
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:59
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:51
+> Other 3 ghost has to wait:29
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -361,6 +521,11 @@ info: end round 31
 info: start round 32
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:58
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:50
+> Other 3 ghost has to wait:28
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -372,6 +537,11 @@ info: end round 32
 info: start round 33
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:57
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:49
+> Other 3 ghost has to wait:27
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -383,6 +553,11 @@ info: end round 33
 info: start round 34
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:56
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:48
+> Other 3 ghost has to wait:26
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -394,6 +569,11 @@ info: end round 34
 info: start round 35
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:55
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:47
+> Other 3 ghost has to wait:25
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -405,6 +585,11 @@ info: end round 35
 info: start round 36
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:54
+> Other 1 ghost has to wait:54
+> Other 2 ghost has to wait:46
+> Other 3 ghost has to wait:24
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -416,6 +601,11 @@ info: end round 36
 info: start round 37
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:53
+> Other 1 ghost has to wait:53
+> Other 2 ghost has to wait:45
+> Other 3 ghost has to wait:23
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -427,6 +617,11 @@ info: end round 37
 info: start round 38
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:52
+> Other 1 ghost has to wait:52
+> Other 2 ghost has to wait:44
+> Other 3 ghost has to wait:22
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -438,6 +633,11 @@ info: end round 38
 info: start round 39
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:51
+> Other 1 ghost has to wait:51
+> Other 2 ghost has to wait:43
+> Other 3 ghost has to wait:21
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -449,6 +649,11 @@ info: end round 39
 info: start round 40
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:50
+> Other 1 ghost has to wait:50
+> Other 2 ghost has to wait:42
+> Other 3 ghost has to wait:20
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -460,6 +665,11 @@ info: end round 40
 info: start round 41
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:49
+> Other 1 ghost has to wait:49
+> Other 2 ghost has to wait:41
+> Other 3 ghost has to wait:19
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -471,6 +681,11 @@ info: end round 41
 info: start round 42
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:48
+> Other 1 ghost has to wait:48
+> Other 2 ghost has to wait:40
+> Other 3 ghost has to wait:18
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -482,6 +697,11 @@ info: end round 42
 info: start round 43
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:47
+> Other 1 ghost has to wait:47
+> Other 2 ghost has to wait:39
+> Other 3 ghost has to wait:17
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -493,6 +713,11 @@ info: end round 43
 info: start round 44
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:46
+> Other 1 ghost has to wait:46
+> Other 2 ghost has to wait:38
+> Other 3 ghost has to wait:16
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -504,6 +729,11 @@ info: end round 44
 info: start round 45
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:45
+> Other 1 ghost has to wait:45
+> Other 2 ghost has to wait:37
+> Other 3 ghost has to wait:15
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -515,6 +745,11 @@ info: end round 45
 info: start round 46
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:44
+> Other 1 ghost has to wait:44
+> Other 2 ghost has to wait:36
+> Other 3 ghost has to wait:14
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -526,6 +761,11 @@ info: end round 46
 info: start round 47
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:43
+> Other 1 ghost has to wait:43
+> Other 2 ghost has to wait:35
+> Other 3 ghost has to wait:13
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -537,6 +777,11 @@ info: end round 47
 info: start round 48
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:42
+> Other 1 ghost has to wait:42
+> Other 2 ghost has to wait:34
+> Other 3 ghost has to wait:12
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -548,6 +793,11 @@ info: end round 48
 info: start round 49
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:41
+> Other 1 ghost has to wait:41
+> Other 2 ghost has to wait:33
+> Other 3 ghost has to wait:11
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -559,6 +809,11 @@ info: end round 49
 info: start round 50
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:40
+> Other 1 ghost has to wait:40
+> Other 2 ghost has to wait:32
+> Other 3 ghost has to wait:10
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -570,6 +825,11 @@ info: end round 50
 info: start round 51
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:39
+> Other 1 ghost has to wait:39
+> Other 2 ghost has to wait:31
+> Other 3 ghost has to wait:9
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -581,6 +841,11 @@ info: end round 51
 info: start round 52
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:38
+> Other 1 ghost has to wait:38
+> Other 2 ghost has to wait:30
+> Other 3 ghost has to wait:8
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -592,6 +857,11 @@ info: end round 52
 info: start round 53
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:37
+> Other 1 ghost has to wait:37
+> Other 2 ghost has to wait:29
+> Other 3 ghost has to wait:7
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -603,6 +873,11 @@ info: end round 53
 info: start round 54
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:36
+> Other 1 ghost has to wait:36
+> Other 2 ghost has to wait:28
+> Other 3 ghost has to wait:6
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -614,6 +889,11 @@ info: end round 54
 info: start round 55
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:35
+> Other 1 ghost has to wait:35
+> Other 2 ghost has to wait:27
+> Other 3 ghost has to wait:5
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -625,6 +905,11 @@ info: end round 55
 info: start round 56
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:34
+> Other 1 ghost has to wait:34
+> Other 2 ghost has to wait:26
+> Other 3 ghost has to wait:4
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -636,6 +921,11 @@ info: end round 56
 info: start round 57
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:33
+> Other 1 ghost has to wait:33
+> Other 2 ghost has to wait:25
+> Other 3 ghost has to wait:3
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -647,6 +937,11 @@ info: end round 57
 info: start round 58
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:32
+> Other 1 ghost has to wait:32
+> Other 2 ghost has to wait:24
+> Other 3 ghost has to wait:2
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -658,6 +953,11 @@ info: end round 58
 info: start round 59
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:31
+> Other 1 ghost has to wait:31
+> Other 2 ghost has to wait:23
+> Other 3 ghost has to wait:1
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -670,14 +970,10 @@ info: start round 60
 info:     start player 0
 
 > ghost waiting times
-> My 0 ghost has to wait:0
-> Other 1 ghost has to wait:0
-> Other 2 ghost has to wait:75
+> My 0 ghost has to wait:30
+> Other 1 ghost has to wait:30
+> Other 2 ghost has to wait:22
 > Other 3 ghost has to wait:0
-suma total40
-spell success, sol: 
-4 2 2 2 2 3 3 3 3 3 3 2 3 2 3 
-0 0 0 1 2 1 1 2 2 3 3 3 4 4 4 
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -690,14 +986,10 @@ info: start round 61
 info:     start player 0
 
 > ghost waiting times
-> My 0 ghost has to wait:0
-> Other 1 ghost has to wait:59
-> Other 2 ghost has to wait:89
+> My 0 ghost has to wait:29
+> Other 1 ghost has to wait:29
+> Other 2 ghost has to wait:21
 > Other 3 ghost has to wait:0
-suma total120
-spell success, sol: 
-12 11 11 7 6 6 7 9 7 6 6 7 6 10 9 
-0 1 2 1 0 0 2 3 4 1 2 4 3 4 3 
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -709,6 +1001,11 @@ info: end round 61
 info: start round 62
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:28
+> Other 1 ghost has to wait:28
+> Other 2 ghost has to wait:20
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -720,6 +1017,11 @@ info: end round 62
 info: start round 63
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:27
+> Other 1 ghost has to wait:27
+> Other 2 ghost has to wait:19
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -731,6 +1033,11 @@ info: end round 63
 info: start round 64
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:26
+> Other 1 ghost has to wait:26
+> Other 2 ghost has to wait:18
+> Other 3 ghost has to wait:59
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -742,6 +1049,11 @@ info: end round 64
 info: start round 65
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:25
+> Other 1 ghost has to wait:25
+> Other 2 ghost has to wait:17
+> Other 3 ghost has to wait:58
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -753,6 +1065,11 @@ info: end round 65
 info: start round 66
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:24
+> Other 1 ghost has to wait:24
+> Other 2 ghost has to wait:16
+> Other 3 ghost has to wait:57
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -764,6 +1081,11 @@ info: end round 66
 info: start round 67
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:23
+> Other 1 ghost has to wait:23
+> Other 2 ghost has to wait:15
+> Other 3 ghost has to wait:56
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -775,6 +1097,11 @@ info: end round 67
 info: start round 68
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:22
+> Other 1 ghost has to wait:22
+> Other 2 ghost has to wait:14
+> Other 3 ghost has to wait:55
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -786,6 +1113,11 @@ info: end round 68
 info: start round 69
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:21
+> Other 1 ghost has to wait:21
+> Other 2 ghost has to wait:13
+> Other 3 ghost has to wait:54
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -797,6 +1129,11 @@ info: end round 69
 info: start round 70
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:20
+> Other 1 ghost has to wait:20
+> Other 2 ghost has to wait:12
+> Other 3 ghost has to wait:53
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -808,6 +1145,11 @@ info: end round 70
 info: start round 71
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:19
+> Other 1 ghost has to wait:19
+> Other 2 ghost has to wait:11
+> Other 3 ghost has to wait:52
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -819,6 +1161,11 @@ info: end round 71
 info: start round 72
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:18
+> Other 1 ghost has to wait:18
+> Other 2 ghost has to wait:10
+> Other 3 ghost has to wait:51
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -830,6 +1177,11 @@ info: end round 72
 info: start round 73
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:17
+> Other 1 ghost has to wait:17
+> Other 2 ghost has to wait:9
+> Other 3 ghost has to wait:50
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -841,6 +1193,11 @@ info: end round 73
 info: start round 74
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:16
+> Other 1 ghost has to wait:16
+> Other 2 ghost has to wait:8
+> Other 3 ghost has to wait:49
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -852,6 +1209,11 @@ info: end round 74
 info: start round 75
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:15
+> Other 1 ghost has to wait:15
+> Other 2 ghost has to wait:7
+> Other 3 ghost has to wait:48
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -863,6 +1225,11 @@ info: end round 75
 info: start round 76
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:14
+> Other 1 ghost has to wait:14
+> Other 2 ghost has to wait:6
+> Other 3 ghost has to wait:47
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -874,6 +1241,11 @@ info: end round 76
 info: start round 77
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:13
+> Other 1 ghost has to wait:13
+> Other 2 ghost has to wait:5
+> Other 3 ghost has to wait:46
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -885,6 +1257,11 @@ info: end round 77
 info: start round 78
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:12
+> Other 1 ghost has to wait:12
+> Other 2 ghost has to wait:4
+> Other 3 ghost has to wait:45
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -896,6 +1273,11 @@ info: end round 78
 info: start round 79
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:11
+> Other 1 ghost has to wait:11
+> Other 2 ghost has to wait:3
+> Other 3 ghost has to wait:44
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -907,6 +1289,11 @@ info: end round 79
 info: start round 80
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:10
+> Other 1 ghost has to wait:10
+> Other 2 ghost has to wait:2
+> Other 3 ghost has to wait:43
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -918,6 +1305,11 @@ info: end round 80
 info: start round 81
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:9
+> Other 1 ghost has to wait:24
+> Other 2 ghost has to wait:1
+> Other 3 ghost has to wait:42
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -929,6 +1321,11 @@ info: end round 81
 info: start round 82
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:8
+> Other 1 ghost has to wait:23
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:41
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -940,6 +1337,11 @@ info: end round 82
 info: start round 83
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:7
+> Other 1 ghost has to wait:22
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:40
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -951,6 +1353,11 @@ info: end round 83
 info: start round 84
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:6
+> Other 1 ghost has to wait:21
+> Other 2 ghost has to wait:59
+> Other 3 ghost has to wait:39
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -962,6 +1369,11 @@ info: end round 84
 info: start round 85
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:5
+> Other 1 ghost has to wait:20
+> Other 2 ghost has to wait:58
+> Other 3 ghost has to wait:38
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -973,6 +1385,11 @@ info: end round 85
 info: start round 86
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:4
+> Other 1 ghost has to wait:19
+> Other 2 ghost has to wait:57
+> Other 3 ghost has to wait:37
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -984,6 +1401,11 @@ info: end round 86
 info: start round 87
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:3
+> Other 1 ghost has to wait:18
+> Other 2 ghost has to wait:56
+> Other 3 ghost has to wait:36
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -995,6 +1417,11 @@ info: end round 87
 info: start round 88
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:2
+> Other 1 ghost has to wait:17
+> Other 2 ghost has to wait:55
+> Other 3 ghost has to wait:35
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1006,6 +1433,11 @@ info: end round 88
 info: start round 89
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:1
+> Other 1 ghost has to wait:16
+> Other 2 ghost has to wait:54
+> Other 3 ghost has to wait:34
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1017,6 +1449,15 @@ info: end round 89
 info: start round 90
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:15
+> Other 2 ghost has to wait:53
+> Other 3 ghost has to wait:33
+suma total25
+spell success, sol: 
+2 2 2 2 2 1 2 2 1 2 2 1 2 1 1 
+0 0 1 1 2 0 2 3 1 3 4 2 4 3 4 
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1028,6 +1469,11 @@ info: end round 90
 info: start round 91
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:59
+> Other 1 ghost has to wait:14
+> Other 2 ghost has to wait:52
+> Other 3 ghost has to wait:32
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1039,6 +1485,11 @@ info: end round 91
 info: start round 92
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:58
+> Other 1 ghost has to wait:13
+> Other 2 ghost has to wait:51
+> Other 3 ghost has to wait:31
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1050,6 +1501,11 @@ info: end round 92
 info: start round 93
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:57
+> Other 1 ghost has to wait:12
+> Other 2 ghost has to wait:50
+> Other 3 ghost has to wait:30
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1061,6 +1517,11 @@ info: end round 93
 info: start round 94
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:56
+> Other 1 ghost has to wait:11
+> Other 2 ghost has to wait:49
+> Other 3 ghost has to wait:29
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1072,6 +1533,11 @@ info: end round 94
 info: start round 95
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:55
+> Other 1 ghost has to wait:10
+> Other 2 ghost has to wait:48
+> Other 3 ghost has to wait:28
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1083,6 +1549,11 @@ info: end round 95
 info: start round 96
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:54
+> Other 1 ghost has to wait:9
+> Other 2 ghost has to wait:47
+> Other 3 ghost has to wait:27
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1094,6 +1565,11 @@ info: end round 96
 info: start round 97
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:53
+> Other 1 ghost has to wait:8
+> Other 2 ghost has to wait:46
+> Other 3 ghost has to wait:26
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1105,6 +1581,11 @@ info: end round 97
 info: start round 98
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:52
+> Other 1 ghost has to wait:7
+> Other 2 ghost has to wait:45
+> Other 3 ghost has to wait:25
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1116,6 +1597,11 @@ info: end round 98
 info: start round 99
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:51
+> Other 1 ghost has to wait:6
+> Other 2 ghost has to wait:44
+> Other 3 ghost has to wait:24
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1127,6 +1613,11 @@ info: end round 99
 info: start round 100
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:50
+> Other 1 ghost has to wait:5
+> Other 2 ghost has to wait:43
+> Other 3 ghost has to wait:23
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1138,6 +1629,11 @@ info: end round 100
 info: start round 101
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:49
+> Other 1 ghost has to wait:4
+> Other 2 ghost has to wait:42
+> Other 3 ghost has to wait:22
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1149,6 +1645,11 @@ info: end round 101
 info: start round 102
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:48
+> Other 1 ghost has to wait:3
+> Other 2 ghost has to wait:41
+> Other 3 ghost has to wait:21
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1160,6 +1661,11 @@ info: end round 102
 info: start round 103
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:47
+> Other 1 ghost has to wait:2
+> Other 2 ghost has to wait:40
+> Other 3 ghost has to wait:20
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1171,6 +1677,11 @@ info: end round 103
 info: start round 104
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:46
+> Other 1 ghost has to wait:1
+> Other 2 ghost has to wait:39
+> Other 3 ghost has to wait:19
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1182,6 +1693,11 @@ info: end round 104
 info: start round 105
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:45
+> Other 1 ghost has to wait:0
+> Other 2 ghost has to wait:38
+> Other 3 ghost has to wait:18
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1193,6 +1709,11 @@ info: end round 105
 info: start round 106
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:44
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:37
+> Other 3 ghost has to wait:17
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1204,6 +1725,11 @@ info: end round 106
 info: start round 107
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:43
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:36
+> Other 3 ghost has to wait:16
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1215,6 +1741,11 @@ info: end round 107
 info: start round 108
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:42
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:35
+> Other 3 ghost has to wait:15
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1226,6 +1757,11 @@ info: end round 108
 info: start round 109
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:41
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:34
+> Other 3 ghost has to wait:14
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1237,6 +1773,11 @@ info: end round 109
 info: start round 110
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:40
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:33
+> Other 3 ghost has to wait:13
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1248,6 +1789,11 @@ info: end round 110
 info: start round 111
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:39
+> Other 1 ghost has to wait:54
+> Other 2 ghost has to wait:32
+> Other 3 ghost has to wait:12
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1259,6 +1805,11 @@ info: end round 111
 info: start round 112
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:38
+> Other 1 ghost has to wait:53
+> Other 2 ghost has to wait:31
+> Other 3 ghost has to wait:11
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1270,6 +1821,11 @@ info: end round 112
 info: start round 113
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:37
+> Other 1 ghost has to wait:52
+> Other 2 ghost has to wait:30
+> Other 3 ghost has to wait:10
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1281,6 +1837,11 @@ info: end round 113
 info: start round 114
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:36
+> Other 1 ghost has to wait:51
+> Other 2 ghost has to wait:29
+> Other 3 ghost has to wait:9
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1292,6 +1853,11 @@ info: end round 114
 info: start round 115
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:35
+> Other 1 ghost has to wait:50
+> Other 2 ghost has to wait:28
+> Other 3 ghost has to wait:8
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1303,6 +1869,11 @@ info: end round 115
 info: start round 116
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:34
+> Other 1 ghost has to wait:49
+> Other 2 ghost has to wait:27
+> Other 3 ghost has to wait:7
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1314,6 +1885,11 @@ info: end round 116
 info: start round 117
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:33
+> Other 1 ghost has to wait:48
+> Other 2 ghost has to wait:26
+> Other 3 ghost has to wait:6
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1325,6 +1901,11 @@ info: end round 117
 info: start round 118
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:32
+> Other 1 ghost has to wait:62
+> Other 2 ghost has to wait:25
+> Other 3 ghost has to wait:5
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1336,6 +1917,11 @@ info: end round 118
 info: start round 119
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:31
+> Other 1 ghost has to wait:61
+> Other 2 ghost has to wait:24
+> Other 3 ghost has to wait:4
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1347,6 +1933,11 @@ info: end round 119
 info: start round 120
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:30
+> Other 1 ghost has to wait:60
+> Other 2 ghost has to wait:23
+> Other 3 ghost has to wait:3
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1359,14 +1950,10 @@ info: start round 121
 info:     start player 0
 
 > ghost waiting times
-> My 0 ghost has to wait:0
-> Other 1 ghost has to wait:0
-> Other 2 ghost has to wait:194
-> Other 3 ghost has to wait:1
-suma total120
-spell success, sol: 
-7 6 6 10 9 12 8 8 7 8 6 11 10 6 6 
-0 0 1 1 2 3 1 2 2 4 3 0 4 3 4 
+> My 0 ghost has to wait:29
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:22
+> Other 3 ghost has to wait:2
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1378,6 +1965,11 @@ info: end round 121
 info: start round 122
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:28
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:21
+> Other 3 ghost has to wait:1
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1389,6 +1981,11 @@ info: end round 122
 info: start round 123
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:27
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:20
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1400,6 +1997,11 @@ info: end round 123
 info: start round 124
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:26
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:19
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1411,6 +2013,11 @@ info: end round 124
 info: start round 125
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:25
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:18
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1422,6 +2029,11 @@ info: end round 125
 info: start round 126
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:24
+> Other 1 ghost has to wait:54
+> Other 2 ghost has to wait:17
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1433,6 +2045,11 @@ info: end round 126
 info: start round 127
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:23
+> Other 1 ghost has to wait:53
+> Other 2 ghost has to wait:16
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1444,6 +2061,11 @@ info: end round 127
 info: start round 128
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:22
+> Other 1 ghost has to wait:52
+> Other 2 ghost has to wait:15
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1455,6 +2077,11 @@ info: end round 128
 info: start round 129
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:21
+> Other 1 ghost has to wait:51
+> Other 2 ghost has to wait:14
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1466,6 +2093,11 @@ info: end round 129
 info: start round 130
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:20
+> Other 1 ghost has to wait:50
+> Other 2 ghost has to wait:13
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1477,6 +2109,11 @@ info: end round 130
 info: start round 131
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:19
+> Other 1 ghost has to wait:49
+> Other 2 ghost has to wait:12
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1488,6 +2125,11 @@ info: end round 131
 info: start round 132
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:18
+> Other 1 ghost has to wait:63
+> Other 2 ghost has to wait:11
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1499,6 +2141,11 @@ info: end round 132
 info: start round 133
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:17
+> Other 1 ghost has to wait:62
+> Other 2 ghost has to wait:10
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1510,6 +2157,11 @@ info: end round 133
 info: start round 134
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:16
+> Other 1 ghost has to wait:61
+> Other 2 ghost has to wait:9
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1521,6 +2173,11 @@ info: end round 134
 info: start round 135
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:15
+> Other 1 ghost has to wait:60
+> Other 2 ghost has to wait:8
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1532,6 +2189,11 @@ info: end round 135
 info: start round 136
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:14
+> Other 1 ghost has to wait:59
+> Other 2 ghost has to wait:7
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1543,6 +2205,11 @@ info: end round 136
 info: start round 137
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:13
+> Other 1 ghost has to wait:58
+> Other 2 ghost has to wait:6
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1554,6 +2221,11 @@ info: end round 137
 info: start round 138
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:12
+> Other 1 ghost has to wait:57
+> Other 2 ghost has to wait:5
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1565,6 +2237,11 @@ info: end round 138
 info: start round 139
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:11
+> Other 1 ghost has to wait:56
+> Other 2 ghost has to wait:4
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1576,6 +2253,11 @@ info: end round 139
 info: start round 140
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:10
+> Other 1 ghost has to wait:55
+> Other 2 ghost has to wait:3
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1587,6 +2269,11 @@ info: end round 140
 info: start round 141
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:9
+> Other 1 ghost has to wait:69
+> Other 2 ghost has to wait:2
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1598,6 +2285,11 @@ info: end round 141
 info: start round 142
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:8
+> Other 1 ghost has to wait:68
+> Other 2 ghost has to wait:1
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1609,6 +2301,11 @@ info: end round 142
 info: start round 143
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:7
+> Other 1 ghost has to wait:67
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1620,6 +2317,11 @@ info: end round 143
 info: start round 144
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:6
+> Other 1 ghost has to wait:66
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1631,6 +2333,11 @@ info: end round 144
 info: start round 145
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:5
+> Other 1 ghost has to wait:65
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1642,6 +2349,11 @@ info: end round 145
 info: start round 146
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:4
+> Other 1 ghost has to wait:79
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1653,6 +2365,11 @@ info: end round 146
 info: start round 147
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:3
+> Other 1 ghost has to wait:78
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1664,6 +2381,11 @@ info: end round 147
 info: start round 148
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:2
+> Other 1 ghost has to wait:77
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1675,6 +2397,11 @@ info: end round 148
 info: start round 149
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:1
+> Other 1 ghost has to wait:76
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1686,6 +2413,11 @@ info: end round 149
 info: start round 150
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:75
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1697,6 +2429,11 @@ info: end round 150
 info: start round 151
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:74
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1708,6 +2445,11 @@ info: end round 151
 info: start round 152
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:73
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1719,6 +2461,11 @@ info: end round 152
 info: start round 153
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:87
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1730,6 +2477,11 @@ info: end round 153
 info: start round 154
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:86
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1741,6 +2493,11 @@ info: end round 154
 info: start round 155
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:85
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1752,6 +2509,11 @@ info: end round 155
 info: start round 156
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:84
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1763,6 +2525,11 @@ info: end round 156
 info: start round 157
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:83
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1774,6 +2541,11 @@ info: end round 157
 info: start round 158
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:82
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1785,6 +2557,11 @@ info: end round 158
 info: start round 159
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:81
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1796,6 +2573,11 @@ info: end round 159
 info: start round 160
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:80
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1807,6 +2589,11 @@ info: end round 160
 info: start round 161
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:79
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1818,6 +2605,11 @@ info: end round 161
 info: start round 162
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:78
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1829,6 +2621,11 @@ info: end round 162
 info: start round 163
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:77
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1840,6 +2637,11 @@ info: end round 163
 info: start round 164
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:76
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1851,6 +2653,11 @@ info: end round 164
 info: start round 165
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:75
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1862,6 +2669,11 @@ info: end round 165
 info: start round 166
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:74
+> Other 2 ghost has to wait:0
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1873,6 +2685,11 @@ info: end round 166
 info: start round 167
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:73
+> Other 2 ghost has to wait:59
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1884,6 +2701,11 @@ info: end round 167
 info: start round 168
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:72
+> Other 2 ghost has to wait:58
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1895,6 +2717,11 @@ info: end round 168
 info: start round 169
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:71
+> Other 2 ghost has to wait:57
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1906,6 +2733,11 @@ info: end round 169
 info: start round 170
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:85
+> Other 2 ghost has to wait:56
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1917,6 +2749,11 @@ info: end round 170
 info: start round 171
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:84
+> Other 2 ghost has to wait:55
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1928,6 +2765,11 @@ info: end round 171
 info: start round 172
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:83
+> Other 2 ghost has to wait:54
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1939,6 +2781,11 @@ info: end round 172
 info: start round 173
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:0
+> Other 1 ghost has to wait:82
+> Other 2 ghost has to wait:53
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1950,6 +2797,11 @@ info: end round 173
 info: start round 174
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:59
+> Other 1 ghost has to wait:81
+> Other 2 ghost has to wait:52
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1961,6 +2813,11 @@ info: end round 174
 info: start round 175
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:58
+> Other 1 ghost has to wait:95
+> Other 2 ghost has to wait:51
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1972,6 +2829,11 @@ info: end round 175
 info: start round 176
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:57
+> Other 1 ghost has to wait:94
+> Other 2 ghost has to wait:50
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1983,6 +2845,11 @@ info: end round 176
 info: start round 177
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:56
+> Other 1 ghost has to wait:93
+> Other 2 ghost has to wait:49
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1994,6 +2861,11 @@ info: end round 177
 info: start round 178
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:55
+> Other 1 ghost has to wait:92
+> Other 2 ghost has to wait:48
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2005,6 +2877,11 @@ info: end round 178
 info: start round 179
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:54
+> Other 1 ghost has to wait:91
+> Other 2 ghost has to wait:47
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2016,6 +2893,11 @@ info: end round 179
 info: start round 180
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:53
+> Other 1 ghost has to wait:105
+> Other 2 ghost has to wait:46
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2027,6 +2909,11 @@ info: end round 180
 info: start round 181
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:52
+> Other 1 ghost has to wait:104
+> Other 2 ghost has to wait:45
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2038,6 +2925,11 @@ info: end round 181
 info: start round 182
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:51
+> Other 1 ghost has to wait:103
+> Other 2 ghost has to wait:44
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2049,6 +2941,11 @@ info: end round 182
 info: start round 183
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:50
+> Other 1 ghost has to wait:102
+> Other 2 ghost has to wait:43
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2060,6 +2957,11 @@ info: end round 183
 info: start round 184
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:49
+> Other 1 ghost has to wait:101
+> Other 2 ghost has to wait:42
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2071,6 +2973,11 @@ info: end round 184
 info: start round 185
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:48
+> Other 1 ghost has to wait:115
+> Other 2 ghost has to wait:41
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2082,6 +2989,11 @@ info: end round 185
 info: start round 186
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:47
+> Other 1 ghost has to wait:114
+> Other 2 ghost has to wait:40
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2093,6 +3005,11 @@ info: end round 186
 info: start round 187
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:46
+> Other 1 ghost has to wait:113
+> Other 2 ghost has to wait:39
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2104,6 +3021,11 @@ info: end round 187
 info: start round 188
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:45
+> Other 1 ghost has to wait:112
+> Other 2 ghost has to wait:38
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2115,6 +3037,11 @@ info: end round 188
 info: start round 189
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:44
+> Other 1 ghost has to wait:111
+> Other 2 ghost has to wait:37
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2126,6 +3053,11 @@ info: end round 189
 info: start round 190
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:43
+> Other 1 ghost has to wait:125
+> Other 2 ghost has to wait:36
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2137,6 +3069,11 @@ info: end round 190
 info: start round 191
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:42
+> Other 1 ghost has to wait:124
+> Other 2 ghost has to wait:35
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2148,6 +3085,11 @@ info: end round 191
 info: start round 192
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:41
+> Other 1 ghost has to wait:123
+> Other 2 ghost has to wait:34
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2159,6 +3101,11 @@ info: end round 192
 info: start round 193
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:55
+> Other 1 ghost has to wait:122
+> Other 2 ghost has to wait:33
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2170,6 +3117,11 @@ info: end round 193
 info: start round 194
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:54
+> Other 1 ghost has to wait:121
+> Other 2 ghost has to wait:32
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2181,6 +3133,11 @@ info: end round 194
 info: start round 195
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:53
+> Other 1 ghost has to wait:135
+> Other 2 ghost has to wait:31
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2192,6 +3149,11 @@ info: end round 195
 info: start round 196
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:52
+> Other 1 ghost has to wait:134
+> Other 2 ghost has to wait:30
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2203,6 +3165,11 @@ info: end round 196
 info: start round 197
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:51
+> Other 1 ghost has to wait:133
+> Other 2 ghost has to wait:29
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2214,6 +3181,11 @@ info: end round 197
 info: start round 198
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:50
+> Other 1 ghost has to wait:132
+> Other 2 ghost has to wait:28
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2225,6 +3197,11 @@ info: end round 198
 info: start round 199
 info:     start player 0
 
+> ghost waiting times
+> My 0 ghost has to wait:64
+> Other 1 ghost has to wait:131
+> Other 2 ghost has to wait:27
+> Other 3 ghost has to wait:0
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2233,9 +3210,9 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: end round 199
-info: player GogetterV6 got score 8141
-info: player Dummy got score 6043
-info: player Dummy got score 4363
-info: player Dummy got score 3651
+info: player GogetterV6 got score 12498
+info: player Guty_v9 got score 9961
+info: player Dummy got score 3460
+info: player Dummy got score 4757
 info: player(s) got top score
 info: game played
