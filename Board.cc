@@ -764,12 +764,25 @@ Pos Board::new_pos_for_voldemort ( ) {
   int maxim = 1e8;
   for (int d = 0; d < 8; d += 2) {
     Pos p2 = p1 + Dir(d);
+    // comprueba la nueva posicion si eligiese la direccion
     if (pos_ok(p2)) {
+      // nueva distancia horizontal
       int di = abs(p2.i - goal.i);
+      // nueva distancia vertical
       int dj = abs(p2.j - goal.j);
+      // si dhorizonal > dvertical
+      // mx = dhorizonal
+      // si dhorizontal <= dvertical
+      // mx = dvertical
       int mx = (di > dj ? di : dj);
+      // nueva distancia = dist
       int dist = di + dj;
+      // su la nueva distancia es < minimo o
+      // si la distancia es la misma,
+      // coge la que tiene los menores componentes maxima < maxim
       if (dist < minim or (dist == minim and mx < maxim)) {
+        // elige la direccion
+        // orden down, right, up, left
 	res = d;
 	minim = dist;
 	maxim = mx;

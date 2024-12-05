@@ -154,7 +154,11 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
 
 /* EVERYTHING RELATED TO ACTIONS */
   enum ActionType {
-    book, attackMage, attackGhost, helpMage, runMage, runVoldemort
+    book, attackMage, attackGhost, helpMage, runMage, runVoldemort, cast
+  };
+
+  vector<ActionType> vecAllActions = {
+     book, attackMage, attackGhost, helpMage, runMage, runVoldemort, cast
   };
 
   vector<ActionType> vecMageActions = {
@@ -162,7 +166,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   };
 
   vector<ActionType> vecGhostActions = {
-    book, runMage, runVoldemort
+    book, runMage, runVoldemort, cast
   };
 
   typedef unordered_map<int, vector<int>> idToActions_t;
@@ -208,7 +212,7 @@ bool spellBacktrack(int i, int sum_resto, int sum_actual, vint& sumas, vint& sol
     // }
 }
 
-void performSpell(cint ghostid){
+void spellCast(cint ghostid){
     vint vecnums = spell_ingredients();
     cint n = vecnums.size();
     cint ngroups = n/3;
@@ -232,7 +236,7 @@ void performSpell(cint ghostid){
     bool found = spellBacktrack(1, sum_resto, first_value, sumgroups, sol, vecnums, ngroups, target);
     if (found) {
       spell(ghostid, sol);
-      // cerr << "spell success" << endl;
+      // cerr << "spell success" << endl;   
     }
 
     if (show_debug_messages) {
@@ -326,9 +330,8 @@ void performSpell(cint ghostid){
       }
     if (rested && !last50_rounds) {
       
-      performSpell(ghost_id);
+      spellCast(ghost_id);
     }
-    
 
     posToBookinfo_t targetBooks;
 
@@ -338,13 +341,13 @@ void performSpell(cint ghostid){
 
     // for every wizard, initializes its vector of the size of their possible actions
     for (int wizard_ud : ws) {
-      idToActions[wizard_ud] = vector<int>(vecMageActions.size(), -1);
+      idToActions[wizard_ud] = vector<int>(vecAllActions.size(), -1);
       // creates a queue of every wizard id
       queueids.push(wizard_ud);
     }
     
     // for the ghost, initializes its vector with the size of his possible actions
-    idToActions[ghost_id] = vector<int>(vecGhostActions.size(), -1);
+    idToActions[ghost_id] = vector<int>(vecAllActions.size(), -1);
     queueids.push(ghost_id);
 
     const queue<int> ref_queueids = queueids;
@@ -369,6 +372,7 @@ void performSpell(cint ghostid){
       int id = it.first;
       const vector<int>& actions = it.second;
 
+      
       if (actions[book] != -1) {
         move(id, (Dir)actions[book]);
       }
