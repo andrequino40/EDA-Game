@@ -377,7 +377,7 @@ bool shouldCast(int myghost) {
   /* EVERYTHING RELATED TO ASTAR */
 
     
-  int distance(Pos start, Pos target) {
+  int manhattanDistance(Pos start, Pos target) {
     return abs(start.i - target.i) + abs(start.j - target.j);
   } 
 
@@ -391,7 +391,7 @@ struct node_t {
 
 struct aStarRes_t {
   bool found = false;
-  Dir firstStep;
+  int firstStep = -1;
   int dist;
 };
 
@@ -410,23 +410,23 @@ struct aStarRes_t {
 
   typedef priority_queue<node_t, vector<node_t>, decltype(&PLAYER_NAME::compAstar)> pqastar;
 
-  vector<Dir> dirVectorUnitType(int id) {
+  vector<Dir> getVectorDirectionsForUnitType(int id) {
     if (unit(id).type == Wizard) return dirsWizard;
-    return dirsGhost;
+    return dirsGhost; 
   }
 
   aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
     GridBool visited (board_rows(), vector<bool>(board_cols(), false));
     pqastar pq(PLAYER_NAME::compAstar);
 
-    vector<Dir> directions = dirVectorUnitType(id);
+    vector<Dir> directions = getVectorDirectionsForUnitType(id);
 
     aStarRes_t result;
 
     node_t first;
     first.pos = start;
     first.gcost = 0;
-    first.heuristic = distance(start, target);
+    first.heuristic = manhattanDistance(start, target);
     pq.push(first);
 
     while(!pq.empty()) {
@@ -455,7 +455,7 @@ struct aStarRes_t {
                 // gcost is distance from start node
                 newnode.gcost = current.gcost + 1;
                 // heuristic is distance from target
-                newnode.heuristic = distance(newpos, target);
+                newnode.heuristic = manhattanDistance(newpos, target);
                 pq.push(newnode);
             }
         }
@@ -468,6 +468,51 @@ struct aStarRes_t {
 
   /* EVERYTHING RELATED TO VOLDEMORT*/
 
+  
+Pos furthestPosVoldemort(const int id){
+    const int CellLimit = 400;
+    Pos start  = unit(id).pos; 
+
+    vector<Dir> directions = getVectorDirectionsForUnitType(id);
+
+    Pos result;
+
+    GridBool visited(board_rows(), vector<bool>(board_cols(), false));
+
+    queue<Pos> qcoord;
+
+    qcoord.push(start);
+
+    int furthest_dist = 0;
+
+    int processedCells = 0;
+    while (not qcoord.empty() && processedCells < CellLimit) {
+      processedCells++;
+
+      Pos currentPos = qcoord.front();
+      visited[currentPos.i][currentPos.j] = true;
+
+      qcoord.pop();
+      
+      int currentDist = manhattanDistance(currentPos, pos_voldemort());
+
+      if (currentDist > furthest_dist) {
+        furthest_dist = currentDist;
+      }
+
+      for (const Dir dir : directions) {
+        Pos newPos = currentPos + dir;
+
+        bool visitedCell =  visited[currentPos.i][currentPos.j] = true;
+
+        if (!visitedCell && isCorridor(newPos)){
+          qcoord.push(newPos);
+        }
+      }
+    }
+    return result;
+}
+
   list<Pos> voldemortTargets(const vector<Unit>& units) {
   // First collect (in possib) the positions of all units at mininum distance
     Pos volPos = pos_voldemort();
@@ -476,7 +521,7 @@ struct aStarRes_t {
 
     for (const Unit& u : units) {
       Pos unitPos = u.pos;
-      int dist = distance(unitPos, volPos);
+      int dist = manhattanDistance(unitPos, volPos);
 
       if (dist < closest_dist) {
         closest_dist = dist;
@@ -497,7 +542,7 @@ struct aStarRes_t {
     double st = status(me());
     if (st >= 0.9) return;
   
-    int ghost_id = ghost(me());
+    int my_ghost = ghost(me());
     vector<int> ws = wizards(me());
 
     posToBookinfo_t targetBooks;
@@ -517,8 +562,8 @@ struct aStarRes_t {
     }
     
     // for the ghost, initializes its vector with the size of his possible actions
-    idToActions[ghost_id] = vector<ActionData>(vecAllActions.size());
-    queueids.push(ghost_id);
+    idToActions[my_ghost] = vector<ActionData>(vecAllActions.size());
+    queueids.push(my_ghost);
 
     const queue<int> ref_queueids = queueids;
 
@@ -540,8 +585,9 @@ struct aStarRes_t {
     /* VOLDEMORT */
     /* VOLDEMORT */
     /* VOLDEMORT */
-  // First collect (in possib) the positions of all units at mininum distance
-
+    // int numUnits = (num_ini_wizards_per_clan() + 1) * num_players();
+    // vector<Unit> vecUnits(numUnits)
+    // list<Unit> = voldemortTargets();  
 
     /* ACTIONS */
     /* ACTIONS */
@@ -564,14 +610,19 @@ struct aStarRes_t {
         ActionType type = possibleActions[i];
 
         switch (type) {
+        case runVoldemort:
+          if (unit(id).type != Ghost) break;
+          Pos ghostPos = unit(my_ghost).pos;
+          bool danger = manhattanDistance(ghostPos, pos_voldemort()) < 20;
+          if (danger);
         case book:
           if (!vecActions[book].cando) break;
           move(id, (Dir)vecActions[book].firstStep);
           break;
 
         case cast:
-          if (shouldCast(ghost_id)) { 
-            spellCast(ghost_id);
+          if (shouldCast(my_ghost)) { 
+            spellCast(my_ghost);
           }
         default:
           break;
