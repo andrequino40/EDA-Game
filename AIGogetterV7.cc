@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME voltest
+#define PLAYER_NAME GogetterV8
 
 
 struct PLAYER_NAME : public Player {
@@ -25,7 +25,7 @@ struct PLAYER_NAME : public Player {
   
 
   /* AUXILIARY FUNCTIONS */
-  bool show_debug_messages = true;
+  bool show_debug_messages = false;
   
   Dir pos_to_dir(Pos d) {
     if (d.i == 1 && d.j == 0)
@@ -165,7 +165,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
 
   // from more to least importance
   vector<ActionType> vecMageActions = {
-    fightMage, attackGhost, book, helpMage, runMage, runVoldemort
+    helpMage, fightMage, attackGhost, book, runMage, runVoldemort
   };
 
   // from more to least importance
@@ -190,7 +190,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
   
   int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
     if (!book_result.found) {
-      cerr << "Book not found for " << id << endl;
+      cerr << ">err Book not found for " << id << endl;
       return -1;
     }
 
@@ -416,8 +416,10 @@ struct aStarRes_t {
   }
 
   aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
+    if (show_debug_messages)
     cerr << "astar start" << start << " target: " << target << endl;
-    GridBool visited (board_rows(), vector<bool>(board_cols(), false));
+    GridBool closed (board_rows(), vector<bool>(board_cols(), false)); // false means not closed
+    GridInt fscores (board_rows(), vector<int>(board_cols(), -1)); // -1 means not in queue
     pqastar pq(PLAYER_NAME::compAstar);
 
     vector<Dir> directions = getVectorDirectionsForUnitType(id);
@@ -434,10 +436,12 @@ struct aStarRes_t {
         node_t current = pq.top();
         pq.pop();   
 
-        visited[current.pos.i][current.pos.j] = true;
+        closed[current.pos.i][current.pos.j] = true;
+        if (show_debug_messages) {
         cerr << "> astar current: " << current.pos.i << " " << current.pos.j << endl;
         cerr << "> first step: " <<  (Dir)current.firstStep << endl;
         cerr << "> astar fcost: " << current.heuristic << endl;
+        }
         if (current.pos == target) {
             result.found = true;
             result.firstStep = current.firstStep;
@@ -448,7 +452,13 @@ struct aStarRes_t {
         for (const Dir dir : directions) {
             Pos newpos = current.pos + dir;
             bool available = isCorridor(newpos);
-            if (available && !visited[newpos.i][newpos.j]) {
+            if (available && closed[newpos.i][newpos.j] == false) {
+
+              bool inqueue = (fscores[newpos.i][newpos.j] != -1);
+              int newg = current.gcost + 1;
+              int newh = manhattanDistance(newpos, target);
+              int newf = newg + newh;
+              if (!inqueue || fscores[newpos.i][newpos.j] > newf) {
                 node_t newnode;
                 // position of the neighbor
                 newnode.pos = newpos;
@@ -456,10 +466,12 @@ struct aStarRes_t {
                 if (current.firstStep == -1) newnode.firstStep = dir;
                 else newnode.firstStep = current.firstStep;
                 // gcost is distance from start node
-                newnode.gcost = current.gcost + 1;
+                newnode.gcost = newg;
                 // heuristic is distance from target
-                newnode.heuristic = manhattanDistance(newpos, target);
+                newnode.heuristic = newh;
+                fscores[newpos.i][newpos.j] = newf;
                 pq.push(newnode);
+              }
             }
         }
     }
@@ -472,12 +484,12 @@ struct aStarRes_t {
   /* EVERYTHING RELATED TO VOLDEMORT*/
 
   
-Pos furthestPosVoldemort(const int id){
+Pos bfsFurthestPosVoldemort(const int id){
     vector<Dir> directions = getVectorDirectionsForUnitType(id);
     GridBool visited(board_rows(), vector<bool>(board_cols(), false));
     queue<Pos> qcoord;
 
-    const int CellLimit = 200;
+    const int CellLimit = 300;
     int furthest_dist = 0;
     int processedCells = 0;
 
@@ -496,12 +508,12 @@ Pos furthestPosVoldemort(const int id){
       qcoord.pop();
       
       int currentDist = manhattanDistance(currentPos, pos_voldemort());
-      cerr <<  "> pos" << currentPos << " dist: " << currentDist << endl;
+      // cerr <<  "> pos" << currentPos << " dist: " << currentDist << endl;
       if (currentDist > furthest_dist) {
         furthest_dist = currentDist;
         result = currentPos;
 
-        cerr << "! NewFurthestPos: " << result << endl;
+        // cerr << "! NewFurthestPos: " << result << endl;
       }
 
       for (const Dir dir : directions) {
@@ -547,7 +559,6 @@ Pos furthestPosVoldemort(const int id){
 
     enemyGhosts = get_enemy_ghosts();
     
-    cerr << endl;
     double st = status(me());
     if (st >= 0.9) return;
   
@@ -628,7 +639,7 @@ Pos furthestPosVoldemort(const int id){
           Pos ghostPos = unit(my_ghost).pos;
           bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 15);
           if (danger) {
-            Pos furthestPos = furthestPosVoldemort(id);
+            Pos furthestPos = bfsFurthestPosVoldemort(id);
             aStarRes_t res = astarAlgorithm(my_ghost, ghostPos, furthestPos);
 
             if (show_debug_messages) {
