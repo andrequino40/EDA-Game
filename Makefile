@@ -1,7 +1,7 @@
 DUMMY_OBJ = AIDummy.o.Linux64
-
+PLAYER_DIR = Players
 # Add here any extra .o player files you want to link to the executable
-EXTRA_OBJ = Players/AIGuty.o
+EXTRA_OBJ = $(wildcard $(PLAYER_DIR)/*.o) $(wildcard $(PLAYER_DIR)/*/*.o) 
 
 # Configuration
 OPTIMIZE = 3 # Optimization level    (0 to 3)

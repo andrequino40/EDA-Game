@@ -8,7 +8,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV6
+#define PLAYER_NAME GogetterV7
 
 
 struct PLAYER_NAME : public Player {
@@ -53,7 +53,7 @@ struct PLAYER_NAME : public Player {
     return Pos(hor, ver);
   }
     
-    bool pos_free(Pos pos) {
+    bool isCorridor(Pos pos) {
     return pos_ok(pos) and cell(pos).type != Wall;
   }
 
@@ -93,6 +93,7 @@ struct bookBfsRes_t {
 
 bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks){
     Pos start  = unit(id).pos; 
+
     vector<Dir> directions;
     if (unit(id).type == Wizard) directions = dirsWizard;
     else directions = dirsGhost;
@@ -133,7 +134,7 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
       
       for (const Dir dir : directions) {
         Pos newPos = currentPos + dir;
-        if (pos_free(newPos)){
+        if (isCorridor(newPos)){
 
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
@@ -256,6 +257,7 @@ bool spellBacktrack(int i, int sum_resto, int sum_actual, vint& sumas, vint& sol
     // }
 }
 
+
 void spellCast(cint ghostid){
     vint vecnums = spell_ingredients();
     cint n = vecnums.size();
@@ -368,6 +370,101 @@ bool shouldCast(int myghost) {
   }
   return false;
 }
+  
+  /* EVERYTHING RELATED TO VOLDEMORT*/
+
+
+  /* EVERYTHING RELATED TO ASTAR */
+
+    
+  int distance(Pos start, Pos target) {
+    return abs(start.i - target.i) + abs(start.j - target.j);
+  } 
+
+
+  struct node_t {
+      Pos pos;
+      Dir firstStep;
+      int gcost;
+      int heuristic;
+  };
+
+struct aStarRes_t {
+  bool found = false;
+  Dir firstStep;
+  int dist;
+};
+
+
+  static bool compAstar(const node_t& a, const node_t& b) { // true means a has less priority in std priority queues
+    int afcost = a.gcost + a.heuristic;
+    int bfcost = b.gcost + b.heuristic;
+    if (afcost > bfcost) {
+        return true; // if afcost cost is greater, it has less priority
+    }
+    if (afcost == bfcost) { // if both have the same fcost
+        return a.heuristic > b.heuristic; // if a's distance from end is greater, it has less priority
+    }
+    return false; // if afcost is lower, it has more priority
+  } 
+
+  typedef priority_queue<node_t, vector<node_t>, decltype(&PLAYER_NAME::compAstar)> pqastar;
+
+  vector<Dir> dirVectorUnitType(int id) {
+    if (unit(id).type == Wizard) return dirsWizard;
+    return dirsGhost;
+  }
+
+  aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
+    GridBool visited (board_rows(), vector<bool>(board_cols(), false));
+    pqastar pq(PLAYER_NAME::compAstar);
+
+    vector<Dir> directions = dirVectorUnitType(id);
+
+    aStarRes_t result;
+
+    node_t first;
+    first.pos = start;
+    first.gcost = 0;
+    first.heuristic = distance(start, target);
+    pq.push(first);
+
+    while(!pq.empty()) {
+        node_t current = pq.top();
+        pq.pop();   
+
+        visited[current.pos.i][current.pos.j] = true;
+
+        if (current.pos == target) {
+            result.found = true;
+            result.firstStep = current.firstStep;
+            result.dist = current.gcost;
+            return result;
+        }
+
+        for (const Dir dir : directions) {
+            Pos newpos = current.pos + dir;
+            bool available = isCorridor(newpos);
+            if (available && !visited[newpos.i][newpos.j]) {
+                node_t newnode;
+                // position of the neighbor
+                newnode.pos = newpos;
+                // pass on first step
+                newnode.firstStep = current.firstStep;
+                // gcost is distance from start node
+                newnode.gcost = current.gcost + 1;
+                // heuristic is distance from target
+                newnode.heuristic = distance(newpos, target);
+                pq.push(newnode);
+            }
+        }
+    }
+
+    result.found = false;
+    return result;
+}
+
+  
   virtual void play () {
 
     enemyGhosts = get_enemy_ghosts();
@@ -379,26 +476,15 @@ bool shouldCast(int myghost) {
     int ghost_id = ghost(me());
     vector<int> ws = wizards(me());
 
-
-    /*
-      el fantasma podia hacerlo unit(ghost_id).resting_rounds() = 0
-      no en las ultimas 150 rondas
-     */
-    // 50 199 no
-    // 49 198 no
-
-    // 1  150 no
-    // 0  149 si
-    // vector<int> ghostids(num_players());
-    //por cada jugador
-    
-
     posToBookinfo_t targetBooks;
 
     new_idToActions_t idToActions;
 
     queue<int> queueids;
 
+    /* BOOKS */
+    /* BOOKS */
+    /* BOOKS */
     // for every wizard, initializes its vector of the size of their possible actions
     for (int wizard_id : ws) {
       idToActions[wizard_id] = vector<ActionData>(vecAllActions.size());
@@ -427,6 +513,14 @@ bool shouldCast(int myghost) {
       }
     }
 
+    /* VOLDEMORT */
+    /* VOLDEMORT */
+    /* VOLDEMORT */
+    
+
+    /* ACTIONS */
+    /* ACTIONS */
+    /* ACTIONS */
     // iterate through every id and its associated action fector
     for (const auto& it : idToActions) {
       int id = it.first;
