@@ -2,6 +2,7 @@
 #include <map>
 #include <unordered_map>
 #include <set>
+#include <list>
 
 
 /**
@@ -371,7 +372,6 @@ bool shouldCast(int myghost) {
   return false;
 }
   
-  /* EVERYTHING RELATED TO VOLDEMORT*/
 
 
   /* EVERYTHING RELATED TO ASTAR */
@@ -382,7 +382,7 @@ bool shouldCast(int myghost) {
   } 
 
 
-  struct node_t {
+struct node_t {
       Pos pos;
       Dir firstStep;
       int gcost;
@@ -464,6 +464,29 @@ struct aStarRes_t {
     return result;
 }
 
+
+  /* EVERYTHING RELATED TO VOLDEMORT*/
+
+  list<Pos> voldemortTargets(const vector<Unit>& units) {
+  // First collect (in possib) the positions of all units at mininum distance
+    Pos volPos = pos_voldemort();
+    int closest_dist = 1e8;
+    list<Pos> candidates;
+
+    for (const Unit& u : units) {
+      Pos unitPos = u.pos;
+      int dist = distance(unitPos, volPos);
+
+      if (dist < closest_dist) {
+        closest_dist = dist;
+        candidates = {unitPos};
+      }
+
+      else if (dist == closest_dist ) {
+        candidates.push_back(unitPos);
+      }
+    }
+  }
   
   virtual void play () {
 
