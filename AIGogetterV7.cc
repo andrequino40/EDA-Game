@@ -516,7 +516,8 @@ struct aStarRes_t {
     /* VOLDEMORT */
     /* VOLDEMORT */
     /* VOLDEMORT */
-    
+  // First collect (in possib) the positions of all units at mininum distance
+
 
     /* ACTIONS */
     /* ACTIONS */
