@@ -512,7 +512,7 @@ Pos furthestPosVoldemort(const int id){
           
           bool visitedCell = visited[newPos.i][newPos.j] == true;
           
-          if (!visitedCell) {
+          if (!visitedCell ) {
             visited[newPos.i][newPos.j] = true;
             qcoord.push(newPos);
           }
@@ -616,25 +616,30 @@ Pos furthestPosVoldemort(const int id){
 
       // iterates through all possible actions for an id
       for (int i = 0; i < n; ++i) {
+        bool chosenaction = false;
+        if(chosenaction) break;
+
         ActionType type = possibleActions[i];
-        bool ran = false;
+        
         switch (type) {
         case runVoldemort: 
         {
           if (unit(id).type != Ghost) break;
           Pos ghostPos = unit(my_ghost).pos;
-          bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 20);
+          bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 15);
           if (danger) {
             Pos furthestPos = furthestPosVoldemort(id);
-            if (show_debug_messages) {
-            cerr << "ghost: " << ghostPos << "voldemort" << pos_voldemort() << endl;
-            cerr << "distance: " << manhattanDistance(ghostPos, pos_voldemort()) << endl;
-            cerr << "Ghost in danger, furthest pos " << furthestPos << endl;
-            } 
             aStarRes_t res = astarAlgorithm(my_ghost, ghostPos, furthestPos);
-            cerr << "aStarRes: " << (Dir)res.firstStep << endl;
+
+            if (show_debug_messages) {
+              cerr << "ghost: " << ghostPos << "voldemort" << pos_voldemort() << endl;
+              cerr << "distance: " << manhattanDistance(ghostPos, pos_voldemort()) << endl;
+              cerr << "Ghost in danger, furthest pos " << furthestPos << endl;
+              cerr << "aStarRes: " << (Dir)res.firstStep << endl;
+            } 
+
             move(id, (Dir)res.firstStep);
-            ran = true;
+            chosenaction = true;
           }
           
           break;
@@ -643,15 +648,16 @@ Pos furthestPosVoldemort(const int id){
         case book: 
         {
           if (!vecActions[book].cando) break;
-          if (unit(id).type == Ghost) break;
           move(id, (Dir)vecActions[book].firstStep);
+          chosenaction = true;
           break;
         }
 
         case cast: 
         {
-          if (shouldCast(my_ghost) and !ran) { 
+          if (shouldCast(my_ghost)) { 
             spellCast(my_ghost);
+            chosenaction = true;
           }
         }
         default:
