@@ -450,7 +450,8 @@ struct aStarRes_t {
                 // position of the neighbor
                 newnode.pos = newpos;
                 // pass on first step
-                newnode.firstStep = current.firstStep;
+                if (current.firstStep == -1) newnode.firstStep = dir;
+                else newnode.firstStep = current.firstStep;
                 // gcost is distance from start node
                 newnode.gcost = current.gcost + 1;
                 // heuristic is distance from target
