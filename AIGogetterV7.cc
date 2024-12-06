@@ -384,7 +384,7 @@ bool shouldCast(int myghost) {
 
 struct node_t {
       Pos pos;
-      Dir firstStep;
+      int firstStep = -1;
       int gcost;
       int heuristic;
   };
@@ -416,6 +416,7 @@ struct aStarRes_t {
   }
 
   aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
+    cerr << "astar start" << start << " target: " << target << endl;
     GridBool visited (board_rows(), vector<bool>(board_cols(), false));
     pqastar pq(PLAYER_NAME::compAstar);
 
@@ -434,7 +435,9 @@ struct aStarRes_t {
         pq.pop();   
 
         visited[current.pos.i][current.pos.j] = true;
-
+        cerr << "> astar current: " << current.pos.i << " " << current.pos.j << endl;
+        cerr << "> first step: " <<  (Dir)current.firstStep << endl;
+        cerr << "> astar fcost: " << current.heuristic << endl;
         if (current.pos == target) {
             result.found = true;
             result.firstStep = current.firstStep;
@@ -474,7 +477,7 @@ Pos furthestPosVoldemort(const int id){
     GridBool visited(board_rows(), vector<bool>(board_cols(), false));
     queue<Pos> qcoord;
 
-    const int CellLimit = 400;
+    const int CellLimit = 200;
     int furthest_dist = 0;
     int processedCells = 0;
 
@@ -487,7 +490,6 @@ Pos furthestPosVoldemort(const int id){
 
     while (not qcoord.empty() && processedCells < CellLimit) {
       processedCells++;
-      // cerr << "> cells: " << processedCells << endl;
 
       Pos currentPos = qcoord.front();
 
@@ -499,7 +501,7 @@ Pos furthestPosVoldemort(const int id){
         furthest_dist = currentDist;
         result = currentPos;
 
-        // cerr << "! NewFurthestPos: " << result << endl;
+        cerr << "! NewFurthestPos: " << result << endl;
       }
 
       for (const Dir dir : directions) {
@@ -615,12 +617,11 @@ Pos furthestPosVoldemort(const int id){
       // iterates through all possible actions for an id
       for (int i = 0; i < n; ++i) {
         ActionType type = possibleActions[i];
-
+        bool ran = false;
         switch (type) {
         case runVoldemort: 
         {
           if (unit(id).type != Ghost) break;
-
           Pos ghostPos = unit(my_ghost).pos;
           bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 20);
           if (danger) {
@@ -628,9 +629,12 @@ Pos furthestPosVoldemort(const int id){
             if (show_debug_messages) {
             cerr << "ghost: " << ghostPos << "voldemort" << pos_voldemort() << endl;
             cerr << "distance: " << manhattanDistance(ghostPos, pos_voldemort()) << endl;
-            cerr << "Ghost in danger, furthest pos in 400 cells: " << furthestPos << endl;
-            }
-           
+            cerr << "Ghost in danger, furthest pos " << furthestPos << endl;
+            } 
+            aStarRes_t res = astarAlgorithm(my_ghost, ghostPos, furthestPos);
+            cerr << "aStarRes: " << (Dir)res.firstStep << endl;
+            move(id, (Dir)res.firstStep);
+            ran = true;
           }
           
           break;
@@ -639,13 +643,14 @@ Pos furthestPosVoldemort(const int id){
         case book: 
         {
           if (!vecActions[book].cando) break;
+          if (unit(id).type == Ghost) break;
           move(id, (Dir)vecActions[book].firstStep);
           break;
         }
 
         case cast: 
         {
-          if (shouldCast(my_ghost)) { 
+          if (shouldCast(my_ghost) and !ran) { 
             spellCast(my_ghost);
           }
         }

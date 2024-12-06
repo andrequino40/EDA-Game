@@ -1,7 +1,7 @@
 DUMMY_OBJ = AIDummy.o.Linux64
 PLAYER_DIR = Players
 # Add here any extra .o player files you want to link to the executable
-EXTRA_OBJ = $(wildcard $(PLAYER_DIR)/*.o) $(wildcard $(PLAYER_DIR)/*/*.o) 
+EXTRA_OBJ = #$(wildcard $(PLAYER_DIR)/*.o) $(wildcard $(PLAYER_DIR)/*/*.o) 
 
 # Configuration
 OPTIMIZE = 3 # Optimization level    (0 to 3)
@@ -18,7 +18,7 @@ ifeq ($(strip $(PROFILE)),1)
 endif
 
 ifeq ($(strip $(DEBUG)),1)
-	DEBUGFLAGS=-g -O0 -fno-inline -D_GLIBCXX_DEBUG 
+	DEBUGFLAGS=-g3 -O0 #-fno-inline -D_GLIBCXX_DEBUG 
 endif
 
 CXXFLAGS = -std=c++17 -Wall -Wno-unused-variable -fPIC $(PROFILEFLAGS) $(DEBUGFLAGS) -O$(strip $(OPTIMIZE))
