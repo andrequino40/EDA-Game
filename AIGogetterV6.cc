@@ -330,11 +330,6 @@ void print_ghost_cooldowns() {
 
 bool shouldCast(int myghost) {
   
-  /*   if (show_debug_messages) {
-        cerr << "not last50: " << !last50_rounds << endl; 
-        cerr << "rested: " << rested << endl; 
-    }
-  */  
   bool rested = unit(myghost).resting_rounds() == 0;
   bool last50_rounds = round() >= 150;
   int numcasted = 0;
@@ -344,33 +339,32 @@ bool shouldCast(int myghost) {
 
   if (show_debug_messages) {
     print_ghost_cooldowns();
-    } 
+  } 
 
   if (rested && !last50_rounds) {
-    return true;
-    if (numcasted == 3) return true;
     // ultima ronda para castear dos veces
     if (round() < 90) {
-      if (round() >= 63 && numcasted >= 2) {
+      if (numcasted == 3) return true;
+
+      if (round() >= 63 && numcasted >= 2)
         return true;
-      } 
-      else if (round() >= 70 && numcasted >= 1) {
+
+      else if (round() >= 70 && numcasted >= 1)
         return true;
-      } 
-      else if(round() >= 80) {
+
+      else if(round() >= 80)
         return true;
-      }
+
     }
     // ultima ronda para castear es 149
-    else if (round() >= 130 && numcasted >= 2) {
+    else if (round() >= 125 && numcasted >= 2) 
         return true;
-      } 
-      else if (round() > 140 && numcasted >= 1) {
-        return true;
-      } 
-      else if (round() > 155) {
-        return true;
-      }
+
+    else if (round() > 130 && numcasted >= 1) 
+      return true;
+
+    else if (round() > 140) 
+      return true;
   }
   return false;
 }
