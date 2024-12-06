@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV7
+#define PLAYER_NAME voltest
 
 
 struct PLAYER_NAME : public Player {
@@ -470,49 +470,56 @@ struct aStarRes_t {
 
   
 Pos furthestPosVoldemort(const int id){
-    const int CellLimit = 400;
-    Pos start  = unit(id).pos; 
-
     vector<Dir> directions = getVectorDirectionsForUnitType(id);
-
-    Pos result;
-
     GridBool visited(board_rows(), vector<bool>(board_cols(), false));
-
     queue<Pos> qcoord;
 
-    qcoord.push(start);
-
+    const int CellLimit = 400;
     int furthest_dist = 0;
-
     int processedCells = 0;
+
+    Pos start  = unit(id).pos; 
+    Pos result = start;
+
+    qcoord.push(start);
+    visited[start.i][start.j] = true;
+
+
     while (not qcoord.empty() && processedCells < CellLimit) {
       processedCells++;
+      // cerr << "> cells: " << processedCells << endl;
 
       Pos currentPos = qcoord.front();
-      visited[currentPos.i][currentPos.j] = true;
 
       qcoord.pop();
       
       int currentDist = manhattanDistance(currentPos, pos_voldemort());
-
+      cerr <<  "> pos" << currentPos << " dist: " << currentDist << endl;
       if (currentDist > furthest_dist) {
         furthest_dist = currentDist;
+        result = currentPos;
+
+        // cerr << "! NewFurthestPos: " << result << endl;
       }
 
       for (const Dir dir : directions) {
+
         Pos newPos = currentPos + dir;
 
-        bool visitedCell =  visited[currentPos.i][currentPos.j] = true;
-
-        if (!visitedCell && isCorridor(newPos)){
-          qcoord.push(newPos);
+        if (isCorridor(newPos)){
+          
+          bool visitedCell = visited[newPos.i][newPos.j] == true;
+          
+          if (!visitedCell) {
+            visited[newPos.i][newPos.j] = true;
+            qcoord.push(newPos);
+          }
         }
       }
     }
     return result;
 }
-
+/* 
   list<Pos> voldemortTargets(const vector<Unit>& units) {
   // First collect (in possib) the positions of all units at mininum distance
     Pos volPos = pos_voldemort();
@@ -533,7 +540,7 @@ Pos furthestPosVoldemort(const int id){
       }
     }
   }
-  
+   */
   virtual void play () {
 
     enemyGhosts = get_enemy_ghosts();
@@ -610,20 +617,38 @@ Pos furthestPosVoldemort(const int id){
         ActionType type = possibleActions[i];
 
         switch (type) {
-        case runVoldemort:
+        case runVoldemort: 
+        {
           if (unit(id).type != Ghost) break;
+
           Pos ghostPos = unit(my_ghost).pos;
-          bool danger = manhattanDistance(ghostPos, pos_voldemort()) < 20;
-          if (danger);
-        case book:
+          bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 20);
+          if (danger) {
+            Pos furthestPos = furthestPosVoldemort(id);
+            if (show_debug_messages) {
+            cerr << "ghost: " << ghostPos << "voldemort" << pos_voldemort() << endl;
+            cerr << "distance: " << manhattanDistance(ghostPos, pos_voldemort()) << endl;
+            cerr << "Ghost in danger, furthest pos in 400 cells: " << furthestPos << endl;
+            }
+           
+          }
+          
+          break;
+        }
+
+        case book: 
+        {
           if (!vecActions[book].cando) break;
           move(id, (Dir)vecActions[book].firstStep);
           break;
+        }
 
-        case cast:
+        case cast: 
+        {
           if (shouldCast(my_ghost)) { 
             spellCast(my_ghost);
           }
+        }
         default:
           break;
         }

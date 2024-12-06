@@ -1,0 +1,1 @@
+Game: Main.cc:71: int main(int, char**): Assertion `names.back().size() <= 12' failed.
