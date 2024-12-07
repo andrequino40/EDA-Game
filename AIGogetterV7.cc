@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV8
+#define PLAYER_NAME GogetterV8l
 
 
 struct PLAYER_NAME : public Player {
@@ -227,13 +227,14 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     int oldid = -1;
     bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
 
-    // if the book was already targeted and
+    // if the book was already targeted
     if (hasTarget) {
-      // remove action from old unit 
+      // get old id from book targets
       oldid = targetBooks[book_result.pos].unitId;
+      // remove action from id
       idToActions[oldid][book].cando = false;
     }
-
+    // update target information
     BookInfo newTarg;
     newTarg.dist = book_result.dist; 
     newTarg.unitId = id;
@@ -243,6 +244,7 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     idToActions[id][book].firstStep = (Dir)book_result.firstStep;
     idToActions[id][book].distance = book_result.dist;
 
+    // return id that was displaced
     return oldid;
   }  
   
@@ -251,13 +253,35 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     // if it does, and noone else is going for it, it sets [book].cando true for the id
     // if any id gets removed from cando, it adds it to the queue until everyone has a book to go to
 
-
     bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
     int displaced_id = -1;
     if (book_result.found) {
       displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
     }
     return displaced_id;
+  }
+
+  void new_updateBookActionIfClosestToBook(const int id, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
+    // this function finds if there's a book that's closest to the provided id
+    // if it does, and noone else is going for it, it sets [book].cando true for the id
+    // if any id gets removed from cando, it adds it to the queue until everyone has a book to go to
+    queue<int> queueids;
+    queueids.push(id);
+
+    while (!queueids.empty()) {
+      int id = queueids.front();
+      queueids.pop();
+
+      bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
+      int displaced_id = -1;
+      if (book_result.found) {
+        displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
+
+        if (search_again_replaced && displaced_id != -1) {
+          queueids.push(displaced_id);
+        }
+      }
+    }
   }
 
 /* FUNCTIONS SPELL */
@@ -624,7 +648,7 @@ Pos bfsFurthestPosVoldemort(const int id){
 
     const queue<int> ref_queueids = queueids;
 
-    // for every wizard in the queue, edit its actions if there's a book to find
+    // for every unit in the queue, edit its actions if there's a book to find
     while (!queueids.empty()) {
       int id = queueids.front();
       queueids.pop();
@@ -633,7 +657,13 @@ Pos bfsFurthestPosVoldemort(const int id){
       if (search_again_replaced && displaced_id != -1) {
         queueids.push(displaced_id);
       }
+    } 
+    
+    /* for (int id : ws) {
+      new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
+    new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
+ */
 
     /* VOLDEMORT */
     /* VOLDEMORT */
