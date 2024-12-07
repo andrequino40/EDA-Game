@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV8
+#define PLAYER_NAME LilBro
 
 
 struct PLAYER_NAME : public Player {
@@ -700,7 +700,7 @@ bool isSearchType(SearchType type, Pos pos) {
 
 SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
-
+    
     vector<Dir> directions;
     if (unit(id).type == Wizard) directions = dirsWizard;
     else directions = dirsGhost;
@@ -760,8 +760,14 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
   
   virtual void play () {
 
+
     enemyGhosts = get_enemy_ghosts();
     
+    if (show_debug_messages) {
+    cerr << "fantasmas ronda " << round() << endl;
+    print_ghost_cooldowns();
+    }
+
     double st = status(me());
     if (st >= 0.9) return;
   
@@ -810,7 +816,9 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
         SearchRet_t result;
 
         if (max_distance <= 0) continue;
-        result = bfsSearchForType(id, SearchType::HealthyMage, max_distance, targetBooks);
+
+        result = bfsSearchForType(id, 
+        SearchType::HealthyMage, max_distance, targetBooks);
 
         if (!result.found) continue;
         int helper_id = cell(result.pos).id;
