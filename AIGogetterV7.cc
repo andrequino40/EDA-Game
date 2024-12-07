@@ -125,6 +125,10 @@ struct bookBfsRes_t {
 
   typedef map<Pos, BookInfo> posToBookinfo_t;
 
+  /* EVERYTHING RELATED TO BOOK FINDING*/
+
+  
+
 bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks){
     Pos start  = unit(id).pos; 
 
