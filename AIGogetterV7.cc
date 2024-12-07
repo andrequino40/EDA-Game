@@ -157,7 +157,7 @@ struct aStarRes_t {
 
 /* FUNCTIONS BOOKS*/
 
-bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks){
+bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     Pos start  = unit(id).pos; 
 
     vector<Dir> directions;
@@ -245,6 +245,19 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     return oldid;
   }  
   
+  int updateBookActionIfClosestToBook(const int id, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
+    // this function finds if there's a book that's closest to the provided id
+    // if it does, and noone else is going for it, it sets [book].cando true for the id
+    // if any id gets removed from cando, it adds it to the queue until everyone has a book to go to
+
+
+    bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
+    int displaced_id = -1;
+    if (book_result.found) {
+      displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
+    }
+    return displaced_id;
+  }
 
 /* FUNCTIONS SPELL */
 
@@ -615,13 +628,9 @@ Pos bfsFurthestPosVoldemort(const int id){
       int id = queueids.front();
       queueids.pop();
 
-      bookBfsRes_t book_result = findBookCandidate(id, targetBooks);
-
-      if (book_result.found) {
-        int displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
-        if (search_again_replaced && displaced_id != -1) {
-          queueids.push(displaced_id);
-        }
+      int displaced_id = updateBookActionIfClosestToBook(id, targetBooks, idToActions);
+      if (search_again_replaced && displaced_id != -1) {
+        queueids.push(displaced_id);
       }
     }
 
