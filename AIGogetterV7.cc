@@ -58,6 +58,10 @@ struct PLAYER_NAME : public Player {
     return pos_ok(pos) and cell(pos).type != Wall;
   }
 
+  int manhattanDistance(Pos start, Pos target) {
+    return abs(start.i - target.i) + abs(start.j - target.j);
+  } 
+
   /* TYPES AND ATTRIBUTES */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
