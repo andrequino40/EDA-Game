@@ -227,7 +227,8 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     int oldid = -1;
     bool hasTarget = targetBooks.find(book_result.pos) != targetBooks.end();
 
-    if (hasTarget && book_result.dist < targetBooks.at(book_result.pos).dist) {
+    // if the book was already targeted and
+    if (hasTarget) {
       // remove action from old unit 
       oldid = targetBooks[book_result.pos].unitId;
       idToActions[oldid][book].cando = false;
