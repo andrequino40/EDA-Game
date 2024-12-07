@@ -67,6 +67,39 @@ struct PLAYER_NAME : public Player {
   const vector<Dir> dirsWizard = {Up,Right,Down,Left};
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
 
+  // ATTRIBUTES ACTIONS
+    enum ActionType {
+    book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
+  };
+
+  vector<ActionType> vecAllActions = {
+     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
+  };
+
+  // from more to least importance
+  vector<ActionType> vecMageActions = {
+    helpMage, fightMage, attackGhost, book, runMage, runVoldemort
+  };
+
+  // from more to least importance
+  vector<ActionType> vecGhostActions = {
+    runVoldemort, runMage, cast, book
+  };
+
+  struct ActionData {
+    // ActionType actionType;  // The type of action
+    bool cando = false;
+    int distance;           // Distance (used for book, fightMage, runMage, helpMage, attackGhost)
+    int firstStep;            // First movement direction (for book)
+    int enemyId;            // Enemy ID (for fightMage, fightGhost)
+    int numbersAdvantage;   // Numbers advantage (for fightMage, runMage, attackGhost)
+    // Other fields can be added for more specific use cases
+};
+
+
+  typedef unordered_map<int, vector<int>> idToActions_t;
+  typedef unordered_map<int, vector<ActionData>> new_idToActions_t;
+
   /* EVERYTHING RELATED TO BOOK FINDING*/
 
   bool search_again_replaced = true;
