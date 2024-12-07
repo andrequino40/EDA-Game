@@ -27,6 +27,22 @@ struct PLAYER_NAME : public Player {
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = false;
   
+  Dir get_opposite_dir(Dir d){
+    Dir res = (Dir)d;
+    if (d == Down)        res = Up;   
+    else if (d == DR)     res = UL;     
+    else if (d == Right)  res = Left;  
+    else if (d == RU)     res = LD;     
+    else if (d == Up)     res = Down;     
+    else if (d == UL)     res = DR;     
+    else if (d == Left)   res = Right;   
+    else if (d == LD)     res = RU;  
+    else {
+      cerr << "> err: wrong direction to get_opposite_dir" << endl;
+    }   
+    return res;
+  }
+
   Dir pos_to_dir(Pos d) {
     if (d.i == 1 && d.j == 0)
       return Down;   
