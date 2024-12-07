@@ -312,7 +312,8 @@ bool spellBacktrack(int i, int sum_resto, int sum_actual, vint& sumas, vint& sol
     // }
 }
 
-void spellCast(cint ghostid){
+void spellCast(){
+    cint ghostid = ghost(me());
     vint vecnums = spell_ingredients();
     cint n = vecnums.size();
     cint ngroups = n/3;
@@ -384,8 +385,8 @@ void print_ghost_cooldowns() {
     }
   }
 
-bool shouldCast(int myghost) {
-  
+bool shouldCast() {
+  int myghost = ghost(me());
   bool rested = unit(myghost).resting_rounds() == 0;
   bool last50_rounds = round() >= 150;
   int numcasted = 0;
@@ -426,27 +427,45 @@ bool shouldCast(int myghost) {
 }
   
 
-  void decideMoveGhost(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks) {
+  void decideMoveGhost(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
+    Pos position = unit(id).pos;
     if (actions[runVoldemort].cando) {
-      // bfs furthest from voldemort
-      // return result
+      Pos furthestPos = bfsFurthestPosVoldemort(id);
+      aStarRes_t res = astarAlgorithm(id, position, furthestPos);
+
+      move(id, (Dir)res.firstStep);
+      return;
     }
     // this should be set to true if an enemy is the closest to a certain unit
     if (actions[fightMage].cando) {
       if ((actions[fightMage].distance - 4) < actions[book].distance) {
         // bfs furthest from mage
         // return result
+        return;
       }
     }
-    // this should be set to true if shouldcast is true
+
     if (actions[cast].cando) {
-      // cast spell
-      // return -1
+      spellCast();
+      return;
     }
-    // function that executes findbookcandidate and performs setbookaction
+    // sees if it has any closest book
     if (actions[book].cando) {
-      // return move
+      Dir direction = (Dir)actions[book].firstStep;
+      move(id, direction);
+      return;
+    }
+    // return random move towards an enemy colored square if possible
+  }
+
+
+  void decideMoveMage(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
+    // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
+      if (actions[book].cando) {
+      Dir direction = (Dir)actions[book].firstStep;
+      move(id, direction);
+      return;
     }
     // return random move towards an enemy colored square if possible
   }
@@ -621,104 +640,38 @@ Pos bfsFurthestPosVoldemort(const int id){
 
     queue<int> queueids;
 
-    /* BOOKS */
-    /* BOOKS */
-    /* BOOKS */
+    /* QUEUE OF IDS*/
+
     // for every wizard, initializes its vector of the size of their possible actions
     for (int wizard_id : ws) {
       idToActions[wizard_id] = vector<ActionData>(vecAllActions.size());
       // creates a queue of every wizard id
-      queueids.push(wizard_id);
     }
-    
-    // for the ghost, initializes its vector with the size of his possible actions
     idToActions[my_ghost] = vector<ActionData>(vecAllActions.size());
-    queueids.push(my_ghost);
-
-    const queue<int> ref_queueids = queueids;
-
-    // for every unit in the queue, edit its actions if there's a book to find
     
+
+    /* GHOST */
+
+    // see if the ghost can cast a spell
+    idToActions[my_ghost][cast].cando = shouldCast();
+
+    bool involarea =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
+    idToActions[my_ghost][runVoldemort].cando = involarea;
+
+
+    /* EVERY UNIT */
+    // for every unit edit its actions if there's a book to find
     for (int id : ws) {
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
 
-
-    /* VOLDEMORT */
-    /* VOLDEMORT */
-    /* VOLDEMORT */
-    // int numUnits = (num_ini_wizards_per_clan() + 1) * num_players();
-    // vector<Unit> vecUnits(numUnits)
-    // list<Unit> = voldemortTargets();  
-
-    /* ACTIONS */
-    /* ACTIONS */
-    /* ACTIONS */
-    // iterate through every id and its associated action fector
     for (const auto& it : idToActions) {
       int id = it.first;
       const vector<ActionData>& vecActions = it.second;
 
-      vector<ActionType> possibleActions;
-      // set possible actions for the type of troop
-      if (unit(id).type == Wizard) possibleActions = vecMageActions;
-      else possibleActions = vecGhostActions;
-
-      int n = possibleActions.size();
-      // if (unit(id).type == Ghost) decideMoveGhost(id, vecActions);
-
-
-      // iterates through all possible actions for an id
-      for (int i = 0; i < n; ++i) {
-        bool chosenaction = false;
-        if(chosenaction) break;
-
-        ActionType type = possibleActions[i];
-        
-        switch (type) {
-        case runVoldemort: 
-        {
-          if (unit(id).type != Ghost) break;
-          Pos ghostPos = unit(my_ghost).pos;
-          bool danger = (manhattanDistance(ghostPos, pos_voldemort()) < 15);
-          if (danger) {
-            Pos furthestPos = bfsFurthestPosVoldemort(id);
-            aStarRes_t res = astarAlgorithm(my_ghost, ghostPos, furthestPos);
-
-            if (show_debug_messages) {
-              cerr << "ghost: " << ghostPos << "voldemort" << pos_voldemort() << endl;
-              cerr << "distance: " << manhattanDistance(ghostPos, pos_voldemort()) << endl;
-              cerr << "Ghost in danger, furthest pos " << furthestPos << endl;
-              cerr << "aStarRes: " << (Dir)res.firstStep << endl;
-            } 
-
-            move(id, (Dir)res.firstStep);
-            chosenaction = true;
-          }
-          
-          break;
-        }
-
-        case book: 
-        {
-          if (!vecActions[book].cando) break;
-          move(id, (Dir)vecActions[book].firstStep);
-          chosenaction = true;
-          break;
-        }
-
-        case cast: 
-        {
-          if (shouldCast(my_ghost)) { 
-            spellCast(my_ghost);
-            chosenaction = true;
-          }
-        }
-        default:
-          break;
-        }
-      }
+      if (unit(id).type == Ghost) decideMoveGhost(id, vecActions, targetBooks, idToActions);
+      else decideMoveMage(id, vecActions, targetBooks, idToActions);
     }
   }
 };
