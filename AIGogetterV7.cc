@@ -125,6 +125,11 @@ struct bookBfsRes_t {
 
   typedef map<Pos, BookInfo> posToBookinfo_t;
 
+  // ATTRIBUTES SPELL
+
+  typedef vector<int> vint;
+typedef const int cint;
+
   /* EVERYTHING RELATED TO BOOK FINDING*/
 
   
