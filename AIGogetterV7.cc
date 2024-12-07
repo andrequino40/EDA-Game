@@ -77,7 +77,7 @@ struct PLAYER_NAME : public Player {
   const vector<Dir> dirsGhost = {Down, DR, Right, RU, Up, UL, Left , LD};
 
   // ATTRIBUTES ACTIONS
-    enum ActionType {
+  enum ActionType {
     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
   };
 
@@ -109,7 +109,7 @@ struct PLAYER_NAME : public Player {
   typedef unordered_map<int, vector<int>> idToActions_t;
   typedef unordered_map<int, vector<ActionData>> new_idToActions_t;
 
-  /* EVERYTHING RELATED TO BOOK FINDING*/
+  // ATTRIBUTES BOOKS
 
   bool search_again_replaced = true;
   struct BookInfo {
@@ -134,7 +134,7 @@ struct bookBfsRes_t {
 
   typedef map<Pos, BookInfo> posToBookinfo_t;
 
-  // ATTRIBUTES SPELL
+// ATTRIBUTES SPELL
 
   typedef vector<int> vint;
 typedef const int cint;
@@ -156,8 +156,6 @@ struct aStarRes_t {
 
 
 /* FUNCTIONS BOOKS*/
-
-  
 
 bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks){
     Pos start  = unit(id).pos; 
@@ -220,41 +218,6 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
     return result;
 }
  
-
-/* EVERYTHING RELATED TO ACTIONS */
-  enum ActionType {
-    book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
-  };
-
-  vector<ActionType> vecAllActions = {
-     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
-  };
-
-  // from more to least importance
-  vector<ActionType> vecMageActions = {
-    helpMage, fightMage, attackGhost, book, runMage, runVoldemort
-  };
-
-  // from more to least importance
-  vector<ActionType> vecGhostActions = {
-    runVoldemort, runMage, cast, book
-  };
-
-  struct ActionData {
-    // ActionType actionType;  // The type of action
-    bool cando = false;
-    int distance;           // Distance (used for book, fightMage, runMage, helpMage, attackGhost)
-    int firstStep;            // First movement direction (for book)
-    int enemyId;            // Enemy ID (for fightMage, fightGhost)
-    int numbersAdvantage;   // Numbers advantage (for fightMage, runMage, attackGhost)
-    // Other fields can be added for more specific use cases
-};
-
-
-  typedef unordered_map<int, vector<int>> idToActions_t;
-  typedef unordered_map<int, vector<ActionData>> new_idToActions_t;
-
-  
   int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
     if (!book_result.found) {
       cerr << ">err Book not found for " << id << endl;
@@ -281,12 +244,9 @@ bookBfsRes_t findBookCandidate(const int id, const posToBookinfo_t& targetBooks)
 
     return oldid;
   }  
-
   
 
-/* EVERYTHING RELATED TO THE SPELL */
-typedef vector<int> vint;
-typedef const int cint;
+/* FUNCTIONS SPELL */
 
 bool spellBacktrack(int i, int sum_resto, int sum_actual, vint& sumas, vint& sol, const vint& vecnums, cint ngroups, cint target) {
     int n = vecnums.size();
@@ -324,7 +284,6 @@ bool spellBacktrack(int i, int sum_resto, int sum_actual, vint& sumas, vint& sol
     return found; // return false
     // }
 }
-
 
 void spellCast(cint ghostid){
     vint vecnums = spell_ingredients();
@@ -465,27 +424,7 @@ bool shouldCast(int myghost) {
     // return random move towards an enemy colored square if possible
   }
 
-  /* EVERYTHING RELATED TO ASTAR */
-
-    
-  int manhattanDistance(Pos start, Pos target) {
-    return abs(start.i - target.i) + abs(start.j - target.j);
-  } 
-
-
-struct node_t {
-      Pos pos;
-      int firstStep = -1;
-      int gcost;
-      int heuristic;
-  };
-
-struct aStarRes_t {
-  bool found = false;
-  int firstStep = -1;
-  int dist;
-};
-
+  /* FUNCTIONS ASTAR */
 
   static bool compAstar(const node_t& a, const node_t& b) { // true means a has less priority in std priority queues
     int afcost = a.gcost + a.heuristic;
@@ -500,11 +439,6 @@ struct aStarRes_t {
   } 
 
   typedef priority_queue<node_t, vector<node_t>, decltype(&PLAYER_NAME::compAstar)> pqastar;
-
-  vector<Dir> getVectorDirectionsForUnitType(int id) {
-    if (unit(id).type == Wizard) return dirsWizard;
-    return dirsGhost; 
-  }
 
   aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
     if (show_debug_messages)
@@ -571,9 +505,7 @@ struct aStarRes_t {
     return result;
 }
 
-
-  /* EVERYTHING RELATED TO VOLDEMORT*/
-
+  /* FUNCTIONOS VOLDEMORT*/
   
 Pos bfsFurthestPosVoldemort(const int id){
     vector<Dir> directions = getVectorDirectionsForUnitType(id);
