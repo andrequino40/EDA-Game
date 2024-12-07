@@ -2,9 +2,9 @@ info: seed 30
 info: loading game
 info: loaded game
 info: loading player GogetterV8
-info: loading player GogetterV8
-info: loading player GogetterV8
-info: loading player GogetterV8
+info: loading player Luca11
+info: loading player Guty_v9
+info: loading player NotDummy
 info: players loaded
 info: start round 0
 info:     start player 0
@@ -38,6 +38,8 @@ info:     end player 3
 info: end round 2
 info: start round 3
 info:     start player 0
+mago con id 16en posicion (52, 20)se convertira en 4 rondas
+mago con id 22en posicion (32, 22)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -48,6 +50,8 @@ info:     end player 3
 info: end round 3
 info: start round 4
 info:     start player 0
+mago con id 16en posicion (51, 20)se convertira en 3 rondas
+mago con id 22en posicion (33, 22)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -58,6 +62,11 @@ info:     end player 3
 info: end round 4
 info: start round 5
 info:     start player 0
+mago con id 4en posicion (44, 20)se convertira en 4 rondas
+mago con id 16en posicion (50, 20)se convertira en 2 rondas
+mago con id 18en posicion (9, 40)se convertira en 4 rondas
+mago con id 19en posicion (27, 14)se convertira en 4 rondas
+mago con id 22en posicion (33, 21)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -68,6 +77,11 @@ info:     end player 3
 info: end round 5
 info: start round 6
 info:     start player 0
+mago con id 4en posicion (44, 20)se convertira en 3 rondas
+mago con id 16en posicion (50, 21)se convertira en 1 rondas
+mago con id 18en posicion (9, 41)se convertira en 3 rondas
+mago con id 19en posicion (27, 15)se convertira en 3 rondas
+mago con id 22en posicion (33, 20)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -78,6 +92,9 @@ info:     end player 3
 info: end round 6
 info: start round 7
 info:     start player 0
+mago con id 4en posicion (44, 20)se convertira en 2 rondas
+mago con id 18en posicion (9, 42)se convertira en 2 rondas
+mago con id 19en posicion (27, 16)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -88,6 +105,9 @@ info:     end player 3
 info: end round 7
 info: start round 8
 info:     start player 0
+mago con id 4en posicion (44, 20)se convertira en 1 rondas
+mago con id 18en posicion (9, 43)se convertira en 1 rondas
+mago con id 19en posicion (28, 16)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -98,6 +118,8 @@ info:     end player 3
 info: end round 8
 info: start round 9
 info:     start player 0
+mago con id 8en posicion (43, 29)se convertira en 4 rondas
+mago con id 10en posicion (26, 3)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -108,6 +130,9 @@ info:     end player 3
 info: end round 9
 info: start round 10
 info:     start player 0
+mago con id 6en posicion (27, 48)se convertira en 4 rondas
+mago con id 8en posicion (43, 29)se convertira en 3 rondas
+mago con id 10en posicion (26, 4)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -118,6 +143,9 @@ info:     end player 3
 info: end round 10
 info: start round 11
 info:     start player 0
+mago con id 6en posicion (27, 48)se convertira en 3 rondas
+mago con id 8en posicion (43, 30)se convertira en 2 rondas
+mago con id 10en posicion (26, 5)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -128,6 +156,9 @@ info:     end player 3
 info: end round 11
 info: start round 12
 info:     start player 0
+mago con id 6en posicion (28, 48)se convertira en 2 rondas
+mago con id 8en posicion (43, 31)se convertira en 1 rondas
+mago con id 10en posicion (26, 6)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -138,6 +169,8 @@ info:     end player 3
 info: end round 12
 info: start round 13
 info:     start player 0
+mago con id 6en posicion (29, 48)se convertira en 1 rondas
+mago con id 13en posicion (22, 30)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -148,6 +181,7 @@ info:     end player 3
 info: end round 13
 info: start round 14
 info:     start player 0
+mago con id 13en posicion (21, 30)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -158,6 +192,7 @@ info:     end player 3
 info: end round 14
 info: start round 15
 info:     start player 0
+mago con id 13en posicion (21, 29)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -168,6 +203,7 @@ info:     end player 3
 info: end round 15
 info: start round 16
 info:     start player 0
+mago con id 13en posicion (21, 28)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -188,6 +224,7 @@ info:     end player 3
 info: end round 17
 info: start round 18
 info:     start player 0
+mago con id 15en posicion (48, 33)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -198,6 +235,7 @@ info:     end player 3
 info: end round 18
 info: start round 19
 info:     start player 0
+mago con id 15en posicion (47, 33)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -208,6 +246,8 @@ info:     end player 3
 info: end round 19
 info: start round 20
 info:     start player 0
+mago con id 15en posicion (46, 33)se convertira en 2 rondas
+mago con id 23en posicion (52, 51)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -218,6 +258,8 @@ info:     end player 3
 info: end round 20
 info: start round 21
 info:     start player 0
+mago con id 15en posicion (45, 33)se convertira en 1 rondas
+mago con id 23en posicion (53, 51)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -228,6 +270,7 @@ info:     end player 3
 info: end round 21
 info: start round 22
 info:     start player 0
+mago con id 23en posicion (54, 51)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -238,6 +281,7 @@ info:     end player 3
 info: end round 22
 info: start round 23
 info:     start player 0
+mago con id 22en posicion (33, 11)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -248,6 +292,7 @@ info:     end player 3
 info: end round 23
 info: start round 24
 info:     start player 0
+mago con id 22en posicion (34, 11)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -258,6 +303,7 @@ info:     end player 3
 info: end round 24
 info: start round 25
 info:     start player 0
+mago con id 22en posicion (35, 11)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -268,6 +314,7 @@ info:     end player 3
 info: end round 25
 info: start round 26
 info:     start player 0
+mago con id 22en posicion (35, 10)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -288,6 +335,7 @@ info:     end player 3
 info: end round 27
 info: start round 28
 info:     start player 0
+mago con id 36en posicion (22, 11)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -298,6 +346,8 @@ info:     end player 3
 info: end round 28
 info: start round 29
 info:     start player 0
+mago con id 20en posicion (54, 39)se convertira en 4 rondas
+mago con id 36en posicion (21, 11)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -308,6 +358,8 @@ info:     end player 3
 info: end round 29
 info: start round 30
 info:     start player 0
+mago con id 20en posicion (53, 39)se convertira en 3 rondas
+mago con id 36en posicion (21, 10)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -318,6 +370,7 @@ info:     end player 3
 info: end round 30
 info: start round 31
 info:     start player 0
+mago con id 20en posicion (52, 39)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -328,6 +381,7 @@ info:     end player 3
 info: end round 31
 info: start round 32
 info:     start player 0
+mago con id 20en posicion (51, 39)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -358,6 +412,8 @@ info:     end player 3
 info: end round 34
 info: start round 35
 info:     start player 0
+mago con id 5en posicion (1, 50)se convertira en 4 rondas
+mago con id 7en posicion (31, 14)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -368,6 +424,8 @@ info:     end player 3
 info: end round 35
 info: start round 36
 info:     start player 0
+mago con id 5en posicion (1, 51)se convertira en 3 rondas
+mago con id 7en posicion (30, 14)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -378,6 +436,8 @@ info:     end player 3
 info: end round 36
 info: start round 37
 info:     start player 0
+mago con id 5en posicion (1, 52)se convertira en 2 rondas
+mago con id 7en posicion (29, 14)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -388,6 +448,8 @@ info:     end player 3
 info: end round 37
 info: start round 38
 info:     start player 0
+mago con id 5en posicion (1, 53)se convertira en 1 rondas
+mago con id 7en posicion (28, 14)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -428,6 +490,7 @@ info:     end player 3
 info: end round 41
 info: start round 42
 info:     start player 0
+mago con id 17en posicion (29, 10)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -438,6 +501,7 @@ info:     end player 3
 info: end round 42
 info: start round 43
 info:     start player 0
+mago con id 17en posicion (29, 9)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -448,6 +512,7 @@ info:     end player 3
 info: end round 43
 info: start round 44
 info:     start player 0
+mago con id 17en posicion (29, 8)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -458,6 +523,7 @@ info:     end player 3
 info: end round 44
 info: start round 45
 info:     start player 0
+mago con id 29en posicion (16, 8)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -468,6 +534,7 @@ info:     end player 3
 info: end round 45
 info: start round 46
 info:     start player 0
+mago con id 29en posicion (15, 8)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -478,6 +545,7 @@ info:     end player 3
 info: end round 46
 info: start round 47
 info:     start player 0
+mago con id 29en posicion (14, 8)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -488,6 +556,8 @@ info:     end player 3
 info: end round 47
 info: start round 48
 info:     start player 0
+mago con id 29en posicion (13, 8)se convertira en 1 rondas
+mago con id 59en posicion (12, 57)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -498,6 +568,7 @@ info:     end player 3
 info: end round 48
 info: start round 49
 info:     start player 0
+mago con id 59en posicion (12, 58)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -508,6 +579,7 @@ info:     end player 3
 info: end round 49
 info: start round 50
 info:     start player 0
+mago con id 59en posicion (12, 59)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -518,6 +590,7 @@ info:     end player 3
 info: end round 50
 info: start round 51
 info:     start player 0
+mago con id 59en posicion (13, 59)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -528,6 +601,8 @@ info:     end player 3
 info: end round 51
 info: start round 52
 info:     start player 0
+mago con id 28en posicion (25, 16)se convertira en 4 rondas
+mago con id 63en posicion (36, 50)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -538,6 +613,8 @@ info:     end player 3
 info: end round 52
 info: start round 53
 info:     start player 0
+mago con id 28en posicion (25, 17)se convertira en 3 rondas
+mago con id 63en posicion (35, 50)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -548,6 +625,7 @@ info:     end player 3
 info: end round 53
 info: start round 54
 info:     start player 0
+mago con id 28en posicion (25, 18)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -558,6 +636,7 @@ info:     end player 3
 info: end round 54
 info: start round 55
 info:     start player 0
+mago con id 28en posicion (25, 19)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -568,6 +647,7 @@ info:     end player 3
 info: end round 55
 info: start round 56
 info:     start player 0
+mago con id 36en posicion (6, 4)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -578,6 +658,7 @@ info:     end player 3
 info: end round 56
 info: start round 57
 info:     start player 0
+mago con id 36en posicion (7, 4)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -588,6 +669,8 @@ info:     end player 3
 info: end round 57
 info: start round 58
 info:     start player 0
+mago con id 36en posicion (8, 4)se convertira en 2 rondas
+mago con id 51en posicion (21, 31)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -598,6 +681,8 @@ info:     end player 3
 info: end round 58
 info: start round 59
 info:     start player 0
+mago con id 36en posicion (8, 4)se convertira en 1 rondas
+mago con id 51en posicion (21, 31)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -608,6 +693,9 @@ info:     end player 3
 info: end round 59
 info: start round 60
 info:     start player 0
+mago con id 27en posicion (17, 5)se convertira en 4 rondas
+mago con id 51en posicion (21, 31)se convertira en 2 rondas
+mago con id 78en posicion (27, 22)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -618,6 +706,9 @@ info:     end player 3
 info: end round 60
 info: start round 61
 info:     start player 0
+mago con id 27en posicion (16, 5)se convertira en 3 rondas
+mago con id 51en posicion (21, 31)se convertira en 1 rondas
+mago con id 78en posicion (27, 23)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -628,6 +719,8 @@ info:     end player 3
 info: end round 61
 info: start round 62
 info:     start player 0
+mago con id 27en posicion (17, 5)se convertira en 2 rondas
+mago con id 78en posicion (27, 24)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -688,6 +781,7 @@ info:     end player 3
 info: end round 67
 info: start round 68
 info:     start player 0
+mago con id 17en posicion (33, 15)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -698,6 +792,7 @@ info:     end player 3
 info: end round 68
 info: start round 69
 info:     start player 0
+mago con id 17en posicion (32, 15)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -708,6 +803,7 @@ info:     end player 3
 info: end round 69
 info: start round 70
 info:     start player 0
+mago con id 17en posicion (31, 15)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -718,6 +814,7 @@ info:     end player 3
 info: end round 70
 info: start round 71
 info:     start player 0
+mago con id 17en posicion (30, 15)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -758,6 +855,7 @@ info:     end player 3
 info: end round 74
 info: start round 75
 info:     start player 0
+mago con id 27en posicion (18, 5)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -768,6 +866,7 @@ info:     end player 3
 info: end round 75
 info: start round 76
 info:     start player 0
+mago con id 27en posicion (18, 5)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -778,6 +877,7 @@ info:     end player 3
 info: end round 76
 info: start round 77
 info:     start player 0
+mago con id 27en posicion (18, 6)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -788,6 +888,7 @@ info:     end player 3
 info: end round 77
 info: start round 78
 info:     start player 0
+mago con id 27en posicion (19, 6)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -798,6 +899,7 @@ info:     end player 3
 info: end round 78
 info: start round 79
 info:     start player 0
+mago con id 34en posicion (2, 0)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -808,6 +910,7 @@ info:     end player 3
 info: end round 79
 info: start round 80
 info:     start player 0
+mago con id 34en posicion (3, 0)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -818,6 +921,7 @@ info:     end player 3
 info: end round 80
 info: start round 81
 info:     start player 0
+mago con id 34en posicion (4, 0)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -828,6 +932,7 @@ info:     end player 3
 info: end round 81
 info: start round 82
 info:     start player 0
+mago con id 34en posicion (5, 0)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -888,6 +993,8 @@ info:     end player 3
 info: end round 87
 info: start round 88
 info:     start player 0
+mago con id 7en posicion (31, 28)se convertira en 4 rondas
+mago con id 82en posicion (9, 18)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -898,6 +1005,8 @@ info:     end player 3
 info: end round 88
 info: start round 89
 info:     start player 0
+mago con id 7en posicion (30, 28)se convertira en 3 rondas
+mago con id 82en posicion (10, 18)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -908,6 +1017,8 @@ info:     end player 3
 info: end round 89
 info: start round 90
 info:     start player 0
+mago con id 7en posicion (29, 28)se convertira en 2 rondas
+mago con id 82en posicion (11, 18)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -918,6 +1029,9 @@ info:     end player 3
 info: end round 90
 info: start round 91
 info:     start player 0
+mago con id 7en posicion (28, 28)se convertira en 1 rondas
+mago con id 55en posicion (42, 42)se convertira en 4 rondas
+mago con id 82en posicion (12, 18)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -928,6 +1042,7 @@ info:     end player 3
 info: end round 91
 info: start round 92
 info:     start player 0
+mago con id 55en posicion (42, 43)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -938,6 +1053,7 @@ info:     end player 3
 info: end round 92
 info: start round 93
 info:     start player 0
+mago con id 55en posicion (43, 43)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -948,6 +1064,8 @@ info:     end player 3
 info: end round 93
 info: start round 94
 info:     start player 0
+mago con id 8en posicion (52, 8)se convertira en 4 rondas
+mago con id 55en posicion (44, 43)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -958,6 +1076,8 @@ info:     end player 3
 info: end round 94
 info: start round 95
 info:     start player 0
+mago con id 8en posicion (53, 8)se convertira en 3 rondas
+mago con id 28en posicion (26, 28)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -968,6 +1088,8 @@ info:     end player 3
 info: end round 95
 info: start round 96
 info:     start player 0
+mago con id 8en posicion (54, 8)se convertira en 2 rondas
+mago con id 28en posicion (25, 28)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -978,6 +1100,8 @@ info:     end player 3
 info: end round 96
 info: start round 97
 info:     start player 0
+mago con id 8en posicion (55, 8)se convertira en 1 rondas
+mago con id 28en posicion (24, 28)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -988,6 +1112,8 @@ info:     end player 3
 info: end round 97
 info: start round 98
 info:     start player 0
+mago con id 28en posicion (23, 28)se convertira en 1 rondas
+mago con id 78en posicion (17, 18)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -998,6 +1124,7 @@ info:     end player 3
 info: end round 98
 info: start round 99
 info:     start player 0
+mago con id 78en posicion (17, 19)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1008,6 +1135,7 @@ info:     end player 3
 info: end round 99
 info: start round 100
 info:     start player 0
+mago con id 78en posicion (18, 19)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1038,6 +1166,7 @@ info:     end player 3
 info: end round 102
 info: start round 103
 info:     start player 0
+mago con id 9en posicion (32, 51)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1048,6 +1177,8 @@ info:     end player 3
 info: end round 103
 info: start round 104
 info:     start player 0
+mago con id 9en posicion (32, 52)se convertira en 3 rondas
+mago con id 14en posicion (27, 34)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1058,6 +1189,9 @@ info:     end player 3
 info: end round 104
 info: start round 105
 info:     start player 0
+mago con id 9en posicion (33, 52)se convertira en 2 rondas
+mago con id 14en posicion (27, 33)se convertira en 3 rondas
+mago con id 78en posicion (18, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1068,6 +1202,8 @@ info:     end player 3
 info: end round 105
 info: start round 106
 info:     start player 0
+mago con id 9en posicion (34, 52)se convertira en 1 rondas
+mago con id 14en posicion (27, 32)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1078,6 +1214,8 @@ info:     end player 3
 info: end round 106
 info: start round 107
 info:     start player 0
+mago con id 14en posicion (26, 32)se convertira en 1 rondas
+mago con id 78en posicion (18, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1088,6 +1226,8 @@ info:     end player 3
 info: end round 107
 info: start round 108
 info:     start player 0
+mago con id 54en posicion (30, 20)se convertira en 4 rondas
+mago con id 78en posicion (19, 19)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1098,6 +1238,8 @@ info:     end player 3
 info: end round 108
 info: start round 109
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
+mago con id 54en posicion (29, 20)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1108,6 +1250,8 @@ info:     end player 3
 info: end round 109
 info: start round 110
 info:     start player 0
+mago con id 54en posicion (28, 20)se convertira en 2 rondas
+mago con id 78en posicion (19, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1128,6 +1272,11 @@ info:     end player 3
 info: end round 111
 info: start round 112
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
+mago con id 30en posicion (29, 5)se convertira en 4 rondas
+mago con id 53en posicion (21, 1)se convertira en 4 rondas
+mago con id 54en posicion (28, 20)se convertira en 4 rondas
+mago con id 78en posicion (19, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1138,6 +1287,9 @@ info:     end player 3
 info: end round 112
 info: start round 113
 info:     start player 0
+mago con id 30en posicion (28, 5)se convertira en 3 rondas
+mago con id 53en posicion (21, 2)se convertira en 3 rondas
+mago con id 78en posicion (20, 19)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1148,6 +1300,8 @@ info:     end player 3
 info: end round 113
 info: start round 114
 info:     start player 0
+mago con id 30en posicion (27, 5)se convertira en 2 rondas
+mago con id 53en posicion (21, 3)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1158,6 +1312,8 @@ info:     end player 3
 info: end round 114
 info: start round 115
 info:     start player 0
+mago con id 30en posicion (26, 5)se convertira en 1 rondas
+mago con id 53en posicion (21, 4)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1168,6 +1324,7 @@ info:     end player 3
 info: end round 115
 info: start round 116
 info:     start player 0
+mago con id 23en posicion (48, 59)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1178,6 +1335,8 @@ info:     end player 3
 info: end round 116
 info: start round 117
 info:     start player 0
+mago con id 8en posicion (31, 54)se convertira en 4 rondas
+mago con id 23en posicion (48, 58)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1188,6 +1347,10 @@ info:     end player 3
 info: end round 117
 info: start round 118
 info:     start player 0
+mago con id 8en posicion (30, 54)se convertira en 3 rondas
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
+mago con id 23en posicion (48, 57)se convertira en 2 rondas
+mago con id 78en posicion (20, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1198,6 +1361,8 @@ info:     end player 3
 info: end round 118
 info: start round 119
 info:     start player 0
+mago con id 8en posicion (29, 54)se convertira en 2 rondas
+mago con id 23en posicion (48, 56)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1208,6 +1373,10 @@ info:     end player 3
 info: end round 119
 info: start round 120
 info:     start player 0
+mago con id 8en posicion (28, 54)se convertira en 1 rondas
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
+mago con id 41en posicion (27, 30)se convertira en 4 rondas
+mago con id 78en posicion (21, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1218,6 +1387,8 @@ info:     end player 3
 info: end round 120
 info: start round 121
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 3 rondas
+mago con id 41en posicion (26, 30)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1228,6 +1399,8 @@ info:     end player 3
 info: end round 121
 info: start round 122
 info:     start player 0
+mago con id 41en posicion (25, 30)se convertira en 2 rondas
+mago con id 78en posicion (21, 18)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1238,6 +1411,7 @@ info:     end player 3
 info: end round 122
 info: start round 123
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1248,6 +1422,8 @@ info:     end player 3
 info: end round 123
 info: start round 124
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 3 rondas
+mago con id 78en posicion (21, 18)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1258,6 +1434,8 @@ info:     end player 3
 info: end round 124
 info: start round 125
 info:     start player 0
+mago con id 52en posicion (23, 54)se convertira en 4 rondas
+mago con id 78en posicion (21, 17)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1268,6 +1446,7 @@ info:     end player 3
 info: end round 125
 info: start round 126
 info:     start player 0
+mago con id 52en posicion (22, 54)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1278,6 +1457,9 @@ info:     end player 3
 info: end round 126
 info: start round 127
 info:     start player 0
+mago con id 19en posicion (31, 15)se convertira en 4 rondas
+mago con id 52en posicion (21, 54)se convertira en 2 rondas
+mago con id 78en posicion (21, 17)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1288,6 +1470,8 @@ info:     end player 3
 info: end round 127
 info: start round 128
 info:     start player 0
+mago con id 19en posicion (31, 16)se convertira en 3 rondas
+mago con id 52en posicion (20, 54)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1298,6 +1482,7 @@ info:     end player 3
 info: end round 128
 info: start round 129
 info:     start player 0
+mago con id 13en posicion (17, 15)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1308,6 +1493,7 @@ info:     end player 3
 info: end round 129
 info: start round 130
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1318,6 +1504,7 @@ info:     end player 3
 info: end round 130
 info: start round 131
 info:     start player 0
+mago con id 78en posicion (22, 16)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1328,6 +1515,8 @@ info:     end player 3
 info: end round 131
 info: start round 132
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 4 rondas
+mago con id 78en posicion (22, 16)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1338,6 +1527,8 @@ info:     end player 3
 info: end round 132
 info: start round 133
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 3 rondas
+mago con id 78en posicion (22, 16)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1348,6 +1539,7 @@ info:     end player 3
 info: end round 133
 info: start round 134
 info:     start player 0
+mago con id 78en posicion (22, 16)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1358,6 +1550,8 @@ info:     end player 3
 info: end round 134
 info: start round 135
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 4 rondas
+mago con id 21en posicion (22, 15)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1368,6 +1562,8 @@ info:     end player 3
 info: end round 135
 info: start round 136
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 3 rondas
+mago con id 21en posicion (22, 15)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1378,6 +1574,9 @@ info:     end player 3
 info: end round 136
 info: start round 137
 info:     start player 0
+mago con id 21en posicion (22, 15)se convertira en 2 rondas
+mago con id 33en posicion (3, 15)se convertira en 4 rondas
+mago con id 67en posicion (24, 4)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1388,6 +1587,10 @@ info:     end player 3
 info: end round 137
 info: start round 138
 info:     start player 0
+mago con id 13en posicion (16, 15)se convertira en 4 rondas
+mago con id 21en posicion (22, 15)se convertira en 1 rondas
+mago con id 33en posicion (4, 15)se convertira en 3 rondas
+mago con id 67en posicion (24, 5)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1398,6 +1601,10 @@ info:     end player 3
 info: end round 138
 info: start round 139
 info:     start player 0
+mago con id 11en posicion (21, 52)se convertira en 4 rondas
+mago con id 13en posicion (15, 15)se convertira en 3 rondas
+mago con id 33en posicion (5, 15)se convertira en 2 rondas
+mago con id 67en posicion (24, 6)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1408,6 +1615,10 @@ info:     end player 3
 info: end round 139
 info: start round 140
 info:     start player 0
+mago con id 11en posicion (22, 52)se convertira en 3 rondas
+mago con id 13en posicion (14, 15)se convertira en 2 rondas
+mago con id 33en posicion (6, 15)se convertira en 1 rondas
+mago con id 67en posicion (24, 7)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1418,6 +1629,10 @@ info:     end player 3
 info: end round 140
 info: start round 141
 info:     start player 0
+mago con id 11en posicion (22, 51)se convertira en 2 rondas
+mago con id 12en posicion (49, 27)se convertira en 4 rondas
+mago con id 13en posicion (14, 15)se convertira en 1 rondas
+mago con id 48en posicion (14, 7)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1428,6 +1643,11 @@ info:     end player 3
 info: end round 141
 info: start round 142
 info:     start player 0
+mago con id 11en posicion (22, 50)se convertira en 1 rondas
+mago con id 12en posicion (48, 27)se convertira en 3 rondas
+mago con id 31en posicion (34, 42)se convertira en 4 rondas
+mago con id 35en posicion (20, 12)se convertira en 4 rondas
+mago con id 48en posicion (13, 7)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1438,6 +1658,9 @@ info:     end player 3
 info: end round 142
 info: start round 143
 info:     start player 0
+mago con id 12en posicion (47, 27)se convertira en 2 rondas
+mago con id 31en posicion (34, 42)se convertira en 3 rondas
+mago con id 35en posicion (20, 12)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1448,6 +1671,10 @@ info:     end player 3
 info: end round 143
 info: start round 144
 info:     start player 0
+mago con id 12en posicion (46, 27)se convertira en 1 rondas
+mago con id 31en posicion (34, 42)se convertira en 2 rondas
+mago con id 35en posicion (20, 12)se convertira en 2 rondas
+mago con id 53en posicion (11, 6)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1458,6 +1685,8 @@ info:     end player 3
 info: end round 144
 info: start round 145
 info:     start player 0
+mago con id 31en posicion (34, 42)se convertira en 1 rondas
+mago con id 35en posicion (20, 12)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1468,6 +1697,7 @@ info:     end player 3
 info: end round 145
 info: start round 146
 info:     start player 0
+mago con id 17en posicion (26, 25)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1478,6 +1708,7 @@ info:     end player 3
 info: end round 146
 info: start round 147
 info:     start player 0
+mago con id 17en posicion (26, 25)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1488,6 +1719,7 @@ info:     end player 3
 info: end round 147
 info: start round 148
 info:     start player 0
+mago con id 17en posicion (26, 25)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1498,6 +1730,8 @@ info:     end player 3
 info: end round 148
 info: start round 149
 info:     start player 0
+mago con id 10en posicion (6, 0)se convertira en 4 rondas
+mago con id 17en posicion (26, 25)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1508,6 +1742,8 @@ info:     end player 3
 info: end round 149
 info: start round 150
 info:     start player 0
+mago con id 10en posicion (6, 1)se convertira en 3 rondas
+mago con id 77en posicion (20, 7)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1518,6 +1754,9 @@ info:     end player 3
 info: end round 150
 info: start round 151
 info:     start player 0
+mago con id 6en posicion (44, 38)se convertira en 4 rondas
+mago con id 10en posicion (6, 2)se convertira en 2 rondas
+mago con id 77en posicion (19, 7)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1528,6 +1767,10 @@ info:     end player 3
 info: end round 151
 info: start round 152
 info:     start player 0
+mago con id 6en posicion (44, 38)se convertira en 3 rondas
+mago con id 10en posicion (6, 3)se convertira en 1 rondas
+mago con id 49en posicion (14, 24)se convertira en 4 rondas
+mago con id 77en posicion (18, 7)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1538,6 +1781,9 @@ info:     end player 3
 info: end round 152
 info: start round 153
 info:     start player 0
+mago con id 6en posicion (44, 38)se convertira en 2 rondas
+mago con id 49en posicion (15, 24)se convertira en 3 rondas
+mago con id 77en posicion (17, 7)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1548,6 +1794,10 @@ info:     end player 3
 info: end round 153
 info: start round 154
 info:     start player 0
+mago con id 6en posicion (44, 38)se convertira en 1 rondas
+mago con id 43en posicion (6, 15)se convertira en 4 rondas
+mago con id 49en posicion (16, 24)se convertira en 2 rondas
+mago con id 53en posicion (6, 3)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1558,6 +1808,9 @@ info:     end player 3
 info: end round 154
 info: start round 155
 info:     start player 0
+mago con id 43en posicion (6, 15)se convertira en 3 rondas
+mago con id 49en posicion (17, 24)se convertira en 1 rondas
+mago con id 51en posicion (43, 37)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1568,6 +1821,9 @@ info:     end player 3
 info: end round 155
 info: start round 156
 info:     start player 0
+mago con id 43en posicion (6, 15)se convertira en 2 rondas
+mago con id 51en posicion (43, 38)se convertira en 3 rondas
+mago con id 53en posicion (6, 3)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1578,6 +1834,9 @@ info:     end player 3
 info: end round 156
 info: start round 157
 info:     start player 0
+mago con id 43en posicion (6, 15)se convertira en 1 rondas
+mago con id 51en posicion (43, 38)se convertira en 2 rondas
+mago con id 53en posicion (6, 4)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1588,6 +1847,9 @@ info:     end player 3
 info: end round 157
 info: start round 158
 info:     start player 0
+mago con id 24en posicion (18, 24)se convertira en 4 rondas
+mago con id 51en posicion (43, 38)se convertira en 1 rondas
+mago con id 63en posicion (22, 43)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1598,6 +1860,11 @@ info:     end player 3
 info: end round 158
 info: start round 159
 info:     start player 0
+mago con id 22en posicion (32, 22)se convertira en 4 rondas
+mago con id 24en posicion (19, 24)se convertira en 3 rondas
+mago con id 40en posicion (0, 54)se convertira en 4 rondas
+mago con id 53en posicion (6, 4)se convertira en 4 rondas
+mago con id 63en posicion (21, 43)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1608,6 +1875,11 @@ info:     end player 3
 info: end round 159
 info: start round 160
 info:     start player 0
+mago con id 22en posicion (31, 22)se convertira en 3 rondas
+mago con id 24en posicion (19, 25)se convertira en 2 rondas
+mago con id 40en posicion (0, 55)se convertira en 3 rondas
+mago con id 53en posicion (6, 4)se convertira en 3 rondas
+mago con id 63en posicion (20, 43)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1618,6 +1890,10 @@ info:     end player 3
 info: end round 160
 info: start round 161
 info:     start player 0
+mago con id 22en posicion (31, 22)se convertira en 2 rondas
+mago con id 24en posicion (19, 26)se convertira en 1 rondas
+mago con id 40en posicion (0, 56)se convertira en 2 rondas
+mago con id 63en posicion (19, 43)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1628,6 +1904,8 @@ info:     end player 3
 info: end round 161
 info: start round 162
 info:     start player 0
+mago con id 22en posicion (31, 22)se convertira en 1 rondas
+mago con id 40en posicion (0, 57)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1678,6 +1956,7 @@ info:     end player 3
 info: end round 166
 info: start round 167
 info:     start player 0
+mago con id 19en posicion (47, 0)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1688,6 +1967,7 @@ info:     end player 3
 info: end round 167
 info: start round 168
 info:     start player 0
+mago con id 19en posicion (46, 0)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1698,6 +1978,7 @@ info:     end player 3
 info: end round 168
 info: start round 169
 info:     start player 0
+mago con id 19en posicion (45, 0)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1708,6 +1989,7 @@ info:     end player 3
 info: end round 169
 info: start round 170
 info:     start player 0
+mago con id 19en posicion (44, 0)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1768,6 +2050,7 @@ info:     end player 3
 info: end round 175
 info: start round 176
 info:     start player 0
+mago con id 22en posicion (24, 26)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1778,6 +2061,7 @@ info:     end player 3
 info: end round 176
 info: start round 177
 info:     start player 0
+mago con id 22en posicion (24, 26)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1788,6 +2072,7 @@ info:     end player 3
 info: end round 177
 info: start round 178
 info:     start player 0
+mago con id 22en posicion (24, 26)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1798,6 +2083,8 @@ info:     end player 3
 info: end round 178
 info: start round 179
 info:     start player 0
+mago con id 22en posicion (24, 26)se convertira en 1 rondas
+mago con id 53en posicion (0, 5)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1808,6 +2095,9 @@ info:     end player 3
 info: end round 179
 info: start round 180
 info:     start player 0
+mago con id 53en posicion (0, 4)se convertira en 3 rondas
+mago con id 56en posicion (36, 1)se convertira en 4 rondas
+mago con id 57en posicion (15, 58)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1818,6 +2108,10 @@ info:     end player 3
 info: end round 180
 info: start round 181
 info:     start player 0
+mago con id 53en posicion (0, 3)se convertira en 2 rondas
+mago con id 54en posicion (23, 24)se convertira en 4 rondas
+mago con id 56en posicion (35, 1)se convertira en 3 rondas
+mago con id 57en posicion (15, 59)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1828,6 +2122,11 @@ info:     end player 3
 info: end round 181
 info: start round 182
 info:     start player 0
+mago con id 30en posicion (25, 23)se convertira en 4 rondas
+mago con id 53en posicion (0, 2)se convertira en 1 rondas
+mago con id 54en posicion (24, 24)se convertira en 3 rondas
+mago con id 56en posicion (34, 1)se convertira en 2 rondas
+mago con id 57en posicion (16, 59)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1838,6 +2137,10 @@ info:     end player 3
 info: end round 182
 info: start round 183
 info:     start player 0
+mago con id 30en posicion (25, 22)se convertira en 3 rondas
+mago con id 54en posicion (24, 24)se convertira en 2 rondas
+mago con id 56en posicion (33, 1)se convertira en 1 rondas
+mago con id 57en posicion (17, 59)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1848,6 +2151,8 @@ info:     end player 3
 info: end round 183
 info: start round 184
 info:     start player 0
+mago con id 30en posicion (25, 21)se convertira en 2 rondas
+mago con id 54en posicion (24, 24)se convertira en 1 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1888,6 +2193,7 @@ info:     end player 3
 info: end round 187
 info: start round 188
 info:     start player 0
+mago con id 17en posicion (27, 20)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1898,6 +2204,7 @@ info:     end player 3
 info: end round 188
 info: start round 189
 info:     start player 0
+mago con id 17en posicion (26, 20)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1908,6 +2215,7 @@ info:     end player 3
 info: end round 189
 info: start round 190
 info:     start player 0
+mago con id 17en posicion (25, 20)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1978,6 +2286,8 @@ info:     end player 3
 info: end round 196
 info: start round 197
 info:     start player 0
+mago con id 25en posicion (39, 0)se convertira en 4 rondas
+mago con id 76en posicion (17, 19)se convertira en 4 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1988,6 +2298,8 @@ info:     end player 3
 info: end round 197
 info: start round 198
 info:     start player 0
+mago con id 25en posicion (39, 0)se convertira en 3 rondas
+mago con id 76en posicion (18, 19)se convertira en 3 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -1998,6 +2310,7 @@ info:     end player 3
 info: end round 198
 info: start round 199
 info:     start player 0
+mago con id 25en posicion (39, 0)se convertira en 2 rondas
 info:     end player 0
 info:     start player 1
 info:     end player 1
@@ -2006,9 +2319,9 @@ info:     end player 2
 info:     start player 3
 info:     end player 3
 info: end round 199
-info: player GogetterV8 got score 565
-info: player GogetterV8 got score 486
-info: player GogetterV8 got score 690
-info: player GogetterV8 got score 247
+info: player GogetterV8 got score 6542
+info: player Luca11 got score 7164
+info: player Guty_v9 got score 4213
+info: player NotDummy got score 9093
 info: player(s) got top score
 info: game played
