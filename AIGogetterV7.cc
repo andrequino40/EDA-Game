@@ -154,6 +154,13 @@ struct aStarRes_t {
   int dist;
 };
 
+// ATTRIBUTES MAGEBFS
+struct bookMageBfs_t {
+  bool found = false;
+  Pos pos;
+  int firstStep;
+  int dist;
+};
 
 /* FUNCTIONS BOOKS*/
 
@@ -487,8 +494,9 @@ bool shouldCast() {
   typedef priority_queue<node_t, vector<node_t>, decltype(&PLAYER_NAME::compAstar)> pqastar;
 
   aStarRes_t astarAlgorithm(const int id, const Pos start, const Pos target){
-    if (show_debug_messages)
-    cerr << "astar start" << start << " target: " << target << endl;
+    if (show_debug_messages){
+      cerr << "astar start" << start << " target: " << target << endl;
+    }
     GridBool closed (board_rows(), vector<bool>(board_cols(), false)); // false means not closed
     GridInt fscores (board_rows(), vector<int>(board_cols(), -1)); // -1 means not in queue
     pqastar pq(PLAYER_NAME::compAstar);
@@ -509,9 +517,9 @@ bool shouldCast() {
 
         closed[current.pos.i][current.pos.j] = true;
         if (show_debug_messages) {
-        cerr << "> astar current: " << current.pos.i << " " << current.pos.j << endl;
-        cerr << "> first step: " <<  (Dir)current.firstStep << endl;
-        cerr << "> astar fcost: " << current.heuristic << endl;
+          cerr << "> astar current: " << current.pos.i << " " << current.pos.j << endl;
+          cerr << "> first step: " <<  (Dir)current.firstStep << endl;
+          cerr << "> astar fcost: " << current.heuristic << endl;
         }
         if (current.pos == target) {
             result.found = true;
@@ -624,6 +632,111 @@ Pos bfsFurthestPosVoldemort(const int id){
     }
   }
    */
+  
+  /* FUNCTIONS CONVERSION */
+
+  struct SearchNode_t{
+    Pos pos;
+    int firstStep;
+    int lastStep;
+  };
+
+struct SearchRet_t {
+  bool found = false;
+  Pos pos;
+  int firstStep;
+  int lastStep;
+  int dist;
+};
+
+enum SearchType {
+  SearchBook,
+  SearchAllyMage,
+  SearchHealthyMage,
+  SearchEnemyMage,
+  SearchGhost
+};  
+
+typedef int SearchType_t;
+
+bool isSearchType(SearchType_t type, Pos pos) {
+  switch (type)
+  {
+  case SearchHealthyMage:{
+    int idunit = (cell(pos).id);
+    if (idunit == -1)  return false; // there is no unit
+    
+    bool myteam = unit(idunit).player == me();
+    bool converting = unit(idunit).is_in_conversion_process();
+    // if its from my team and its not converting, true
+    return myteam && !converting;
+  }
+  
+  default:
+    break;
+  }
+}
+
+SearchRet_t bfsSearchForType(const int id, SearchType_t type, const int maxDist, const posToBookinfo_t& targetBooks) {
+    Pos start  = unit(id).pos; 
+
+    vector<Dir> directions;
+    if (unit(id).type == Wizard) directions = dirsWizard;
+    else directions = dirsGhost;
+
+    SearchRet_t result;
+    result.found = false;
+
+    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
+
+    queue<SearchNode_t> qcoord;
+
+    qcoord.push({start, -1, -1});
+    distances[start.i][start.j] = 0;
+
+    while (not qcoord.empty()) {
+      Pos currentPos = qcoord.front().pos;
+      int firstStep = qcoord.front().firstStep;
+      int lastStep = qcoord.front().lastStep;
+      int currentDist = distances[currentPos.i][currentPos.j];
+
+      qcoord.pop();
+
+      if (maxDist > 0 && currentDist > maxDist) continue;
+      
+      // if is of searched type
+      if (isSearchType(type, currentPos)) {
+
+          result.found = true;
+          result.pos = currentPos;
+          result.firstStep = firstStep;
+          result.lastStep = lastStep;
+          result.dist = currentDist;
+          
+          return result;
+        }
+      
+      for (const Dir dir : directions) {
+        Pos newPos = currentPos + dir;
+        if (isCorridor(newPos)){
+
+          int newDist = currentDist + 1;
+          bool visited = distances[newPos.i][newPos.j] != -1;
+
+          if (!visited) {
+
+            distances[newPos.i][newPos.j] =  newDist;
+
+            if (firstStep == -1) qcoord.push({newPos, dir, dir});
+            else qcoord.push({newPos, firstStep, dir});
+          }
+        }
+      }
+    }
+    return result;
+}
+ 
+  
   virtual void play () {
 
     enemyGhosts = get_enemy_ghosts();
@@ -658,10 +771,21 @@ Pos bfsFurthestPosVoldemort(const int id){
     bool involarea =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
     idToActions[my_ghost][runVoldemort].cando = involarea;
 
+    /* WIZARDS */
+    for (int id: ws) {
+      if (unit(id).is_in_conversion_process()) {
+        if (show_debug_messages) {
+          cerr << "mago con id " << id << "en posicion " << unit(id).pos 
+          << "se convertira en " <<unit(id).rounds_for_converting() << " rondas" << endl;
+        }
+
+      }
+    }
 
     /* EVERY UNIT */
     // for every unit edit its actions if there's a book to find
     for (int id : ws) {
+      // if (unit(id).is_in_conversion_process()) continue;;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
