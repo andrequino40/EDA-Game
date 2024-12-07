@@ -373,6 +373,30 @@ bool shouldCast(int myghost) {
 }
   
 
+  void decideMoveGhost(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks) {
+    // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
+    if (actions[runVoldemort].cando) {
+      // bfs furthest from voldemort
+      // return result
+    }
+    // this should be set to true if an enemy is the closest to a certain unit
+    if (actions[fightMage].cando) {
+      if ((actions[fightMage].distance - 4) < actions[book].distance) {
+        // bfs furthest from mage
+        // return result
+      }
+    }
+    // this should be set to true if shouldcast is true
+    if (actions[cast].cando) {
+      // cast spell
+      // return -1
+    }
+    // function that executes findbookcandidate and performs setbookaction
+    if (actions[book].cando) {
+      // return move
+    }
+    // return random move towards an enemy colored square if possible
+  }
 
   /* EVERYTHING RELATED TO ASTAR */
 
@@ -623,6 +647,7 @@ Pos bfsFurthestPosVoldemort(const int id){
       else possibleActions = vecGhostActions;
 
       int n = possibleActions.size();
+      // if (unit(id).type == Ghost) decideMoveGhost(id, vecActions);
 
 
       // iterates through all possible actions for an id
