@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV8l
+#define PLAYER_NAME GogetterV8
 
 
 struct PLAYER_NAME : public Player {
@@ -248,18 +248,7 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     return oldid;
   }  
   
-  int updateBookActionIfClosestToBook(const int id, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
-    // this function finds if there's a book that's closest to the provided id
-    // if it does, and noone else is going for it, it sets [book].cando true for the id
-    // if any id gets removed from cando, it adds it to the queue until everyone has a book to go to
 
-    bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
-    int displaced_id = -1;
-    if (book_result.found) {
-      displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
-    }
-    return displaced_id;
-  }
 
   void new_updateBookActionIfClosestToBook(const int id, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this function finds if there's a book that's closest to the provided id
@@ -649,21 +638,12 @@ Pos bfsFurthestPosVoldemort(const int id){
     const queue<int> ref_queueids = queueids;
 
     // for every unit in the queue, edit its actions if there's a book to find
-    while (!queueids.empty()) {
-      int id = queueids.front();
-      queueids.pop();
-
-      int displaced_id = updateBookActionIfClosestToBook(id, targetBooks, idToActions);
-      if (search_again_replaced && displaced_id != -1) {
-        queueids.push(displaced_id);
-      }
-    } 
     
-    /* for (int id : ws) {
+    for (int id : ws) {
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
- */
+
 
     /* VOLDEMORT */
     /* VOLDEMORT */
