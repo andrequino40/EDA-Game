@@ -22,8 +22,6 @@ struct PLAYER_NAME : public Player {
     return new PLAYER_NAME;
   }
 
-  
-
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = false;
   
@@ -485,11 +483,17 @@ bool shouldCast() {
 
   void decideMoveMage(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
+
+      if (actions[helpMage].cando) {
+        Dir direction = (Dir)actions[helpMage].firstStep;
+        move(id, direction);
+        return;
+      }
       if (actions[book].cando) {
-      Dir direction = (Dir)actions[book].firstStep;
-      move(id, direction);
-      return;
-    }
+        Dir direction = (Dir)actions[book].firstStep;
+        move(id, direction);
+        return;
+      }
     // return random move towards an enemy colored square if possible
   }
 
@@ -665,20 +669,20 @@ struct SearchRet_t {
   int dist;
 };
 
-enum SearchType {
-  SearchBook,
-  SearchAllyMage,
-  SearchHealthyMage,
-  SearchEnemyMage,
-  SearchGhost
+enum class SearchType {
+  Book,
+  AllyMage,
+  HealthyMage,
+  EnemyMage,
+  Ghost
 };  
 
-typedef int SearchType_t;
 
-bool isSearchType(SearchType_t type, Pos pos) {
+bool isSearchType(SearchType type, Pos pos) {
+  bool result = false;
   switch (type)
   {
-  case SearchHealthyMage:{
+  case SearchType::HealthyMage:{
     int idunit = (cell(pos).id);
     if (idunit == -1)  return false; // there is no unit
     
@@ -691,9 +695,10 @@ bool isSearchType(SearchType_t type, Pos pos) {
   default:
     break;
   }
+  return result;
 }
 
-SearchRet_t bfsSearchForType(const int id, SearchType_t type, const int maxDist, const posToBookinfo_t& targetBooks) {
+SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
 
     vector<Dir> directions;
@@ -786,14 +791,36 @@ SearchRet_t bfsSearchForType(const int id, SearchType_t type, const int maxDist,
 
     bool involarea =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
     idToActions[my_ghost][runVoldemort].cando = involarea;
+    
 
     /* WIZARDS */
     for (int id: ws) {
       if (unit(id).is_in_conversion_process()) {
-        if (show_debug_messages) {
+        int rounds_left = unit(id).rounds_for_converting();
+
+        if (show_debug_messages || true) {
           cerr << "mago con id " << id << "en posicion " << unit(id).pos 
           << "se convertira en " <<unit(id).rounds_for_converting() << " rondas" << endl;
         }
+
+        // last alive round is when rounds_left = 1
+        // both units have to meet in rounds_left -1 moves;
+        // moves * 2 = maxdistance
+        int max_distance = (rounds_left -1) * 2;
+        SearchRet_t result;
+
+        if (max_distance <= 0) continue;
+        result = bfsSearchForType(id, SearchType::HealthyMage, max_distance, targetBooks);
+
+        if (!result.found) continue;
+        int helper_id = cell(result.pos).id;
+        int convert_id = id;
+
+        idToActions[convert_id][helpMage].cando = true;
+        idToActions[convert_id][helpMage].firstStep = result.firstStep;
+        idToActions[helper_id][helpMage].cando = true;
+        Dir helper_first = get_opposite_dir((Dir)result.lastStep);
+        idToActions[helper_id][helpMage].firstStep = helper_first;
 
       }
     }
