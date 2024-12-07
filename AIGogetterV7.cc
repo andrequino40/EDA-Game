@@ -130,7 +130,23 @@ struct bookBfsRes_t {
   typedef vector<int> vint;
 typedef const int cint;
 
-  /* EVERYTHING RELATED TO BOOK FINDING*/
+// ATTRIBUTES ASTAR
+
+struct node_t {
+      Pos pos;
+      int firstStep = -1;
+      int gcost;
+      int heuristic;
+  };
+
+struct aStarRes_t {
+  bool found = false;
+  int firstStep = -1;
+  int dist;
+};
+
+
+/* FUNCTIONS BOOKS*/
 
   
 
