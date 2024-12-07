@@ -62,6 +62,11 @@ struct PLAYER_NAME : public Player {
     return abs(start.i - target.i) + abs(start.j - target.j);
   } 
 
+  vector<Dir> getVectorDirectionsForUnitType(int id) {
+    if (unit(id).type == Wizard) return dirsWizard;
+    return dirsGhost; 
+  }
+
   /* TYPES AND ATTRIBUTES */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
