@@ -693,6 +693,7 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
     bool converting = unit(idunit).is_in_conversion_process();
     // if its from my team and its not converting, true
     return myteam && !converting;
+    break;
   }
 
   case SearchType::Book:{
@@ -701,6 +702,7 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
       bool iscandidate = (!hasTarget || dist < targetBooks.at(pos).dist);
       return iscandidate;
     }
+    break;
   }
   
   default:
