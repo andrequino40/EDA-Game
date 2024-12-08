@@ -82,6 +82,11 @@ struct PLAYER_NAME : public Player {
     return dirsGhost; 
   }
 
+   const vector<Dir>& getReferenceDirectonsForType(int id) {
+    if (unit(id).type == Wizard) return dirsWizard;
+    return dirsGhost; 
+  }
+
   /* TYPES AND ATTRIBUTES */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
@@ -469,7 +474,7 @@ bool shouldCast() {
     GridInt fscores (board_rows(), vector<int>(board_cols(), -1)); // -1 means not in queue
     pqastar pq(PLAYER_NAME::compAstar);
 
-    vector<Dir> directions = getVectorDirectionsForUnitType(id);
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
 
     aStarRes_t result;
 
@@ -530,7 +535,7 @@ bool shouldCast() {
   /* FUNCTIONOS VOLDEMORT*/
   
 Pos bfsFurthestPosVoldemort(const int id){
-    vector<Dir> directions = getVectorDirectionsForUnitType(id);
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
     GridBool visited(board_rows(), vector<bool>(board_cols(), false));
     queue<Pos> qcoord;
 
@@ -636,12 +641,14 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
   return false;
 }
 
+/* GridInt scanThreatsMove(const vector<Dir>&) {
+
+} */
+
 SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
     
-    vector<Dir> directions;
-    if (unit(id).type == Wizard) directions = dirsWizard;
-    else directions = dirsGhost;
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
 
     SearchRet_t result;
     result.found = false;
