@@ -131,27 +131,12 @@ struct PLAYER_NAME : public Player {
     int dist;
     int unitId;
   };
-
-  const int bfsMaxDist = 15;
-  const int bfsMaxCells = 481;
-
-  struct BookNode{
-    Pos pos;
-    int firstStep;
-  };
-
-struct bookBfsRes_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
-  int dist;
-};
-
-  typedef map<Pos, BookInfo> posToBookinfo_t;
+  
+typedef map<Pos, BookInfo> posToBookinfo_t;
 
 // ATTRIBUTES SPELL
 
-  typedef vector<int> vint;
+typedef vector<int> vint;
 typedef const int cint;
 
 // ATTRIBUTES ASTAR
@@ -166,14 +151,6 @@ struct node_t {
 struct aStarRes_t {
   bool found = false;
   int firstStep = -1;
-  int dist;
-};
-
-// ATTRIBUTES MAGEBFS
-struct bookMageBfs_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
   int dist;
 };
 
@@ -203,67 +180,6 @@ enum class SearchType {
 
 /* FUNCTIONS BOOKS*/
 
-bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
-    Pos start  = unit(id).pos; 
-
-    vector<Dir> directions;
-    if (unit(id).type == Wizard) directions = dirsWizard;
-    else directions = dirsGhost;
-
-    bookBfsRes_t result;
-    result.found = false;
-
-    int processedCells = 0;
-
-    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
-
-    queue<BookNode> qcoord;
-
-    qcoord.push({start, -1});
-    distances[start.i][start.j] = 0;
-
-    while (not qcoord.empty()) {
-      processedCells++;
-      Pos currentPos = qcoord.front().pos;
-      int firstStep = qcoord.front().firstStep;
-      int currentDist = distances[currentPos.i][currentPos.j];
-
-      qcoord.pop();
-      
-      // if a book and no target, or closer to it, return.
-      if (cell(currentPos).book) {
-        bool hasTarget = targetBooks.find(currentPos) != targetBooks.end();
-        if (!hasTarget || currentDist < targetBooks.at(currentPos).dist) {
-
-          result.found = true;
-          result.pos = currentPos;
-          result.firstStep = firstStep;
-          result.dist = currentDist;
-          
-          return result;
-        }
-      }
-      
-      for (const Dir dir : directions) {
-        Pos newPos = currentPos + dir;
-        if (isCorridor(newPos)){
-
-          int newDist = currentDist + 1;
-          bool visited = distances[newPos.i][newPos.j] != -1;
-
-          if (!visited) {
-
-            distances[newPos.i][newPos.j] =  newDist;
-
-            if (firstStep == -1) qcoord.push({newPos, dir});
-            else qcoord.push({newPos, firstStep});
-          }
-        }
-      }
-    }
-    return result;
-}
- 
   int setBookAction(const int id, const SearchRet_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
     if (!book_result.found) {
       cerr << ">err Book not found for " << id << endl;
@@ -412,9 +328,6 @@ void spellCast(){
         cerr << "spell failed!";
       }
     }
-
-    
-
 }
 
 vector<int> get_enemy_ghosts(){
