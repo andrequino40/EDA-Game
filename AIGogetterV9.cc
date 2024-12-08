@@ -678,10 +678,9 @@ enum class SearchType {
 };  
 
 
-bool isSearchType(SearchType type, Pos pos) {
-  bool result = false;
-  switch (type)
-  {
+bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
+  switch (type) {
+
   case SearchType::HealthyMage:{
     int idunit = (cell(pos).id);
     if (idunit == -1)  return false; // there is no unit
@@ -691,11 +690,20 @@ bool isSearchType(SearchType type, Pos pos) {
     // if its from my team and its not converting, true
     return myteam && !converting;
   }
+
+  case SearchType::Book:{
+    if (cell(pos).book) {
+      bool hasTarget = targetBooks.find(pos) != targetBooks.end();
+      bool iscandidate = (!hasTarget || dist < targetBooks.at(pos).dist);
+      return iscandidate;
+    }
+  }
   
   default:
+    cerr << "> err: wrong search type" << endl;
     break;
   }
-  return result;
+  return false;
 }
 
 SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
