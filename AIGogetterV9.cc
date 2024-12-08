@@ -176,6 +176,30 @@ struct bookMageBfs_t {
   int dist;
 };
 
+// ATTRIBUTES SEARCH
+
+  struct SearchNode_t{
+    Pos pos;
+    int firstStep;
+    int lastStep;
+  };
+
+struct SearchRet_t {
+  bool found = false;
+  Pos pos;
+  int firstStep;
+  int lastStep;
+  int dist;
+};
+
+enum class SearchType {
+  Book,
+  AllyMage,
+  HealthyMage,
+  EnemyMage,
+  Ghost
+};  
+
 /* FUNCTIONS BOOKS*/
 
 bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
@@ -655,27 +679,7 @@ Pos bfsFurthestPosVoldemort(const int id){
   
   /* FUNCTIONS CONVERSION */
 
-  struct SearchNode_t{
-    Pos pos;
-    int firstStep;
-    int lastStep;
-  };
 
-struct SearchRet_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
-  int lastStep;
-  int dist;
-};
-
-enum class SearchType {
-  Book,
-  AllyMage,
-  HealthyMage,
-  EnemyMage,
-  Ghost
-};  
 
 
 bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
