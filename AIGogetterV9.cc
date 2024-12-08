@@ -836,7 +836,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     /* EVERY UNIT */
     // for every unit edit its actions if there's a book to find
     for (int id : ws) {
-      // if (unit(id).is_in_conversion_process()) continue;;
+      // skib bfs if needs help/ has to give help
+      if(idToActions[id][helpMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
