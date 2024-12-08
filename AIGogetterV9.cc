@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV9
+#define PLAYER_NAME GogetterV8
 
 
 struct PLAYER_NAME : public Player {
@@ -24,6 +24,7 @@ struct PLAYER_NAME : public Player {
 
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = false;
+  bool limit_book_converted = false;
   
   Dir get_opposite_dir(Dir d){
     Dir res = (Dir)d;
@@ -263,7 +264,7 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
     return result;
 }
  
-  int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
+  int setBookAction(const int id, const SearchRet_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
     if (!book_result.found) {
       cerr << ">err Book not found for " << id << endl;
       return -1;
@@ -306,7 +307,17 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
       int id = queueids.front();
       queueids.pop();
 
-      bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
+      int maxdist = -1;
+      // O . . . B
+      // 4 3 2 1 0 (Cannot reach book)
+      if (limit_book_converted) {
+        if (unit(id).type == Wizard && unit(id).is_in_conversion_process()) {
+          maxdist =  unit(id).rounds_for_converting() -1;
+          cerr << ">mago en pos" << unit(id).pos << "a " << maxdist + 1 << " rondas de convertirse "<< endl;
+          cerr << ">limitado a " << maxdist << " distancia busqueda libros" << endl;
+        }
+      }
+      SearchRet_t book_result = bfsSearchForType(id, SearchType::Book, maxdist, targetBooks);
       int displaced_id = -1;
       if (book_result.found) {
         displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
@@ -739,8 +750,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
       if (maxDist > 0 && currentDist > maxDist) continue;
       
-      // if is of searched type
-      if (isSearchType(type, currentPos)) {
+      // if is of searched type and satisfies conditions
+      if (isSearchType(type, currentPos, targetBooks, currentDist)) {
 
           result.found = true;
           result.pos = currentPos;
