@@ -641,10 +641,53 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
   return false;
 }
 
-/* GridInt scanThreatsMove(const vector<Dir>&) {
+bool is_enemy(const Pos position) {
+  int id = cell(position).id;
+  if (id == -1) return false;
 
-} */
+  return unit(id).player != me();
+}
 
+int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcount) {
+  int minthreat = 10;
+  threatcount = vector<int>(8, 0);
+  const vector<Dir>& Directions = getReferenceDirectonsForType(type);
+
+  for (auto dir : Directions) {
+    Pos newpos = start + dir;
+    if (isCorridor(newpos) == false) 
+      continue;
+
+    // check for enemy in exact position
+    bool enemy = is_enemy(newpos);
+   
+    // marks position with an enemy, will not travel to this position
+    if (enemy) {
+      threatcount[dir] = 10;
+      continue;
+    }
+
+    // checks for all tiles without enemies their adjacent tiles
+    for (auto adjdir : dirsWizard) {
+      Pos adjpos = newpos + adjdir;
+      if (isCorridor(newpos) == false) 
+      continue;
+
+      if (adjpos == start) continue;                                                                           
+      bool enemy = is_enemy(adjpos);
+      if (enemy) {
+        // add number of adjacent enemies
+        threatcount[dir] += 1;
+      }
+    }
+
+    if (threatcount[dir] < minthreat) {
+        minthreat = threatcount[dir];
+    }
+
+  }
+  return minthreat;
+}
 SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
     
@@ -659,6 +702,10 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
     qcoord.push({start, -1, -1});
     distances[start.i][start.j] = 0;
+
+    vector<int> threatcount(8,0);
+    const int minthreat = scanThreatsMove(unit(id).type, start, threatcount);
+    bool firstdir = true;
 
     while (not qcoord.empty()) {
       Pos currentPos = qcoord.front().pos;
@@ -689,6 +736,17 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
 
+          if (unit(id).type == Ghost && firstdir) {
+            cerr << "> round" << round() << endl;
+            cerr << "> Ghost in pos "<< unit(id).pos << endl;
+            cerr << "> min threat " << minthreat << endl;
+            cerr << "> dir: " << dir << " threat: " << threatcount[dir] << endl;
+            if (threatcount[dir] != minthreat) {
+              cerr << "! skipping" << endl;
+              continue;
+            }
+          }
+
           if (!visited) {
 
             distances[newPos.i][newPos.j] =  newDist;
@@ -698,6 +756,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           }
         }
       }
+      firstdir = false;
     }
     return result;
 }
@@ -708,6 +767,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
     enemyGhosts = get_enemy_ghosts();
     
+
     if (show_debug_messages) {
     cerr << "fantasmas ronda " << round() << endl;
     print_ghost_cooldowns();
