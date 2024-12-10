@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME LilBro
+#define PLAYER_NAME GogetterV9
 
 
 struct PLAYER_NAME : public Player {
@@ -24,6 +24,7 @@ struct PLAYER_NAME : public Player {
 
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = false;
+  bool limit_book_converted = false;
   
   Dir get_opposite_dir(Dir d){
     Dir res = (Dir)d;
@@ -81,6 +82,11 @@ struct PLAYER_NAME : public Player {
     return dirsGhost; 
   }
 
+   const vector<Dir>& getReferenceDirectonsForType(int id) {
+    if (unit(id).type == Wizard) return dirsWizard;
+    return dirsGhost; 
+  }
+
   /* TYPES AND ATTRIBUTES */
   typedef vector<vector<Pos>> GridCoords;
   typedef vector<vector<bool>> GridBool;
@@ -130,27 +136,12 @@ struct PLAYER_NAME : public Player {
     int dist;
     int unitId;
   };
-
-  const int bfsMaxDist = 15;
-  const int bfsMaxCells = 481;
-
-  struct BookNode{
-    Pos pos;
-    int firstStep;
-  };
-
-struct bookBfsRes_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
-  int dist;
-};
-
-  typedef map<Pos, BookInfo> posToBookinfo_t;
+  
+typedef map<Pos, BookInfo> posToBookinfo_t;
 
 // ATTRIBUTES SPELL
 
-  typedef vector<int> vint;
+typedef vector<int> vint;
 typedef const int cint;
 
 // ATTRIBUTES ASTAR
@@ -168,78 +159,33 @@ struct aStarRes_t {
   int dist;
 };
 
-// ATTRIBUTES MAGEBFS
-struct bookMageBfs_t {
+// ATTRIBUTES SEARCH
+
+  struct SearchNode_t{
+    Pos pos;
+    int firstStep;
+    int lastStep;
+  };
+
+struct SearchRet_t {
   bool found = false;
   Pos pos;
   int firstStep;
+  int lastStep;
   int dist;
 };
 
+enum class SearchType {
+  Book,
+  AllyMage,
+  HealthyMage,
+  EnemyMage,
+  Ghost
+};  
+
 /* FUNCTIONS BOOKS*/
 
-bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
-    Pos start  = unit(id).pos; 
-
-    vector<Dir> directions;
-    if (unit(id).type == Wizard) directions = dirsWizard;
-    else directions = dirsGhost;
-
-    bookBfsRes_t result;
-    result.found = false;
-
-    int processedCells = 0;
-
-    GridInt distances(board_rows(), vector<int>(board_cols(), -1));
-
-    queue<BookNode> qcoord;
-
-    qcoord.push({start, -1});
-    distances[start.i][start.j] = 0;
-
-    while (not qcoord.empty()) {
-      processedCells++;
-      Pos currentPos = qcoord.front().pos;
-      int firstStep = qcoord.front().firstStep;
-      int currentDist = distances[currentPos.i][currentPos.j];
-
-      qcoord.pop();
-      
-      // if a book and no target, or closer to it, return.
-      if (cell(currentPos).book) {
-        bool hasTarget = targetBooks.find(currentPos) != targetBooks.end();
-        if (!hasTarget || currentDist < targetBooks.at(currentPos).dist) {
-
-          result.found = true;
-          result.pos = currentPos;
-          result.firstStep = firstStep;
-          result.dist = currentDist;
-          
-          return result;
-        }
-      }
-      
-      for (const Dir dir : directions) {
-        Pos newPos = currentPos + dir;
-        if (isCorridor(newPos)){
-
-          int newDist = currentDist + 1;
-          bool visited = distances[newPos.i][newPos.j] != -1;
-
-          if (!visited) {
-
-            distances[newPos.i][newPos.j] =  newDist;
-
-            if (firstStep == -1) qcoord.push({newPos, dir});
-            else qcoord.push({newPos, firstStep});
-          }
-        }
-      }
-    }
-    return result;
-}
- 
-  int setBookAction(const int id, const bookBfsRes_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
+  int setBookAction(const int id, const SearchRet_t book_result, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions){
     if (!book_result.found) {
       cerr << ">err Book not found for " << id << endl;
       return -1;
@@ -282,7 +228,15 @@ bookBfsRes_t bfsClosestToBook(const int id, const posToBookinfo_t& targetBooks){
       int id = queueids.front();
       queueids.pop();
 
-      bookBfsRes_t book_result = bfsClosestToBook(id, targetBooks);
+      int maxdist = -1;
+      // O . . . B
+      // 4 3 2 1 0 (Cannot reach book)
+      if (limit_book_converted) {
+        if (unit(id).type == Wizard && unit(id).is_in_conversion_process()) {
+          maxdist =  unit(id).rounds_for_converting() -1;
+        }
+      }
+      SearchRet_t book_result = bfsSearchForType(id, SearchType::Book, maxdist, targetBooks);
       int displaced_id = -1;
       if (book_result.found) {
         displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
@@ -377,9 +331,6 @@ void spellCast(){
         cerr << "spell failed!";
       }
     }
-
-    
-
 }
 
 vector<int> get_enemy_ghosts(){
@@ -521,7 +472,7 @@ bool shouldCast() {
     GridInt fscores (board_rows(), vector<int>(board_cols(), -1)); // -1 means not in queue
     pqastar pq(PLAYER_NAME::compAstar);
 
-    vector<Dir> directions = getVectorDirectionsForUnitType(id);
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
 
     aStarRes_t result;
 
@@ -582,7 +533,7 @@ bool shouldCast() {
   /* FUNCTIONOS VOLDEMORT*/
   
 Pos bfsFurthestPosVoldemort(const int id){
-    vector<Dir> directions = getVectorDirectionsForUnitType(id);
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
     GridBool visited(board_rows(), vector<bool>(board_cols(), false));
     queue<Pos> qcoord;
 
@@ -655,33 +606,12 @@ Pos bfsFurthestPosVoldemort(const int id){
   
   /* FUNCTIONS CONVERSION */
 
-  struct SearchNode_t{
-    Pos pos;
-    int firstStep;
-    int lastStep;
-  };
-
-struct SearchRet_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
-  int lastStep;
-  int dist;
-};
-
-enum class SearchType {
-  Book,
-  AllyMage,
-  HealthyMage,
-  EnemyMage,
-  Ghost
-};  
 
 
-bool isSearchType(SearchType type, Pos pos) {
-  bool result = false;
-  switch (type)
-  {
+
+bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
+  switch (type) {
+
   case SearchType::HealthyMage:{
     int idunit = (cell(pos).id);
     if (idunit == -1)  return false; // there is no unit
@@ -690,20 +620,76 @@ bool isSearchType(SearchType type, Pos pos) {
     bool converting = unit(idunit).is_in_conversion_process();
     // if its from my team and its not converting, true
     return myteam && !converting;
+    break;
+  }
+
+  case SearchType::Book:{
+    if (cell(pos).book) {
+      bool hasTarget = targetBooks.find(pos) != targetBooks.end();
+      bool iscandidate = (!hasTarget || dist < targetBooks.at(pos).dist);
+      return iscandidate;
+    }
+    break;
   }
   
   default:
+    cerr << "> err: wrong search type" << endl;
     break;
   }
-  return result;
+  return false;
 }
 
+bool is_enemy(const Pos position) {
+  int id = cell(position).id;
+  if (id == -1) return false;
+
+  return unit(id).player != me();
+}
+
+int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcount) {
+  int minthreat = 10;
+  threatcount = vector<int>(8, 0);
+  const vector<Dir>& Directions = getReferenceDirectonsForType(type);
+
+  for (auto dir : Directions) {
+    Pos newpos = start + dir;
+    if (isCorridor(newpos) == false) 
+      continue;
+
+    // check for enemy in exact position
+    bool enemy = is_enemy(newpos);
+   
+    // marks position with an enemy, will not travel to this position
+    if (enemy) {
+      threatcount[dir] = 10;
+      continue;
+    }
+
+    // checks for all tiles without enemies their adjacent tiles
+    for (auto adjdir : dirsWizard) {
+      Pos adjpos = newpos + adjdir;
+      if (isCorridor(newpos) == false) 
+      continue;
+
+      if (adjpos == start) continue;                                                                           
+      bool enemy = is_enemy(adjpos);
+      if (enemy) {
+        // add number of adjacent enemies
+        threatcount[dir] += 1;
+      }
+    }
+
+    if (threatcount[dir] < minthreat) {
+        minthreat = threatcount[dir];
+    }
+
+  }
+  return minthreat;
+}
 SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
     
-    vector<Dir> directions;
-    if (unit(id).type == Wizard) directions = dirsWizard;
-    else directions = dirsGhost;
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
 
     SearchRet_t result;
     result.found = false;
@@ -715,6 +701,10 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     qcoord.push({start, -1, -1});
     distances[start.i][start.j] = 0;
 
+    vector<int> threatcount(8,0);
+    const int minthreat = scanThreatsMove(unit(id).type, start, threatcount);
+    bool firstdir = true;
+
     while (not qcoord.empty()) {
       Pos currentPos = qcoord.front().pos;
       int firstStep = qcoord.front().firstStep;
@@ -725,8 +715,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
       if (maxDist > 0 && currentDist > maxDist) continue;
       
-      // if is of searched type
-      if (isSearchType(type, currentPos)) {
+      // if is of searched type and satisfies conditions
+      if (isSearchType(type, currentPos, targetBooks, currentDist)) {
 
           result.found = true;
           result.pos = currentPos;
@@ -744,6 +734,17 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           int newDist = currentDist + 1;
           bool visited = distances[newPos.i][newPos.j] != -1;
 
+          if (unit(id).type == Ghost && firstdir) {
+            cerr << "> round" << round() << endl;
+            cerr << "> Ghost in pos "<< unit(id).pos << endl;
+            cerr << "> min threat " << minthreat << endl;
+            cerr << "> dir: " << dir << " threat: " << threatcount[dir] << endl;
+            if (threatcount[dir] != minthreat) {
+              cerr << "! skipping" << endl;
+              continue;
+            }
+          }
+
           if (!visited) {
 
             distances[newPos.i][newPos.j] =  newDist;
@@ -753,6 +754,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           }
         }
       }
+      firstdir = false;
     }
     return result;
 }
@@ -763,6 +765,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
     enemyGhosts = get_enemy_ghosts();
     
+
     if (show_debug_messages) {
     cerr << "fantasmas ronda " << round() << endl;
     print_ghost_cooldowns();
@@ -804,11 +807,6 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
       if (unit(id).is_in_conversion_process()) {
         int rounds_left = unit(id).rounds_for_converting();
 
-        if (show_debug_messages || true) {
-          cerr << "mago con id " << id << "en posicion " << unit(id).pos 
-          << "se convertira en " <<unit(id).rounds_for_converting() << " rondas" << endl;
-        }
-
         // last alive round is when rounds_left = 1
         // both units have to meet in rounds_left -1 moves;
         // moves * 2 = maxdistance
@@ -836,7 +834,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     /* EVERY UNIT */
     // for every unit edit its actions if there's a book to find
     for (int id : ws) {
-      // if (unit(id).is_in_conversion_process()) continue;;
+      // skib bfs if needs help/ has to give help
+      if(idToActions[id][helpMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
