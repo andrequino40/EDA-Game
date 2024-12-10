@@ -772,6 +772,13 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     return possib;
   }
 
+  bool inVolArea(const Pos position){
+    Pos pvol = pos_voldemort();
+    int difi = abs(position.i - pvol.i);
+    int difj = abs(position.j - pvol.j);
+    return difi <= 1 && difj <= 1;
+  }
+
    Dir volNextMove(const Pos goal) {
     Pos vol = pos_voldemort();
     int di = goal.i - vol.i; // pos, goal abajo // neg, goal arriba
