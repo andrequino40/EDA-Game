@@ -375,15 +375,14 @@ bool shouldCast() {
 
   void decideMoveGhost(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
-    Pos position = unit(id).pos;
+    // Pos position = unit(id).pos;
     if (actions[runVoldemort].cando) {
-      Pos furthestPos = bfsFurthestPosVoldemort(id);
-      aStarRes_t res = astarAlgorithm(id, position, furthestPos);
-
+      // Pos furthestPos = bfsFurthestPosVoldemort(id);
+      // aStarRes_t res = astarAlgorithm(id, position, furthestPos);
+      SearchRet_t res = newVolBfs(id);
       move(id, (Dir)res.firstStep);
       return;
     }
-    
 
     if (actions[cast].cando) {
       spellCast();
@@ -411,6 +410,12 @@ bool shouldCast() {
       if (actions[fightMage].cando) {
         Dir direction = (Dir)actions[fightMage].firstStep;
         move(id, direction);
+        return;
+      }
+
+      if (actions[runVoldemort].cando) {
+        SearchRet_t res = newVolBfs(id);
+        move(id, (Dir)res.firstStep);
         return;
       }
 
@@ -548,18 +553,11 @@ Pos bfsFurthestPosVoldemort(const int id){
     return result;
 }
 
-struct SearchRet_t {
-  bool found = false;
-  Pos pos;
-  int firstStep;
-  int lastStep;
-  int dist;
-};
 
 struct volNode_t{
     Pos pos;
     int firstStep;
-    int lastStep;
+    Pos volPos;
   };
 
 SearchRet_t newVolBfs(const int id){
@@ -569,6 +567,7 @@ SearchRet_t newVolBfs(const int id){
     int processedCells = 0;
 
     Pos start  = unit(id).pos; 
+    Pos volstart = pos_voldemort();
 
     const vector<Dir>& directions = getReferenceDirectonsForType(id);
 
@@ -579,48 +578,47 @@ SearchRet_t newVolBfs(const int id){
 
     queue<volNode_t> qcoord;
 
-    qcoord.push({start, -1, -1});
+    qcoord.push({start, -1, volstart});
     visited[start.i][start.j] = true;
-
-    bool firstdir = true;
 
     while (not qcoord.empty() && processedCells < CellLimit) {
       processedCells++;
 
       Pos currentPos = qcoord.front().pos;
       int firstStep = qcoord.front().firstStep;
-      int lastStep = qcoord.front().lastStep;
+      Pos volPos = qcoord.front().volPos;
 
       qcoord.pop();
       
       int currentDist = manhattanDistance(currentPos, pos_voldemort());
       if (currentDist > furthest_dist) {
+        furthest_dist = currentDist;
+        
         result.found = true;
         result.pos = currentPos;
         result.firstStep = firstStep;
         // result.lastStep = lastStep;
         result.dist = currentDist;
-        
-        return result;
-
       }
 
       for (const Dir dir : directions) {
 
         Pos newPos = currentPos + dir;
-
         if (isCorridor(newPos)){
-          
+
+          Pos newVolPos = volPos + volNextDir(volPos, newPos);
+          if (inVolArea(newVolPos, newPos)) continue;
+          // if next position will be dangerous, quit;
+
           bool visitedCell = visited[newPos.i][newPos.j] == true;
           
           if (!visitedCell ) {
             visited[newPos.i][newPos.j] = true;
-            if (firstStep == -1) qcoord.push({newPos, dir, dir});
-            else qcoord.push({newPos, firstStep, dir});
+            if (firstStep == -1) qcoord.push({newPos, dir, newVolPos});
+            else qcoord.push({newPos, firstStep, newVolPos});
           }
         }
       }
-      firstdir = false;
     }
     return result;
 }
@@ -847,15 +845,13 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     return possib;
   }
 
-  bool inVolArea(const Pos position){
-    Pos pvol = pos_voldemort();
+  bool inVolArea(const Pos pvol, const Pos position){
     int difi = abs(position.i - pvol.i);
     int difj = abs(position.j - pvol.j);
     return difi <= 1 && difj <= 1;
   }
 
-   Dir volNextMove(const Pos goal) {
-    Pos vol = pos_voldemort();
+   Dir volNextDir(const Pos vol, const Pos goal) {
     int di = goal.i - vol.i; // pos, goal abajo // neg, goal arriba
     int dj = goal.j - vol.j; // pos, goal derecha // neg, goal izq
     bool upwards = di < 0;
@@ -896,15 +892,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
      double st = status(me());
     if (st >= 0.9) return;
 
-    const vector<int> allids = getAllIds();
-    list<int> volTargets = likelyVoldemortTarget(allids);
-
-    for (int id : volTargets) {
-      message volmsg;
-      volmsg << "Round " << round() << " Voldemort: " << pos_voldemort() << "likely targ: " << unit(id).pos << "\n";
-      volmsg << "might move: " << volNextMove(unit(id).pos) << "\n";
-      printcerr(1, volmsg);
-    }
+    
 
     enemyGhosts = get_enemy_ghosts();
     
@@ -933,10 +921,30 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     /* GHOST */
 
     // see if the ghost can cast a spell
-    idToActions[my_ghost][cast].cando = shouldCast();
 
-    bool involarea =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
-    idToActions[my_ghost][runVoldemort].cando = involarea;
+    const vector<int> allids = getAllIds();
+    list<int> volTargets = likelyVoldemortTarget(allids);
+
+    for (int id : volTargets) {
+      if (unit(id).player == me()) {
+        idToActions[id][runVoldemort].cando = true;
+      }
+    } 
+
+    idToActions[my_ghost][cast].cando = shouldCast();
+    
+    for (int id : myWizards){
+      if (idToActions[id][helpMage].cando) continue;  
+      if (idToActions[id][runVoldemort].cando) continue; 
+
+      bool in_vol_rea =  (manhattanDistance(unit(id).pos, pos_voldemort()) < 6);
+      idToActions[id][runVoldemort].cando = in_vol_rea;
+    }
+
+    if (!idToActions[my_ghost][runVoldemort].cando) {
+      bool ghost_vol_area =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
+      idToActions[my_ghost][runVoldemort].cando = ghost_vol_area;
+    }
     
 
     /* WIZARDS */
