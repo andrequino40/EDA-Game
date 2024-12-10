@@ -774,7 +774,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     if (st >= 0.9) return;
   
     int my_ghost = ghost(me());
-    vector<int> ws = wizards(me());
+    myWizards = wizards(me());
 
     posToBookinfo_t targetBooks;
 
@@ -785,7 +785,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     /* QUEUE OF IDS*/
 
     // for every wizard, initializes its vector of the size of their possible actions
-    for (int wizard_id : ws) {
+    for (int wizard_id : myWizards) {
       idToActions[wizard_id] = vector<ActionData>(vecAllActions.size());
       // creates a queue of every wizard id
     }
@@ -802,7 +802,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     
 
     /* WIZARDS */
-    for (int id: ws) {
+    for (int id: myWizards) {
       if (unit(id).is_in_conversion_process()) {
         int rounds_left = unit(id).rounds_for_converting();
 
@@ -817,22 +817,29 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
         result = bfsSearchForType(id, 
         SearchType::HealthyMage, max_distance, targetBooks);
 
-        if (!result.found) continue;
-        int helper_id = cell(result.pos).id;
-        int convert_id = id;
+        message msg;
+        msg << "> Mago " << id << " en " << unit(id).pos << " ronda " << round() << "\n";
+        msg << "> Se convertira en " << unit(id).rounds_for_converting() << "\n";
+        if (result.found) {
+          int helper_id = cell(result.pos).id;
+          int convert_id = id;
 
-        idToActions[convert_id][helpMage].cando = true;
-        idToActions[convert_id][helpMage].firstStep = result.firstStep;
-        idToActions[helper_id][helpMage].cando = true;
-        Dir helper_first = get_opposite_dir((Dir)result.lastStep);
-        idToActions[helper_id][helpMage].firstStep = helper_first;
+          idToActions[convert_id][helpMage].cando = true;
+          idToActions[convert_id][helpMage].firstStep = result.firstStep;
+          idToActions[helper_id][helpMage].cando = true;
+          Dir helper_first = get_opposite_dir((Dir)result.lastStep);
+          idToActions[helper_id][helpMage].firstStep = helper_first;
 
+          msg << "Ha encontrado a " << helper_id << " en " << unit(helper_id).pos << "\n";
+        }
+        
+        printerr(1, msg);
       }
     }
 
     /* EVERY UNIT */
     // for every unit edit its actions if there's a book to find
-    for (int id : ws) {
+    for (int id : myWizards) {
       // skib bfs if needs help/ has to give help
       if(idToActions[id][helpMage].cando) continue;
       vector<int> threatcount = vector<int>(8, 0);
@@ -846,7 +853,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
       }
     }
 
-    for (int id : ws) {
+    for (int id : myWizards) {
       // skib bfs if needs help/ has to give help
       if(idToActions[id][helpMage].cando) continue;
       if(idToActions[id][fightMage].cando) continue;
