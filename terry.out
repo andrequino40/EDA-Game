@@ -1,0 +1,6500 @@
+info: seed 30
+info: loading game
+info: loaded game
+info: loading player GogetterV8
+info: loading player Terry_v3
+info: loading player Terry_v3
+info: loading player Terry_v3
+info: players loaded
+info: start round 0
+info:     start player 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Down threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: DR threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Right threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: RU threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Up threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: UL threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Left threat: 0
+> round0
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 0
+info: start round 1
+info:     start player 0
+> round1
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Down threat: 0
+> round1
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: DR threat: 0
+> round1
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Right threat: 0
+> round1
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Left threat: 0
+> round1
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 1
+info: start round 2
+info:     start player 0
+> round2
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Down threat: 0
+> round2
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: DR threat: 0
+> round2
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Right threat: 0
+> round2
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Left threat: 0
+> round2
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 2
+info: start round 3
+info:     start player 0
+mago con id 7en posicion (24, 9)se convertira en 4 rondas
+mago con id 16en posicion (52, 20)se convertira en 4 rondas
+mago con id 22en posicion (31, 22)se convertira en 4 rondas
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Down threat: 0
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: DR threat: 0
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Right threat: 0
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: UL threat: 0
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Left threat: 0
+> round3
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 3
+info: start round 4
+info:     start player 0
+mago con id 7en posicion (23, 9)se convertira en 3 rondas
+mago con id 16en posicion (52, 20)se convertira en 3 rondas
+mago con id 22en posicion (30, 22)se convertira en 3 rondas
+> round4
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Down threat: 0
+> round4
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: DR threat: 0
+> round4
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 4
+info: start round 5
+info:     start player 0
+mago con id 4en posicion (44, 20)se convertira en 4 rondas
+mago con id 7en posicion (22, 9)se convertira en 2 rondas
+mago con id 16en posicion (51, 20)se convertira en 2 rondas
+mago con id 22en posicion (31, 22)se convertira en 2 rondas
+> round5
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Down threat: 0
+> round5
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 5
+info: start round 6
+info:     start player 0
+mago con id 4en posicion (44, 21)se convertira en 3 rondas
+mago con id 5en posicion (13, 56)se convertira en 4 rondas
+mago con id 7en posicion (21, 9)se convertira en 1 rondas
+mago con id 16en posicion (50, 20)se convertira en 1 rondas
+mago con id 18en posicion (9, 41)se convertira en 4 rondas
+mago con id 22en posicion (32, 22)se convertira en 1 rondas
+> round6
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Down threat: 0
+> round6
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: DR threat: 0
+> round6
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 6
+info: start round 7
+info:     start player 0
+mago con id 4en posicion (44, 22)se convertira en 2 rondas
+mago con id 5en posicion (13, 57)se convertira en 3 rondas
+mago con id 10en posicion (26, 1)se convertira en 4 rondas
+mago con id 18en posicion (9, 42)se convertira en 3 rondas
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Down threat: 0
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: DR threat: 0
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Right threat: 0
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round7
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 7
+info: start round 8
+info:     start player 0
+mago con id 4en posicion (44, 23)se convertira en 1 rondas
+mago con id 5en posicion (13, 57)se convertira en 2 rondas
+mago con id 10en posicion (27, 1)se convertira en 3 rondas
+mago con id 18en posicion (8, 42)se convertira en 2 rondas
+> round8
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Down threat: 0
+> round8
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: DR threat: 0
+> round8
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Right threat: 0
+> round8
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round8
+> Ghost in pos (43, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 8
+info: start round 9
+info:     start player 0
+mago con id 5en posicion (13, 58)se convertira en 1 rondas
+mago con id 10en posicion (26, 1)se convertira en 2 rondas
+mago con id 18en posicion (7, 42)se convertira en 1 rondas
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Down threat: 0
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: DR threat: 0
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Right threat: 0
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: RU threat: 0
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Up threat: 1
+! skipping
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round9
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: LD threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 9
+info: start round 10
+info:     start player 0
+mago con id 10en posicion (25, 1)se convertira en 1 rondas
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Down threat: 0
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: DR threat: 0
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Right threat: 0
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: RU threat: 0
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Up threat: 1
+! skipping
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round10
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 10
+info: start round 11
+info:     start player 0
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Down threat: 0
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: DR threat: 0
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Right threat: 0
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: RU threat: 0
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Up threat: 1
+! skipping
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round11
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 11
+info: start round 12
+info:     start player 0
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: Down threat: 0
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: DR threat: 0
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: Right threat: 0
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: RU threat: 0
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: Up threat: 1
+! skipping
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round12
+> Ghost in pos (46, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 12
+info: start round 13
+info:     start player 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: Down threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: DR threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: Right threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: RU threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: Up threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: Left threat: 0
+> round13
+> Ghost in pos (47, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 13
+info: start round 14
+info:     start player 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: Down threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: DR threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: Right threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: RU threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: Up threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: UL threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: Left threat: 0
+> round14
+> Ghost in pos (48, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 14
+info: start round 15
+info:     start player 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: Down threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: DR threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: Right threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: RU threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: Up threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: UL threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: Left threat: 0
+> round15
+> Ghost in pos (48, 41)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 15
+info: start round 16
+info:     start player 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: Down threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: DR threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: Right threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: RU threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: Up threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: UL threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: Left threat: 0
+> round16
+> Ghost in pos (49, 41)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 16
+info: start round 17
+info:     start player 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Down threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: DR threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Right threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: RU threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Up threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: UL threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Left threat: 0
+> round17
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 17
+info: start round 18
+info:     start player 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round18
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 18
+info: start round 19
+info:     start player 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round19
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 19
+info: start round 20
+info:     start player 0
+mago con id 6en posicion (34, 50)se convertira en 4 rondas
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round20
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 20
+info: start round 21
+info:     start player 0
+mago con id 6en posicion (33, 50)se convertira en 3 rondas
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round21
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 21
+info: start round 22
+info:     start player 0
+mago con id 6en posicion (32, 50)se convertira en 2 rondas
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round22
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 22
+info: start round 23
+info:     start player 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round23
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 23
+info: start round 24
+info:     start player 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round24
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 24
+info: start round 25
+info:     start player 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round25
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 25
+info: start round 26
+info:     start player 0
+mago con id 80en posicion (25, 18)se convertira en 4 rondas
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round26
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 26
+info: start round 27
+info:     start player 0
+mago con id 80en posicion (25, 19)se convertira en 3 rondas
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round27
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 27
+info: start round 28
+info:     start player 0
+mago con id 80en posicion (25, 20)se convertira en 2 rondas
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round28
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 28
+info: start round 29
+info:     start player 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Down threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: DR threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Right threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: RU threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Up threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: UL threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Left threat: 0
+> round29
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 29
+info: start round 30
+info:     start player 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round30
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 30
+info: start round 31
+info:     start player 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Down threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: DR threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Right threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: RU threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Up threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: UL threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: Left threat: 0
+> round31
+> Ghost in pos (52, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 31
+info: start round 32
+info:     start player 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Down threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: DR threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Right threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: RU threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Up threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: UL threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: Left threat: 0
+> round32
+> Ghost in pos (51, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 32
+info: start round 33
+info:     start player 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Down threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: DR threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Right threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: RU threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Up threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: UL threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: Left threat: 0
+> round33
+> Ghost in pos (50, 41)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 33
+info: start round 34
+info:     start player 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: Down threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: DR threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: Right threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: RU threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: Up threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: UL threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: Left threat: 0
+> round34
+> Ghost in pos (49, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 34
+info: start round 35
+info:     start player 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Down threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: DR threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Right threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: RU threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Up threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: UL threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Left threat: 0
+> round35
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 35
+info: start round 36
+info:     start player 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: Down threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: DR threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: Right threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: RU threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: Up threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: UL threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: Left threat: 0
+> round36
+> Ghost in pos (47, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 36
+info: start round 37
+info:     start player 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Down threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: DR threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Right threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: RU threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Up threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: UL threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Left threat: 0
+> round37
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 37
+info: start round 38
+info:     start player 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: Down threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: DR threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: Right threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: RU threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: Up threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: UL threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: Left threat: 0
+> round38
+> Ghost in pos (45, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 38
+info: start round 39
+info:     start player 0
+mago con id 80en posicion (24, 28)se convertira en 4 rondas
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Down threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: DR threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Right threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: RU threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Up threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: UL threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: Left threat: 0
+> round39
+> Ghost in pos (44, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 39
+info: start round 40
+info:     start player 0
+mago con id 80en posicion (25, 28)se convertira en 3 rondas
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: Down threat: 0
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: DR threat: 0
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: Right threat: 0
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: RU threat: 0
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: Left threat: 0
+> round40
+> Ghost in pos (43, 40)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 40
+info: start round 41
+info:     start player 0
+mago con id 80en posicion (26, 28)se convertira en 2 rondas
+> round41
+> Ghost in pos (43, 39)
+> min threat 0
+> dir: Down threat: 0
+> round41
+> Ghost in pos (43, 39)
+> min threat 0
+> dir: DR threat: 0
+> round41
+> Ghost in pos (43, 39)
+> min threat 0
+> dir: Right threat: 0
+> round41
+> Ghost in pos (43, 39)
+> min threat 0
+> dir: Left threat: 0
+> round41
+> Ghost in pos (43, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 41
+info: start round 42
+info:     start player 0
+> round42
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Down threat: 0
+> round42
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: DR threat: 0
+> round42
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Right threat: 0
+> round42
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: Left threat: 0
+> round42
+> Ghost in pos (43, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 42
+info: start round 43
+info:     start player 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Down threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: DR threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Right threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: RU threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Up threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: UL threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Left threat: 0
+> round43
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 43
+info: start round 44
+info:     start player 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: Down threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: DR threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: Right threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: RU threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: Up threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: UL threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: Left threat: 0
+> round44
+> Ghost in pos (45, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 44
+info: start round 45
+info:     start player 0
+mago con id 9en posicion (32, 56)se convertira en 4 rondas
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: Down threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: DR threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: Right threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: RU threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: Up threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: UL threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: Left threat: 0
+> round45
+> Ghost in pos (46, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 45
+info: start round 46
+info:     start player 0
+mago con id 9en posicion (33, 56)se convertira en 3 rondas
+mago con id 23en posicion (54, 54)se convertira en 4 rondas
+mago con id 57en posicion (44, 26)se convertira en 4 rondas
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Down threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: DR threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Right threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: RU threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Up threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: UL threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Left threat: 0
+> round46
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 46
+info: start round 47
+info:     start player 0
+mago con id 9en posicion (32, 56)se convertira en 2 rondas
+mago con id 23en posicion (54, 53)se convertira en 3 rondas
+mago con id 57en posicion (43, 26)se convertira en 3 rondas
+mago con id 61en posicion (14, 58)se convertira en 4 rondas
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Down threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: DR threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Right threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: RU threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Up threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: UL threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Left threat: 0
+> round47
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 47
+info: start round 48
+info:     start player 0
+mago con id 9en posicion (33, 56)se convertira en 1 rondas
+mago con id 23en posicion (54, 52)se convertira en 2 rondas
+mago con id 57en posicion (42, 26)se convertira en 2 rondas
+mago con id 61en posicion (14, 58)se convertira en 3 rondas
+> round48
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Down threat: 0
+> round48
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: DR threat: 0
+> round48
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Right threat: 0
+> round48
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 48
+info: start round 49
+info:     start player 0
+mago con id 23en posicion (54, 51)se convertira en 1 rondas
+mago con id 57en posicion (42, 26)se convertira en 1 rondas
+mago con id 61en posicion (13, 58)se convertira en 2 rondas
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Down threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: DR threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Right threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: RU threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Up threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: UL threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: Left threat: 0
+> round49
+> Ghost in pos (44, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 49
+info: start round 50
+info:     start player 0
+mago con id 61en posicion (12, 58)se convertira en 1 rondas
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Down threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: DR threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Right threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: RU threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Up threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: UL threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: Left threat: 0
+> round50
+> Ghost in pos (45, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 50
+info: start round 51
+info:     start player 0
+mago con id 80en posicion (23, 24)se convertira en 4 rondas
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Down threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: DR threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Right threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: RU threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Up threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: UL threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Left threat: 0
+> round51
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 51
+info: start round 52
+info:     start player 0
+mago con id 19en posicion (41, 3)se convertira en 4 rondas
+mago con id 80en posicion (22, 24)se convertira en 3 rondas
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Down threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: DR threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Right threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: RU threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Up threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: UL threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Left threat: 0
+> round52
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 52
+info: start round 53
+info:     start player 0
+mago con id 19en posicion (40, 3)se convertira en 3 rondas
+mago con id 80en posicion (21, 24)se convertira en 2 rondas
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Down threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: DR threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Right threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: RU threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Up threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: UL threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Left threat: 0
+> round53
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 53
+info: start round 54
+info:     start player 0
+mago con id 19en posicion (39, 3)se convertira en 2 rondas
+mago con id 80en posicion (20, 24)se convertira en 1 rondas
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Down threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: DR threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Right threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: RU threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Up threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: UL threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Left threat: 0
+> round54
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 54
+info: start round 55
+info:     start player 0
+mago con id 19en posicion (38, 3)se convertira en 1 rondas
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Down threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: DR threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Right threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: RU threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Up threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: UL threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Left threat: 0
+> round55
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 55
+info: start round 56
+info:     start player 0
+mago con id 13en posicion (27, 36)se convertira en 4 rondas
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: Down threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: DR threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: Right threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: RU threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: Up threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: UL threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: Left threat: 0
+> round56
+> Ghost in pos (51, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 56
+info: start round 57
+info:     start player 0
+mago con id 13en posicion (27, 36)se convertira en 3 rondas
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Down threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: DR threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Right threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: RU threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Up threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: UL threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: Left threat: 0
+> round57
+> Ghost in pos (50, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 57
+info: start round 58
+info:     start player 0
+mago con id 13en posicion (26, 36)se convertira en 2 rondas
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: Down threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: DR threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: Right threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: RU threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: Up threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: UL threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: Left threat: 0
+> round58
+> Ghost in pos (49, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 58
+info: start round 59
+info:     start player 0
+mago con id 13en posicion (25, 36)se convertira en 1 rondas
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Down threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: DR threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Right threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: RU threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Up threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: UL threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: Left threat: 0
+> round59
+> Ghost in pos (48, 39)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 59
+info: start round 60
+info:     start player 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: Down threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: DR threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: Right threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: RU threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: Up threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: UL threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: Left threat: 0
+> round60
+> Ghost in pos (47, 38)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 60
+info: start round 61
+info:     start player 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Down threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: DR threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Right threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: RU threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Up threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: UL threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: Left threat: 0
+> round61
+> Ghost in pos (46, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 61
+info: start round 62
+info:     start player 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Down threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: DR threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Right threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: RU threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Up threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: UL threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Left threat: 0
+> round62
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 62
+info: start round 63
+info:     start player 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Down threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: DR threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Right threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: RU threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Up threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: UL threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: Left threat: 0
+> round63
+> Ghost in pos (47, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 63
+info: start round 64
+info:     start player 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Down threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: DR threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Right threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: RU threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Up threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: UL threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: Left threat: 0
+> round64
+> Ghost in pos (48, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 64
+info: start round 65
+info:     start player 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Down threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: DR threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Right threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: RU threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Up threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: UL threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: Left threat: 0
+> round65
+> Ghost in pos (49, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 65
+info: start round 66
+info:     start player 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: Down threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: DR threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: Right threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: RU threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: Up threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: UL threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: Left threat: 0
+> round66
+> Ghost in pos (48, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 66
+info: start round 67
+info:     start player 0
+mago con id 49en posicion (28, 24)se convertira en 4 rondas
+> round67
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Down threat: 0
+> round67
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: DR threat: 0
+> round67
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Right threat: 0
+> round67
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: RU threat: 0
+> round67
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 67
+info: start round 68
+info:     start player 0
+mago con id 49en posicion (27, 24)se convertira en 3 rondas
+> round68
+> Ghost in pos (48, 35)
+> min threat 0
+> dir: Down threat: 0
+> round68
+> Ghost in pos (48, 35)
+> min threat 0
+> dir: DR threat: 0
+> round68
+> Ghost in pos (48, 35)
+> min threat 0
+> dir: Right threat: 0
+> round68
+> Ghost in pos (48, 35)
+> min threat 0
+> dir: RU threat: 0
+> round68
+> Ghost in pos (48, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 68
+info: start round 69
+info:     start player 0
+mago con id 49en posicion (26, 24)se convertira en 2 rondas
+> round69
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Down threat: 0
+> round69
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: DR threat: 0
+> round69
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Right threat: 0
+> round69
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: RU threat: 0
+> round69
+> Ghost in pos (47, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 69
+info: start round 70
+info:     start player 0
+mago con id 49en posicion (25, 24)se convertira en 1 rondas
+> round70
+> Ghost in pos (46, 35)
+> min threat 0
+> dir: Down threat: 0
+> round70
+> Ghost in pos (46, 35)
+> min threat 0
+> dir: DR threat: 0
+> round70
+> Ghost in pos (46, 35)
+> min threat 0
+> dir: Right threat: 0
+> round70
+> Ghost in pos (46, 35)
+> min threat 0
+> dir: RU threat: 0
+> round70
+> Ghost in pos (46, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 70
+info: start round 71
+info:     start player 0
+> round71
+> Ghost in pos (45, 35)
+> min threat 0
+> dir: Down threat: 0
+> round71
+> Ghost in pos (45, 35)
+> min threat 0
+> dir: DR threat: 0
+> round71
+> Ghost in pos (45, 35)
+> min threat 0
+> dir: Right threat: 0
+> round71
+> Ghost in pos (45, 35)
+> min threat 0
+> dir: RU threat: 0
+> round71
+> Ghost in pos (45, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 71
+info: start round 72
+info:     start player 0
+> round72
+> Ghost in pos (44, 35)
+> min threat 0
+> dir: Down threat: 0
+> round72
+> Ghost in pos (44, 35)
+> min threat 0
+> dir: DR threat: 0
+> round72
+> Ghost in pos (44, 35)
+> min threat 0
+> dir: Right threat: 0
+> round72
+> Ghost in pos (44, 35)
+> min threat 0
+> dir: RU threat: 0
+> round72
+> Ghost in pos (44, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 72
+info: start round 73
+info:     start player 0
+> round73
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Down threat: 0
+> round73
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: DR threat: 0
+> round73
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Right threat: 0
+> round73
+> Ghost in pos (43, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 73
+info: start round 74
+info:     start player 0
+> round74
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Down threat: 0
+> round74
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: DR threat: 0
+> round74
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 74
+info: start round 75
+info:     start player 0
+> round75
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Down threat: 0
+> round75
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 75
+info: start round 76
+info:     start player 0
+> round76
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Down threat: 0
+> round76
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 76
+info: start round 77
+info:     start player 0
+> round77
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Down threat: 0
+> round77
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Up threat: 0
+> round77
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 77
+info: start round 78
+info:     start player 0
+> round78
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round78
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round78
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round78
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round78
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 78
+info: start round 79
+info:     start player 0
+> round79
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round79
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round79
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 79
+info: start round 80
+info:     start player 0
+> round80
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round80
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round80
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round80
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round80
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 80
+info: start round 81
+info:     start player 0
+> round81
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round81
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round81
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 81
+info: start round 82
+info:     start player 0
+> round82
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Right threat: 0
+> round82
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 82
+info: start round 83
+info:     start player 0
+> round83
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Right threat: 0
+> round83
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 83
+info: start round 84
+info:     start player 0
+> round84
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Right threat: 0
+> round84
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 84
+info: start round 85
+info:     start player 0
+> round85
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Right threat: 0
+> round85
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 85
+info: start round 86
+info:     start player 0
+> round86
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Right threat: 0
+> round86
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 86
+info: start round 87
+info:     start player 0
+> round87
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round87
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round87
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 87
+info: start round 88
+info:     start player 0
+> round88
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round88
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round88
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round88
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round88
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 88
+info: start round 89
+info:     start player 0
+> round89
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round89
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round89
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 89
+info: start round 90
+info:     start player 0
+> round90
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round90
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round90
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round90
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round90
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 90
+info: start round 91
+info:     start player 0
+> round91
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round91
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round91
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round91
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round91
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 91
+info: start round 92
+info:     start player 0
+> round92
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Down threat: 0
+> round92
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Up threat: 0
+> round92
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 92
+info: start round 93
+info:     start player 0
+> round93
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Down threat: 0
+> round93
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 93
+info: start round 94
+info:     start player 0
+> round94
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Down threat: 0
+> round94
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 94
+info: start round 95
+info:     start player 0
+> round95
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Down threat: 0
+> round95
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 95
+info: start round 96
+info:     start player 0
+> round96
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Down threat: 0
+> round96
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Up threat: 0
+> round96
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 96
+info: start round 97
+info:     start player 0
+> round97
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round97
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round97
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round97
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round97
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 97
+info: start round 98
+info:     start player 0
+> round98
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round98
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round98
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round98
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round98
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 98
+info: start round 99
+info:     start player 0
+> round99
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round99
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round99
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 99
+info: start round 100
+info:     start player 0
+> round100
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round100
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round100
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round100
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round100
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 100
+info: start round 101
+info:     start player 0
+mago con id 21en posicion (18, 27)se convertira en 4 rondas
+mago con id 28en posicion (8, 32)se convertira en 4 rondas
+> round101
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round101
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round101
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round101
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round101
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 101
+info: start round 102
+info:     start player 0
+mago con id 21en posicion (19, 27)se convertira en 3 rondas
+mago con id 28en posicion (7, 32)se convertira en 3 rondas
+mago con id 40en posicion (45, 28)se convertira en 4 rondas
+> round102
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round102
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round102
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 102
+info: start round 103
+info:     start player 0
+mago con id 21en posicion (19, 27)se convertira en 2 rondas
+mago con id 28en posicion (7, 31)se convertira en 2 rondas
+mago con id 40en posicion (44, 28)se convertira en 3 rondas
+> round103
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Right threat: 0
+> round103
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 103
+info: start round 104
+info:     start player 0
+mago con id 28en posicion (7, 30)se convertira en 1 rondas
+mago con id 40en posicion (43, 28)se convertira en 2 rondas
+> round104
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round104
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round104
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 104
+info: start round 105
+info:     start player 0
+mago con id 40en posicion (43, 29)se convertira en 1 rondas
+> round105
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round105
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round105
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round105
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round105
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 105
+info: start round 106
+info:     start player 0
+> round106
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round106
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round106
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round106
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round106
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 106
+info: start round 107
+info:     start player 0
+mago con id 49en posicion (29, 20)se convertira en 4 rondas
+> round107
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round107
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round107
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 107
+info: start round 108
+info:     start player 0
+mago con id 49en posicion (29, 21)se convertira en 3 rondas
+> round108
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Right threat: 0
+> round108
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 108
+info: start round 109
+info:     start player 0
+mago con id 49en posicion (29, 21)se convertira en 2 rondas
+> round109
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round109
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round109
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 109
+info: start round 110
+info:     start player 0
+> round110
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round110
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round110
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round110
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round110
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 110
+info: start round 111
+info:     start player 0
+> round111
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round111
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round111
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 111
+info: start round 112
+info:     start player 0
+> round112
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round112
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round112
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round112
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round112
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 112
+info: start round 113
+info:     start player 0
+> round113
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round113
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round113
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 0
+> round113
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 0
+> round113
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 113
+info: start round 114
+info:     start player 0
+> round114
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round114
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round114
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round114
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round114
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 114
+info: start round 115
+info:     start player 0
+> round115
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round115
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round115
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 115
+info: start round 116
+info:     start player 0
+> round116
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round116
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round116
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round116
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round116
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 116
+info: start round 117
+info:     start player 0
+> round117
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round117
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round117
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 117
+info: start round 118
+info:     start player 0
+> round118
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round118
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round118
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round118
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 0
+> round118
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 118
+info: start round 119
+info:     start player 0
+> round119
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round119
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round119
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 119
+info: start round 120
+info:     start player 0
+> round120
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Right threat: 0
+> round120
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 120
+info: start round 121
+info:     start player 0
+> round121
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: DR threat: 0
+> round121
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: Right threat: 0
+> round121
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: RU threat: 0
+> round121
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 121
+info: start round 122
+info:     start player 0
+mago con id 21en posicion (23, 24)se convertira en 4 rondas
+> round122
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: Down threat: 0
+> round122
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: Up threat: 0
+> round122
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 122
+info: start round 123
+info:     start player 0
+mago con id 21en posicion (23, 25)se convertira en 3 rondas
+mago con id 83en posicion (43, 16)se convertira en 4 rondas
+> round123
+> Ghost in pos (39, 39)
+> min threat 0
+> dir: Down threat: 0
+> round123
+> Ghost in pos (39, 39)
+> min threat 0
+> dir: Up threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 123
+info: start round 124
+info:     start player 0
+mago con id 83en posicion (43, 17)se convertira en 3 rondas
+> round124
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: Down threat: 0
+> round124
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: Up threat: 0
+> round124
+> Ghost in pos (38, 39)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 124
+info: start round 125
+info:     start player 0
+mago con id 55en posicion (0, 50)se convertira en 4 rondas
+mago con id 83en posicion (43, 18)se convertira en 2 rondas
+> round125
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: DR threat: 0
+> round125
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: Right threat: 0
+> round125
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: RU threat: 0
+> round125
+> Ghost in pos (37, 38)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 125
+info: start round 126
+info:     start player 0
+mago con id 55en posicion (0, 50)se convertira en 3 rondas
+mago con id 83en posicion (43, 19)se convertira en 1 rondas
+> round126
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Right threat: 0
+> round126
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 126
+info: start round 127
+info:     start player 0
+mago con id 20en posicion (6, 18)se convertira en 4 rondas
+mago con id 55en posicion (0, 51)se convertira en 2 rondas
+mago con id 79en posicion (6, 6)se convertira en 4 rondas
+> round127
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Right threat: 0
+> round127
+> Ghost in pos (37, 37)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 127
+info: start round 128
+info:     start player 0
+mago con id 20en posicion (5, 18)se convertira en 3 rondas
+mago con id 55en posicion (0, 52)se convertira en 1 rondas
+mago con id 79en posicion (6, 6)se convertira en 3 rondas
+> round128
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Right threat: 0
+> round128
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: Left threat: 0
+> round128
+> Ghost in pos (37, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 128
+info: start round 129
+info:     start player 0
+mago con id 20en posicion (4, 18)se convertira en 2 rondas
+mago con id 79en posicion (7, 6)se convertira en 2 rondas
+> round129
+> Ghost in pos (37, 35)
+> min threat 0
+> dir: Down threat: 0
+> round129
+> Ghost in pos (37, 35)
+> min threat 0
+> dir: Right threat: 0
+> round129
+> Ghost in pos (37, 35)
+> min threat 0
+> dir: Left threat: 0
+> round129
+> Ghost in pos (37, 35)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 129
+info: start round 130
+info:     start player 0
+mago con id 20en posicion (3, 18)se convertira en 1 rondas
+mago con id 79en posicion (8, 6)se convertira en 1 rondas
+> round130
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Down threat: 0
+> round130
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: DR threat: 0
+> round130
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Right threat: 0
+> round130
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 130
+info: start round 131
+info:     start player 0
+> round131
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round131
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round131
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 131
+info: start round 132
+info:     start player 0
+> round132
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Right threat: 0
+> round132
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 132
+info: start round 133
+info:     start player 0
+> round133
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Right threat: 0
+> round133
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 133
+info: start round 134
+info:     start player 0
+> round134
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Right threat: 0
+> round134
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 134
+info: start round 135
+info:     start player 0
+mago con id 49en posicion (30, 8)se convertira en 4 rondas
+mago con id 64en posicion (3, 20)se convertira en 4 rondas
+> round135
+> Ghost in pos (37, 29)
+> min threat 0
+> dir: Right threat: 0
+> round135
+> Ghost in pos (37, 29)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 135
+info: start round 136
+info:     start player 0
+mago con id 49en posicion (30, 8)se convertira en 3 rondas
+mago con id 64en posicion (3, 21)se convertira en 3 rondas
+> round136
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: Right threat: 0
+> round136
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: Left threat: 0
+> round136
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 136
+info: start round 137
+info:     start player 0
+mago con id 49en posicion (31, 8)se convertira en 2 rondas
+mago con id 64en posicion (3, 22)se convertira en 2 rondas
+> round137
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Down threat: 0
+> round137
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Right threat: 0
+> round137
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 137
+info: start round 138
+info:     start player 0
+mago con id 49en posicion (32, 8)se convertira en 1 rondas
+mago con id 64en posicion (4, 22)se convertira en 1 rondas
+> round138
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: DR threat: 1
+! skipping
+> round138
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Right threat: 0
+> round138
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Left threat: 0
+> round138
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 138
+info: start round 139
+info:     start player 0
+> round139
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: RU threat: 0
+> round139
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: Up threat: 0
+> round139
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 139
+info: start round 140
+info:     start player 0
+> round140
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: DR threat: 0
+> round140
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: Right threat: 0
+> round140
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 140
+info: start round 141
+info:     start player 0
+> round141
+> Ghost in pos (37, 23)
+> min threat 0
+> dir: Right threat: 0
+> round141
+> Ghost in pos (37, 23)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 141
+info: start round 142
+info:     start player 0
+> round142
+> Ghost in pos (37, 22)
+> min threat 0
+> dir: Right threat: 0
+> round142
+> Ghost in pos (37, 22)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 142
+info: start round 143
+info:     start player 0
+> round143
+> Ghost in pos (37, 21)
+> min threat 0
+> dir: Right threat: 0
+> round143
+> Ghost in pos (37, 21)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 143
+info: start round 144
+info:     start player 0
+> round144
+> Ghost in pos (37, 20)
+> min threat 0
+> dir: Right threat: 0
+> round144
+> Ghost in pos (37, 20)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 144
+info: start round 145
+info:     start player 0
+> round145
+> Ghost in pos (37, 19)
+> min threat 0
+> dir: Right threat: 0
+> round145
+> Ghost in pos (37, 19)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 145
+info: start round 146
+info:     start player 0
+> round146
+> Ghost in pos (37, 18)
+> min threat 0
+> dir: Right threat: 0
+> round146
+> Ghost in pos (37, 18)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 146
+info: start round 147
+info:     start player 0
+> round147
+> Ghost in pos (37, 17)
+> min threat 0
+> dir: Right threat: 0
+> round147
+> Ghost in pos (37, 17)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 147
+info: start round 148
+info:     start player 0
+> round148
+> Ghost in pos (37, 16)
+> min threat 0
+> dir: Right threat: 0
+> round148
+> Ghost in pos (37, 16)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 148
+info: start round 149
+info:     start player 0
+> round149
+> Ghost in pos (37, 15)
+> min threat 0
+> dir: Right threat: 0
+> round149
+> Ghost in pos (37, 15)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 149
+info: start round 150
+info:     start player 0
+> round150
+> Ghost in pos (37, 14)
+> min threat 0
+> dir: Right threat: 0
+> round150
+> Ghost in pos (37, 14)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 150
+info: start round 151
+info:     start player 0
+> round151
+> Ghost in pos (37, 13)
+> min threat 0
+> dir: Right threat: 0
+> round151
+> Ghost in pos (37, 13)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 151
+info: start round 152
+info:     start player 0
+> round152
+> Ghost in pos (37, 12)
+> min threat 0
+> dir: Right threat: 0
+> round152
+> Ghost in pos (37, 12)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 152
+info: start round 153
+info:     start player 0
+> round153
+> Ghost in pos (37, 13)
+> min threat 0
+> dir: Right threat: 0
+> round153
+> Ghost in pos (37, 13)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 153
+info: start round 154
+info:     start player 0
+> round154
+> Ghost in pos (37, 14)
+> min threat 0
+> dir: Right threat: 0
+> round154
+> Ghost in pos (37, 14)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 154
+info: start round 155
+info:     start player 0
+> round155
+> Ghost in pos (37, 15)
+> min threat 0
+> dir: Right threat: 0
+> round155
+> Ghost in pos (37, 15)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 155
+info: start round 156
+info:     start player 0
+> round156
+> Ghost in pos (37, 16)
+> min threat 0
+> dir: Right threat: 0
+> round156
+> Ghost in pos (37, 16)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 156
+info: start round 157
+info:     start player 0
+> round157
+> Ghost in pos (37, 17)
+> min threat 0
+> dir: Right threat: 0
+> round157
+> Ghost in pos (37, 17)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 157
+info: start round 158
+info:     start player 0
+> round158
+> Ghost in pos (37, 18)
+> min threat 0
+> dir: Right threat: 0
+> round158
+> Ghost in pos (37, 18)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 158
+info: start round 159
+info:     start player 0
+> round159
+> Ghost in pos (37, 19)
+> min threat 0
+> dir: Right threat: 0
+> round159
+> Ghost in pos (37, 19)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 159
+info: start round 160
+info:     start player 0
+> round160
+> Ghost in pos (37, 20)
+> min threat 0
+> dir: Right threat: 0
+> round160
+> Ghost in pos (37, 20)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 160
+info: start round 161
+info:     start player 0
+> round161
+> Ghost in pos (37, 21)
+> min threat 0
+> dir: Right threat: 0
+> round161
+> Ghost in pos (37, 21)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 161
+info: start round 162
+info:     start player 0
+> round162
+> Ghost in pos (37, 22)
+> min threat 0
+> dir: Right threat: 0
+> round162
+> Ghost in pos (37, 22)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 162
+info: start round 163
+info:     start player 0
+> round163
+> Ghost in pos (37, 23)
+> min threat 0
+> dir: Right threat: 0
+> round163
+> Ghost in pos (37, 23)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 163
+info: start round 164
+info:     start player 0
+> round164
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: DR threat: 0
+> round164
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: Right threat: 0
+> round164
+> Ghost in pos (37, 24)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 164
+info: start round 165
+info:     start player 0
+> round165
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: RU threat: 0
+> round165
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: Up threat: 0
+> round165
+> Ghost in pos (38, 25)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 165
+info: start round 166
+info:     start player 0
+> round166
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: DR threat: 0
+> round166
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Right threat: 0
+> round166
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Left threat: 0
+> round166
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 166
+info: start round 167
+info:     start player 0
+> round167
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Down threat: 0
+> round167
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: RU threat: 0
+> round167
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Up threat: 0
+> round167
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 167
+info: start round 168
+info:     start player 0
+> round168
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Down threat: 0
+> round168
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Up threat: 0
+> round168
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 168
+info: start round 169
+info:     start player 0
+> round169
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: Right threat: 0
+> round169
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: RU threat: 0
+> round169
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 169
+info: start round 170
+info:     start player 0
+> round170
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Down threat: 0
+> round170
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Up threat: 0
+> round170
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 170
+info: start round 171
+info:     start player 0
+> round171
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Down threat: 0
+> round171
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: RU threat: 1
+! skipping
+> round171
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+> round171
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 171
+info: start round 172
+info:     start player 0
+> round172
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Down threat: 0
+> round172
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+> round172
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 172
+info: start round 173
+info:     start player 0
+> round173
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: Right threat: 1
+! skipping
+> round173
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: RU threat: 10
+! skipping
+> round173
+> Ghost in pos (40, 26)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 173
+info: start round 174
+info:     start player 0
+> round174
+> Ghost in pos (40, 25)
+> min threat 1
+> dir: Right threat: 1
+> round174
+> Ghost in pos (40, 25)
+> min threat 1
+> dir: Left threat: 1
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 174
+info: start round 175
+info:     start player 0
+> round175
+> Ghost in pos (40, 26)
+> min threat 1
+> dir: Right threat: 10
+! skipping
+> round175
+> Ghost in pos (40, 26)
+> min threat 1
+> dir: RU threat: 1
+> round175
+> Ghost in pos (40, 26)
+> min threat 1
+> dir: Left threat: 1
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 175
+info: start round 176
+info:     start player 0
+> round176
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Down threat: 1
+! skipping
+> round176
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: Up threat: 0
+> round176
+> Ghost in pos (39, 27)
+> min threat 0
+> dir: LD threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 176
+info: start round 177
+info:     start player 0
+> round177
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Down threat: 1
+! skipping
+> round177
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: RU threat: 10
+! skipping
+> round177
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: Up threat: 1
+! skipping
+> round177
+> Ghost in pos (38, 27)
+> min threat 0
+> dir: UL threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 177
+info: start round 178
+info:     start player 0
+> round178
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: DR threat: 2
+! skipping
+> round178
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Right threat: 10
+! skipping
+> round178
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: Left threat: 0
+> round178
+> Ghost in pos (37, 26)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 178
+info: start round 179
+info:     start player 0
+> round179
+> Ghost in pos (37, 25)
+> min threat 0
+> dir: Down threat: 0
+> round179
+> Ghost in pos (37, 25)
+> min threat 0
+> dir: Right threat: 10
+! skipping
+> round179
+> Ghost in pos (37, 25)
+> min threat 0
+> dir: Left threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 179
+info: start round 180
+info:     start player 0
+> round180
+> Ghost in pos (38, 25)
+> min threat 1
+> dir: RU threat: 1
+> round180
+> Ghost in pos (38, 25)
+> min threat 1
+> dir: Up threat: 10
+! skipping
+> round180
+> Ghost in pos (38, 25)
+> min threat 1
+> dir: UL threat: 1
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 180
+info: start round 181
+info:     start player 0
+> round181
+> Ghost in pos (37, 26)
+> min threat 1
+> dir: DR threat: 10
+! skipping
+> round181
+> Ghost in pos (37, 26)
+> min threat 1
+> dir: Right threat: 1
+> round181
+> Ghost in pos (37, 26)
+> min threat 1
+> dir: Left threat: 1
+> round181
+> Ghost in pos (37, 26)
+> min threat 1
+> dir: LD threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 181
+info: start round 182
+info:     start player 0
+> round182
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Down threat: 10
+! skipping
+> round182
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Right threat: 0
+> round182
+> Ghost in pos (37, 27)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 182
+info: start round 183
+info:     start player 0
+> round183
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: Right threat: 0
+> round183
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+> round183
+> Ghost in pos (37, 28)
+> min threat 0
+> dir: LD threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 183
+info: start round 184
+info:     start player 0
+> round184
+> Ghost in pos (37, 29)
+> min threat 0
+> dir: Right threat: 0
+> round184
+> Ghost in pos (37, 29)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 184
+info: start round 185
+info:     start player 0
+> round185
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Right threat: 0
+> round185
+> Ghost in pos (37, 30)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 185
+info: start round 186
+info:     start player 0
+> round186
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Right threat: 0
+> round186
+> Ghost in pos (37, 31)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 186
+info: start round 187
+info:     start player 0
+mago con id 57en posicion (45, 20)se convertira en 4 rondas
+> round187
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Right threat: 0
+> round187
+> Ghost in pos (37, 32)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 187
+info: start round 188
+info:     start player 0
+mago con id 57en posicion (45, 21)se convertira en 3 rondas
+> round188
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: DR threat: 0
+> round188
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Right threat: 0
+> round188
+> Ghost in pos (37, 33)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 188
+info: start round 189
+info:     start player 0
+mago con id 57en posicion (45, 22)se convertira en 2 rondas
+> round189
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Down threat: 0
+> round189
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: DR threat: 0
+> round189
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Right threat: 0
+> round189
+> Ghost in pos (37, 34)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 189
+info: start round 190
+info:     start player 0
+mago con id 57en posicion (45, 23)se convertira en 1 rondas
+> round190
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: DR threat: 0
+> round190
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Right threat: 0
+> round190
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: RU threat: 1
+! skipping
+> round190
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+> round190
+> Ghost in pos (38, 34)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 190
+info: start round 191
+info:     start player 0
+> round191
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Down threat: 0
+> round191
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: RU threat: 0
+> round191
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Up threat: 0
+> round191
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+> round191
+> Ghost in pos (38, 35)
+> min threat 0
+> dir: Left threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 191
+info: start round 192
+info:     start player 0
+> round192
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Down threat: 0
+> round192
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+> round192
+> Ghost in pos (39, 35)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 192
+info: start round 193
+info:     start player 0
+> round193
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Down threat: 0
+> round193
+> Ghost in pos (40, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 193
+info: start round 194
+info:     start player 0
+> round194
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Down threat: 0
+> round194
+> Ghost in pos (41, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 194
+info: start round 195
+info:     start player 0
+mago con id 21en posicion (51, 6)se convertira en 4 rondas
+> round195
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Down threat: 0
+> round195
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: DR threat: 0
+> round195
+> Ghost in pos (42, 35)
+> min threat 0
+> dir: Up threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 195
+info: start round 196
+info:     start player 0
+mago con id 9en posicion (48, 35)se convertira en 4 rondas
+mago con id 21en posicion (51, 5)se convertira en 3 rondas
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Down threat: 0
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: DR threat: 0
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Right threat: 0
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: UL threat: 10
+! skipping
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round196
+> Ghost in pos (43, 36)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 196
+info: start round 197
+info:     start player 0
+mago con id 9en posicion (48, 35)se convertira en 3 rondas
+mago con id 21en posicion (51, 4)se convertira en 2 rondas
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Down threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: DR threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Right threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: RU threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Up threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: UL threat: 1
+! skipping
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: Left threat: 0
+> round197
+> Ghost in pos (44, 37)
+> min threat 0
+> dir: LD threat: 0
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 197
+info: start round 198
+info:     start player 0
+mago con id 9en posicion (47, 35)se convertira en 2 rondas
+mago con id 21en posicion (51, 3)se convertira en 1 rondas
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Down threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: DR threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Right threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: RU threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Up threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: UL threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: Left threat: 0
+> round198
+> Ghost in pos (45, 38)
+> min threat 0
+> dir: LD threat: 1
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 198
+info: start round 199
+info:     start player 0
+mago con id 9en posicion (46, 35)se convertira en 1 rondas
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Down threat: 1
+! skipping
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: DR threat: 0
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Right threat: 0
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: RU threat: 0
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Up threat: 0
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: UL threat: 0
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: Left threat: 1
+! skipping
+> round199
+> Ghost in pos (46, 39)
+> min threat 0
+> dir: LD threat: 10
+! skipping
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 199
+info: player GogetterV8 got score 3800
+info: player Terry_v3 got score 7720
+info: player Terry_v3 got score 4539
+info: player Terry_v3 got score 7925
+info: player(s) got top score
+info: game played
