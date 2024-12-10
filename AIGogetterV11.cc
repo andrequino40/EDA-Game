@@ -68,7 +68,6 @@ struct PLAYER_NAME : public Player {
         return Left;   
     if (d.i == 1 && d.j == -1)
         return LD; 
-    throw invalid_argument("Invalid Pos for pos_to_dir().");
   }
 
   Pos subtractPos(Pos b, Pos a) {
