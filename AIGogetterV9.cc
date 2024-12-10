@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV8
+#define PLAYER_NAME GogetterV9
 
 
 struct PLAYER_NAME : public Player {
@@ -234,8 +234,6 @@ enum class SearchType {
       if (limit_book_converted) {
         if (unit(id).type == Wizard && unit(id).is_in_conversion_process()) {
           maxdist =  unit(id).rounds_for_converting() -1;
-          cerr << ">mago en pos" << unit(id).pos << "a " << maxdist + 1 << " rondas de convertirse "<< endl;
-          cerr << ">limitado a " << maxdist << " distancia busqueda libros" << endl;
         }
       }
       SearchRet_t book_result = bfsSearchForType(id, SearchType::Book, maxdist, targetBooks);
@@ -808,11 +806,6 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     for (int id: ws) {
       if (unit(id).is_in_conversion_process()) {
         int rounds_left = unit(id).rounds_for_converting();
-
-        if (show_debug_messages || true) {
-          cerr << "mago con id " << id << "en posicion " << unit(id).pos 
-          << "se convertira en " <<unit(id).rounds_for_converting() << " rondas" << endl;
-        }
 
         // last alive round is when rounds_left = 1
         // both units have to meet in rounds_left -1 moves;
