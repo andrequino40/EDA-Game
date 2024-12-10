@@ -548,6 +548,82 @@ Pos bfsFurthestPosVoldemort(const int id){
     return result;
 }
 
+struct SearchRet_t {
+  bool found = false;
+  Pos pos;
+  int firstStep;
+  int lastStep;
+  int dist;
+};
+
+struct volNode_t{
+    Pos pos;
+    int firstStep;
+    int lastStep;
+  };
+
+SearchRet_t newVolBfs(const int id){
+
+    const int CellLimit = 300;
+    int furthest_dist = 0;
+    int processedCells = 0;
+
+    Pos start  = unit(id).pos; 
+
+    const vector<Dir>& directions = getReferenceDirectonsForType(id);
+
+    SearchRet_t result;
+    result.found = false;
+
+    GridBool visited(board_rows(), vector<bool>(board_cols(), false));
+
+    queue<volNode_t> qcoord;
+
+    qcoord.push({start, -1, -1});
+    visited[start.i][start.j] = true;
+
+    bool firstdir = true;
+
+    while (not qcoord.empty() && processedCells < CellLimit) {
+      processedCells++;
+
+      Pos currentPos = qcoord.front().pos;
+      int firstStep = qcoord.front().firstStep;
+      int lastStep = qcoord.front().lastStep;
+
+      qcoord.pop();
+      
+      int currentDist = manhattanDistance(currentPos, pos_voldemort());
+      if (currentDist > furthest_dist) {
+        result.found = true;
+        result.pos = currentPos;
+        result.firstStep = firstStep;
+        // result.lastStep = lastStep;
+        result.dist = currentDist;
+        
+        return result;
+
+      }
+
+      for (const Dir dir : directions) {
+
+        Pos newPos = currentPos + dir;
+
+        if (isCorridor(newPos)){
+          
+          bool visitedCell = visited[newPos.i][newPos.j] == true;
+          
+          if (!visitedCell ) {
+            visited[newPos.i][newPos.j] = true;
+            if (firstStep == -1) qcoord.push({newPos, dir, dir});
+            else qcoord.push({newPos, firstStep, dir});
+          }
+        }
+      }
+      firstdir = false;
+    }
+    return result;
+}
 
   
   /* FUNCTIONS CONVERSION */
@@ -681,9 +757,10 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     qcoord.push({start, -1, -1});
     distances[start.i][start.j] = 0;
 
+    bool firstdir = true;
+    
     vector<int> threatcount(8,0);
     const int minthreat = scanThreatsMove(unit(id).type, start, threatcount);
-    bool firstdir = true;
 
     while (not qcoord.empty()) {
       Pos currentPos = qcoord.front().pos;
@@ -740,9 +817,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
 
   vector<int> myWizards;
-  vector<int> vecEnemyIds1;
-  vector<int> vecEnemyIds2;
-  vector<int> vecEnemyIds3;
+
 
  vector<int> getAllIds(){
   // wizards
