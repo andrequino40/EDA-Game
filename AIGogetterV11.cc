@@ -852,6 +852,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
       if(idToActions[id][fightMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
+
+    if (!idToActions[my_ghost][cast].cando)
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
 
     for (const auto& it : idToActions) {
