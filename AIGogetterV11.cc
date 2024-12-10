@@ -10,7 +10,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterV11
+#define PLAYER_NAME skividtest
 
 
 struct PLAYER_NAME : public Player {
@@ -24,11 +24,11 @@ struct PLAYER_NAME : public Player {
   }
 
   /* AUXILIARY FUNCTIONS */
-  bool show_debug_messages = false;
+  bool show_debug_messages = true;
   bool limit_book_converted = false;
   typedef stringstream message;
 
-  void printerr(bool active, const message& msg){
+  void printcerr(bool active, const message& msg){
     if (!show_debug_messages || !active) return;
     cerr << msg.rdbuf();
   }
@@ -383,13 +383,6 @@ bool shouldCast() {
       return;
     }
     // this should be set to true if an enemy is the closest to a certain unit
-    if (actions[fightMage].cando) {
-      if ((actions[fightMage].distance - 4) < actions[book].distance) {
-        // bfs furthest from mage
-        // return result
-        return;
-      }
-    }
 
     if (actions[cast].cando) {
       spellCast();
@@ -763,22 +756,75 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     return result;
 }
  
+  // int minim = 1e8;
+  // list<Pos> possib;
+
+
+  vector<int> myWizards;
+  vector<int> vecEnemyIds1;
+  vector<int> vecEnemyIds2;
+  vector<int> vecEnemyIds3;
+
+  void updatePossibleVolTargets(const vector<int>& units, list<Pos> possib, int& minim){
+  Pos pvol = pos_voldemort();
+  for (const int id : units) {
+    Unit u = unit(id);
+    Pos upos = u.pos;
+    int dist = abs(upos.i - pvol.i) + abs(upos.j - pvol.j);
+    if (dist < minim) {
+      minim = dist;
+      possib = {upos};
+    }
+    else if (dist == minim) possib.push_back(upos);
+  }
+ }
+
+ void getEnemyIds(){
+  vector<int> enemy_ids(num_players()-1);
+
+  int i = 0;
+  for (int pl = 0; pl < num_players(); pl++){
+    if (pl != me()) {
+      enemy_ids[i] = pl;
+      i++;
+    };
+  }
+  vecEnemyIds1 = wizards(enemy_ids[0]);
+  vecEnemyIds2 = wizards(enemy_ids[1]);
+  vecEnemyIds3 = wizards(enemy_ids[2]);
+ }
+
+  Pos likelyVoldemortTarget(){
+    list<Pos> possib;
+    int minim = 1e8;
+    updatePossibleVolTargets(myWizards, possib, minim); 
+    updatePossibleVolTargets(vecEnemyIds1, possib, minim); 
+    updatePossibleVolTargets(vecEnemyIds2, possib, minim); 
+    updatePossibleVolTargets(vecEnemyIds3, possib, minim); 
+    return possib.front();
+  }
+
   
   virtual void play () {
 
-
-    enemyGhosts = get_enemy_ghosts();
-    
-
     double st = status(me());
     if (st >= 0.9) return;
-  
+
+    getEnemyIds();
+    Pos volTarget = likelyVoldemortTarget();
+
+    message volmsg;
+    volmsg << "Voldemort: " << pos_voldemort() << "likely targ: " << volTarget << "\n";
+    printcerr(1, volmsg);
+
+
     int my_ghost = ghost(me());
     myWizards = wizards(me());
 
     posToBookinfo_t targetBooks;
 
     new_idToActions_t idToActions;
+
 
     queue<int> queueids;
 
@@ -833,7 +879,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           msg << "Ha encontrado a " << helper_id << " en " << unit(helper_id).pos << "\n";
         }
         
-        printerr(1, msg);
+        printcerr(0, msg);
       }
     }
 
@@ -872,8 +918,6 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     }
   }
 };
-
-
 /**
  * Do not modify the following line.
  */

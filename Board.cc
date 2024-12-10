@@ -778,7 +778,7 @@ Pos Board::new_pos_for_voldemort ( ) {
       // nueva distancia = dist
       int dist = di + dj;
       // su la nueva distancia es < minimo o
-      // si la distancia es la misma,
+      // si la distancia es la misma
       // coge la que tiene los menores componentes maxima < maxim
       if (dist < minim or (dist == minim and mx < maxim)) {
         // elige la direccion
