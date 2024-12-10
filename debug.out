@@ -1,0 +1,32 @@
+info: seed 30
+info: loading game
+info: loaded game
+info: loading player Jutge
+info: loading player Jutge
+info: loading player Jutge
+info: loading player Jutge
+info: players loaded
+info: start round 0
+info:     start player 0
+Round 0 Voldemort: (52, 30)likely targ: (55, 30)
+might move: Down
+info:     end player 0
+info:     start player 1
+Round 0 Voldemort: (52, 30)likely targ: (55, 30)
+might move: Down
+info:     end player 1
+info:     start player 2
+Round 0 Voldemort: (52, 30)likely targ: (55, 30)
+might move: Down
+info:     end player 2
+info:     start player 3
+Round 0 Voldemort: (52, 30)likely targ: (55, 30)
+might move: Down
+info:     end player 3
+info: end round 0
+info: start round 1
+info:     start player 0
+Round 1 Voldemort: (53, 30)likely targ: (53, 24)
+might move: Left
+info:     end player 0
+info:     start player 1

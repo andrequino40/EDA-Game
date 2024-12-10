@@ -1,0 +1,3052 @@
+info: seed 29
+info: loading game
+info: loaded game
+info: loading player Jutge
+info: loading player Terry_v3
+info: loading player Terry_v3
+info: loading player Terry_v3
+info: players loaded
+info: start round 0
+info:     start player 0
+Round 0 Voldemort: (58, 20)likely targ: (55, 22)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 0
+info: start round 1
+info:     start player 0
+Round 1 Voldemort: (58, 21)likely targ: (59, 24)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 1
+info: start round 2
+info:     start player 0
+Round 2 Voldemort: (58, 22)likely targ: (54, 22)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 2
+info: start round 3
+info:     start player 0
+Round 3 Voldemort: (57, 22)likely targ: (54, 21)
+might move: Up
+Round 3 Voldemort: (57, 22)likely targ: (54, 23)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 3
+info: start round 4
+info:     start player 0
+Round 4 Voldemort: (56, 22)likely targ: (54, 22)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 4
+info: start round 5
+info:     start player 0
+Round 5 Voldemort: (55, 22)likely targ: (54, 20)
+might move: Left
+Round 5 Voldemort: (55, 22)likely targ: (53, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 5
+info: start round 6
+info:     start player 0
+Round 6 Voldemort: (54, 22)likely targ: (48, 23)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 6
+info: start round 7
+info:     start player 0
+Round 7 Voldemort: (53, 22)likely targ: (48, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 7
+info: start round 8
+info:     start player 0
+Round 8 Voldemort: (53, 21)likely targ: (54, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 8
+info: start round 9
+info:     start player 0
+Round 9 Voldemort: (53, 20)likely targ: (53, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 9
+info: start round 10
+info:     start player 0
+Round 10 Voldemort: (53, 19)likely targ: (52, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 10
+info: start round 11
+info:     start player 0
+Round 11 Voldemort: (53, 18)likely targ: (51, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 11
+info: start round 12
+info:     start player 0
+Round 12 Voldemort: (52, 18)likely targ: (50, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 12
+info: start round 13
+info:     start player 0
+Round 13 Voldemort: (51, 18)likely targ: (50, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 13
+info: start round 14
+info:     start player 0
+Round 14 Voldemort: (50, 18)likely targ: (49, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 14
+info: start round 15
+info:     start player 0
+Round 15 Voldemort: (49, 18)likely targ: (48, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 15
+info: start round 16
+info:     start player 0
+Round 16 Voldemort: (48, 18)likely targ: (47, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 16
+info: start round 17
+info:     start player 0
+Round 17 Voldemort: (47, 18)likely targ: (46, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 17
+info: start round 18
+info:     start player 0
+Round 18 Voldemort: (47, 17)likely targ: (46, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 18
+info: start round 19
+info:     start player 0
+Round 19 Voldemort: (46, 17)likely targ: (45, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 19
+info: start round 20
+info:     start player 0
+Round 20 Voldemort: (45, 17)likely targ: (44, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 20
+info: start round 21
+info:     start player 0
+Round 21 Voldemort: (45, 16)likely targ: (44, 23)
+might move: Right
+Round 21 Voldemort: (45, 16)likely targ: (41, 20)
+might move: Right
+Round 21 Voldemort: (45, 16)likely targ: (46, 9)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 21
+info: start round 22
+info:     start player 0
+Round 22 Voldemort: (44, 16)likely targ: (41, 19)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 22
+info: start round 23
+info:     start player 0
+Round 23 Voldemort: (43, 16)likely targ: (41, 18)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 23
+info: start round 24
+info:     start player 0
+Round 24 Voldemort: (43, 17)likely targ: (41, 19)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 24
+info: start round 25
+info:     start player 0
+Round 25 Voldemort: (43, 18)likely targ: (41, 20)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 25
+info: start round 26
+info:     start player 0
+Round 26 Voldemort: (43, 19)likely targ: (41, 21)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 26
+info: start round 27
+info:     start player 0
+Round 27 Voldemort: (44, 19)likely targ: (48, 19)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 27
+info: start round 28
+info:     start player 0
+Round 28 Voldemort: (45, 19)likely targ: (48, 18)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 28
+info: start round 29
+info:     start player 0
+Round 29 Voldemort: (46, 19)likely targ: (48, 17)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 29
+info: start round 30
+info:     start player 0
+Round 30 Voldemort: (46, 18)likely targ: (48, 16)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 30
+info: start round 31
+info:     start player 0
+Round 31 Voldemort: (46, 17)likely targ: (48, 15)
+might move: Down
+Round 31 Voldemort: (46, 17)likely targ: (44, 15)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 31
+info: start round 32
+info:     start player 0
+Round 32 Voldemort: (46, 16)likely targ: (49, 15)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 32
+info: start round 33
+info:     start player 0
+Round 33 Voldemort: (47, 16)likely targ: (50, 15)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 33
+info: start round 34
+info:     start player 0
+Round 34 Voldemort: (48, 16)likely targ: (51, 15)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 34
+info: start round 35
+info:     start player 0
+Round 35 Voldemort: (49, 16)likely targ: (52, 15)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 35
+info: start round 36
+info:     start player 0
+Round 36 Voldemort: (50, 16)likely targ: (53, 15)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 36
+info: start round 37
+info:     start player 0
+Round 37 Voldemort: (51, 16)likely targ: (51, 9)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 37
+info: start round 38
+info:     start player 0
+Round 38 Voldemort: (52, 16)likely targ: (55, 19)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 38
+info: start round 39
+info:     start player 0
+Round 39 Voldemort: (52, 17)likely targ: (54, 19)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 39
+info: start round 40
+info:     start player 0
+Round 40 Voldemort: (52, 18)likely targ: (51, 8)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 40
+info: start round 41
+info:     start player 0
+Round 41 Voldemort: (52, 17)likely targ: (51, 7)
+might move: Left
+Round 41 Voldemort: (52, 17)likely targ: (49, 9)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 41
+info: start round 42
+info:     start player 0
+Round 42 Voldemort: (52, 16)likely targ: (58, 11)
+might move: Down
+Round 42 Voldemort: (52, 16)likely targ: (50, 7)
+might move: Left
+Round 42 Voldemort: (52, 16)likely targ: (48, 9)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 42
+info: start round 43
+info:     start player 0
+Round 43 Voldemort: (53, 16)likely targ: (57, 11)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 43
+info: start round 44
+info:     start player 0
+Round 44 Voldemort: (53, 15)likely targ: (57, 10)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 44
+info: start round 45
+info:     start player 0
+Round 45 Voldemort: (53, 14)likely targ: (57, 9)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 45
+info: start round 46
+info:     start player 0
+Round 46 Voldemort: (53, 13)likely targ: (57, 8)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 46
+info: start round 47
+info:     start player 0
+Round 47 Voldemort: (53, 12)likely targ: (57, 7)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 47
+info: start round 48
+info:     start player 0
+Round 48 Voldemort: (53, 11)likely targ: (56, 7)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 48
+info: start round 49
+info:     start player 0
+Round 49 Voldemort: (53, 10)likely targ: (55, 7)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 49
+info: start round 50
+info:     start player 0
+Round 50 Voldemort: (53, 9)likely targ: (54, 7)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 50
+info: start round 51
+info:     start player 0
+Round 51 Voldemort: (53, 8)likely targ: (55, 3)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 51
+info: start round 52
+info:     start player 0
+Round 52 Voldemort: (53, 7)likely targ: (54, 3)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 52
+info: start round 53
+info:     start player 0
+Round 53 Voldemort: (53, 6)likely targ: (53, 3)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 53
+info: start round 54
+info:     start player 0
+Round 54 Voldemort: (53, 5)likely targ: (52, 3)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 54
+info: start round 55
+info:     start player 0
+Round 55 Voldemort: (52, 5)likely targ: (51, 3)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 55
+info: start round 56
+info:     start player 0
+Round 56 Voldemort: (52, 4)likely targ: (52, 0)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 56
+info: start round 57
+info:     start player 0
+Round 57 Voldemort: (52, 3)likely targ: (52, 0)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 57
+info: start round 58
+info:     start player 0
+Round 58 Voldemort: (52, 2)likely targ: (50, 0)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 58
+info: start round 59
+info:     start player 0
+Round 59 Voldemort: (51, 2)likely targ: (49, 0)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 59
+info: start round 60
+info:     start player 0
+Round 60 Voldemort: (51, 3)likely targ: (50, 5)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 60
+info: start round 61
+info:     start player 0
+Round 61 Voldemort: (51, 4)likely targ: (50, 7)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 61
+info: start round 62
+info:     start player 0
+Round 62 Voldemort: (51, 5)likely targ: (51, 7)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 62
+info: start round 63
+info:     start player 0
+Round 63 Voldemort: (51, 6)likely targ: (44, 6)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 63
+info: start round 64
+info:     start player 0
+Round 64 Voldemort: (50, 6)likely targ: (44, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 64
+info: start round 65
+info:     start player 0
+Round 65 Voldemort: (49, 6)likely targ: (45, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 65
+info: start round 66
+info:     start player 0
+Round 66 Voldemort: (48, 6)likely targ: (46, 3)
+might move: Left
+Round 66 Voldemort: (48, 6)likely targ: (45, 4)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 66
+info: start round 67
+info:     start player 0
+Round 67 Voldemort: (48, 5)likely targ: (47, 3)
+might move: Left
+Round 67 Voldemort: (48, 5)likely targ: (46, 4)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 67
+info: start round 68
+info:     start player 0
+Round 68 Voldemort: (48, 4)likely targ: (45, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 68
+info: start round 69
+info:     start player 0
+Round 69 Voldemort: (47, 4)likely targ: (44, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 69
+info: start round 70
+info:     start player 0
+Round 70 Voldemort: (47, 5)likely targ: (47, 9)
+might move: Right
+Round 70 Voldemort: (47, 5)likely targ: (43, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 70
+info: start round 71
+info:     start player 0
+Round 71 Voldemort: (46, 5)likely targ: (42, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 71
+info: start round 72
+info:     start player 0
+Round 72 Voldemort: (45, 5)likely targ: (41, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 72
+info: start round 73
+info:     start player 0
+Round 73 Voldemort: (44, 5)likely targ: (42, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 73
+info: start round 74
+info:     start player 0
+Round 74 Voldemort: (43, 5)likely targ: (41, 5)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 74
+info: start round 75
+info:     start player 0
+Round 75 Voldemort: (42, 5)likely targ: (40, 7)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 75
+info: start round 76
+info:     start player 0
+Round 76 Voldemort: (41, 5)likely targ: (39, 7)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 76
+info: start round 77
+info:     start player 0
+Round 77 Voldemort: (40, 5)likely targ: (38, 7)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 77
+info: start round 78
+info:     start player 0
+Round 78 Voldemort: (40, 6)likely targ: (38, 8)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 78
+info: start round 79
+info:     start player 0
+Round 79 Voldemort: (40, 7)likely targ: (38, 9)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 79
+info: start round 80
+info:     start player 0
+Round 80 Voldemort: (40, 8)likely targ: (38, 10)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 80
+info: start round 81
+info:     start player 0
+Round 81 Voldemort: (39, 8)likely targ: (37, 10)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 81
+info: start round 82
+info:     start player 0
+Round 82 Voldemort: (38, 8)likely targ: (36, 10)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 82
+info: start round 83
+info:     start player 0
+Round 83 Voldemort: (37, 8)likely targ: (35, 10)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 83
+info: start round 84
+info:     start player 0
+Round 84 Voldemort: (36, 8)likely targ: (38, 15)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 84
+info: start round 85
+info:     start player 0
+Round 85 Voldemort: (36, 9)likely targ: (37, 15)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 85
+info: start round 86
+info:     start player 0
+Round 86 Voldemort: (36, 10)likely targ: (36, 15)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 86
+info: start round 87
+info:     start player 0
+Round 87 Voldemort: (36, 11)likely targ: (37, 15)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 87
+info: start round 88
+info:     start player 0
+Round 88 Voldemort: (36, 12)likely targ: (37, 16)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 88
+info: start round 89
+info:     start player 0
+Round 89 Voldemort: (36, 13)likely targ: (37, 17)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 89
+info: start round 90
+info:     start player 0
+Round 90 Voldemort: (36, 14)likely targ: (37, 18)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 90
+info: start round 91
+info:     start player 0
+Round 91 Voldemort: (36, 15)likely targ: (37, 19)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 91
+info: start round 92
+info:     start player 0
+Round 92 Voldemort: (36, 16)likely targ: (37, 20)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 92
+info: start round 93
+info:     start player 0
+Round 93 Voldemort: (36, 17)likely targ: (37, 21)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 93
+info: start round 94
+info:     start player 0
+Round 94 Voldemort: (36, 18)likely targ: (36, 21)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 94
+info: start round 95
+info:     start player 0
+Round 95 Voldemort: (36, 19)likely targ: (35, 21)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 95
+info: start round 96
+info:     start player 0
+Round 96 Voldemort: (36, 20)likely targ: (32, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 96
+info: start round 97
+info:     start player 0
+Round 97 Voldemort: (35, 20)likely targ: (33, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 97
+info: start round 98
+info:     start player 0
+Round 98 Voldemort: (34, 20)likely targ: (29, 18)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 98
+info: start round 99
+info:     start player 0
+Round 99 Voldemort: (33, 20)likely targ: (29, 17)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 99
+info: start round 100
+info:     start player 0
+Round 100 Voldemort: (32, 20)likely targ: (29, 16)
+might move: Left
+Round 100 Voldemort: (32, 20)likely targ: (26, 19)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 100
+info: start round 101
+info:     start player 0
+Round 101 Voldemort: (31, 20)likely targ: (29, 17)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 101
+info: start round 102
+info:     start player 0
+Round 102 Voldemort: (31, 19)likely targ: (30, 17)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 102
+info: start round 103
+info:     start player 0
+Round 103 Voldemort: (31, 18)likely targ: (23, 19)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 103
+info: start round 104
+info:     start player 0
+Round 104 Voldemort: (30, 18)likely targ: (22, 19)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 104
+info: start round 105
+info:     start player 0
+Round 105 Voldemort: (29, 18)likely targ: (22, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 105
+info: start round 106
+info:     start player 0
+Round 106 Voldemort: (28, 18)likely targ: (21, 20)
+might move: Up
+Round 106 Voldemort: (28, 18)likely targ: (22, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 106
+info: start round 107
+info:     start player 0
+Round 107 Voldemort: (27, 18)likely targ: (22, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 107
+info: start round 108
+info:     start player 0
+Round 108 Voldemort: (26, 18)likely targ: (21, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 108
+info: start round 109
+info:     start player 0
+Round 109 Voldemort: (26, 19)likely targ: (26, 25)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 109
+info: start round 110
+info:     start player 0
+Round 110 Voldemort: (26, 20)likely targ: (26, 24)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 110
+info: start round 111
+info:     start player 0
+Round 111 Voldemort: (26, 21)likely targ: (27, 24)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 111
+info: start round 112
+info:     start player 0
+Round 112 Voldemort: (26, 22)likely targ: (26, 24)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 112
+info: start round 113
+info:     start player 0
+Round 113 Voldemort: (26, 23)likely targ: (26, 25)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 113
+info: start round 114
+info:     start player 0
+Round 114 Voldemort: (26, 24)likely targ: (26, 26)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 114
+info: start round 115
+info:     start player 0
+Round 115 Voldemort: (25, 24)likely targ: (23, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 115
+info: start round 116
+info:     start player 0
+Round 116 Voldemort: (24, 24)likely targ: (22, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 116
+info: start round 117
+info:     start player 0
+Round 117 Voldemort: (23, 24)likely targ: (23, 19)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 117
+info: start round 118
+info:     start player 0
+Round 118 Voldemort: (24, 24)likely targ: (26, 26)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 118
+info: start round 119
+info:     start player 0
+Round 119 Voldemort: (25, 24)likely targ: (25, 19)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 119
+info: start round 120
+info:     start player 0
+Round 120 Voldemort: (25, 23)likely targ: (26, 19)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 120
+info: start round 121
+info:     start player 0
+Round 121 Voldemort: (25, 22)likely targ: (27, 19)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 121
+info: start round 122
+info:     start player 0
+Round 122 Voldemort: (25, 21)likely targ: (27, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 122
+info: start round 123
+info:     start player 0
+Round 123 Voldemort: (26, 21)likely targ: (28, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 123
+info: start round 124
+info:     start player 0
+Round 124 Voldemort: (27, 21)likely targ: (29, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 124
+info: start round 125
+info:     start player 0
+Round 125 Voldemort: (28, 21)likely targ: (30, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 125
+info: start round 126
+info:     start player 0
+Round 126 Voldemort: (29, 21)likely targ: (31, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 126
+info: start round 127
+info:     start player 0
+Round 127 Voldemort: (30, 21)likely targ: (32, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 127
+info: start round 128
+info:     start player 0
+Round 128 Voldemort: (30, 20)likely targ: (31, 18)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 128
+info: start round 129
+info:     start player 0
+Round 129 Voldemort: (30, 19)likely targ: (31, 17)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 129
+info: start round 130
+info:     start player 0
+Round 130 Voldemort: (30, 18)likely targ: (31, 16)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 130
+info: start round 131
+info:     start player 0
+Round 131 Voldemort: (30, 17)likely targ: (31, 15)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 131
+info: start round 132
+info:     start player 0
+Round 132 Voldemort: (30, 16)likely targ: (31, 14)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 132
+info: start round 133
+info:     start player 0
+Round 133 Voldemort: (30, 15)likely targ: (35, 18)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 133
+info: start round 134
+info:     start player 0
+Round 134 Voldemort: (29, 15)likely targ: (23, 14)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 134
+info: start round 135
+info:     start player 0
+Round 135 Voldemort: (28, 15)likely targ: (24, 14)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 135
+info: start round 136
+info:     start player 0
+Round 136 Voldemort: (27, 15)likely targ: (25, 14)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 136
+info: start round 137
+info:     start player 0
+Round 137 Voldemort: (26, 15)likely targ: (24, 14)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 137
+info: start round 138
+info:     start player 0
+Round 138 Voldemort: (25, 15)likely targ: (20, 19)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 138
+info: start round 139
+info:     start player 0
+Round 139 Voldemort: (25, 16)likely targ: (20, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 139
+info: start round 140
+info:     start player 0
+Round 140 Voldemort: (25, 17)likely targ: (20, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 140
+info: start round 141
+info:     start player 0
+Round 141 Voldemort: (25, 18)likely targ: (21, 21)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 141
+info: start round 142
+info:     start player 0
+Round 142 Voldemort: (24, 18)likely targ: (21, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 142
+info: start round 143
+info:     start player 0
+Round 143 Voldemort: (24, 19)likely targ: (22, 20)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 143
+info: start round 144
+info:     start player 0
+Round 144 Voldemort: (23, 19)likely targ: (24, 26)
+might move: Right
+Round 144 Voldemort: (23, 19)likely targ: (26, 24)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 144
+info: start round 145
+info:     start player 0
+Round 145 Voldemort: (23, 20)likely targ: (24, 25)
+might move: Right
+Round 145 Voldemort: (23, 20)likely targ: (26, 23)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 145
+info: start round 146
+info:     start player 0
+Round 146 Voldemort: (23, 21)likely targ: (24, 24)
+might move: Right
+Round 146 Voldemort: (23, 21)likely targ: (26, 22)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 146
+info: start round 147
+info:     start player 0
+Round 147 Voldemort: (23, 22)likely targ: (27, 22)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 147
+info: start round 148
+info:     start player 0
+Round 148 Voldemort: (23, 23)likely targ: (21, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 148
+info: start round 149
+info:     start player 0
+Round 149 Voldemort: (22, 23)likely targ: (29, 22)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 149
+info: start round 150
+info:     start player 0
+Round 150 Voldemort: (21, 23)likely targ: (15, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 150
+info: start round 151
+info:     start player 0
+Round 151 Voldemort: (20, 23)likely targ: (16, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 151
+info: start round 152
+info:     start player 0
+Round 152 Voldemort: (19, 23)likely targ: (17, 24)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 152
+info: start round 153
+info:     start player 0
+Round 153 Voldemort: (18, 23)likely targ: (19, 28)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 153
+info: start round 154
+info:     start player 0
+Round 154 Voldemort: (18, 24)likely targ: (20, 28)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 154
+info: start round 155
+info:     start player 0
+Round 155 Voldemort: (18, 25)likely targ: (21, 28)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 155
+info: start round 156
+info:     start player 0
+Round 156 Voldemort: (18, 26)likely targ: (19, 30)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 156
+info: start round 157
+info:     start player 0
+Round 157 Voldemort: (18, 27)likely targ: (19, 31)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 157
+info: start round 158
+info:     start player 0
+Round 158 Voldemort: (18, 28)likely targ: (20, 31)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 158
+info: start round 159
+info:     start player 0
+Round 159 Voldemort: (19, 28)likely targ: (21, 31)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 159
+info: start round 160
+info:     start player 0
+Round 160 Voldemort: (20, 28)likely targ: (22, 31)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 160
+info: start round 161
+info:     start player 0
+Round 161 Voldemort: (20, 29)likely targ: (22, 31)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 161
+info: start round 162
+info:     start player 0
+Round 162 Voldemort: (21, 29)likely targ: (22, 31)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 162
+info: start round 163
+info:     start player 0
+Round 163 Voldemort: (21, 30)likely targ: (22, 32)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 163
+info: start round 164
+info:     start player 0
+Round 164 Voldemort: (21, 31)likely targ: (22, 35)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 164
+info: start round 165
+info:     start player 0
+Round 165 Voldemort: (21, 32)likely targ: (22, 36)
+might move: Right
+Round 165 Voldemort: (21, 32)likely targ: (21, 37)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 165
+info: start round 166
+info:     start player 0
+Round 166 Voldemort: (21, 33)likely targ: (22, 37)
+might move: Right
+Round 166 Voldemort: (21, 33)likely targ: (20, 37)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 166
+info: start round 167
+info:     start player 0
+Round 167 Voldemort: (21, 34)likely targ: (21, 37)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 167
+info: start round 168
+info:     start player 0
+Round 168 Voldemort: (21, 35)likely targ: (22, 37)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 168
+info: start round 169
+info:     start player 0
+Round 169 Voldemort: (21, 36)likely targ: (22, 38)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 169
+info: start round 170
+info:     start player 0
+Round 170 Voldemort: (21, 37)likely targ: (22, 41)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 170
+info: start round 171
+info:     start player 0
+Round 171 Voldemort: (21, 38)likely targ: (21, 41)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 171
+info: start round 172
+info:     start player 0
+Round 172 Voldemort: (21, 39)likely targ: (20, 41)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 172
+info: start round 173
+info:     start player 0
+Round 173 Voldemort: (21, 40)likely targ: (19, 41)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 173
+info: start round 174
+info:     start player 0
+Round 174 Voldemort: (20, 40)likely targ: (12, 40)
+might move: Up
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 174
+info: start round 175
+info:     start player 0
+Round 175 Voldemort: (21, 40)likely targ: (26, 42)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 175
+info: start round 176
+info:     start player 0
+Round 176 Voldemort: (22, 40)likely targ: (28, 40)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 176
+info: start round 177
+info:     start player 0
+Round 177 Voldemort: (23, 40)likely targ: (28, 39)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 177
+info: start round 178
+info:     start player 0
+Round 178 Voldemort: (24, 40)likely targ: (28, 38)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 178
+info: start round 179
+info:     start player 0
+Round 179 Voldemort: (25, 40)likely targ: (28, 42)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 179
+info: start round 180
+info:     start player 0
+Round 180 Voldemort: (26, 40)likely targ: (27, 42)
+might move: Right
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 180
+info: start round 181
+info:     start player 0
+Round 181 Voldemort: (26, 41)likely targ: (32, 43)
+might move: Down
+Round 181 Voldemort: (26, 41)likely targ: (28, 35)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 181
+info: start round 182
+info:     start player 0
+Round 182 Voldemort: (26, 40)likely targ: (28, 34)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 182
+info: start round 183
+info:     start player 0
+Round 183 Voldemort: (26, 39)likely targ: (28, 33)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 183
+info: start round 184
+info:     start player 0
+Round 184 Voldemort: (27, 39)likely targ: (34, 39)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 184
+info: start round 185
+info:     start player 0
+Round 185 Voldemort: (28, 39)likely targ: (34, 38)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 185
+info: start round 186
+info:     start player 0
+Round 186 Voldemort: (29, 39)likely targ: (34, 37)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 186
+info: start round 187
+info:     start player 0
+Round 187 Voldemort: (30, 39)likely targ: (34, 36)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 187
+info: start round 188
+info:     start player 0
+Round 188 Voldemort: (31, 39)likely targ: (35, 36)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 188
+info: start round 189
+info:     start player 0
+Round 189 Voldemort: (32, 39)likely targ: (36, 36)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 189
+info: start round 190
+info:     start player 0
+Round 190 Voldemort: (33, 39)likely targ: (36, 37)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 190
+info: start round 191
+info:     start player 0
+Round 191 Voldemort: (34, 39)likely targ: (36, 38)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 191
+info: start round 192
+info:     start player 0
+Round 192 Voldemort: (35, 39)likely targ: (37, 38)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 192
+info: start round 193
+info:     start player 0
+Round 193 Voldemort: (36, 39)likely targ: (38, 38)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 193
+info: start round 194
+info:     start player 0
+Round 194 Voldemort: (37, 39)likely targ: (39, 37)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 194
+info: start round 195
+info:     start player 0
+Round 195 Voldemort: (38, 39)likely targ: (41, 35)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 195
+info: start round 196
+info:     start player 0
+Round 196 Voldemort: (38, 38)likely targ: (40, 34)
+might move: Left
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 196
+info: start round 197
+info:     start player 0
+Round 197 Voldemort: (38, 37)likely targ: (40, 35)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 197
+info: start round 198
+info:     start player 0
+Round 198 Voldemort: (39, 37)likely targ: (41, 35)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 198
+info: start round 199
+info:     start player 0
+Round 199 Voldemort: (40, 37)likely targ: (42, 35)
+might move: Down
+info:     end player 0
+info:     start player 1
+
+info:     end player 1
+info:     start player 2
+
+info:     end player 2
+info:     start player 3
+
+info:     end player 3
+info: end round 199
+info: player Jutge got score 5204
+info: player Terry_v3 got score 2802
+info: player Terry_v3 got score 5547
+info: player Terry_v3 got score 6894
+info: player(s) got top score
+info: game played

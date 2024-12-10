@@ -3,14 +3,13 @@
 #include <unordered_map>
 #include <set>
 #include <list>
-#include <sstream>
 
 
 /**
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME skividtest
+#define PLAYER_NAME Jutge
 
 
 struct PLAYER_NAME : public Player {
@@ -26,7 +25,8 @@ struct PLAYER_NAME : public Player {
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = true;
   bool limit_book_converted = false;
-  typedef stringstream message;
+
+   typedef stringstream message;
 
   void printcerr(bool active, const message& msg){
     if (!show_debug_messages || !active) return;
@@ -68,6 +68,7 @@ struct PLAYER_NAME : public Player {
         return Left;   
     if (d.i == 1 && d.j == -1)
         return LD; 
+    throw invalid_argument("Invalid Pos for pos_to_dir().");
   }
 
   Pos subtractPos(Pos b, Pos a) {
@@ -382,7 +383,7 @@ bool shouldCast() {
       move(id, (Dir)res.firstStep);
       return;
     }
-    // this should be set to true if an enemy is the closest to a certain unit
+    
 
     if (actions[cast].cando) {
       spellCast();
@@ -523,12 +524,10 @@ Pos bfsFurthestPosVoldemort(const int id){
       qcoord.pop();
       
       int currentDist = manhattanDistance(currentPos, pos_voldemort());
-      // cerr <<  "> pos" << currentPos << " dist: " << currentDist << endl;
       if (currentDist > furthest_dist) {
         furthest_dist = currentDist;
         result = currentPos;
 
-        // cerr << "! NewFurthestPos: " << result << endl;
       }
 
       for (const Dir dir : directions) {
@@ -548,28 +547,8 @@ Pos bfsFurthestPosVoldemort(const int id){
     }
     return result;
 }
-/* 
-  list<Pos> voldemortTargets(const vector<Unit>& units) {
-  // First collect (in possib) the positions of all units at mininum distance
-    Pos volPos = pos_voldemort();
-    int closest_dist = 1e8;
-    list<Pos> candidates;
 
-    for (const Unit& u : units) {
-      Pos unitPos = u.pos;
-      int dist = manhattanDistance(unitPos, volPos);
 
-      if (dist < closest_dist) {
-        closest_dist = dist;
-        candidates = {unitPos};
-      }
-
-      else if (dist == closest_dist ) {
-        candidates.push_back(unitPos);
-      }
-    }
-  }
-   */
   
   /* FUNCTIONS CONVERSION */
 
@@ -756,7 +735,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     return result;
 }
  
-  // int minim = 1e8;
+    // int minim = 1e8;
   // list<Pos> possib;
 
 
@@ -765,66 +744,97 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
   vector<int> vecEnemyIds2;
   vector<int> vecEnemyIds3;
 
-  void updatePossibleVolTargets(const vector<int>& units, list<Pos> possib, int& minim){
-  Pos pvol = pos_voldemort();
-  for (const int id : units) {
-    Unit u = unit(id);
-    Pos upos = u.pos;
-    int dist = abs(upos.i - pvol.i) + abs(upos.j - pvol.j);
-    if (dist < minim) {
-      minim = dist;
-      possib = {upos};
-    }
-    else if (dist == minim) possib.push_back(upos);
-  }
- }
-
- void getEnemyIds(){
-  vector<int> enemy_ids(num_players()-1);
-
-  int i = 0;
+ vector<int> getAllIds(){
+  // wizards
+  vector<int> all_ids;
   for (int pl = 0; pl < num_players(); pl++){
-    if (pl != me()) {
-      enemy_ids[i] = pl;
-      i++;
-    };
+    vector<int> temp = wizards(pl);
+    all_ids.insert(all_ids.end(), temp.begin(), temp.end());
+    all_ids.push_back(ghost(pl));
   }
-  vecEnemyIds1 = wizards(enemy_ids[0]);
-  vecEnemyIds2 = wizards(enemy_ids[1]);
-  vecEnemyIds3 = wizards(enemy_ids[2]);
+  return all_ids;
  }
 
-  Pos likelyVoldemortTarget(){
-    list<Pos> possib;
+  list<int> likelyVoldemortTarget(const vector<int>& allids){
+    Pos pvol = pos_voldemort();
     int minim = 1e8;
-    updatePossibleVolTargets(myWizards, possib, minim); 
-    updatePossibleVolTargets(vecEnemyIds1, possib, minim); 
-    updatePossibleVolTargets(vecEnemyIds2, possib, minim); 
-    updatePossibleVolTargets(vecEnemyIds3, possib, minim); 
-    return possib.front();
+    list<int> possib;
+      for (const int id : allids) {
+        Unit u = unit(id);
+        Pos upos = u.pos;
+        int dist = abs(upos.i - pvol.i) + abs(upos.j - pvol.j);
+        if (dist < minim) {
+          minim = dist;
+          possib = {id};
+        }
+        else if (dist == minim) possib.push_back(id);
+      }
+    return possib;
   }
 
-  
+   Dir volNextMove(const Pos goal) {
+    Pos vol = pos_voldemort();
+    int di = goal.i - vol.i; // pos, goal abajo // neg, goal arriba
+    int dj = goal.j - vol.j; // pos, goal derecha // neg, goal izq
+    bool upwards = di < 0;
+    bool leftwards = dj < 0;
+    Dir res;
+    // vertical magnitude larger
+    if (abs(di) > abs(dj)) {
+      if (upwards) res = Up;
+      else res = Down;
+    } 
+    // horizontal magnitude alrger
+    else if (abs(di) < abs(dj)) {
+      if (leftwards) res = Left;
+      else res = Right;
+    } 
+    // both magnitues equal
+    else {
+      // goal is to the left
+      if (leftwards) {
+        // Top Left
+        if (upwards) return Up;
+        // Bottom Left
+        else return Down;
+      } 
+      // goal is to the right
+      else {
+        // Top right
+        if (upwards) return Right;
+        // bottom right
+        else return Down;
+      }
+    }
+    return res;
+ }
+
   virtual void play () {
 
-    double st = status(me());
+     double st = status(me());
     if (st >= 0.9) return;
 
-    getEnemyIds();
-    Pos volTarget = likelyVoldemortTarget();
+    const vector<int> allids = getAllIds();
+    list<int> volTargets = likelyVoldemortTarget(allids);
 
-    message volmsg;
-    volmsg << "Voldemort: " << pos_voldemort() << "likely targ: " << volTarget << "\n";
-    printcerr(1, volmsg);
+    for (int id : volTargets) {
+      message volmsg;
+      volmsg << "Round " << round() << " Voldemort: " << pos_voldemort() << "likely targ: " << unit(id).pos << "\n";
+      volmsg << "might move: " << volNextMove(unit(id).pos) << "\n";
+      printcerr(1, volmsg);
+    }
 
+    enemyGhosts = get_enemy_ghosts();
+    
 
+   
+  
     int my_ghost = ghost(me());
     myWizards = wizards(me());
 
     posToBookinfo_t targetBooks;
 
     new_idToActions_t idToActions;
-
 
     queue<int> queueids;
 
@@ -863,23 +873,16 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
         result = bfsSearchForType(id, 
         SearchType::HealthyMage, max_distance, targetBooks);
 
-        message msg;
-        msg << "> Mago " << id << " en " << unit(id).pos << " ronda " << round() << "\n";
-        msg << "> Se convertira en " << unit(id).rounds_for_converting() << "\n";
-        if (result.found) {
-          int helper_id = cell(result.pos).id;
-          int convert_id = id;
+        if (!result.found) continue;
+        int helper_id = cell(result.pos).id;
+        int convert_id = id;
 
-          idToActions[convert_id][helpMage].cando = true;
-          idToActions[convert_id][helpMage].firstStep = result.firstStep;
-          idToActions[helper_id][helpMage].cando = true;
-          Dir helper_first = get_opposite_dir((Dir)result.lastStep);
-          idToActions[helper_id][helpMage].firstStep = helper_first;
+        idToActions[convert_id][helpMage].cando = true;
+        idToActions[convert_id][helpMage].firstStep = result.firstStep;
+        idToActions[helper_id][helpMage].cando = true;
+        Dir helper_first = get_opposite_dir((Dir)result.lastStep);
+        idToActions[helper_id][helpMage].firstStep = helper_first;
 
-          msg << "Ha encontrado a " << helper_id << " en " << unit(helper_id).pos << "\n";
-        }
-        
-        printcerr(0, msg);
       }
     }
 
@@ -905,8 +908,6 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
       if(idToActions[id][fightMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
-
-    if (!idToActions[my_ghost][cast].cando)
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
 
     for (const auto& it : idToActions) {
@@ -918,7 +919,10 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     }
   }
 };
+
+
 /**
  * Do not modify the following line.
  */
 RegisterPlayer(PLAYER_NAME);
+
