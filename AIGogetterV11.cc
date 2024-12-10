@@ -3,6 +3,7 @@
 #include <unordered_map>
 #include <set>
 #include <list>
+#include <sstream>
 
 
 /**
@@ -25,6 +26,17 @@ struct PLAYER_NAME : public Player {
   /* AUXILIARY FUNCTIONS */
   bool show_debug_messages = false;
   bool limit_book_converted = false;
+  typedef stringstream message;
+
+  void printerr(bool active, const message& msg){
+    if (!show_debug_messages || !active) return;
+    cerr << msg.rdbuf();
+  }
+  template <typename T>
+  void printerr(bool active, const T& msg){
+    if (!show_debug_messages || !active) return;
+    cerr << msg;
+  }
   
   Dir get_opposite_dir(Dir d){
     Dir res = (Dir)d;
