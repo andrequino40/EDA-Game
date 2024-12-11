@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME TalkTuahFan
+#define PLAYER_NAME GogetterXII
 
 
 struct PLAYER_NAME : public Player {
@@ -184,11 +184,11 @@ struct SearchRet_t {
   int dist;
 };
 
-enum class SearchType {
+enum class SearchTarget {
   Book,
   AllyMage,
   HealthyMage,
-  EnemyMage,
+  Enemy,
   Ghost,
   EnemyColor
 };  
@@ -245,7 +245,7 @@ enum class SearchType {
           maxdist =  unit(id).rounds_for_converting() -1;
         }
       }
-      SearchRet_t book_result = bfsSearchForType(id, SearchType::Book, maxdist, targetBooks);
+      SearchRet_t book_result = bfsSearchForType(id, SearchTarget::Book, maxdist, -1, targetBooks);
       int displaced_id = -1;
       if (book_result.found) {
         displaced_id = setBookAction(id, book_result, targetBooks, idToActions);
@@ -408,7 +408,7 @@ bool shouldCast() {
         return;
     }
 
-    SearchRet_t rescolor = bfsSearchForType(id, SearchType::EnemyColor, -1, targetBooks);
+    SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, -1, -1, targetBooks);
     Dir direction = (Dir)rescolor.firstStep;
     move(id,direction);
 
@@ -416,6 +416,14 @@ bool shouldCast() {
     // return random move towards an enemy colored square if possible
   }
 
+  double chance_to_win(int enemy_id){
+    int enemy_pl = unit(enemy_id).player;
+    double enemy_strength = magic_strength(enemy_pl);
+    double my_strength = magic_strength(me());
+    if (enemy_strength > (2*my_strength)) return 0;
+    if (my_strength > (2*enemy_strength)) return 1;
+    return  (my_strength/(enemy_strength + my_strength));
+  }
 
   void decideMoveMage(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
@@ -426,16 +434,32 @@ bool shouldCast() {
         return;
       }
 
-      if (actions[fightMage].cando) {
-        Dir direction = (Dir)actions[fightMage].firstStep;
-        move(id, direction);
-        return;
-      }
-
       if (actions[runVoldemort].cando) {
         SearchRet_t res = newVolBfs(id);
         move(id, (Dir)res.firstStep);
         return;
+      }
+
+
+      if (actions[fightMage].cando) {
+        int distance = actions[fightMage].distance;
+        if (distance < 6) {
+
+          int enemy_id = actions[fightMage].enemyId;
+          bool is_ghost = unit(enemy_id).type == Ghost;
+          bool good_change = chance_to_win(enemy_id) > 0.5;
+
+          bool should_attack = is_ghost || good_change;
+          if (!should_attack) {
+            should_attack = distance <= 2 && chance_to_win(enemy_id) > 0.4;
+          }
+
+          if (should_attack) {
+            Dir direction = (Dir)actions[fightMage].firstStep;
+            move(id, direction);
+            return;
+          };
+        }
       }
 
       if (actions[book].cando) {
@@ -444,7 +468,7 @@ bool shouldCast() {
         return;
       }
 
-      SearchRet_t rescolor = bfsSearchForType(id, SearchType::EnemyColor, -1, targetBooks);
+      SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, -1, -1, targetBooks);
       Dir direction = (Dir)rescolor.firstStep;
       move(id,direction);
       
@@ -649,14 +673,14 @@ SearchRet_t newVolBfs(const int id){
 
   
   /* FUNCTIONS CONVERSION */
-
-
-
-
-bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
+struct isSearchTarget_t{
+  bool found = false;
+  bool end = false;
+};
+bool isSearchTarget(SearchTarget type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
   switch (type) {
 
-  case SearchType::HealthyMage:{
+  case SearchTarget::HealthyMage:{
     int idunit = (cell(pos).id);
     if (idunit == -1)  return false; // there is no unit
     
@@ -667,7 +691,7 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
     break;
   }
 
-  case SearchType::Book:{
+  case SearchTarget::Book:{
     if (cell(pos).book) {
       bool hasTarget = targetBooks.find(pos) != targetBooks.end();
       bool iscandidate = (!hasTarget || dist < targetBooks.at(pos).dist);
@@ -676,9 +700,19 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
     break;
   }
 
-  case SearchType::EnemyColor:{
+  case SearchTarget::EnemyColor:{
     if (cell(pos).owner != me())
     return true;
+  }
+
+  case SearchTarget::Enemy:{
+    int enemy_id = cell(pos).id;
+    if (enemy_id == -1) return false;
+    if (unit(enemy_id).player == me()) return false;
+    // [TODO] checkear cooldown del fantasma
+    if (unit(enemy_id).type == Ghost) return true;
+    bool converting = unit(enemy_id).is_in_conversion_process();
+    return !converting;
   }
   
   default:
@@ -769,7 +803,7 @@ int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcou
   }
   return minthreat;
 }
-SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, const posToBookinfo_t& targetBooks) {
+SearchRet_t bfsSearchForType(const int id, SearchTarget type, const int maxDist, const int maxCells, const posToBookinfo_t& targetBooks) {
     Pos start  = unit(id).pos; 
     
     const vector<Dir>& directions = getReferenceDirectonsForType(id);
@@ -789,6 +823,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     vector<int> threatcount(8,0);
     const int minthreat = scanThreatsMove(unit(id).type, start, threatcount);
 
+    int currentCells = 0;
+
     while (not qcoord.empty()) {
       Pos currentPos = qcoord.front().pos;
       int firstStep = qcoord.front().firstStep;
@@ -798,9 +834,10 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
       qcoord.pop();
 
       if (maxDist > 0 && currentDist > maxDist) continue;
+      if (maxCells > 0 && currentCells > maxCells) continue;
       
       // if is of searched type and satisfies conditions
-      if (isSearchType(type, currentPos, targetBooks, currentDist)) {
+      if (isSearchTarget(type, currentPos, targetBooks, currentDist)) {
 
           result.found = true;
           result.pos = currentPos;
@@ -811,6 +848,8 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
           return result;
         }
       
+      currentCells++;
+
       for (const Dir dir : directions) {
         Pos newPos = currentPos + dir;
         if (isCorridor(newPos)){
@@ -820,7 +859,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
 
           if (unit(id).type == Ghost && firstdir) {
             
-            if (type == SearchType::Book && threatcount[dir] != minthreat) {
+            if (type == SearchTarget::Book && threatcount[dir] != minthreat) {
               continue;
             }
           }
@@ -985,7 +1024,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
         if (max_distance <= 0) continue;
 
         result = bfsSearchForType(id, 
-        SearchType::HealthyMage, max_distance, targetBooks);
+        SearchTarget::HealthyMage, max_distance, -1, targetBooks);
 
         if (!result.found) continue;
         int helper_id = cell(result.pos).id;
@@ -1004,22 +1043,27 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     // for every unit edit its actions if there's a book to find
     for (int id : myWizards) {
       // skib bfs if needs help/ has to give help
-      if(idToActions[id][helpMage].cando) continue;
-      vector<int> threatcount = vector<int>(8, 0);
-      int lowestthreat = scanThreatsMove(Wizard, unit(id).pos, threatcount);
+      // if(idToActions[id][helpMage].cando) continue;
+      // vector<int> threatcount = vector<int>(8, 0);
+      // int lowestthreat = scanThreatsMove(Wizard, unit(id).pos, threatcount);
 
-      for (Dir dir: dirsWizard) {
-        if (threatcount[dir] == -10) {
-            idToActions[id][fightMage].cando = true;
-            idToActions[id][fightMage].firstStep = dir;
-        } 
-      }
+      // for (Dir dir: dirsWizard) {
+      //   if (threatcount[dir] == -10) {
+      //       idToActions[id][fightMage].cando = true;
+      //       idToActions[id][fightMage].firstStep = dir;
+      //   } 
+      // }
+      SearchRet_t resfight = bfsSearchForType(id, SearchTarget::Enemy, -1, -1, targetBooks);
+      idToActions[id][fightMage].cando = resfight.found;
+      idToActions[id][fightMage].firstStep = (Dir)resfight.firstStep;
+      idToActions[id][fightMage].distance = resfight.dist;
+      idToActions[id][fightMage].enemyId = cell(resfight.pos).id;
     }
 
     for (int id : myWizards) {
       // skip bfs if needs help/ has to give help
       if(idToActions[id][helpMage].cando) continue;
-      if(idToActions[id][fightMage].cando) continue;
+      // if(idToActions[id][fightMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
     }
     new_updateBookActionIfClosestToBook(my_ghost, targetBooks, idToActions);
