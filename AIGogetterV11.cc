@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME Jutge
+#define PLAYER_NAME TalkTuahFan
 
 
 struct PLAYER_NAME : public Player {
@@ -189,7 +189,8 @@ enum class SearchType {
   AllyMage,
   HealthyMage,
   EnemyMage,
-  Ghost
+  Ghost,
+  EnemyColor
 };  
 
 /* FUNCTIONS BOOKS*/
@@ -372,6 +373,14 @@ bool shouldCast() {
   return false;
 }
   
+  int averageEnemyPower(){
+    int average = 0;
+    for (int pl = 0; pl < num_players(); pl++){
+      average += magic_strength(pl);
+    }
+    average /= (num_players() -1);
+    return average;
+  }
 
   void decideMoveGhost(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
@@ -389,11 +398,21 @@ bool shouldCast() {
       return;
     }
     // sees if it has any closest book
+    
+    // int avgpower = averageEnemyPower();
+    // double powerratio = magic_strength(me())/avgpower;
+    
     if (actions[book].cando) {
-      Dir direction = (Dir)actions[book].firstStep;
-      move(id, direction);
-      return;
+        Dir direction = (Dir)actions[book].firstStep;
+        move(id, direction);
+        return;
     }
+
+    SearchRet_t rescolor = bfsSearchForType(id, SearchType::EnemyColor, -1, targetBooks);
+    Dir direction = (Dir)rescolor.firstStep;
+    move(id,direction);
+
+    
     // return random move towards an enemy colored square if possible
   }
 
@@ -424,6 +443,11 @@ bool shouldCast() {
         move(id, direction);
         return;
       }
+
+      SearchRet_t rescolor = bfsSearchForType(id, SearchType::EnemyColor, -1, targetBooks);
+      Dir direction = (Dir)rescolor.firstStep;
+      move(id,direction);
+      
     // return random move towards an enemy colored square if possible
   }
 
@@ -650,6 +674,11 @@ bool isSearchType(SearchType type, Pos pos, const posToBookinfo_t& targetBooks, 
       return iscandidate;
     }
     break;
+  }
+
+  case SearchType::EnemyColor:{
+    if (cell(pos).owner != me())
+    return true;
   }
   
   default:
@@ -890,14 +919,9 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
   virtual void play () {
 
      double st = status(me());
-    if (st >= 0.9) return;
-
-    
+    if (st >= 0.9) return;    
 
     enemyGhosts = get_enemy_ghosts();
-    
-
-   
   
     int my_ghost = ghost(me());
     myWizards = wizards(me());
@@ -993,7 +1017,7 @@ SearchRet_t bfsSearchForType(const int id, SearchType type, const int maxDist, c
     }
 
     for (int id : myWizards) {
-      // skib bfs if needs help/ has to give help
+      // skip bfs if needs help/ has to give help
       if(idToActions[id][helpMage].cando) continue;
       if(idToActions[id][fightMage].cando) continue;
       new_updateBookActionIfClosestToBook(id, targetBooks, idToActions);
