@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterXIII
+#define PLAYER_NAME GogetterXIV
 
 
 struct PLAYER_NAME : public Player {
@@ -424,6 +424,17 @@ bool shouldCast() {
     return  (my_strength/(enemy_strength + my_strength));
   }
 
+  bool doIAttack(int enemy_id, int distance){
+    bool is_ghost = unit(enemy_id).type == Ghost;
+    bool good_chance = chance_to_win(enemy_id) > 0.5;
+
+    bool attack = is_ghost || good_chance;
+    if (attack) return true;
+    // check if adjacent, attack for first attack chance
+    return distance <= 2 && chance_to_win(enemy_id) > 0.4;
+
+  }
+
   void decideMoveMage(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
     // this should be set to true if voldemort is targetting an id, or if it's withing a certain radios
 
@@ -445,13 +456,7 @@ bool shouldCast() {
         if (distance < 6) {
 
           int enemy_id = actions[fightMage].enemyId;
-          bool is_ghost = unit(enemy_id).type == Ghost;
-          bool good_change = chance_to_win(enemy_id) > 0.5;
-
-          bool should_attack = is_ghost || good_change;
-          if (!should_attack) {
-            should_attack = distance <= 2 && chance_to_win(enemy_id) > 0.4;
-          }
+          bool should_attack = doIAttack(enemy_id, distance);
 
           if (should_attack) {
             Dir direction = (Dir)actions[fightMage].firstStep;
