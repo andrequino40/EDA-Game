@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterXIVA
+#define PLAYER_NAME GogetterXIV
 
 
 struct PLAYER_NAME : public Player {
@@ -709,6 +709,17 @@ struct isSearchTarget_t{
   bool found = false;
   bool end = false;
 };
+
+bool isGhostImmune(int enemy_id){
+  int last_round_attacked = unit(enemy_id).last_attack_received();
+  int rounds_passed = round() - last_round_attacked;
+  return rounds_passed <= rounds_no_attack_ghost();
+}
+
+bool canGhostCastThisGame(int enemy_id){
+  int nextCastRound = round() + unit(enemy_id).resting_rounds();
+  return nextCastRound < 150;
+}
 bool isSearchTarget(SearchTarget type, Pos pos, const posToBookinfo_t& targetBooks, const int dist) {
   switch (type) {
 
@@ -719,6 +730,7 @@ bool isSearchTarget(SearchTarget type, Pos pos, const posToBookinfo_t& targetBoo
     bool myteam = unit(idunit).player == me();
     bool converting = unit(idunit).is_in_conversion_process();
     // if its from my team and its not converting, true
+    
     return myteam && !converting;
     break;
   }
@@ -743,9 +755,9 @@ bool isSearchTarget(SearchTarget type, Pos pos, const posToBookinfo_t& targetBoo
     if (unit(enemy_id).player == me()) return false;
     // [TODO] checkear cooldown del fantasma
     if (unit(enemy_id).type == Ghost) {
-      int last_round_attacked = unit(enemy_id).last_attack_received();
-      int rounds_passed = round() - last_round_attacked;
-      return rounds_passed > rounds_no_attack_ghost();
+      bool immune = isGhostImmune(enemy_id);
+      bool cancast = canGhostCastThisGame(enemy_id); 
+      return !immune && cancast;
     }
     bool converting = unit(enemy_id).is_in_conversion_process();
     return !converting;
