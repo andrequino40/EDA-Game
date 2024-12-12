@@ -107,21 +107,21 @@ struct PLAYER_NAME : public Player {
 
   // ATTRIBUTES ACTIONS
   enum ActionType {
-    book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
+    GetBook, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
   };
 
   vector<ActionType> vecAllActions = {
-     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
+     GetBook, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
   };
 
   // from more to least importance
   vector<ActionType> vecMageActions = {
-    helpMage, fightMage, attackGhost, book, runMage, runVoldemort, color
+    helpMage, fightMage, attackGhost, GetBook, runMage, runVoldemort, color
   };
 
   // from more to least importance
   vector<ActionType> vecGhostActions = {
-    runVoldemort, runMage, cast, book, color
+    runVoldemort, runMage, cast, GetBook, color
   };
 
   struct ActionData {
@@ -208,7 +208,7 @@ enum class SearchTarget {
       // get old id from book targets
       oldid = targetBooks[book_result.pos].unitId;
       // remove action from id
-      idToActions[oldid][book].cando = false;
+      idToActions[oldid][GetBook].cando = false;
     }
     // update target information
     BookInfo newTarg;
@@ -216,9 +216,9 @@ enum class SearchTarget {
     newTarg.unitId = id;
     targetBooks[book_result.pos] = newTarg;
     // create action
-    idToActions[id][book].cando = true; 
-    idToActions[id][book].firstStep = (Dir)book_result.firstStep;
-    idToActions[id][book].distance = book_result.dist;
+    idToActions[id][GetBook].cando = true; 
+    idToActions[id][GetBook].firstStep = (Dir)book_result.firstStep;
+    idToActions[id][GetBook].distance = book_result.dist;
 
     // return id that was displaced
     return oldid;
@@ -401,8 +401,8 @@ bool shouldCast() {
     
     
     
-    if (actions[book].cando) {
-        Dir direction = (Dir)actions[book].firstStep;
+    if (actions[GetBook].cando) {
+        Dir direction = (Dir)actions[GetBook].firstStep;
         move(id, direction);
         return;
     }
@@ -425,6 +425,8 @@ bool shouldCast() {
   }
 
   bool doIAttack(int enemy_id, int distance){
+    if (distance >= 6)  return false;
+    
     bool is_ghost = unit(enemy_id).type == Ghost;
     bool good_chance = chance_to_win(enemy_id) > 0.5;
 
@@ -432,7 +434,7 @@ bool shouldCast() {
     if (attack) return true;
     // check if adjacent, attack for first attack chance
     return distance <= 2 && chance_to_win(enemy_id) > 0.4;
-
+ 
   }
 
   void decideMoveMage(const int id, const vector<ActionData>& actions, posToBookinfo_t& targetBooks, new_idToActions_t& idToActions) {
@@ -449,12 +451,9 @@ bool shouldCast() {
         move(id, (Dir)res.firstStep);
         return;
       }
-
-
-      if (actions[fightMage].cando) {
-        int distance = actions[fightMage].distance;
-        if (distance < 6) {
-
+      bool book_closer = actions[GetBook].distance < actions[fightMage].distance;
+      if (!book_closer && actions[fightMage].cando){
+          int distance = actions[fightMage].distance;
           int enemy_id = actions[fightMage].enemyId;
           bool should_attack = doIAttack(enemy_id, distance);
 
@@ -463,7 +462,6 @@ bool shouldCast() {
             move(id, direction);
             return;
           };
-        }
       }
 
       SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, 10, -1, targetBooks);
@@ -472,16 +470,16 @@ bool shouldCast() {
       idToActions[id][color].distance = rescolor.dist;
 
       bool should_book = false;
-      if (actions[book].cando) {
+      if (actions[GetBook].cando) {
         int avgpower = averageEnemyPower();
         double powerratio = magic_strength(me())/avgpower;
-        if (powerratio < 0.8 || actions[book].distance < actions[color].distance + 4){
+        if (powerratio < 0.8 || actions[GetBook].distance < actions[color].distance + 4){
           should_book = true;
         }
       }
 
       if (should_book){
-        Dir direction = (Dir)actions[book].firstStep;
+        Dir direction = (Dir)actions[GetBook].firstStep;
         move(id, direction);
         return;
       }

@@ -9,7 +9,7 @@ wc4=0
 while [ $counter -le $5 ]
 do
     # Ejecutar el juego y redirigir salida
-    ./Game $1 $2 $3 $4 -s $RANDOM < default.cnf > game$counter.res &> gameoutput$counter.txt
+    ./Game $1 $2 $3 $4 -s $RANDOM < dconf > game$counter.res &> gameoutput$counter.txt
 
     # Obtener las líneas relevantes con las puntuaciones
     scores=$(grep "info: player" gameoutput$counter.txt | awk '{print $3, $6}')
@@ -41,4 +41,4 @@ echo "$3 won $wc3"
 echo "$4 won $wc4"
 
 # Limpiar archivos temporales
-# rm *.txt *.res
+rm *.txt *.res
