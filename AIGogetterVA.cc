@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterXIV
+#define PLAYER_NAME GogetterXIVA
 
 
 struct PLAYER_NAME : public Player {
@@ -424,8 +424,8 @@ bool shouldCast() {
     return  (my_strength/(enemy_strength + my_strength));
   }
 
-  bool doIAttack(int enemy_id, int distance){
-    if (distance >= 6)  return false;
+  bool new_doIAttack(int enemy_id, int distance){
+    // if (distance >= 6)  return false;
     
     bool is_ghost = unit(enemy_id).type == Ghost;
     bool good_chance = chance_to_win(enemy_id) > 0.5;
@@ -451,11 +451,23 @@ bool shouldCast() {
         move(id, (Dir)res.firstStep);
         return;
       }
-      bool book_closer = actions[GetBook].distance < actions[fightMage].distance;
-      if (!book_closer && actions[fightMage].cando){
+
+      SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, 10, -1, targetBooks);
+      idToActions[id][color].cando = rescolor.found;
+      idToActions[id][color].firstStep = rescolor.firstStep;
+      idToActions[id][color].distance = rescolor.dist;
+
+
+      int dif_attack_book = actions[fightMage].distance - actions[GetBook].distance;
+      // pos means book closer
+      // neg means fight closer
+      bool get_fight = dif_attack_book < 1;
+      // get fight if less than 1 move further than book
+      if (get_fight && actions[fightMage].cando){
           int distance = actions[fightMage].distance;
           int enemy_id = actions[fightMage].enemyId;
-          bool should_attack = doIAttack(enemy_id, distance);
+
+          bool should_attack = new_doIAttack(enemy_id, distance);
 
           if (should_attack) {
             Dir direction = (Dir)actions[fightMage].firstStep;
@@ -464,16 +476,18 @@ bool shouldCast() {
           };
       }
 
-      SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, 10, -1, targetBooks);
-      idToActions[id][color].cando = rescolor.found;
-      idToActions[id][color].firstStep = rescolor.firstStep;
-      idToActions[id][color].distance = rescolor.dist;
-
       bool should_book = false;
+      int avgpower = averageEnemyPower();
+      double powerratio = magic_strength(me())/avgpower;
+      bool underpowered = powerratio < 0.8;
+      
+      int dif_book_color = actions[GetBook].distance - actions[color].distance;
+      // neg book closer, pos color closer
+      bool get_book = dif_book_color < 4;
+      // get book if less than 4 moves further than color
       if (actions[GetBook].cando) {
-        int avgpower = averageEnemyPower();
-        double powerratio = magic_strength(me())/avgpower;
-        if (powerratio < 0.8 || actions[GetBook].distance < actions[color].distance + 4){
+        
+        if (underpowered || get_book){
           should_book = true;
         }
       }
