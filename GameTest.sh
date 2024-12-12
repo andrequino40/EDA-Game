@@ -41,4 +41,4 @@ echo "$3 won $wc3"
 echo "$4 won $wc4"
 
 # Limpiar archivos temporales
-rm *.txt *.res
+# rm *.txt *.res

@@ -9,7 +9,7 @@
  * Write the name of your player and save this file
  * with the same name and .cc extension.
  */
-#define PLAYER_NAME GogetterXII
+#define PLAYER_NAME GogetterXIII
 
 
 struct PLAYER_NAME : public Player {
@@ -107,21 +107,21 @@ struct PLAYER_NAME : public Player {
 
   // ATTRIBUTES ACTIONS
   enum ActionType {
-    book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
+    book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
   };
 
   vector<ActionType> vecAllActions = {
-     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast
+     book, fightMage, attackGhost, helpMage, runMage, runVoldemort, cast, color
   };
 
   // from more to least importance
   vector<ActionType> vecMageActions = {
-    helpMage, fightMage, attackGhost, book, runMage, runVoldemort
+    helpMage, fightMage, attackGhost, book, runMage, runVoldemort, color
   };
 
   // from more to least importance
   vector<ActionType> vecGhostActions = {
-    runVoldemort, runMage, cast, book
+    runVoldemort, runMage, cast, book, color
   };
 
   struct ActionData {
@@ -399,8 +399,7 @@ bool shouldCast() {
     }
     // sees if it has any closest book
     
-    // int avgpower = averageEnemyPower();
-    // double powerratio = magic_strength(me())/avgpower;
+    
     
     if (actions[book].cando) {
         Dir direction = (Dir)actions[book].firstStep;
@@ -462,15 +461,31 @@ bool shouldCast() {
         }
       }
 
+      SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, 10, -1, targetBooks);
+      idToActions[id][color].cando = rescolor.found;
+      idToActions[id][color].firstStep = rescolor.firstStep;
+      idToActions[id][color].distance = rescolor.dist;
+
+      bool should_book = false;
       if (actions[book].cando) {
+        int avgpower = averageEnemyPower();
+        double powerratio = magic_strength(me())/avgpower;
+        if (powerratio < 0.8 || actions[book].distance < actions[color].distance + 4){
+          should_book = true;
+        }
+      }
+
+      if (should_book){
         Dir direction = (Dir)actions[book].firstStep;
         move(id, direction);
         return;
       }
 
-      SearchRet_t rescolor = bfsSearchForType(id, SearchTarget::EnemyColor, -1, -1, targetBooks);
       Dir direction = (Dir)rescolor.firstStep;
       move(id,direction);
+
+
+      
       
     // return random move towards an enemy colored square if possible
   }
@@ -710,7 +725,11 @@ bool isSearchTarget(SearchTarget type, Pos pos, const posToBookinfo_t& targetBoo
     if (enemy_id == -1) return false;
     if (unit(enemy_id).player == me()) return false;
     // [TODO] checkear cooldown del fantasma
-    if (unit(enemy_id).type == Ghost) return true;
+    if (unit(enemy_id).type == Ghost) {
+      int last_round_attacked = unit(enemy_id).last_attack_received();
+      int rounds_passed = round() - last_round_attacked;
+      return rounds_passed > rounds_no_attack_ghost();
+    }
     bool converting = unit(enemy_id).is_in_conversion_process();
     return !converting;
   }
@@ -751,10 +770,10 @@ int should_attack(const Pos position) {
     return 10;
 }
 
-int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcount) {
+int scanThreatsMove(const UnitType mytype, const Pos start, vector<int>& threatcount) {
   int minthreat = 10;
   threatcount = vector<int>(8, 0);
-  const vector<Dir>& Directions = getReferenceDirectonsForType(type);
+  const vector<Dir>& Directions = getReferenceDirectonsForType(mytype);
 
   for (auto dir : Directions) {
     Pos newpos = start + dir;
@@ -766,7 +785,7 @@ int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcou
    
     // marks position with an enemy, will not travel to this position
     if (enemy) {
-      if (type == Ghost) {
+      if (mytype == Ghost) {
         threatcount[dir] = 10;
       } else {
         threatcount[dir] = should_attack(newpos);
@@ -784,8 +803,14 @@ int scanThreatsMove(const UnitType type, const Pos start, vector<int>& threatcou
       bool enemy = is_enemy(adjpos);
       if (enemy) {
         // add number of adjacent enemies
-         if (type == Ghost) {
-          threatcount[dir] += 1;
+         if (mytype == Ghost) {
+
+          int enemy_id = cell(adjpos).id;
+          // not a threat if its a ghost
+          if (unit(enemy_id).type == Wizard){
+            threatcount[dir] += 1;
+          }
+
         } else {
           int change;
           if (should_attack(newpos) > 0) change = 1;
@@ -1005,7 +1030,7 @@ SearchRet_t bfsSearchForType(const int id, SearchTarget type, const int maxDist,
     }
 
     if (!idToActions[my_ghost][runVoldemort].cando) {
-      bool ghost_vol_area =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 15);
+      bool ghost_vol_area =  (manhattanDistance(unit(my_ghost).pos, pos_voldemort()) < 10);
       idToActions[my_ghost][runVoldemort].cando = ghost_vol_area;
     }
     
@@ -1053,6 +1078,7 @@ SearchRet_t bfsSearchForType(const int id, SearchTarget type, const int maxDist,
       //       idToActions[id][fightMage].firstStep = dir;
       //   } 
       // }
+      if (unit(id).is_in_conversion_process()) continue;
       SearchRet_t resfight = bfsSearchForType(id, SearchTarget::Enemy, -1, -1, targetBooks);
       idToActions[id][fightMage].cando = resfight.found;
       idToActions[id][fightMage].firstStep = (Dir)resfight.firstStep;
